@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "" imagepath = "ui\random_map\cerrado" displayName = "cerrado" cannotReplace = ""
+loadDetails="Indigenas como os incas e os do caribes, sem trade route, mas tem bastante ouro, animais entre varias fontes de riqueza, uma grande floresta para se explorar" loadBackground="ui\random_map\amazon\cerrado_map">
+<loadss></loadss>
+</mapinfo>
+

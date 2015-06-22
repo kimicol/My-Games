@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\sonora" 
+displayName = "Baja California"
+detailsText="Baja California: a long rugged peninsula"
+loadDetailsText="Teams start on opposite sides of the long, arid peninsula, with a mountain range and a trade route with 3 or 4 trade posts down the center. There can be 2-5 native villages, randomly Aztec, Maya, Tupi or Seminole, variously placed about the map.  Fishing is rich and there are whales concentrated off the southern tip.  Extra silver or gold is not plentiful, but is most abundant in the mountains or in the north" 
+loadBackground="ui\random_map\sonora\sonora_map">
+   <loadss>ui\random_map\sonora\sonora_ss_01</loadss>
+   <loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+   <loadss>ui\random_map\sonora\sonora_ss_03</loadss>
+</mapinfo>

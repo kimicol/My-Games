@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "" imagepath = "ui\random_map\rms\rms" displayName = "hispania" cannotReplace = ""
+loadDetails="testando" loadBackground="ui\random_map\rms\rms_map">
+<loadss></loadss>
+</mapinfo>
+

@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "" imagepath = "ui\random_map\carolina\newfrance" displayName = "new france" cannotReplace = ""
+loadDetailsText="The first French explorer to reach Quebec was Jacques Cartier, who planted a cross either in the Gaspe in 1534 or at Old Fort Bay on the Lower North Shore. He sailed into the St. Lawrence River in 1535 and established an ill-fated colony near present-day Quebec City at the site of Stadacona, a St. Lawrence Iroquoian village." loadBackground="ui\random_map\carolina\newfrance_map">
+<loadss>ui\random_map\rockies\rockies_ss_03</loadss>
+</mapinfo>
+

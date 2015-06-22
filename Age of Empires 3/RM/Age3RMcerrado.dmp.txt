@@ -1,0 +1,1578 @@
+//==============================================================================
+// CXSDump
+//==============================================================================
+Main FunctionID=1.
+
+File Data:
+  Files:          2 files.
+  Symbols:      764 symbols.
+  Variables:     54 variables.
+  Functions:      2 functions.
+  RuleGroups:     0 groups.
+  Rules:          0 rules.
+  Code:       13786 bytes (MAX=16384).
+
+6 Variable Types:
+  Void   (Value=1).
+  Int    (Value=2).
+  Float  (Value=4).
+  Bool   (Value=8).
+  String (Value=16).
+  Vector (Value=32).
+
+2 Files:
+  cerrado.xs                     (ID=   0).
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries.xs (ID=   1).
+
+764 Symbols:
+  EXTERN$cInvalidVector          (ID=   0) SymType= 1, SymValue=-1.
+  EXTERN$cOriginVector           (ID=   1) SymType= 1, SymValue=-2.
+  xsDisableRule                  (ID=   2) SymType= 0, SymValue=0.
+  xsDisableSelf                  (ID=   3) SymType= 0, SymValue=1.
+  xsEnableRule                   (ID=   4) SymType= 0, SymValue=2.
+  xsIsRuleEnabled                (ID=   5) SymType= 0, SymValue=3.
+  xsSetRulePriority              (ID=   6) SymType= 0, SymValue=4.
+  xsSetRulePrioritySelf          (ID=   7) SymType= 0, SymValue=5.
+  xsSetRuleMinInterval           (ID=   8) SymType= 0, SymValue=6.
+  xsSetRuleMinIntervalSelf       (ID=   9) SymType= 0, SymValue=7.
+  xsSetRuleMaxInterval           (ID=  10) SymType= 0, SymValue=8.
+  xsSetRuleMaxIntervalSelf       (ID=  11) SymType= 0, SymValue=9.
+  xsEnableRuleGroup              (ID=  12) SymType= 0, SymValue=10.
+  xsDisableRuleGroup             (ID=  13) SymType= 0, SymValue=11.
+  xsIsRuleGroupEnabled           (ID=  14) SymType= 0, SymValue=12.
+  xsVectorGetX                   (ID=  15) SymType= 0, SymValue=13.
+  xsVectorGetY                   (ID=  16) SymType= 0, SymValue=14.
+  xsVectorGetZ                   (ID=  17) SymType= 0, SymValue=15.
+  xsVectorSetX                   (ID=  18) SymType= 0, SymValue=16.
+  xsVectorSetY                   (ID=  19) SymType= 0, SymValue=17.
+  xsVectorSetZ                   (ID=  20) SymType= 0, SymValue=18.
+  xsVectorSet                    (ID=  21) SymType= 0, SymValue=19.
+  xsVectorLength                 (ID=  22) SymType= 0, SymValue=20.
+  xsVectorNormalize              (ID=  23) SymType= 0, SymValue=21.
+  xsArrayCreateInt               (ID=  24) SymType= 0, SymValue=22.
+  xsArraySetInt                  (ID=  25) SymType= 0, SymValue=23.
+  xsArrayGetInt                  (ID=  26) SymType= 0, SymValue=24.
+  xsArrayCreateFloat             (ID=  27) SymType= 0, SymValue=25.
+  xsArraySetFloat                (ID=  28) SymType= 0, SymValue=26.
+  xsArrayGetFloat                (ID=  29) SymType= 0, SymValue=27.
+  xsArrayCreateBool              (ID=  30) SymType= 0, SymValue=28.
+  xsArraySetBool                 (ID=  31) SymType= 0, SymValue=29.
+  xsArrayGetBool                 (ID=  32) SymType= 0, SymValue=30.
+  xsArrayCreateString            (ID=  33) SymType= 0, SymValue=31.
+  xsArraySetString               (ID=  34) SymType= 0, SymValue=32.
+  xsArrayGetString               (ID=  35) SymType= 0, SymValue=33.
+  xsArrayCreateVector            (ID=  36) SymType= 0, SymValue=34.
+  xsArraySetVector               (ID=  37) SymType= 0, SymValue=35.
+  xsArrayGetVector               (ID=  38) SymType= 0, SymValue=36.
+  xsArrayGetSize                 (ID=  39) SymType= 0, SymValue=37.
+  xsDumpArrays                   (ID=  40) SymType= 0, SymValue=38.
+  xsGetContextPlayer             (ID=  41) SymType= 0, SymValue=39.
+  xsSetContextPlayer             (ID=  42) SymType= 0, SymValue=40.
+  xsGetTime                      (ID=  43) SymType= 0, SymValue=41.
+  xsAddRuntimeEvent              (ID=  44) SymType= 0, SymValue=42.
+  xsGetFunctionID                (ID=  45) SymType= 0, SymValue=43.
+  rmEchoWarning                  (ID=  46) SymType= 0, SymValue=44.
+  rmEchoError                    (ID=  47) SymType= 0, SymValue=45.
+  rmEchoInfo                     (ID=  48) SymType= 0, SymValue=46.
+  rmRandFloat                    (ID=  49) SymType= 0, SymValue=47.
+  rmRandInt                      (ID=  50) SymType= 0, SymValue=48.
+  rmGetNomadStart                (ID=  51) SymType= 0, SymValue=49.
+  rmGetIsFFA                     (ID=  52) SymType= 0, SymValue=50.
+  rmSetMapSize                   (ID=  53) SymType= 0, SymValue=51.
+  rmGetMapXSize                  (ID=  54) SymType= 0, SymValue=52.
+  rmGetMapZSize                  (ID=  55) SymType= 0, SymValue=53.
+  rmSetSeaLevel                  (ID=  56) SymType= 0, SymValue=54.
+  rmGetSeaLevel                  (ID=  57) SymType= 0, SymValue=55.
+  rmSetSeaType                   (ID=  58) SymType= 0, SymValue=56.
+  rmSetMapElevationParameters    (ID=  59) SymType= 0, SymValue=57.
+  rmSetBaseTerrainMix            (ID=  60) SymType= 0, SymValue=58.
+  rmAddMapTerrainByHeightInfo    (ID=  61) SymType= 0, SymValue=59.
+  rmAddMapTerrainByAngleInfo     (ID=  62) SymType= 0, SymValue=60.
+  rmSetMapElevationHeightBlend   (ID=  63) SymType= 0, SymValue=61.
+  rmPlaceMapClusters             (ID=  64) SymType= 0, SymValue=62.
+  rmSetMapClusteringPlacementParams (ID=  65) SymType= 0, SymValue=63.
+  rmSetMapClusteringObjectParams (ID=  66) SymType= 0, SymValue=64.
+  rmSetMapClusteringNoiseParams  (ID=  67) SymType= 0, SymValue=65.
+  rmAreaFractionToTiles          (ID=  68) SymType= 0, SymValue=66.
+  rmAreaTilesToFraction          (ID=  69) SymType= 0, SymValue=67.
+  rmXFractionToTiles             (ID=  70) SymType= 0, SymValue=68.
+  rmXTilesToFraction             (ID=  71) SymType= 0, SymValue=69.
+  rmZFractionToTiles             (ID=  72) SymType= 0, SymValue=70.
+  rmZTilesToFraction             (ID=  73) SymType= 0, SymValue=71.
+  rmDegreesToRadians             (ID=  74) SymType= 0, SymValue=72.
+  rmMetersToTiles                (ID=  75) SymType= 0, SymValue=73.
+  rmTilesToMeters                (ID=  76) SymType= 0, SymValue=74.
+  rmXMetersToFraction            (ID=  77) SymType= 0, SymValue=75.
+  rmZMetersToFraction            (ID=  78) SymType= 0, SymValue=76.
+  rmXFractionToMeters            (ID=  79) SymType= 0, SymValue=77.
+  rmZFractionToMeters            (ID=  80) SymType= 0, SymValue=78.
+  rmCreateArea                   (ID=  81) SymType= 0, SymValue=79.
+  rmSetAreaSize                  (ID=  82) SymType= 0, SymValue=80.
+  rmSetAreaEdgeFilling           (ID=  83) SymType= 0, SymValue=81.
+  rmSetAreaLocation              (ID=  84) SymType= 0, SymValue=82.
+  rmSetAreaLocPlayer             (ID=  85) SymType= 0, SymValue=83.
+  rmSetAreaLocTeam               (ID=  86) SymType= 0, SymValue=84.
+  rmBuildArea                    (ID=  87) SymType= 0, SymValue=85.
+  rmBuildAllAreas                (ID=  88) SymType= 0, SymValue=86.
+  rmSetAreaTerrainType           (ID=  89) SymType= 0, SymValue=87.
+  rmSetAreaMix                   (ID=  90) SymType= 0, SymValue=88.
+  rmPaintAreaTerrain             (ID=  91) SymType= 0, SymValue=89.
+  rmPaintAreaTerrainByHeight     (ID=  92) SymType= 0, SymValue=90.
+  rmPaintAreaTerrainByAngle      (ID=  93) SymType= 0, SymValue=91.
+  rmSetAreaBaseHeight            (ID=  94) SymType= 0, SymValue=92.
+  rmSetAreaWarnFailure           (ID=  95) SymType= 0, SymValue=93.
+  rmSetAreaForestType            (ID=  96) SymType= 0, SymValue=94.
+  rmSetAreaForestDensity         (ID=  97) SymType= 0, SymValue=95.
+  rmSetAreaForestClumpiness      (ID=  98) SymType= 0, SymValue=96.
+  rmSetAreaForestUnderbrush      (ID=  99) SymType= 0, SymValue=97.
+  rmSetAreaWaterType             (ID= 100) SymType= 0, SymValue=98.
+  rmGetAreaClosestPoint          (ID= 101) SymType= 0, SymValue=99.
+  rmSetAreaCliffType             (ID= 102) SymType= 0, SymValue=100.
+  rmSetAreaCliffPainting         (ID= 103) SymType= 0, SymValue=101.
+  rmSetAreaCliffEdge             (ID= 104) SymType= 0, SymValue=102.
+  rmSetAreaCliffHeight           (ID= 105) SymType= 0, SymValue=103.
+  rmAddAreaCliffEdgeAvoidClass   (ID= 106) SymType= 0, SymValue=104.
+  rmRiverCreate                  (ID= 107) SymType= 0, SymValue=105.
+  rmRiverSetConnections          (ID= 108) SymType= 0, SymValue=106.
+  rmRiverConnectRiver            (ID= 109) SymType= 0, SymValue=107.
+  rmRiverAddWaypoint             (ID= 110) SymType= 0, SymValue=108.
+  rmRiverSetBankNoiseParams      (ID= 111) SymType= 0, SymValue=109.
+  rmRiverSetShallowRadius        (ID= 112) SymType= 0, SymValue=110.
+  rmRiverAddShallow              (ID= 113) SymType= 0, SymValue=111.
+  rmRiverAddShallows             (ID= 114) SymType= 0, SymValue=112.
+  rmRiverAvoid                   (ID= 115) SymType= 0, SymValue=113.
+  rmRiverBuild                   (ID= 116) SymType= 0, SymValue=114.
+  rmRiverReveal                  (ID= 117) SymType= 0, SymValue=115.
+  rmSetRiverFoundationParams     (ID= 118) SymType= 0, SymValue=116.
+  rmSetWorldCircleConstraint     (ID= 119) SymType= 0, SymValue=117.
+  rmSetAreaObeyWorldCircleConstraint (ID= 120) SymType= 0, SymValue=118.
+  rmAddAreaTerrainLayer          (ID= 121) SymType= 0, SymValue=119.
+  rmSetAreaTerrainLayerVariance  (ID= 122) SymType= 0, SymValue=120.
+  rmSetAreaMinBlobs              (ID= 123) SymType= 0, SymValue=121.
+  rmSetAreaMaxBlobs              (ID= 124) SymType= 0, SymValue=122.
+  rmSetAreaMinBlobDistance       (ID= 125) SymType= 0, SymValue=123.
+  rmSetAreaMaxBlobDistance       (ID= 126) SymType= 0, SymValue=124.
+  rmSetAreaCoherence             (ID= 127) SymType= 0, SymValue=125.
+  rmSetAreaSmoothDistance        (ID= 128) SymType= 0, SymValue=126.
+  rmSetAreaHeightBlend           (ID= 129) SymType= 0, SymValue=127.
+  rmAreaID                       (ID= 130) SymType= 0, SymValue=128.
+  rmAddAreaInfluencePoint        (ID= 131) SymType= 0, SymValue=129.
+  rmAddAreaInfluenceSegment      (ID= 132) SymType= 0, SymValue=130.
+  rmAddAreaRemoveType            (ID= 133) SymType= 0, SymValue=131.
+  rmAddAreaTerrainReplacement    (ID= 134) SymType= 0, SymValue=132.
+  rmSetAreaElevationType         (ID= 135) SymType= 0, SymValue=133.
+  rmSetAreaElevationMinFrequency (ID= 136) SymType= 0, SymValue=134.
+  rmSetAreaElevationOctaves      (ID= 137) SymType= 0, SymValue=135.
+  rmSetAreaElevationPersistence  (ID= 138) SymType= 0, SymValue=136.
+  rmSetAreaElevationVariation    (ID= 139) SymType= 0, SymValue=137.
+  rmSetAreaElevationEdgeFalloffDist (ID= 140) SymType= 0, SymValue=138.
+  rmSetAreaElevationNoiseBias    (ID= 141) SymType= 0, SymValue=139.
+  rmSetAreaReveal                (ID= 142) SymType= 0, SymValue=140.
+  rmSetGlobalSnow                (ID= 143) SymType= 0, SymValue=141.
+  rmSetGlobalRain                (ID= 144) SymType= 0, SymValue=142.
+  rmSetGlobalStormLength         (ID= 145) SymType= 0, SymValue=143.
+  rmSetWindMagnitude             (ID= 146) SymType= 0, SymValue=144.
+  rmTerrainInitialize            (ID= 147) SymType= 0, SymValue=145.
+  rmFillMapCorners               (ID= 148) SymType= 0, SymValue=146.
+  rmSetLightingSet               (ID= 149) SymType= 0, SymValue=147.
+  rmDoLightingFade               (ID= 150) SymType= 0, SymValue=148.
+  rmDoLightingEffect             (ID= 151) SymType= 0, SymValue=149.
+  rmSetGaiaCiv                   (ID= 152) SymType= 0, SymValue=150.
+  rmAllocateSubCivs              (ID= 153) SymType= 0, SymValue=151.
+  rmSetSubCiv                    (ID= 154) SymType= 0, SymValue=152.
+  rmGetCivID                     (ID= 155) SymType= 0, SymValue=153.
+  rmAddMerc                      (ID= 156) SymType= 0, SymValue=154.
+  rmSetPlayerLocation            (ID= 157) SymType= 0, SymValue=155.
+  rmSetPlayerPlacementArea       (ID= 158) SymType= 0, SymValue=156.
+  rmSetTeamSpacingModifier       (ID= 159) SymType= 0, SymValue=157.
+  rmSetPlacementTeam             (ID= 160) SymType= 0, SymValue=158.
+  rmSetPlacementSection          (ID= 161) SymType= 0, SymValue=159.
+  rmPlacePlayersCircular         (ID= 162) SymType= 0, SymValue=160.
+  rmPlacePlayersSquare           (ID= 163) SymType= 0, SymValue=161.
+  rmPlacePlayersLine             (ID= 164) SymType= 0, SymValue=162.
+  rmPlacePlayersRiver            (ID= 165) SymType= 0, SymValue=163.
+  rmPlacePlayer                  (ID= 166) SymType= 0, SymValue=164.
+  rmSetPlayerArea                (ID= 167) SymType= 0, SymValue=165.
+  rmPlayerLocXFraction           (ID= 168) SymType= 0, SymValue=166.
+  rmPlayerLocZFraction           (ID= 169) SymType= 0, SymValue=167.
+  rmAddFairLoc                   (ID= 170) SymType= 0, SymValue=168.
+  rmPlaceFairLocs                (ID= 171) SymType= 0, SymValue=169.
+  rmResetFairLocs                (ID= 172) SymType= 0, SymValue=170.
+  rmGetNumberFairLocs            (ID= 173) SymType= 0, SymValue=171.
+  rmFairLocXFraction             (ID= 174) SymType= 0, SymValue=172.
+  rmFairLocZFraction             (ID= 175) SymType= 0, SymValue=173.
+  rmSetPlayerResource            (ID= 176) SymType= 0, SymValue=174.
+  rmAddPlayerResource            (ID= 177) SymType= 0, SymValue=175.
+  rmMultiplyPlayerResource       (ID= 178) SymType= 0, SymValue=176.
+  rmGetPlayerName                (ID= 179) SymType= 0, SymValue=177.
+  rmGetPlayerTeam                (ID= 180) SymType= 0, SymValue=178.
+  rmGetPlayerCiv                 (ID= 181) SymType= 0, SymValue=179.
+  rmGetPlayerCulture             (ID= 182) SymType= 0, SymValue=180.
+  rmGetNumberPlayersOnTeam       (ID= 183) SymType= 0, SymValue=181.
+  rmSetTeamArea                  (ID= 184) SymType= 0, SymValue=182.
+  rmCreateBoxConstraint          (ID= 185) SymType= 0, SymValue=183.
+  rmCreatePieConstraint          (ID= 186) SymType= 0, SymValue=184.
+  rmCreateAreaOverlapConstraint  (ID= 187) SymType= 0, SymValue=185.
+  rmCreateAreaConstraint         (ID= 188) SymType= 0, SymValue=186.
+  rmCreateAreaDistanceConstraint (ID= 189) SymType= 0, SymValue=187.
+  rmCreateAreaMaxDistanceConstraint (ID= 190) SymType= 0, SymValue=188.
+  rmCreateEdgeConstraint         (ID= 191) SymType= 0, SymValue=189.
+  rmCreateEdgeDistanceConstraint (ID= 192) SymType= 0, SymValue=190.
+  rmCreateEdgeMaxDistanceConstraint (ID= 193) SymType= 0, SymValue=191.
+  rmCreateCliffEdgeConstraint    (ID= 194) SymType= 0, SymValue=192.
+  rmCreateCliffEdgeDistanceConstraint (ID= 195) SymType= 0, SymValue=193.
+  rmCreateCliffEdgeMaxDistanceConstraint (ID= 196) SymType= 0, SymValue=194.
+  rmCreateCliffRampConstraint    (ID= 197) SymType= 0, SymValue=195.
+  rmCreateCliffRampDistanceConstraint (ID= 198) SymType= 0, SymValue=196.
+  rmCreateCliffRampMaxDistanceConstraint (ID= 199) SymType= 0, SymValue=197.
+  rmCreateClassDistanceConstraint (ID= 200) SymType= 0, SymValue=198.
+  rmCreateTypeDistanceConstraint (ID= 201) SymType= 0, SymValue=199.
+  rmCreateTerrainDistanceConstraint (ID= 202) SymType= 0, SymValue=200.
+  rmCreateTerrainMaxDistanceConstraint (ID= 203) SymType= 0, SymValue=201.
+  rmCreateCornerConstraint       (ID= 204) SymType= 0, SymValue=202.
+  rmCreateTradeRouteDistanceConstraint (ID= 205) SymType= 0, SymValue=203.
+  rmAddAreaConstraint            (ID= 206) SymType= 0, SymValue=204.
+  rmCreateHCGPConstraint         (ID= 207) SymType= 0, SymValue=205.
+  rmCreateHCGPSelfConstraint     (ID= 208) SymType= 0, SymValue=206.
+  rmCreateHCGPAllyConstraint     (ID= 209) SymType= 0, SymValue=207.
+  rmCreateHCGPEnemyConstraint    (ID= 210) SymType= 0, SymValue=208.
+  rmCreateMaxHeightConstraint    (ID= 211) SymType= 0, SymValue=209.
+  rmAddFairLocConstraint         (ID= 212) SymType= 0, SymValue=210.
+  rmAddObjectDefConstraint       (ID= 213) SymType= 0, SymValue=211.
+  rmDefineClass                  (ID= 214) SymType= 0, SymValue=212.
+  rmAddAreaToClass               (ID= 215) SymType= 0, SymValue=213.
+  rmAddObjectDefToClass          (ID= 216) SymType= 0, SymValue=214.
+  rmClassID                      (ID= 217) SymType= 0, SymValue=215.
+  rmConstraintID                 (ID= 218) SymType= 0, SymValue=216.
+  rmCreateObjectDef              (ID= 219) SymType= 0, SymValue=217.
+  rmCreateStartingUnitsObjectDef (ID= 220) SymType= 0, SymValue=218.
+  rmSetObjectDefMinDistance      (ID= 221) SymType= 0, SymValue=219.
+  rmSetObjectDefMaxDistance      (ID= 222) SymType= 0, SymValue=220.
+  rmSetObjectDefGarrisonSecondaryUnits (ID= 223) SymType= 0, SymValue=221.
+  rmSetObjectDefGarrisonStartingUnits (ID= 224) SymType= 0, SymValue=222.
+  rmSetObjectDefCreateHerd       (ID= 225) SymType= 0, SymValue=223.
+  rmSetObjectDefHerdAngle        (ID= 226) SymType= 0, SymValue=224.
+  rmSetObjectDefAllowOverlap     (ID= 227) SymType= 0, SymValue=225.
+  rmSetObjectDefForceFullRotation (ID= 228) SymType= 0, SymValue=226.
+  rmAddObjectDefItem             (ID= 229) SymType= 0, SymValue=227.
+  rmAddObjectDefItemByTypeID     (ID= 230) SymType= 0, SymValue=228.
+  rmPlaceObjectDefAtLoc          (ID= 231) SymType= 0, SymValue=229.
+  rmPlaceObjectDefAtPoint        (ID= 232) SymType= 0, SymValue=230.
+  rmSetObjectDefTradeRouteID     (ID= 233) SymType= 0, SymValue=231.
+  rmPlaceObjectDefPerPlayer      (ID= 234) SymType= 0, SymValue=232.
+  rmPlaceObjectDefAtAreaLoc      (ID= 235) SymType= 0, SymValue=233.
+  rmPlaceObjectDefInArea         (ID= 236) SymType= 0, SymValue=234.
+  rmPlaceObjectDefAtRandomAreaOfClass (ID= 237) SymType= 0, SymValue=235.
+  rmPlaceObjectDefInRandomAreaOfClass (ID= 238) SymType= 0, SymValue=236.
+  rmCreateConnection             (ID= 239) SymType= 0, SymValue=237.
+  rmSetConnectionType            (ID= 240) SymType= 0, SymValue=238.
+  rmAddConnectionArea            (ID= 241) SymType= 0, SymValue=239.
+  rmSetConnectionPositionVariance (ID= 242) SymType= 0, SymValue=240.
+  rmSetConnectionWidth           (ID= 243) SymType= 0, SymValue=241.
+  rmSetConnectionBaseHeight      (ID= 244) SymType= 0, SymValue=242.
+  rmSetConnectionCoherence       (ID= 245) SymType= 0, SymValue=243.
+  rmSetConnectionWarnFailure     (ID= 246) SymType= 0, SymValue=244.
+  rmSetConnectionHeightBlend     (ID= 247) SymType= 0, SymValue=245.
+  rmSetConnectionSmoothDistance  (ID= 248) SymType= 0, SymValue=246.
+  rmAddConnectionTerrainReplacement (ID= 249) SymType= 0, SymValue=247.
+  rmSetConnectionTerrainCost     (ID= 250) SymType= 0, SymValue=248.
+  rmSetConnectionBaseTerrainCost (ID= 251) SymType= 0, SymValue=249.
+  rmBuildConnection              (ID= 252) SymType= 0, SymValue=250.
+  rmAddConnectionToClass         (ID= 253) SymType= 0, SymValue=251.
+  rmAddConnectionConstraint      (ID= 254) SymType= 0, SymValue=252.
+  rmAddConnectionStartConstraint (ID= 255) SymType= 0, SymValue=253.
+  rmAddConnectionEndConstraint   (ID= 256) SymType= 0, SymValue=254.
+  rmSetStatusText                (ID= 257) SymType= 0, SymValue=255.
+  sqrt                           (ID= 258) SymType= 0, SymValue=256.
+  rmSetVPFile                    (ID= 259) SymType= 0, SymValue=257.
+  rmCreateTrigger                (ID= 260) SymType= 0, SymValue=258.
+  rmSwitchToTrigger              (ID= 261) SymType= 0, SymValue=259.
+  rmTriggerID                    (ID= 262) SymType= 0, SymValue=260.
+  rmSetTriggerPriority           (ID= 263) SymType= 0, SymValue=261.
+  rmSetTriggerActive             (ID= 264) SymType= 0, SymValue=262.
+  rmSetTriggerRunImmediately     (ID= 265) SymType= 0, SymValue=263.
+  rmSetTriggerLoop               (ID= 266) SymType= 0, SymValue=264.
+  rmAddTriggerCondition          (ID= 267) SymType= 0, SymValue=265.
+  rmSetTriggerConditionParam     (ID= 268) SymType= 0, SymValue=266.
+  rmSetTriggerConditionParamInt  (ID= 269) SymType= 0, SymValue=267.
+  rmSetTriggerConditionParamFloat (ID= 270) SymType= 0, SymValue=268.
+  rmSetTriggerConditionParamArmy (ID= 271) SymType= 0, SymValue=269.
+  rmAddTriggerEffect             (ID= 272) SymType= 0, SymValue=270.
+  rmSetTriggerEffectParam        (ID= 273) SymType= 0, SymValue=271.
+  rmSetTriggerEffectParamInt     (ID= 274) SymType= 0, SymValue=272.
+  rmSetTriggerEffectParamFloat   (ID= 275) SymType= 0, SymValue=273.
+  rmSetTriggerEffectParamArmy    (ID= 276) SymType= 0, SymValue=274.
+  rmCreateArmy                   (ID= 277) SymType= 0, SymValue=275.
+  rmAddUnitsToArmy               (ID= 278) SymType= 0, SymValue=276.
+  rmGetNumberUnitsPlaced         (ID= 279) SymType= 0, SymValue=277.
+  rmGetUnitPlaced                (ID= 280) SymType= 0, SymValue=278.
+  rmGetUnitPlacedOfPlayer        (ID= 281) SymType= 0, SymValue=279.
+  rmDefineConstant               (ID= 282) SymType= 0, SymValue=280.
+  rmSetIgnoreForceToGaia         (ID= 283) SymType= 0, SymValue=281.
+  rmCreateGrouping               (ID= 284) SymType= 0, SymValue=282.
+  rmAddGroupingConstraint        (ID= 285) SymType= 0, SymValue=283.
+  rmPlaceGroupingAtLoc           (ID= 286) SymType= 0, SymValue=284.
+  rmPlaceGroupingAtPoint         (ID= 287) SymType= 0, SymValue=285.
+  rmPlaceGroupingInArea          (ID= 288) SymType= 0, SymValue=286.
+  rmSetGroupingMinDistance       (ID= 289) SymType= 0, SymValue=287.
+  rmSetGroupingMaxDistance       (ID= 290) SymType= 0, SymValue=288.
+  rmAddGroupingToClass           (ID= 291) SymType= 0, SymValue=289.
+  rmCreateTradeRoute             (ID= 292) SymType= 0, SymValue=290.
+  rmAddTradeRouteWaypoint        (ID= 293) SymType= 0, SymValue=291.
+  rmAddTradeRouteWaypointVector  (ID= 294) SymType= 0, SymValue=292.
+  rmAddRandomTradeRouteWaypoints (ID= 295) SymType= 0, SymValue=293.
+  rmAddRandomTradeRouteWaypointsVector (ID= 296) SymType= 0, SymValue=294.
+  rmCreateTradeRouteWaypointsInArea (ID= 297) SymType= 0, SymValue=295.
+  rmGetTradeRouteWayPoint        (ID= 298) SymType= 0, SymValue=296.
+  rmBuildTradeRoute              (ID= 299) SymType= 0, SymValue=297.
+  rmSetHomeCityGatherPoint       (ID= 300) SymType= 0, SymValue=298.
+  rmSetHomeCityWaterSpawnPoint   (ID= 301) SymType= 0, SymValue=299.
+  rmGetLowHomeCityLevel          (ID= 302) SymType= 0, SymValue=300.
+  rmGetAverageHomeCityLevel      (ID= 303) SymType= 0, SymValue=301.
+  rmGetHighHomeCityLevel         (ID= 304) SymType= 0, SymValue=302.
+  rmGetHomeCityLevel             (ID= 305) SymType= 0, SymValue=303.
+  rmGetUnitPosition              (ID= 306) SymType= 0, SymValue=304.
+  rmSetMapType                   (ID= 307) SymType= 0, SymValue=305.
+  rmIsMapType                    (ID= 308) SymType= 0, SymValue=306.
+  rmEnableLocalWater             (ID= 309) SymType= 0, SymValue=307.
+  rmAddClosestPointConstraint    (ID= 310) SymType= 0, SymValue=308.
+  rmClearClosestPointConstraints (ID= 311) SymType= 0, SymValue=309.
+  rmFindClosestPoint             (ID= 312) SymType= 0, SymValue=310.
+  rmFindClosestPointVector       (ID= 313) SymType= 0, SymValue=311.
+  rmFindCloserArea               (ID= 314) SymType= 0, SymValue=312.
+  rmAddAreaCliffWaypoint         (ID= 315) SymType= 0, SymValue=313.
+  rmAddAreaCliffRandomWaypoints  (ID= 316) SymType= 0, SymValue=314.
+  rmSetNuggetDifficulty          (ID= 317) SymType= 0, SymValue=315.
+  rmSetOceanReveal               (ID= 318) SymType= 0, SymValue=316.
+  EXTERN$cNumberPlayers          (ID= 319) SymType= 1, SymValue=-3.
+  EXTERN$cNumberNonGaiaPlayers   (ID= 320) SymType= 1, SymValue=-4.
+  EXTERN$cNumberTeams            (ID= 321) SymType= 1, SymValue=-5.
+  EXTERN$cFilename               (ID= 322) SymType= 1, SymValue=-6.
+  EXTERN$cCultureNature          (ID= 323) SymType= 1, SymValue=-7.
+  EXTERN$cCultureWesternEurope   (ID= 324) SymType= 1, SymValue=-8.
+  EXTERN$cCultureMediterranean   (ID= 325) SymType= 1, SymValue=-9.
+  EXTERN$cCultureEasternEurope   (ID= 326) SymType= 1, SymValue=-10.
+  EXTERN$cCultureStone           (ID= 327) SymType= 1, SymValue=-11.
+  EXTERN$cCultureGrass           (ID= 328) SymType= 1, SymValue=-12.
+  EXTERN$cCultureWood            (ID= 329) SymType= 1, SymValue=-13.
+  EXTERN$cCultureHide            (ID= 330) SymType= 1, SymValue=-14.
+  EXTERN$cCivNature              (ID= 331) SymType= 1, SymValue=-15.
+  EXTERN$cCivSpanish             (ID= 332) SymType= 1, SymValue=-16.
+  EXTERN$cCivBritish             (ID= 333) SymType= 1, SymValue=-17.
+  EXTERN$cCivFrench              (ID= 334) SymType= 1, SymValue=-18.
+  EXTERN$cCivPortuguese          (ID= 335) SymType= 1, SymValue=-19.
+  EXTERN$cCivDutch               (ID= 336) SymType= 1, SymValue=-20.
+  EXTERN$cCivRussians            (ID= 337) SymType= 1, SymValue=-21.
+  EXTERN$cCivGermans             (ID= 338) SymType= 1, SymValue=-22.
+  EXTERN$cCivOttomans            (ID= 339) SymType= 1, SymValue=-23.
+  EXTERN$cCivSPCAct1             (ID= 340) SymType= 1, SymValue=-24.
+  EXTERN$cCivSPCAct2             (ID= 341) SymType= 1, SymValue=-25.
+  EXTERN$cCivSPCAct3             (ID= 342) SymType= 1, SymValue=-26.
+  EXTERN$cCivPirate              (ID= 343) SymType= 1, SymValue=-27.
+  EXTERN$cCivTheCircle           (ID= 344) SymType= 1, SymValue=-28.
+  EXTERN$cCivNativeAmerican      (ID= 345) SymType= 1, SymValue=-29.
+  EXTERN$cCivAztecs              (ID= 346) SymType= 1, SymValue=-30.
+  EXTERN$cCivCaribs              (ID= 347) SymType= 1, SymValue=-31.
+  EXTERN$cCivCherokee            (ID= 348) SymType= 1, SymValue=-32.
+  EXTERN$cCivComanche            (ID= 349) SymType= 1, SymValue=-33.
+  EXTERN$cCivCree                (ID= 350) SymType= 1, SymValue=-34.
+  EXTERN$cCivIncas               (ID= 351) SymType= 1, SymValue=-35.
+  EXTERN$cCivIroquois            (ID= 352) SymType= 1, SymValue=-36.
+  EXTERN$cCivLakota              (ID= 353) SymType= 1, SymValue=-37.
+  EXTERN$cCivMaya                (ID= 354) SymType= 1, SymValue=-38.
+  EXTERN$cCivNootka              (ID= 355) SymType= 1, SymValue=-39.
+  EXTERN$cCivSeminoles           (ID= 356) SymType= 1, SymValue=-40.
+  EXTERN$cCivTupi                (ID= 357) SymType= 1, SymValue=-41.
+  EXTERN$cConnectAreas           (ID= 358) SymType= 1, SymValue=-42.
+  EXTERN$cConnectPlayers         (ID= 359) SymType= 1, SymValue=-43.
+  EXTERN$cConnectAllies          (ID= 360) SymType= 1, SymValue=-44.
+  EXTERN$cConnectEnemies         (ID= 361) SymType= 1, SymValue=-45.
+  EXTERN$cMapSize                (ID= 362) SymType= 1, SymValue=-46.
+  EXTERN$cMapResources           (ID= 363) SymType= 1, SymValue=-47.
+  EXTERN$cElevNormal             (ID= 364) SymType= 1, SymValue=-48.
+  EXTERN$cElevFractalSum         (ID= 365) SymType= 1, SymValue=-49.
+  EXTERN$cElevTurbulence         (ID= 366) SymType= 1, SymValue=-50.
+  EXTERN$cClusterLand            (ID= 367) SymType= 1, SymValue=-51.
+  EXTERN$cClusterWater           (ID= 368) SymType= 1, SymValue=-52.
+  EXTERN$cClusterShallowWater    (ID= 369) SymType= 1, SymValue=-53.
+  EXTERN$cClusterEverywhere      (ID= 370) SymType= 1, SymValue=-54.
+  cerrado                        (ID= 371) SymType= 8, SymValue=0.
+  mercenaries.xs                 (ID= 372) SymType= 8, SymValue=1.
+  chooseMercs                    (ID= 373) SymType= 3, SymValue=0.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L0 (ID= 374) SymType= 4, SymValue=0.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L1 (ID= 375) SymType= 4, SymValue=1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR0 (ID= 376) SymType= 2, SymValue=0.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L2 (ID= 377) SymType= 4, SymValue=2.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L3 (ID= 378) SymType= 4, SymValue=3.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR1 (ID= 379) SymType= 2, SymValue=1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L4 (ID= 380) SymType= 4, SymValue=4.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L5 (ID= 381) SymType= 4, SymValue=5.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR2 (ID= 382) SymType= 2, SymValue=2.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L6 (ID= 383) SymType= 4, SymValue=6.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L7 (ID= 384) SymType= 4, SymValue=7.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR3 (ID= 385) SymType= 2, SymValue=3.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L8 (ID= 386) SymType= 4, SymValue=8.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L9 (ID= 387) SymType= 4, SymValue=9.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR4 (ID= 388) SymType= 2, SymValue=4.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L10 (ID= 389) SymType= 4, SymValue=10.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L11 (ID= 390) SymType= 4, SymValue=11.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR5 (ID= 391) SymType= 2, SymValue=5.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR6 (ID= 392) SymType= 2, SymValue=6.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L12 (ID= 393) SymType= 4, SymValue=12.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L13 (ID= 394) SymType= 4, SymValue=13.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR7 (ID= 395) SymType= 2, SymValue=7.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L14 (ID= 396) SymType= 4, SymValue=14.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L15 (ID= 397) SymType= 4, SymValue=15.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR8 (ID= 398) SymType= 2, SymValue=8.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L16 (ID= 399) SymType= 4, SymValue=16.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L17 (ID= 400) SymType= 4, SymValue=17.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR9 (ID= 401) SymType= 2, SymValue=9.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L18 (ID= 402) SymType= 4, SymValue=18.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L19 (ID= 403) SymType= 4, SymValue=19.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR10 (ID= 404) SymType= 2, SymValue=10.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L20 (ID= 405) SymType= 4, SymValue=20.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L21 (ID= 406) SymType= 4, SymValue=21.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR11 (ID= 407) SymType= 2, SymValue=11.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L22 (ID= 408) SymType= 4, SymValue=22.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L23 (ID= 409) SymType= 4, SymValue=23.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR12 (ID= 410) SymType= 2, SymValue=12.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L24 (ID= 411) SymType= 4, SymValue=24.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L25 (ID= 412) SymType= 4, SymValue=25.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR13 (ID= 413) SymType= 2, SymValue=13.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L26 (ID= 414) SymType= 4, SymValue=26.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L27 (ID= 415) SymType= 4, SymValue=27.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR14 (ID= 416) SymType= 2, SymValue=14.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR15 (ID= 417) SymType= 2, SymValue=15.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L28 (ID= 418) SymType= 4, SymValue=28.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L29 (ID= 419) SymType= 4, SymValue=29.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR16 (ID= 420) SymType= 2, SymValue=16.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L30 (ID= 421) SymType= 4, SymValue=30.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L31 (ID= 422) SymType= 4, SymValue=31.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR17 (ID= 423) SymType= 2, SymValue=17.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L32 (ID= 424) SymType= 4, SymValue=32.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L33 (ID= 425) SymType= 4, SymValue=33.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR18 (ID= 426) SymType= 2, SymValue=18.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L34 (ID= 427) SymType= 4, SymValue=34.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L35 (ID= 428) SymType= 4, SymValue=35.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR19 (ID= 429) SymType= 2, SymValue=19.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L36 (ID= 430) SymType= 4, SymValue=36.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L37 (ID= 431) SymType= 4, SymValue=37.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR20 (ID= 432) SymType= 2, SymValue=20.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L38 (ID= 433) SymType= 4, SymValue=38.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L39 (ID= 434) SymType= 4, SymValue=39.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR21 (ID= 435) SymType= 2, SymValue=21.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L40 (ID= 436) SymType= 4, SymValue=40.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L41 (ID= 437) SymType= 4, SymValue=41.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR22 (ID= 438) SymType= 2, SymValue=22.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L42 (ID= 439) SymType= 4, SymValue=42.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L43 (ID= 440) SymType= 4, SymValue=43.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR23 (ID= 441) SymType= 2, SymValue=23.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR24 (ID= 442) SymType= 2, SymValue=24.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L44 (ID= 443) SymType= 4, SymValue=44.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L45 (ID= 444) SymType= 4, SymValue=45.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR25 (ID= 445) SymType= 2, SymValue=25.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L46 (ID= 446) SymType= 4, SymValue=46.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L47 (ID= 447) SymType= 4, SymValue=47.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR26 (ID= 448) SymType= 2, SymValue=26.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L48 (ID= 449) SymType= 4, SymValue=48.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L49 (ID= 450) SymType= 4, SymValue=49.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR27 (ID= 451) SymType= 2, SymValue=27.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L50 (ID= 452) SymType= 4, SymValue=50.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L51 (ID= 453) SymType= 4, SymValue=51.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR28 (ID= 454) SymType= 2, SymValue=28.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR29 (ID= 455) SymType= 2, SymValue=29.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L52 (ID= 456) SymType= 4, SymValue=52.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L53 (ID= 457) SymType= 4, SymValue=53.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR30 (ID= 458) SymType= 2, SymValue=30.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR31 (ID= 459) SymType= 2, SymValue=31.
+  main                           (ID= 460) SymType= 3, SymValue=1.
+  cerrado$main1$TEMPVAR0         (ID= 461) SymType= 2, SymValue=0.
+  cerrado$main1$TEMPVAR1         (ID= 462) SymType= 2, SymValue=1.
+  cerrado$main1$TEMPVAR2         (ID= 463) SymType= 2, SymValue=2.
+  cerrado$main1$TEMPVAR3         (ID= 464) SymType= 2, SymValue=3.
+  cerrado$main1$TEMPVAR4         (ID= 465) SymType= 2, SymValue=4.
+  cerrado$main1$TEMPVAR5         (ID= 466) SymType= 2, SymValue=5.
+  cerrado$main1$TEMPVAR6         (ID= 467) SymType= 2, SymValue=6.
+  cerrado$main1$TEMPVAR7         (ID= 468) SymType= 2, SymValue=7.
+  cerrado$main1$Distanz          (ID= 469) SymType= 2, SymValue=8.
+  cerrado$main1$MengeRessourcen  (ID= 470) SymType= 2, SymValue=9.
+  cerrado$main1$GesamtMengeRessourcen (ID= 471) SymType= 2, SymValue=10.
+  cerrado$main1$L54              (ID= 472) SymType= 4, SymValue=54.
+  cerrado$main1$L55              (ID= 473) SymType= 4, SymValue=55.
+  cerrado$main1$L56              (ID= 474) SymType= 4, SymValue=56.
+  cerrado$main1$L57              (ID= 475) SymType= 4, SymValue=57.
+  cerrado$main1$L58              (ID= 476) SymType= 4, SymValue=58.
+  cerrado$main1$L59              (ID= 477) SymType= 4, SymValue=59.
+  cerrado$main1$L60              (ID= 478) SymType= 4, SymValue=60.
+  cerrado$main1$L61              (ID= 479) SymType= 4, SymValue=61.
+  cerrado$main1$L62              (ID= 480) SymType= 4, SymValue=62.
+  cerrado$main1$L63              (ID= 481) SymType= 4, SymValue=63.
+  cerrado$main1$CLIFFSIZE        (ID= 482) SymType= 2, SymValue=11.
+  cerrado$main1$SEASIZE          (ID= 483) SymType= 2, SymValue=12.
+  cerrado$main1$FORESTSIZE       (ID= 484) SymType= 2, SymValue=13.
+  cerrado$main1$ForestCount      (ID= 485) SymType= 2, SymValue=14.
+  cerrado$main1$SeaCount         (ID= 486) SymType= 2, SymValue=15.
+  cerrado$main1$CliffCount       (ID= 487) SymType= 2, SymValue=16.
+  cerrado$main1$PlayerClass      (ID= 488) SymType= 2, SymValue=17.
+  cerrado$main1$TEMPVAR18        (ID= 489) SymType= 2, SymValue=18.
+  cerrado$main1$LakeClass        (ID= 490) SymType= 2, SymValue=19.
+  cerrado$main1$TEMPVAR20        (ID= 491) SymType= 2, SymValue=20.
+  cerrado$main1$CliffClass       (ID= 492) SymType= 2, SymValue=21.
+  cerrado$main1$TEMPVAR22        (ID= 493) SymType= 2, SymValue=22.
+  cerrado$main1$TEMPVAR23        (ID= 494) SymType= 2, SymValue=23.
+  cerrado$main1$TEMPVAR24        (ID= 495) SymType= 2, SymValue=24.
+  cerrado$main1$TEMPVAR25        (ID= 496) SymType= 2, SymValue=25.
+  cerrado$main1$TEMPVAR26        (ID= 497) SymType= 2, SymValue=26.
+  cerrado$main1$Lakes            (ID= 498) SymType= 2, SymValue=27.
+  cerrado$main1$TEMPVAR28        (ID= 499) SymType= 2, SymValue=28.
+  cerrado$main1$LPLayer          (ID= 500) SymType= 2, SymValue=29.
+  cerrado$main1$TEMPVAR30        (ID= 501) SymType= 2, SymValue=30.
+  cerrado$main1$SPLAYER          (ID= 502) SymType= 2, SymValue=31.
+  cerrado$main1$TEMPVAR32        (ID= 503) SymType= 2, SymValue=32.
+  cerrado$main1$TCvsTC           (ID= 504) SymType= 2, SymValue=33.
+  cerrado$main1$TEMPVAR34        (ID= 505) SymType= 2, SymValue=34.
+  cerrado$main1$TEMPVAR35        (ID= 506) SymType= 2, SymValue=35.
+  cerrado$main1$CWvsCW           (ID= 507) SymType= 2, SymValue=36.
+  cerrado$main1$TEMPVAR37        (ID= 508) SymType= 2, SymValue=37.
+  cerrado$main1$TEMPVAR38        (ID= 509) SymType= 2, SymValue=38.
+  cerrado$main1$FOvsTC           (ID= 510) SymType= 2, SymValue=39.
+  cerrado$main1$TEMPVAR40        (ID= 511) SymType= 2, SymValue=40.
+  cerrado$main1$TEMPVAR41        (ID= 512) SymType= 2, SymValue=41.
+  cerrado$main1$AVCoin           (ID= 513) SymType= 2, SymValue=42.
+  cerrado$main1$TEMPVAR43        (ID= 514) SymType= 2, SymValue=43.
+  cerrado$main1$TEMPVAR44        (ID= 515) SymType= 2, SymValue=44.
+  cerrado$main1$AVNugget         (ID= 516) SymType= 2, SymValue=45.
+  cerrado$main1$TEMPVAR46        (ID= 517) SymType= 2, SymValue=46.
+  cerrado$main1$TEMPVAR47        (ID= 518) SymType= 2, SymValue=47.
+  cerrado$main1$AVLAND1          (ID= 519) SymType= 2, SymValue=48.
+  cerrado$main1$TEMPVAR49        (ID= 520) SymType= 2, SymValue=49.
+  cerrado$main1$TEMPVAR50        (ID= 521) SymType= 2, SymValue=50.
+  cerrado$main1$AVLAND3          (ID= 522) SymType= 2, SymValue=51.
+  cerrado$main1$TEMPVAR52        (ID= 523) SymType= 2, SymValue=52.
+  cerrado$main1$TEMPVAR53        (ID= 524) SymType= 2, SymValue=53.
+  cerrado$main1$FOvsCW           (ID= 525) SymType= 2, SymValue=54.
+  cerrado$main1$TEMPVAR55        (ID= 526) SymType= 2, SymValue=55.
+  cerrado$main1$TEMPVAR56        (ID= 527) SymType= 2, SymValue=56.
+  cerrado$main1$AVTC             (ID= 528) SymType= 2, SymValue=57.
+  cerrado$main1$TEMPVAR58        (ID= 529) SymType= 2, SymValue=58.
+  cerrado$main1$TEMPVAR59        (ID= 530) SymType= 2, SymValue=59.
+  cerrado$main1$AVCW             (ID= 531) SymType= 2, SymValue=60.
+  cerrado$main1$TEMPVAR61        (ID= 532) SymType= 2, SymValue=61.
+  cerrado$main1$TEMPVAR62        (ID= 533) SymType= 2, SymValue=62.
+  cerrado$main1$FOvsFO           (ID= 534) SymType= 2, SymValue=63.
+  cerrado$main1$TEMPVAR64        (ID= 535) SymType= 2, SymValue=64.
+  cerrado$main1$TEMPVAR65        (ID= 536) SymType= 2, SymValue=65.
+  cerrado$main1$AVANIMAL         (ID= 537) SymType= 2, SymValue=66.
+  cerrado$main1$TEMPVAR67        (ID= 538) SymType= 2, SymValue=67.
+  cerrado$main1$TEMPVAR68        (ID= 539) SymType= 2, SymValue=68.
+  cerrado$main1$AVLAND2          (ID= 540) SymType= 2, SymValue=69.
+  cerrado$main1$TEMPVAR70        (ID= 541) SymType= 2, SymValue=70.
+  cerrado$main1$TEMPVAR71        (ID= 542) SymType= 2, SymValue=71.
+  cerrado$main1$AVFishFish       (ID= 543) SymType= 2, SymValue=72.
+  cerrado$main1$TEMPVAR73        (ID= 544) SymType= 2, SymValue=73.
+  cerrado$main1$TEMPVAR74        (ID= 545) SymType= 2, SymValue=74.
+  cerrado$main1$AVFishLand       (ID= 546) SymType= 2, SymValue=75.
+  cerrado$main1$TEMPVAR76        (ID= 547) SymType= 2, SymValue=76.
+  cerrado$main1$TEMPVAR77        (ID= 548) SymType= 2, SymValue=77.
+  cerrado$main1$AVAll            (ID= 549) SymType= 2, SymValue=78.
+  cerrado$main1$TEMPVAR79        (ID= 550) SymType= 2, SymValue=79.
+  cerrado$main1$TEMPVAR80        (ID= 551) SymType= 2, SymValue=80.
+  cerrado$main1$AVTradeRoute     (ID= 552) SymType= 2, SymValue=81.
+  cerrado$main1$TEMPVAR82        (ID= 553) SymType= 2, SymValue=82.
+  cerrado$main1$AVNativeTrade    (ID= 554) SymType= 2, SymValue=83.
+  cerrado$main1$TEMPVAR84        (ID= 555) SymType= 2, SymValue=84.
+  cerrado$main1$TEMPVAR85        (ID= 556) SymType= 2, SymValue=85.
+  cerrado$main1$AVSocket         (ID= 557) SymType= 2, SymValue=86.
+  cerrado$main1$TEMPVAR87        (ID= 558) SymType= 2, SymValue=87.
+  cerrado$main1$TEMPVAR88        (ID= 559) SymType= 2, SymValue=88.
+  cerrado$main1$AVImpItem        (ID= 560) SymType= 2, SymValue=89.
+  cerrado$main1$TEMPVAR90        (ID= 561) SymType= 2, SymValue=90.
+  cerrado$main1$TEMPVAR91        (ID= 562) SymType= 2, SymValue=91.
+  cerrado$main1$AVSilverSockets  (ID= 563) SymType= 2, SymValue=92.
+  cerrado$main1$TEMPVAR93        (ID= 564) SymType= 2, SymValue=93.
+  cerrado$main1$TEMPVAR94        (ID= 565) SymType= 2, SymValue=94.
+  cerrado$main1$AVRiver          (ID= 566) SymType= 2, SymValue=95.
+  cerrado$main1$TEMPVAR96        (ID= 567) SymType= 2, SymValue=96.
+  cerrado$main1$TEMPVAR97        (ID= 568) SymType= 2, SymValue=97.
+  cerrado$main1$AVWater8         (ID= 569) SymType= 2, SymValue=98.
+  cerrado$main1$TEMPVAR99        (ID= 570) SymType= 2, SymValue=99.
+  cerrado$main1$TEMPVAR100       (ID= 571) SymType= 2, SymValue=100.
+  cerrado$main1$AVWater16        (ID= 572) SymType= 2, SymValue=101.
+  cerrado$main1$TEMPVAR102       (ID= 573) SymType= 2, SymValue=102.
+  cerrado$main1$TEMPVAR103       (ID= 574) SymType= 2, SymValue=103.
+  cerrado$main1$AVWater20        (ID= 575) SymType= 2, SymValue=104.
+  cerrado$main1$TEMPVAR105       (ID= 576) SymType= 2, SymValue=105.
+  cerrado$main1$TEMPVAR106       (ID= 577) SymType= 2, SymValue=106.
+  cerrado$main1$Cliff            (ID= 578) SymType= 2, SymValue=107.
+  cerrado$main1$TEMPVAR108       (ID= 579) SymType= 2, SymValue=108.
+  cerrado$main1$ANativ           (ID= 580) SymType= 2, SymValue=109.
+  cerrado$main1$TEMPVAR110       (ID= 581) SymType= 2, SymValue=110.
+  cerrado$main1$TEMPVAR111       (ID= 582) SymType= 2, SymValue=111.
+  cerrado$main1$FLLAND           (ID= 583) SymType= 2, SymValue=112.
+  cerrado$main1$TEMPVAR113       (ID= 584) SymType= 2, SymValue=113.
+  cerrado$main1$TEMPVAR114       (ID= 585) SymType= 2, SymValue=114.
+  cerrado$main1$FLVSFL           (ID= 586) SymType= 2, SymValue=115.
+  cerrado$main1$TEMPVAR116       (ID= 587) SymType= 2, SymValue=116.
+  cerrado$main1$TEMPVAR117       (ID= 588) SymType= 2, SymValue=117.
+  cerrado$main1$TEMPVAR118       (ID= 589) SymType= 2, SymValue=118.
+  cerrado$main1$L64              (ID= 590) SymType= 4, SymValue=64.
+  cerrado$main1$L65              (ID= 591) SymType= 4, SymValue=65.
+  cerrado$main1$subCiv00         (ID= 592) SymType= 2, SymValue=119.
+  cerrado$main1$TEMPVAR120       (ID= 593) SymType= 2, SymValue=120.
+  cerrado$main1$TEMPVAR121       (ID= 594) SymType= 2, SymValue=121.
+  cerrado$main1$subCiv01         (ID= 595) SymType= 2, SymValue=122.
+  cerrado$main1$TEMPVAR123       (ID= 596) SymType= 2, SymValue=123.
+  cerrado$main1$TEMPVAR124       (ID= 597) SymType= 2, SymValue=124.
+  cerrado$main1$subCiv02         (ID= 598) SymType= 2, SymValue=125.
+  cerrado$main1$TEMPVAR126       (ID= 599) SymType= 2, SymValue=126.
+  cerrado$main1$TEMPVAR127       (ID= 600) SymType= 2, SymValue=127.
+  cerrado$main1$subCiv03         (ID= 601) SymType= 2, SymValue=128.
+  cerrado$main1$TEMPVAR129       (ID= 602) SymType= 2, SymValue=129.
+  cerrado$main1$TEMPVAR130       (ID= 603) SymType= 2, SymValue=130.
+  cerrado$main1$TEMPVAR131       (ID= 604) SymType= 2, SymValue=131.
+  cerrado$main1$AreaSizePlayer   (ID= 605) SymType= 2, SymValue=132.
+  cerrado$main1$i                (ID= 606) SymType= 2, SymValue=133.
+  cerrado$main1$L66              (ID= 607) SymType= 4, SymValue=66.
+  cerrado$main1$L67              (ID= 608) SymType= 4, SymValue=67.
+  cerrado$main1$L68              (ID= 609) SymType= 4, SymValue=68.
+  cerrado$main1$id               (ID= 610) SymType= 2, SymValue=134.
+  cerrado$main1$TEMPVAR135       (ID= 611) SymType= 2, SymValue=135.
+  cerrado$main1$TEMPVAR136       (ID= 612) SymType= 2, SymValue=136.
+  cerrado$main1$I                (ID= 613) SymType= 2, SymValue=137.
+  cerrado$main1$L69              (ID= 614) SymType= 4, SymValue=69.
+  cerrado$main1$L70              (ID= 615) SymType= 4, SymValue=70.
+  cerrado$main1$L71              (ID= 616) SymType= 4, SymValue=71.
+  cerrado$main1$AREAL1           (ID= 617) SymType= 2, SymValue=138.
+  cerrado$main1$TEMPVAR139       (ID= 618) SymType= 2, SymValue=139.
+  cerrado$main1$A                (ID= 619) SymType= 2, SymValue=140.
+  cerrado$main1$B                (ID= 620) SymType= 2, SymValue=141.
+  cerrado$main1$TEMPVAR142       (ID= 621) SymType= 2, SymValue=142.
+  cerrado$main1$TEMPVAR143       (ID= 622) SymType= 2, SymValue=143.
+  cerrado$main1$L72              (ID= 623) SymType= 4, SymValue=72.
+  cerrado$main1$L73              (ID= 624) SymType= 4, SymValue=73.
+  cerrado$main1$L74              (ID= 625) SymType= 4, SymValue=74.
+  cerrado$main1$AREAL2           (ID= 626) SymType= 2, SymValue=144.
+  cerrado$main1$TEMPVAR145       (ID= 627) SymType= 2, SymValue=145.
+  cerrado$main1$TEMPVAR146       (ID= 628) SymType= 2, SymValue=146.
+  cerrado$main1$TEMPVAR147       (ID= 629) SymType= 2, SymValue=147.
+  cerrado$main1$L75              (ID= 630) SymType= 4, SymValue=75.
+  cerrado$main1$L76              (ID= 631) SymType= 4, SymValue=76.
+  cerrado$main1$L77              (ID= 632) SymType= 4, SymValue=77.
+  cerrado$main1$AREAL3           (ID= 633) SymType= 2, SymValue=148.
+  cerrado$main1$TEMPVAR149       (ID= 634) SymType= 2, SymValue=149.
+  cerrado$main1$TEMPVAR150       (ID= 635) SymType= 2, SymValue=150.
+  cerrado$main1$TEMPVAR151       (ID= 636) SymType= 2, SymValue=151.
+  cerrado$main1$L78              (ID= 637) SymType= 4, SymValue=78.
+  cerrado$main1$L79              (ID= 638) SymType= 4, SymValue=79.
+  cerrado$main1$L80              (ID= 639) SymType= 4, SymValue=80.
+  cerrado$main1$smalllakeID      (ID= 640) SymType= 2, SymValue=152.
+  cerrado$main1$TEMPVAR153       (ID= 641) SymType= 2, SymValue=153.
+  cerrado$main1$TEMPVAR154       (ID= 642) SymType= 2, SymValue=154.
+  cerrado$main1$X                (ID= 643) SymType= 2, SymValue=155.
+  cerrado$main1$Z                (ID= 644) SymType= 2, SymValue=156.
+  cerrado$main1$TEMPVAR157       (ID= 645) SymType= 2, SymValue=157.
+  cerrado$main1$Fisch1           (ID= 646) SymType= 2, SymValue=158.
+  cerrado$main1$TEMPVAR159       (ID= 647) SymType= 2, SymValue=159.
+  cerrado$main1$TEMPVAR160       (ID= 648) SymType= 2, SymValue=160.
+  cerrado$main1$Fisch2           (ID= 649) SymType= 2, SymValue=161.
+  cerrado$main1$TEMPVAR162       (ID= 650) SymType= 2, SymValue=162.
+  cerrado$main1$TEMPVAR163       (ID= 651) SymType= 2, SymValue=163.
+  cerrado$main1$L81              (ID= 652) SymType= 4, SymValue=81.
+  cerrado$main1$L82              (ID= 653) SymType= 4, SymValue=82.
+  cerrado$main1$L83              (ID= 654) SymType= 4, SymValue=83.
+  cerrado$main1$CliffID          (ID= 655) SymType= 2, SymValue=164.
+  cerrado$main1$TEMPVAR165       (ID= 656) SymType= 2, SymValue=165.
+  cerrado$main1$TEMPVAR166       (ID= 657) SymType= 2, SymValue=166.
+  cerrado$main1$XX               (ID= 658) SymType= 2, SymValue=167.
+  cerrado$main1$ZZ               (ID= 659) SymType= 2, SymValue=168.
+  cerrado$main1$TCID             (ID= 660) SymType= 2, SymValue=169.
+  cerrado$main1$TEMPVAR170       (ID= 661) SymType= 2, SymValue=170.
+  cerrado$main1$TEMPVAR171       (ID= 662) SymType= 2, SymValue=171.
+  cerrado$main1$L84              (ID= 663) SymType= 4, SymValue=84.
+  cerrado$main1$L85              (ID= 664) SymType= 4, SymValue=85.
+  cerrado$main1$L86              (ID= 665) SymType= 4, SymValue=86.
+  cerrado$main1$ExplorerUnits    (ID= 666) SymType= 2, SymValue=172.
+  cerrado$main1$playerBerryID    (ID= 667) SymType= 2, SymValue=173.
+  cerrado$main1$TEMPVAR174       (ID= 668) SymType= 2, SymValue=174.
+  cerrado$main1$TEMPVAR175       (ID= 669) SymType= 2, SymValue=175.
+  cerrado$main1$playerTreeID     (ID= 670) SymType= 2, SymValue=176.
+  cerrado$main1$TEMPVAR177       (ID= 671) SymType= 2, SymValue=177.
+  cerrado$main1$TEMPVAR178       (ID= 672) SymType= 2, SymValue=178.
+  cerrado$main1$wild1ID          (ID= 673) SymType= 2, SymValue=179.
+  cerrado$main1$TEMPVAR180       (ID= 674) SymType= 2, SymValue=180.
+  cerrado$main1$TEMPVAR181       (ID= 675) SymType= 2, SymValue=181.
+  cerrado$main1$playerSilverID   (ID= 676) SymType= 2, SymValue=182.
+  cerrado$main1$TEMPVAR183       (ID= 677) SymType= 2, SymValue=183.
+  cerrado$main1$TEMPVAR184       (ID= 678) SymType= 2, SymValue=184.
+  cerrado$main1$TEMPVAR185       (ID= 679) SymType= 2, SymValue=185.
+  cerrado$main1$L87              (ID= 680) SymType= 4, SymValue=87.
+  cerrado$main1$L88              (ID= 681) SymType= 4, SymValue=88.
+  cerrado$main1$L89              (ID= 682) SymType= 4, SymValue=89.
+  cerrado$main1$TCLocation       (ID= 683) SymType= 2, SymValue=186.
+  cerrado$main1$closestPoint     (ID= 684) SymType= 2, SymValue=187.
+  cerrado$main1$x                (ID= 685) SymType= 2, SymValue=188.
+  cerrado$main1$L90              (ID= 686) SymType= 4, SymValue=90.
+  cerrado$main1$L91              (ID= 687) SymType= 4, SymValue=91.
+  cerrado$main1$L92              (ID= 688) SymType= 4, SymValue=92.
+  cerrado$main1$ExtraUnit1ID     (ID= 689) SymType= 2, SymValue=189.
+  cerrado$main1$TEMPVAR190       (ID= 690) SymType= 2, SymValue=190.
+  cerrado$main1$TEMPVAR191       (ID= 691) SymType= 2, SymValue=191.
+  cerrado$main1$L93              (ID= 692) SymType= 4, SymValue=93.
+  cerrado$main1$L94              (ID= 693) SymType= 4, SymValue=94.
+  cerrado$main1$L95              (ID= 694) SymType= 4, SymValue=95.
+  cerrado$main1$TEMPVAR192       (ID= 695) SymType= 2, SymValue=192.
+  cerrado$main1$VillageID1       (ID= 696) SymType= 2, SymValue=193.
+  cerrado$main1$TEMPVAR194       (ID= 697) SymType= 2, SymValue=194.
+  cerrado$main1$TEMPVAR195       (ID= 698) SymType= 2, SymValue=195.
+  cerrado$main1$TEMPVAR196       (ID= 699) SymType= 2, SymValue=196.
+  cerrado$main1$TEMPVAR197       (ID= 700) SymType= 2, SymValue=197.
+  cerrado$main1$VillageID2       (ID= 701) SymType= 2, SymValue=198.
+  cerrado$main1$TEMPVAR199       (ID= 702) SymType= 2, SymValue=199.
+  cerrado$main1$TEMPVAR200       (ID= 703) SymType= 2, SymValue=200.
+  cerrado$main1$TEMPVAR201       (ID= 704) SymType= 2, SymValue=201.
+  cerrado$main1$TEMPVAR202       (ID= 705) SymType= 2, SymValue=202.
+  cerrado$main1$VillageID3       (ID= 706) SymType= 2, SymValue=203.
+  cerrado$main1$TEMPVAR204       (ID= 707) SymType= 2, SymValue=204.
+  cerrado$main1$TEMPVAR205       (ID= 708) SymType= 2, SymValue=205.
+  cerrado$main1$TEMPVAR206       (ID= 709) SymType= 2, SymValue=206.
+  cerrado$main1$TEMPVAR207       (ID= 710) SymType= 2, SymValue=207.
+  cerrado$main1$VillageID4       (ID= 711) SymType= 2, SymValue=208.
+  cerrado$main1$TEMPVAR209       (ID= 712) SymType= 2, SymValue=209.
+  cerrado$main1$TEMPVAR210       (ID= 713) SymType= 2, SymValue=210.
+  cerrado$main1$TEMPVAR211       (ID= 714) SymType= 2, SymValue=211.
+  cerrado$main1$TEMPVAR212       (ID= 715) SymType= 2, SymValue=212.
+  cerrado$main1$TEMPVAR213       (ID= 716) SymType= 2, SymValue=213.
+  cerrado$main1$silverID         (ID= 717) SymType= 2, SymValue=214.
+  cerrado$main1$silverCount      (ID= 718) SymType= 2, SymValue=215.
+  cerrado$main1$L96              (ID= 719) SymType= 4, SymValue=96.
+  cerrado$main1$L97              (ID= 720) SymType= 4, SymValue=97.
+  cerrado$main1$L98              (ID= 721) SymType= 4, SymValue=98.
+  cerrado$main1$TEMPVAR216       (ID= 722) SymType= 2, SymValue=216.
+  cerrado$main1$TEMPVAR217       (ID= 723) SymType= 2, SymValue=217.
+  cerrado$main1$GoldID           (ID= 724) SymType= 2, SymValue=218.
+  cerrado$main1$GoldCount        (ID= 725) SymType= 2, SymValue=219.
+  cerrado$main1$L99              (ID= 726) SymType= 4, SymValue=99.
+  cerrado$main1$L100             (ID= 727) SymType= 4, SymValue=100.
+  cerrado$main1$L101             (ID= 728) SymType= 4, SymValue=101.
+  cerrado$main1$TEMPVAR220       (ID= 729) SymType= 2, SymValue=220.
+  cerrado$main1$TEMPVAR221       (ID= 730) SymType= 2, SymValue=221.
+  cerrado$main1$SchatzID         (ID= 731) SymType= 2, SymValue=222.
+  cerrado$main1$SchatzCount      (ID= 732) SymType= 2, SymValue=223.
+  cerrado$main1$L102             (ID= 733) SymType= 4, SymValue=102.
+  cerrado$main1$L103             (ID= 734) SymType= 4, SymValue=103.
+  cerrado$main1$L104             (ID= 735) SymType= 4, SymValue=104.
+  cerrado$main1$TEMPVAR224       (ID= 736) SymType= 2, SymValue=224.
+  cerrado$main1$TEMPVAR225       (ID= 737) SymType= 2, SymValue=225.
+  cerrado$main1$WildAID          (ID= 738) SymType= 2, SymValue=226.
+  cerrado$main1$TEMPVAR227       (ID= 739) SymType= 2, SymValue=227.
+  cerrado$main1$TEMPVAR228       (ID= 740) SymType= 2, SymValue=228.
+  cerrado$main1$WildBID          (ID= 741) SymType= 2, SymValue=229.
+  cerrado$main1$TEMPVAR230       (ID= 742) SymType= 2, SymValue=230.
+  cerrado$main1$TEMPVAR231       (ID= 743) SymType= 2, SymValue=231.
+  cerrado$main1$WildCID          (ID= 744) SymType= 2, SymValue=232.
+  cerrado$main1$TEMPVAR233       (ID= 745) SymType= 2, SymValue=233.
+  cerrado$main1$TEMPVAR234       (ID= 746) SymType= 2, SymValue=234.
+  cerrado$main1$WildDID          (ID= 747) SymType= 2, SymValue=235.
+  cerrado$main1$TEMPVAR236       (ID= 748) SymType= 2, SymValue=236.
+  cerrado$main1$TEMPVAR237       (ID= 749) SymType= 2, SymValue=237.
+  cerrado$main1$forestTreeID     (ID= 750) SymType= 2, SymValue=238.
+  cerrado$main1$numTries         (ID= 751) SymType= 2, SymValue=239.
+  cerrado$main1$failCount        (ID= 752) SymType= 2, SymValue=240.
+  cerrado$main1$L105             (ID= 753) SymType= 4, SymValue=105.
+  cerrado$main1$L106             (ID= 754) SymType= 4, SymValue=106.
+  cerrado$main1$L107             (ID= 755) SymType= 4, SymValue=107.
+  cerrado$main1$forest           (ID= 756) SymType= 2, SymValue=241.
+  cerrado$main1$TEMPVAR242       (ID= 757) SymType= 2, SymValue=242.
+  cerrado$main1$TEMPVAR243       (ID= 758) SymType= 2, SymValue=243.
+  cerrado$main1$TEMPVAR244       (ID= 759) SymType= 2, SymValue=244.
+  cerrado$main1$L108             (ID= 760) SymType= 4, SymValue=108.
+  cerrado$main1$L109             (ID= 761) SymType= 4, SymValue=109.
+  cerrado$main1$L110             (ID= 762) SymType= 4, SymValue=110.
+  cerrado$main1$L111             (ID= 763) SymType= 4, SymValue=111.
+
+54 'Global (as in not in a function)' Variables:
+  EXTERN$cInvalidVector          (SymID=   0), VECTOR, Value=(-1.000000, -1.000000, -1.000000).
+  EXTERN$cOriginVector           (SymID=   1), VECTOR, Value=(0.000000, 0.000000, 0.000000).
+  EXTERN$cNumberPlayers          (SymID= 319), INT, Value=5.
+  EXTERN$cNumberNonGaiaPlayers   (SymID= 320), INT, Value=4.
+  EXTERN$cNumberTeams            (SymID= 321), INT, Value=2.
+  EXTERN$cFilename               (SymID= 322), STRING, Value=c.
+  EXTERN$cCultureNature          (SymID= 323), INT, Value=0.
+  EXTERN$cCultureWesternEurope   (SymID= 324), INT, Value=1.
+  EXTERN$cCultureMediterranean   (SymID= 325), INT, Value=2.
+  EXTERN$cCultureEasternEurope   (SymID= 326), INT, Value=3.
+  EXTERN$cCultureStone           (SymID= 327), INT, Value=4.
+  EXTERN$cCultureGrass           (SymID= 328), INT, Value=5.
+  EXTERN$cCultureWood            (SymID= 329), INT, Value=6.
+  EXTERN$cCultureHide            (SymID= 330), INT, Value=7.
+  EXTERN$cCivNature              (SymID= 331), INT, Value=0.
+  EXTERN$cCivSpanish             (SymID= 332), INT, Value=1.
+  EXTERN$cCivBritish             (SymID= 333), INT, Value=2.
+  EXTERN$cCivFrench              (SymID= 334), INT, Value=3.
+  EXTERN$cCivPortuguese          (SymID= 335), INT, Value=4.
+  EXTERN$cCivDutch               (SymID= 336), INT, Value=5.
+  EXTERN$cCivRussians            (SymID= 337), INT, Value=6.
+  EXTERN$cCivGermans             (SymID= 338), INT, Value=7.
+  EXTERN$cCivOttomans            (SymID= 339), INT, Value=8.
+  EXTERN$cCivSPCAct1             (SymID= 340), INT, Value=9.
+  EXTERN$cCivSPCAct2             (SymID= 341), INT, Value=10.
+  EXTERN$cCivSPCAct3             (SymID= 342), INT, Value=11.
+  EXTERN$cCivPirate              (SymID= 343), INT, Value=12.
+  EXTERN$cCivTheCircle           (SymID= 344), INT, Value=13.
+  EXTERN$cCivNativeAmerican      (SymID= 345), INT, Value=14.
+  EXTERN$cCivAztecs              (SymID= 346), INT, Value=15.
+  EXTERN$cCivCaribs              (SymID= 347), INT, Value=16.
+  EXTERN$cCivCherokee            (SymID= 348), INT, Value=17.
+  EXTERN$cCivComanche            (SymID= 349), INT, Value=18.
+  EXTERN$cCivCree                (SymID= 350), INT, Value=19.
+  EXTERN$cCivIncas               (SymID= 351), INT, Value=20.
+  EXTERN$cCivIroquois            (SymID= 352), INT, Value=21.
+  EXTERN$cCivLakota              (SymID= 353), INT, Value=22.
+  EXTERN$cCivMaya                (SymID= 354), INT, Value=23.
+  EXTERN$cCivNootka              (SymID= 355), INT, Value=24.
+  EXTERN$cCivSeminoles           (SymID= 356), INT, Value=25.
+  EXTERN$cCivTupi                (SymID= 357), INT, Value=26.
+  EXTERN$cConnectAreas           (SymID= 358), INT, Value=0.
+  EXTERN$cConnectPlayers         (SymID= 359), INT, Value=1.
+  EXTERN$cConnectAllies          (SymID= 360), INT, Value=2.
+  EXTERN$cConnectEnemies         (SymID= 361), INT, Value=3.
+  EXTERN$cMapSize                (SymID= 362), INT, Value=0.
+  EXTERN$cMapResources           (SymID= 363), INT, Value=1.
+  EXTERN$cElevNormal             (SymID= 364), INT, Value=0.
+  EXTERN$cElevFractalSum         (SymID= 365), INT, Value=2.
+  EXTERN$cElevTurbulence         (SymID= 366), INT, Value=1.
+  EXTERN$cClusterLand            (SymID= 367), INT, Value=0.
+  EXTERN$cClusterWater           (SymID= 368), INT, Value=1.
+  EXTERN$cClusterShallowWater    (SymID= 369), INT, Value=2.
+  EXTERN$cClusterEverywhere      (SymID= 370), INT, Value=3.
+
+112 Labels:
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L0 (SymID= 374), Position=736.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L1 (SymID= 375), Position=273.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L2 (SymID= 377), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L3 (SymID= 378), Position=177.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L4 (SymID= 380), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L5 (SymID= 381), Position=256.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L6 (SymID= 383), Position=735.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L7 (SymID= 384), Position=526.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L8 (SymID= 386), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L9 (SymID= 387), Position=430.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L10 (SymID= 389), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L11 (SymID= 390), Position=509.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L12 (SymID= 393), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L13 (SymID= 394), Position=655.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L14 (SymID= 396), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L15 (SymID= 397), Position=734.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L16 (SymID= 399), Position=1462.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L17 (SymID= 400), Position=999.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L18 (SymID= 402), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L19 (SymID= 403), Position=903.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L20 (SymID= 405), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L21 (SymID= 406), Position=982.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L22 (SymID= 408), Position=1461.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L23 (SymID= 409), Position=1252.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L24 (SymID= 411), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L25 (SymID= 412), Position=1156.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L26 (SymID= 414), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L27 (SymID= 415), Position=1235.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L28 (SymID= 418), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L29 (SymID= 419), Position=1381.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L30 (SymID= 421), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L31 (SymID= 422), Position=1460.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L32 (SymID= 424), Position=2188.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L33 (SymID= 425), Position=1725.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L34 (SymID= 427), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L35 (SymID= 428), Position=1629.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L36 (SymID= 430), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L37 (SymID= 431), Position=1708.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L38 (SymID= 433), Position=2187.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L39 (SymID= 434), Position=1978.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L40 (SymID= 436), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L41 (SymID= 437), Position=1882.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L42 (SymID= 439), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L43 (SymID= 440), Position=1961.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L44 (SymID= 443), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L45 (SymID= 444), Position=2107.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L46 (SymID= 446), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L47 (SymID= 447), Position=2186.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L48 (SymID= 449), Position=2502.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L49 (SymID= 450), Position=2372.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L50 (SymID= 452), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L51 (SymID= 453), Position=2355.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L52 (SymID= 456), Position=-1.
+  C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$L53 (SymID= 457), Position=2501.
+  cerrado$main1$L54              (SymID= 472), Position=-1.
+  cerrado$main1$L55              (SymID= 473), Position=2915.
+  cerrado$main1$L56              (SymID= 474), Position=-1.
+  cerrado$main1$L57              (SymID= 475), Position=2955.
+  cerrado$main1$L58              (SymID= 476), Position=-1.
+  cerrado$main1$L59              (SymID= 477), Position=2995.
+  cerrado$main1$L60              (SymID= 478), Position=-1.
+  cerrado$main1$L61              (SymID= 479), Position=3035.
+  cerrado$main1$L62              (SymID= 480), Position=-1.
+  cerrado$main1$L63              (SymID= 481), Position=3075.
+  cerrado$main1$L64              (SymID= 590), Position=-1.
+  cerrado$main1$L65              (SymID= 591), Position=4764.
+  cerrado$main1$L66              (SymID= 607), Position=5149.
+  cerrado$main1$L67              (SymID= 608), Position=4862.
+  cerrado$main1$L68              (SymID= 609), Position=5178.
+  cerrado$main1$L69              (SymID= 614), Position=5572.
+  cerrado$main1$L70              (SymID= 615), Position=5219.
+  cerrado$main1$L71              (SymID= 616), Position=5601.
+  cerrado$main1$L72              (SymID= 623), Position=5976.
+  cerrado$main1$L73              (SymID= 624), Position=5623.
+  cerrado$main1$L74              (SymID= 625), Position=6005.
+  cerrado$main1$L75              (SymID= 630), Position=6380.
+  cerrado$main1$L76              (SymID= 631), Position=6027.
+  cerrado$main1$L77              (SymID= 632), Position=6409.
+  cerrado$main1$L78              (SymID= 637), Position=6932.
+  cerrado$main1$L79              (SymID= 638), Position=6431.
+  cerrado$main1$L80              (SymID= 639), Position=6961.
+  cerrado$main1$L81              (SymID= 652), Position=7852.
+  cerrado$main1$L82              (SymID= 653), Position=7372.
+  cerrado$main1$L83              (SymID= 654), Position=7881.
+  cerrado$main1$L84              (SymID= 663), Position=8150.
+  cerrado$main1$L85              (SymID= 664), Position=8080.
+  cerrado$main1$L86              (SymID= 665), Position=8179.
+  cerrado$main1$L87              (SymID= 680), Position=9350.
+  cerrado$main1$L88              (SymID= 681), Position=8935.
+  cerrado$main1$L89              (SymID= 682), Position=9379.
+  cerrado$main1$L90              (SymID= 686), Position=9168.
+  cerrado$main1$L91              (SymID= 687), Position=9090.
+  cerrado$main1$L92              (SymID= 688), Position=9197.
+  cerrado$main1$L93              (SymID= 692), Position=9697.
+  cerrado$main1$L94              (SymID= 693), Position=9558.
+  cerrado$main1$L95              (SymID= 694), Position=9726.
+  cerrado$main1$L96              (SymID= 719), Position=11187.
+  cerrado$main1$L97              (SymID= 720), Position=10874.
+  cerrado$main1$L98              (SymID= 721), Position=11216.
+  cerrado$main1$L99              (SymID= 726), Position=11599.
+  cerrado$main1$L100             (SymID= 727), Position=11286.
+  cerrado$main1$L101             (SymID= 728), Position=11628.
+  cerrado$main1$L102             (SymID= 733), Position=12011.
+  cerrado$main1$L103             (SymID= 734), Position=11698.
+  cerrado$main1$L104             (SymID= 735), Position=12040.
+  cerrado$main1$L105             (SymID= 753), Position=13751.
+  cerrado$main1$L106             (SymID= 754), Position=13152.
+  cerrado$main1$L107             (SymID= 755), Position=13780.
+  cerrado$main1$L108             (SymID= 760), Position=13745.
+  cerrado$main1$L109             (SymID= 761), Position=13723.
+  cerrado$main1$L110             (SymID= 762), Position=-1.
+  cerrado$main1$L111             (SymID= 763), Position=13706.
+
+2 User Functions:
+  void           chooseMercs() ID=0.
+                   CodeOffset=0.
+                   0 Parameters.
+                   32 Variables (Parms AND Vars).
+                     V[0]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR0, STRING, Value=MercJaeger.
+                     V[1]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR1, STRING, Value=MercBlackRider.
+                     V[2]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR2, STRING, Value=MercLandsknecht.
+                     V[3]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR3, STRING, Value=MercBlackRider.
+                     V[4]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR4, STRING, Value=MercJaeger.
+                     V[5]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR5, STRING, Value=MercLandsknecht.
+                     V[6]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR6, STRING, Value=MercLandsknecht.
+                     V[7]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR7, STRING, Value=MercBlackRider.
+                     V[8]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR8, STRING, Value=MercJaeger.
+                     V[9]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR9, STRING, Value=MercHighlander.
+                     V[10]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR10, STRING, Value=MercHackapell.
+                     V[11]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR11, STRING, Value=MercSwissPikeman.
+                     V[12]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR12, STRING, Value=MercHackapell.
+                     V[13]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR13, STRING, Value=MercHighlander.
+                     V[14]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR14, STRING, Value=MercSwissPikeman.
+                     V[15]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR15, STRING, Value=MercSwissPikeman.
+                     V[16]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR16, STRING, Value=MercHackapell.
+                     V[17]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR17, STRING, Value=MercHighlander.
+                     V[18]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR18, STRING, Value=MercBarbaryCorsair.
+                     V[19]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR19, STRING, Value=MercMameluke.
+                     V[20]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR20, STRING, Value=MercStradiot.
+                     V[21]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR21, STRING, Value=MercMameluke.
+                     V[22]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR22, STRING, Value=MercBarbaryCorsair.
+                     V[23]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR23, STRING, Value=MercStradiot.
+                     V[24]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR24, STRING, Value=MercStradiot.
+                     V[25]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR25, STRING, Value=MercMameluke.
+                     V[26]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR26, STRING, Value=MercBarbaryCorsair.
+                     V[27]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR27, STRING, Value=MercRonin.
+                     V[28]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR28, STRING, Value=MercManchu.
+                     V[29]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR29, STRING, Value=MercManchu.
+                     V[30]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR30, STRING, Value=MercRonin.
+                     V[31]: C:\Program Files (x86)\Microsoft Games\Age of Empires III\RM\mercenaries$chooseMercs0$TEMPVAR31, STRING, Value=Privateer.
+  void           main() ID=1.
+                   CodeOffset=2558.
+                   0 Parameters.
+                   245 Variables (Parms AND Vars).
+                     V[0]: cerrado$main1$TEMPVAR0, STRING, Value=new_england\ground1_ne.
+                     V[1]: cerrado$main1$TEMPVAR1, STRING, Value=greatPlains.
+                     V[2]: cerrado$main1$TEMPVAR2, STRING, Value=grass.
+                     V[3]: cerrado$main1$TEMPVAR3, STRING, Value=default.
+                     V[4]: cerrado$main1$TEMPVAR4, STRING, Value=water.
+                     V[5]: cerrado$main1$TEMPVAR5, STRING, Value=land.
+                     V[6]: cerrado$main1$TEMPVAR6, STRING, Value=Amsterdam.
+                     V[7]: cerrado$main1$TEMPVAR7, STRING, Value=.
+                     V[8]: cerrado$main1$Distanz, INT, Value=0.
+                     V[9]: cerrado$main1$MengeRessourcen, INT, Value=0.
+                     V[10]: cerrado$main1$GesamtMengeRessourcen, INT, Value=0.
+                     V[11]: cerrado$main1$CLIFFSIZE, INT, Value=0.
+                     V[12]: cerrado$main1$SEASIZE, INT, Value=0.
+                     V[13]: cerrado$main1$FORESTSIZE, INT, Value=0.
+                     V[14]: cerrado$main1$ForestCount, INT, Value=0.
+                     V[15]: cerrado$main1$SeaCount, INT, Value=0.
+                     V[16]: cerrado$main1$CliffCount, INT, Value=0.
+                     V[17]: cerrado$main1$PlayerClass, INT, Value=0.
+                     V[18]: cerrado$main1$TEMPVAR18, STRING, Value=Player.
+                     V[19]: cerrado$main1$LakeClass, INT, Value=0.
+                     V[20]: cerrado$main1$TEMPVAR20, STRING, Value=Lakes.
+                     V[21]: cerrado$main1$CliffClass, INT, Value=0.
+                     V[22]: cerrado$main1$TEMPVAR22, STRING, Value=Cliffs.
+                     V[23]: cerrado$main1$TEMPVAR23, STRING, Value=ExplorerUnit.
+                     V[24]: cerrado$main1$TEMPVAR24, STRING, Value=MainForest.
+                     V[25]: cerrado$main1$TEMPVAR25, STRING, Value=MainItems.
+                     V[26]: cerrado$main1$TEMPVAR26, STRING, Value=Nativ.
+                     V[27]: cerrado$main1$Lakes, INT, Value=0.
+                     V[28]: cerrado$main1$TEMPVAR28, STRING, Value=LAKETOLAKE.
+                     V[29]: cerrado$main1$LPLayer, INT, Value=0.
+                     V[30]: cerrado$main1$TEMPVAR30, STRING, Value=COTOPL.
+                     V[31]: cerrado$main1$SPLAYER, INT, Value=0.
+                     V[32]: cerrado$main1$TEMPVAR32, STRING, Value=PLTOPL.
+                     V[33]: cerrado$main1$TCvsTC, INT, Value=0.
+                     V[34]: cerrado$main1$TEMPVAR34, STRING, Value=TCTOTC.
+                     V[35]: cerrado$main1$TEMPVAR35, STRING, Value=TownCenter.
+                     V[36]: cerrado$main1$CWvsCW, INT, Value=0.
+                     V[37]: cerrado$main1$TEMPVAR37, STRING, Value=CWTOCW.
+                     V[38]: cerrado$main1$TEMPVAR38, STRING, Value=CoveredWagon.
+                     V[39]: cerrado$main1$FOvsTC, INT, Value=0.
+                     V[40]: cerrado$main1$TEMPVAR40, STRING, Value=FOTOTC.
+                     V[41]: cerrado$main1$TEMPVAR41, STRING, Value=TownCenter.
+                     V[42]: cerrado$main1$AVCoin, INT, Value=0.
+                     V[43]: cerrado$main1$TEMPVAR43, STRING, Value=COTOCO.
+                     V[44]: cerrado$main1$TEMPVAR44, STRING, Value=gold.
+                     V[45]: cerrado$main1$AVNugget, INT, Value=0.
+                     V[46]: cerrado$main1$TEMPVAR46, STRING, Value=NUTONU.
+                     V[47]: cerrado$main1$TEMPVAR47, STRING, Value=abstractNugget.
+                     V[48]: cerrado$main1$AVLAND1, INT, Value=0.
+                     V[49]: cerrado$main1$TEMPVAR49, STRING, Value=NIMPLAND.
+                     V[50]: cerrado$main1$TEMPVAR50, STRING, Value=Land.
+                     V[51]: cerrado$main1$AVLAND3, INT, Value=0.
+                     V[52]: cerrado$main1$TEMPVAR52, STRING, Value=LIMPLAND.
+                     V[53]: cerrado$main1$TEMPVAR53, STRING, Value=Land.
+                     V[54]: cerrado$main1$FOvsCW, INT, Value=0.
+                     V[55]: cerrado$main1$TEMPVAR55, STRING, Value=FOTOCW.
+                     V[56]: cerrado$main1$TEMPVAR56, STRING, Value=CoveredWagon.
+                     V[57]: cerrado$main1$AVTC, INT, Value=0.
+                     V[58]: cerrado$main1$TEMPVAR58, STRING, Value=LALLTOTC.
+                     V[59]: cerrado$main1$TEMPVAR59, STRING, Value=TownCenter.
+                     V[60]: cerrado$main1$AVCW, INT, Value=0.
+                     V[61]: cerrado$main1$TEMPVAR61, STRING, Value=MTOCW.
+                     V[62]: cerrado$main1$TEMPVAR62, STRING, Value=CoveredWagon.
+                     V[63]: cerrado$main1$FOvsFO, INT, Value=0.
+                     V[64]: cerrado$main1$TEMPVAR64, STRING, Value=FOTOFO.
+                     V[65]: cerrado$main1$TEMPVAR65, STRING, Value=MainForest.
+                     V[66]: cerrado$main1$AVANIMAL, INT, Value=0.
+                     V[67]: cerrado$main1$TEMPVAR67, STRING, Value=ANTOAN.
+                     V[68]: cerrado$main1$TEMPVAR68, STRING, Value=deer.
+                     V[69]: cerrado$main1$AVLAND2, INT, Value=0.
+                     V[70]: cerrado$main1$TEMPVAR70, STRING, Value=SIMPLAND.
+                     V[71]: cerrado$main1$TEMPVAR71, STRING, Value=Land.
+                     V[72]: cerrado$main1$AVFishFish, INT, Value=0.
+                     V[73]: cerrado$main1$TEMPVAR73, STRING, Value=FISHTOFISH.
+                     V[74]: cerrado$main1$TEMPVAR74, STRING, Value=abstractFish.
+                     V[75]: cerrado$main1$AVFishLand, INT, Value=0.
+                     V[76]: cerrado$main1$TEMPVAR76, STRING, Value=FISHTOLAND.
+                     V[77]: cerrado$main1$TEMPVAR77, STRING, Value=land.
+                     V[78]: cerrado$main1$AVAll, INT, Value=0.
+                     V[79]: cerrado$main1$TEMPVAR79, STRING, Value=ALLTOALL.
+                     V[80]: cerrado$main1$TEMPVAR80, STRING, Value=all.
+                     V[81]: cerrado$main1$AVTradeRoute, INT, Value=0.
+                     V[82]: cerrado$main1$TEMPVAR82, STRING, Value=trade route.
+                     V[83]: cerrado$main1$AVNativeTrade, INT, Value=0.
+                     V[84]: cerrado$main1$TEMPVAR84, STRING, Value=NATTOSOK.
+                     V[85]: cerrado$main1$TEMPVAR85, STRING, Value=socketTradeRoute.
+                     V[86]: cerrado$main1$AVSocket, INT, Value=0.
+                     V[87]: cerrado$main1$TEMPVAR87, STRING, Value=SOKTOSOK.
+                     V[88]: cerrado$main1$TEMPVAR88, STRING, Value=socketTradeRoute.
+                     V[89]: cerrado$main1$AVImpItem, INT, Value=0.
+                     V[90]: cerrado$main1$TEMPVAR90, STRING, Value=SOKTOALL.
+                     V[91]: cerrado$main1$TEMPVAR91, STRING, Value=MainItems.
+                     V[92]: cerrado$main1$AVSilverSockets, INT, Value=0.
+                     V[93]: cerrado$main1$TEMPVAR93, STRING, Value=SILTOSOCK.
+                     V[94]: cerrado$main1$TEMPVAR94, STRING, Value=MainItems.
+                     V[95]: cerrado$main1$AVRiver, INT, Value=0.
+                     V[96]: cerrado$main1$TEMPVAR96, STRING, Value=SSWATER.
+                     V[97]: cerrado$main1$TEMPVAR97, STRING, Value=River.
+                     V[98]: cerrado$main1$AVWater8, INT, Value=0.
+                     V[99]: cerrado$main1$TEMPVAR99, STRING, Value=SWATER.
+                     V[100]: cerrado$main1$TEMPVAR100, STRING, Value=Land.
+                     V[101]: cerrado$main1$AVWater16, INT, Value=0.
+                     V[102]: cerrado$main1$TEMPVAR102, STRING, Value=MWATER.
+                     V[103]: cerrado$main1$TEMPVAR103, STRING, Value=Land.
+                     V[104]: cerrado$main1$AVWater20, INT, Value=0.
+                     V[105]: cerrado$main1$TEMPVAR105, STRING, Value=LWATER.
+                     V[106]: cerrado$main1$TEMPVAR106, STRING, Value=Land.
+                     V[107]: cerrado$main1$Cliff, INT, Value=0.
+                     V[108]: cerrado$main1$TEMPVAR108, STRING, Value=CLIFFTOCLIFF.
+                     V[109]: cerrado$main1$ANativ, INT, Value=0.
+                     V[110]: cerrado$main1$TEMPVAR110, STRING, Value=NATONA.
+                     V[111]: cerrado$main1$TEMPVAR111, STRING, Value=Nativ.
+                     V[112]: cerrado$main1$FLLAND, INT, Value=0.
+                     V[113]: cerrado$main1$TEMPVAR113, STRING, Value=FlLand.
+                     V[114]: cerrado$main1$TEMPVAR114, STRING, Value=land.
+                     V[115]: cerrado$main1$FLVSFL, INT, Value=0.
+                     V[116]: cerrado$main1$TEMPVAR116, STRING, Value=FlToFl.
+                     V[117]: cerrado$main1$TEMPVAR117, STRING, Value=HomeCityWaterSpawnFlag.
+                     V[118]: cerrado$main1$TEMPVAR118, STRING, Value=.
+                     V[119]: cerrado$main1$subCiv00, INT, Value=0.
+                     V[120]: cerrado$main1$TEMPVAR120, STRING, Value=Caribs.
+                     V[121]: cerrado$main1$TEMPVAR121, STRING, Value=Caribs.
+                     V[122]: cerrado$main1$subCiv01, INT, Value=0.
+                     V[123]: cerrado$main1$TEMPVAR123, STRING, Value=Caribs.
+                     V[124]: cerrado$main1$TEMPVAR124, STRING, Value=Caribs.
+                     V[125]: cerrado$main1$subCiv02, INT, Value=0.
+                     V[126]: cerrado$main1$TEMPVAR126, STRING, Value=Tupi.
+                     V[127]: cerrado$main1$TEMPVAR127, STRING, Value=Tupi.
+                     V[128]: cerrado$main1$subCiv03, INT, Value=0.
+                     V[129]: cerrado$main1$TEMPVAR129, STRING, Value=Tupi.
+                     V[130]: cerrado$main1$TEMPVAR130, STRING, Value=Tupi.
+                     V[131]: cerrado$main1$TEMPVAR131, STRING, Value=.
+                     V[132]: cerrado$main1$AreaSizePlayer, FLOAT, Value=0.000000.
+                     V[133]: cerrado$main1$i, INT, Value=0.
+                     V[134]: cerrado$main1$id, INT, Value=0.
+                     V[135]: cerrado$main1$TEMPVAR135, STRING, Value=Player.
+                     V[136]: cerrado$main1$TEMPVAR136, STRING, Value=.
+                     V[137]: cerrado$main1$I, INT, Value=0.
+                     V[138]: cerrado$main1$AREAL1, INT, Value=0.
+                     V[139]: cerrado$main1$TEMPVAR139, STRING, Value=Spezial1.
+                     V[140]: cerrado$main1$A, FLOAT, Value=0.000000.
+                     V[141]: cerrado$main1$B, FLOAT, Value=0.000000.
+                     V[142]: cerrado$main1$TEMPVAR142, STRING, Value=new_england\ground2_ne.
+                     V[143]: cerrado$main1$TEMPVAR143, STRING, Value=new_england\ground3_ne.
+                     V[144]: cerrado$main1$AREAL2, INT, Value=0.
+                     V[145]: cerrado$main1$TEMPVAR145, STRING, Value=Spezial2.
+                     V[146]: cerrado$main1$TEMPVAR146, STRING, Value=new_england\ground3_ne.
+                     V[147]: cerrado$main1$TEMPVAR147, STRING, Value=new_england\ground4_ne.
+                     V[148]: cerrado$main1$AREAL3, INT, Value=0.
+                     V[149]: cerrado$main1$TEMPVAR149, STRING, Value=Spezial3.
+                     V[150]: cerrado$main1$TEMPVAR150, STRING, Value=new_england\ground4_ne.
+                     V[151]: cerrado$main1$TEMPVAR151, STRING, Value=new_england\ground1_ne.
+                     V[152]: cerrado$main1$smalllakeID, INT, Value=0.
+                     V[153]: cerrado$main1$TEMPVAR153, STRING, Value=SmallLakes.
+                     V[154]: cerrado$main1$TEMPVAR154, STRING, Value=Great Lakes.
+                     V[155]: cerrado$main1$X, FLOAT, Value=0.000000.
+                     V[156]: cerrado$main1$Z, FLOAT, Value=0.000000.
+                     V[157]: cerrado$main1$TEMPVAR157, STRING, Value=.
+                     V[158]: cerrado$main1$Fisch1, INT, Value=0.
+                     V[159]: cerrado$main1$TEMPVAR159, STRING, Value=Fisch1.
+                     V[160]: cerrado$main1$TEMPVAR160, STRING, Value=FishSalmon.
+                     V[161]: cerrado$main1$Fisch2, INT, Value=0.
+                     V[162]: cerrado$main1$TEMPVAR162, STRING, Value=Fisch2.
+                     V[163]: cerrado$main1$TEMPVAR163, STRING, Value=FishSalmon.
+                     V[164]: cerrado$main1$CliffID, INT, Value=0.
+                     V[165]: cerrado$main1$TEMPVAR165, STRING, Value=Cliff.
+                     V[166]: cerrado$main1$TEMPVAR166, STRING, Value=Amazon.
+                     V[167]: cerrado$main1$XX, FLOAT, Value=0.000000.
+                     V[168]: cerrado$main1$ZZ, FLOAT, Value=0.000000.
+                     V[169]: cerrado$main1$TCID, INT, Value=0.
+                     V[170]: cerrado$main1$TEMPVAR170, STRING, Value=player TC.
+                     V[171]: cerrado$main1$TEMPVAR171, STRING, Value=townCenter.
+                     V[172]: cerrado$main1$ExplorerUnits, INT, Value=0.
+                     V[173]: cerrado$main1$playerBerryID, INT, Value=0.
+                     V[174]: cerrado$main1$TEMPVAR174, STRING, Value=player berries.
+                     V[175]: cerrado$main1$TEMPVAR175, STRING, Value=berryBush.
+                     V[176]: cerrado$main1$playerTreeID, INT, Value=0.
+                     V[177]: cerrado$main1$TEMPVAR177, STRING, Value=player trees.
+                     V[178]: cerrado$main1$TEMPVAR178, STRING, Value=TreeSonora.
+                     V[179]: cerrado$main1$wild1ID, INT, Value=0.
+                     V[180]: cerrado$main1$TEMPVAR180, STRING, Value=Rheas.
+                     V[181]: cerrado$main1$TEMPVAR181, STRING, Value=Rhea.
+                     V[182]: cerrado$main1$playerSilverID, INT, Value=0.
+                     V[183]: cerrado$main1$TEMPVAR183, STRING, Value=player silver.
+                     V[184]: cerrado$main1$TEMPVAR184, STRING, Value=mine.
+                     V[185]: cerrado$main1$TEMPVAR185, STRING, Value=.
+                     V[186]: cerrado$main1$TCLocation, VECTOR, Value=(0.000000, 0.000000, 0.000000).
+                     V[187]: cerrado$main1$closestPoint, VECTOR, Value=(0.000000, 0.000000, 0.000000).
+                     V[188]: cerrado$main1$x, INT, Value=0.
+                     V[189]: cerrado$main1$ExtraUnit1ID, INT, Value=0.
+                     V[190]: cerrado$main1$TEMPVAR190, STRING, Value=Extra1.
+                     V[191]: cerrado$main1$TEMPVAR191, STRING, Value=Surgeon.
+                     V[192]: cerrado$main1$TEMPVAR192, STRING, Value=.
+                     V[193]: cerrado$main1$VillageID1, INT, Value=0.
+                     V[194]: cerrado$main1$TEMPVAR194, STRING, Value=Caribs village1.
+                     V[195]: cerrado$main1$TEMPVAR195, STRING, Value=native Caribs village 4.
+                     V[196]: cerrado$main1$TEMPVAR196, STRING, Value=MainItems.
+                     V[197]: cerrado$main1$TEMPVAR197, STRING, Value=Nativ.
+                     V[198]: cerrado$main1$VillageID2, INT, Value=0.
+                     V[199]: cerrado$main1$TEMPVAR199, STRING, Value=Caribs village2.
+                     V[200]: cerrado$main1$TEMPVAR200, STRING, Value=native Caribs village 1.
+                     V[201]: cerrado$main1$TEMPVAR201, STRING, Value=MainItems.
+                     V[202]: cerrado$main1$TEMPVAR202, STRING, Value=Nativ.
+                     V[203]: cerrado$main1$VillageID3, INT, Value=0.
+                     V[204]: cerrado$main1$TEMPVAR204, STRING, Value=Tupi village3.
+                     V[205]: cerrado$main1$TEMPVAR205, STRING, Value=native Tupi village 2.
+                     V[206]: cerrado$main1$TEMPVAR206, STRING, Value=MainItems.
+                     V[207]: cerrado$main1$TEMPVAR207, STRING, Value=Nativ.
+                     V[208]: cerrado$main1$VillageID4, INT, Value=0.
+                     V[209]: cerrado$main1$TEMPVAR209, STRING, Value=Tupi village4.
+                     V[210]: cerrado$main1$TEMPVAR210, STRING, Value=native Tupi village 3.
+                     V[211]: cerrado$main1$TEMPVAR211, STRING, Value=MainItems.
+                     V[212]: cerrado$main1$TEMPVAR212, STRING, Value=Nativ.
+                     V[213]: cerrado$main1$TEMPVAR213, STRING, Value=.
+                     V[214]: cerrado$main1$silverID, INT, Value=0.
+                     V[215]: cerrado$main1$silverCount, INT, Value=0.
+                     V[216]: cerrado$main1$TEMPVAR216, STRING, Value=silver .
+                     V[217]: cerrado$main1$TEMPVAR217, STRING, Value=mine.
+                     V[218]: cerrado$main1$GoldID, INT, Value=0.
+                     V[219]: cerrado$main1$GoldCount, INT, Value=0.
+                     V[220]: cerrado$main1$TEMPVAR220, STRING, Value=Gold .
+                     V[221]: cerrado$main1$TEMPVAR221, STRING, Value=mineGold.
+                     V[222]: cerrado$main1$SchatzID, INT, Value=0.
+                     V[223]: cerrado$main1$SchatzCount, INT, Value=0.
+                     V[224]: cerrado$main1$TEMPVAR224, STRING, Value=Schatz .
+                     V[225]: cerrado$main1$TEMPVAR225, STRING, Value=nugget.
+                     V[226]: cerrado$main1$WildAID, INT, Value=0.
+                     V[227]: cerrado$main1$TEMPVAR227, STRING, Value=turkey-1.
+                     V[228]: cerrado$main1$TEMPVAR228, STRING, Value=turkey.
+                     V[229]: cerrado$main1$WildBID, INT, Value=0.
+                     V[230]: cerrado$main1$TEMPVAR230, STRING, Value=llama-2.
+                     V[231]: cerrado$main1$TEMPVAR231, STRING, Value=llama.
+                     V[232]: cerrado$main1$WildCID, INT, Value=0.
+                     V[233]: cerrado$main1$TEMPVAR233, STRING, Value=elk-3.
+                     V[234]: cerrado$main1$TEMPVAR234, STRING, Value=elk.
+                     V[235]: cerrado$main1$WildDID, INT, Value=0.
+                     V[236]: cerrado$main1$TEMPVAR236, STRING, Value=turkey-4.
+                     V[237]: cerrado$main1$TEMPVAR237, STRING, Value=turkey.
+                     V[238]: cerrado$main1$forestTreeID, INT, Value=0.
+                     V[239]: cerrado$main1$numTries, INT, Value=0.
+                     V[240]: cerrado$main1$failCount, INT, Value=0.
+                     V[241]: cerrado$main1$forest, INT, Value=0.
+                     V[242]: cerrado$main1$TEMPVAR242, STRING, Value=forest .
+                     V[243]: cerrado$main1$TEMPVAR243, STRING, Value=Sonora Forest.
+                     V[244]: cerrado$main1$TEMPVAR244, STRING, Value=MainForest.
+
+0 Function Overloads:
+
+0 User Rule Groups:
+
+0 User Rules:
+
+317 Syscalls:
+  void           xsDisableRule( string= ) ID=0.
+  void           xsDisableSelf() ID=1.
+  void           xsEnableRule( string= ) ID=2.
+  bool           xsIsRuleEnabled( string= ) ID=3.
+  void           xsSetRulePriority( string=, int=0 ) ID=4.
+  void           xsSetRulePrioritySelf( int=0 ) ID=5.
+  void           xsSetRuleMinInterval( string=, int=0 ) ID=6.
+  void           xsSetRuleMinIntervalSelf( int=0 ) ID=7.
+  void           xsSetRuleMaxInterval( string=, int=0 ) ID=8.
+  void           xsSetRuleMaxIntervalSelf( int=0 ) ID=9.
+  void           xsEnableRuleGroup( string= ) ID=10.
+  void           xsDisableRuleGroup( string= ) ID=11.
+  void           xsIsRuleGroupEnabled( string= ) ID=12.
+  float          xsVectorGetX(  vector=(0.000000, 0.000000, 0.000000) ) ID=13.
+  float          xsVectorGetY(  vector=(0.000000, 0.000000, 0.000000) ) ID=14.
+  float          xsVectorGetZ(  vector=(0.000000, 0.000000, 0.000000) ) ID=15.
+  vector         xsVectorSetX(  vector=(0.000000, 0.000000, 0.000000), float=0.000000 ) ID=16.
+  vector         xsVectorSetY(  vector=(0.000000, 0.000000, 0.000000), float=0.000000 ) ID=17.
+  vector         xsVectorSetZ(  vector=(0.000000, 0.000000, 0.000000), float=0.000000 ) ID=18.
+  vector         xsVectorSet( float=0.000000, float=0.000000, float=0.000000 ) ID=19.
+  float          xsVectorLength(  vector=(0.000000, 0.000000, 0.000000) ) ID=20.
+  vector         xsVectorNormalize(  vector=(0.000000, 0.000000, 0.000000) ) ID=21.
+  int            xsArrayCreateInt( int=-1, int=0, string= ) ID=22.
+  bool           xsArraySetInt( int=-1, int=-1, int=-1 ) ID=23.
+  int            xsArrayGetInt( int=-1, int=-1 ) ID=24.
+  int            xsArrayCreateFloat( int=-1, float=0.000000, string= ) ID=25.
+  bool           xsArraySetFloat( int=-1, int=-1, float=-1.000000 ) ID=26.
+  float          xsArrayGetFloat( int=-1, int=-1 ) ID=27.
+  int            xsArrayCreateBool( int=-1, bool=0, string= ) ID=28.
+  bool           xsArraySetBool( int=-1, int=-1, bool=0 ) ID=29.
+  bool           xsArrayGetBool( int=-1, int=-1 ) ID=30.
+  int            xsArrayCreateString( int=-1, string=<default string>, string= ) ID=31.
+  bool           xsArraySetString( int=-1, int=-1, string=<default string> ) ID=32.
+  string         xsArrayGetString( int=-1, int=-1 ) ID=33.
+  int            xsArrayCreateVector( int=-1,  vector=(-1.000000, -1.000000, -1.000000), string= ) ID=34.
+  bool           xsArraySetVector( int=-1, int=-1,  vector=(-1.000000, -1.000000, -1.000000) ) ID=35.
+  vector         xsArrayGetVector( int=-1, int=-1 ) ID=36.
+  int            xsArrayGetSize( int=-1 ) ID=37.
+  void           xsDumpArrays() ID=38.
+  int            xsGetContextPlayer() ID=39.
+  void           xsSetContextPlayer( int=-1 ) ID=40.
+  int            xsGetTime() ID=41.
+  bool           xsAddRuntimeEvent( string=, string=, int=-1 ) ID=42.
+  int            xsGetFunctionID( string= ) ID=43.
+  void           rmEchoWarning( string=None ) ID=44.
+  void           rmEchoError( string=None ) ID=45.
+  void           rmEchoInfo( string=None ) ID=46.
+  float          rmRandFloat( float=0.000000, float=1.000000 ) ID=47.
+  int            rmRandInt( int=0, int=1 ) ID=48.
+  bool           rmGetNomadStart() ID=49.
+  bool           rmGetIsFFA() ID=50.
+  bool           rmSetMapSize( float=-1.000000, float=-1.000000 ) ID=51.
+  int            rmGetMapXSize() ID=52.
+  int            rmGetMapZSize() ID=53.
+  void           rmSetSeaLevel( float=0.000000 ) ID=54.
+  float          rmGetSeaLevel() ID=55.
+  bool           rmSetSeaType( string= ) ID=56.
+  bool           rmSetMapElevationParameters( int=0, float=0.100000, int=4, float=0.100000, float=6.000000 ) ID=57.
+  bool           rmSetBaseTerrainMix( string= ) ID=58.
+  bool           rmAddMapTerrainByHeightInfo( string=, float=0.000000, float=0.000000, float=0.000000 ) ID=59.
+  bool           rmAddMapTerrainByAngleInfo( string=, float=0.000000, float=0.000000, float=0.000000 ) ID=60.
+  bool           rmSetMapElevationHeightBlend( int=0 ) ID=61.
+  bool           rmPlaceMapClusters( string=, string= ) ID=62.
+  bool           rmSetMapClusteringPlacementParams( float=0.400000, float=0.400000, float=1.000000, int=0 ) ID=63.
+  bool           rmSetMapClusteringObjectParams( int=0, int=3, float=0.500000 ) ID=64.
+  bool           rmSetMapClusteringNoiseParams( float=0.200000, int=4, float=0.150000 ) ID=65.
+  int            rmAreaFractionToTiles( float=0.000000 ) ID=66.
+  float          rmAreaTilesToFraction( int=0 ) ID=67.
+  int            rmXFractionToTiles( float=0.000000 ) ID=68.
+  float          rmXTilesToFraction( int=0 ) ID=69.
+  int            rmZFractionToTiles( float=0.000000 ) ID=70.
+  float          rmZTilesToFraction( int=0 ) ID=71.
+  float          rmDegreesToRadians( float=0.000000 ) ID=72.
+  int            rmMetersToTiles( float=0.000000 ) ID=73.
+  float          rmTilesToMeters( int=0 ) ID=74.
+  float          rmXMetersToFraction( float=0.000000 ) ID=75.
+  float          rmZMetersToFraction( float=0.000000 ) ID=76.
+  float          rmXFractionToMeters( float=0.000000 ) ID=77.
+  float          rmZFractionToMeters( float=0.000000 ) ID=78.
+  int            rmCreateArea( string=, int=-1 ) ID=79.
+  bool           rmSetAreaSize( int=-1, float=0.000000, float=0.000000 ) ID=80.
+  bool           rmSetAreaEdgeFilling( int=-1, int=0 ) ID=81.
+  bool           rmSetAreaLocation( int=-1, float=0.000000, float=0.000000 ) ID=82.
+  bool           rmSetAreaLocPlayer( int=-1, int=-1 ) ID=83.
+  bool           rmSetAreaLocTeam( int=-1, int=-1 ) ID=84.
+  bool           rmBuildArea( int=-1 ) ID=85.
+  int            rmBuildAllAreas() ID=86.
+  bool           rmSetAreaTerrainType( int=-1, string= ) ID=87.
+  bool           rmSetAreaMix( int=-1, string= ) ID=88.
+  bool           rmPaintAreaTerrain( int=-1 ) ID=89.
+  bool           rmPaintAreaTerrainByHeight( int=-1, string=, float=0.000000, float=0.000000, float=0.000000 ) ID=90.
+  bool           rmPaintAreaTerrainByAngle( int=-1, string=, float=0.000000, float=0.000000, float=0.000000 ) ID=91.
+  bool           rmSetAreaBaseHeight( int=-1, float=0.000000 ) ID=92.
+  bool           rmSetAreaWarnFailure( int=-1, bool=1 ) ID=93.
+  bool           rmSetAreaForestType( int=-1, string= ) ID=94.
+  bool           rmSetAreaForestDensity( int=-1, float=1.000000 ) ID=95.
+  bool           rmSetAreaForestClumpiness( int=-1, float=0.500000 ) ID=96.
+  bool           rmSetAreaForestUnderbrush( int=-1, float=0.500000 ) ID=97.
+  bool           rmSetAreaWaterType( int=-1, string= ) ID=98.
+  vector         rmGetAreaClosestPoint( int=-1,  vector=(-1.000000, -1.000000, -1.000000), float=3.000000, int=-1 ) ID=99.
+  bool           rmSetAreaCliffType( int=-1, string= ) ID=100.
+  bool           rmSetAreaCliffPainting( int=-1, bool=1, bool=1, bool=1, float=1.500000, bool=1 ) ID=101.
+  bool           rmSetAreaCliffEdge( int=-1, int=1, float=0.500000, float=0.000000, float=1.000000, int=0 ) ID=102.
+  bool           rmSetAreaCliffHeight( int=-1, float=4.000000, float=0.000000, float=0.500000 ) ID=103.
+  bool           rmAddAreaCliffEdgeAvoidClass( int=-1, int=-1, float=0.000000 ) ID=104.
+  int            rmRiverCreate( int=-1, string=, int=5, int=15, int=5, int=10 ) ID=105.
+  bool           rmRiverSetConnections( int=-1, float=0.000000, float=0.000000, float=0.000000, float=0.000000 ) ID=106.
+  bool           rmRiverConnectRiver( int=-1, int=-1, float=0.000000, float=0.000000, float=0.000000 ) ID=107.
+  bool           rmRiverAddWaypoint( int=-1, float=0.000000, float=0.000000 ) ID=108.
+  bool           rmRiverSetBankNoiseParams( int=-1, float=0.050000, int=5, float=0.500000, float=10.000000, float=0.667000, float=0.000000 ) ID=109.
+  bool           rmRiverSetShallowRadius( int=-1, int=3 ) ID=110.
+  bool           rmRiverAddShallow( int=-1, float=0.000000 ) ID=111.
+  bool           rmRiverAddShallows( int=-1, int=-1, int=3 ) ID=112.
+  bool           rmRiverAvoid( int=-1, int=-1, float=0.000000 ) ID=113.
+  bool           rmRiverBuild( int=-1 ) ID=114.
+  bool           rmRiverReveal( int=-1, int=0 ) ID=115.
+  bool           rmSetRiverFoundationParams( int=8, float=0.500000 ) ID=116.
+  bool           rmSetWorldCircleConstraint( bool=0 ) ID=117.
+  bool           rmSetAreaObeyWorldCircleConstraint( int=-1, bool=1 ) ID=118.
+  bool           rmAddAreaTerrainLayer( int=-1, string=, float=0.000000, float=0.000000 ) ID=119.
+  bool           rmSetAreaTerrainLayerVariance( int=-1, bool=1 ) ID=120.
+  bool           rmSetAreaMinBlobs( int=-1, int=0 ) ID=121.
+  bool           rmSetAreaMaxBlobs( int=-1, int=0 ) ID=122.
+  bool           rmSetAreaMinBlobDistance( int=-1, float=0.000000 ) ID=123.
+  bool           rmSetAreaMaxBlobDistance( int=-1, float=0.000000 ) ID=124.
+  bool           rmSetAreaCoherence( int=-1, float=0.000000 ) ID=125.
+  bool           rmSetAreaSmoothDistance( int=-1, int=0 ) ID=126.
+  bool           rmSetAreaHeightBlend( int=-1, int=1 ) ID=127.
+  int            rmAreaID( string= ) ID=128.
+  bool           rmAddAreaInfluencePoint( int=-1, float=0.000000, float=0.000000 ) ID=129.
+  bool           rmAddAreaInfluenceSegment( int=-1, float=0.000000, float=0.000000, float=0.000000, float=0.000000 ) ID=130.
+  bool           rmAddAreaRemoveType( int=-1, string= ) ID=131.
+  bool           rmAddAreaTerrainReplacement( int=-1, string=, string= ) ID=132.
+  bool           rmSetAreaElevationType( int=-1, int=0 ) ID=133.
+  bool           rmSetAreaElevationMinFrequency( int=-1, float=0.100000 ) ID=134.
+  bool           rmSetAreaElevationOctaves( int=-1, int=4 ) ID=135.
+  bool           rmSetAreaElevationPersistence( int=-1, float=0.100000 ) ID=136.
+  bool           rmSetAreaElevationVariation( int=-1, float=6.000000 ) ID=137.
+  bool           rmSetAreaElevationEdgeFalloffDist( int=-1, float=0.000000 ) ID=138.
+  bool           rmSetAreaElevationNoiseBias( int=-1, float=6.000000 ) ID=139.
+  bool           rmSetAreaReveal( int=-1, int=-1 ) ID=140.
+  void           rmSetGlobalSnow( float=-1.000000 ) ID=141.
+  void           rmSetGlobalRain( float=-1.000000 ) ID=142.
+  void           rmSetGlobalStormLength( int=20, int=60 ) ID=143.
+  void           rmSetWindMagnitude( float=1.000000 ) ID=144.
+  void           rmTerrainInitialize( string=, float=10.000000 ) ID=145.
+  void           rmFillMapCorners() ID=146.
+  void           rmSetLightingSet( string= ) ID=147.
+  void           rmDoLightingFade( string=None, float=0.000000 ) ID=148.
+  void           rmDoLightingEffect( string=None, float=0.000000, float=0.000000, float=0.000000 ) ID=149.
+  void           rmSetGaiaCiv( int=0 ) ID=150.
+  bool           rmAllocateSubCivs( int=0 ) ID=151.
+  bool           rmSetSubCiv( int=0, string=, bool=0 ) ID=152.
+  int            rmGetCivID( string= ) ID=153.
+  int            rmAddMerc( string=, float=0.000000, float=0.000000, float=30.000000, float=2.000000, bool=1 ) ID=154.
+  bool           rmSetPlayerLocation( int=-1, float=0.000000, float=0.000000 ) ID=155.
+  void           rmSetPlayerPlacementArea( float=0.000000, float=0.000000, float=1.000000, float=1.000000 ) ID=156.
+  void           rmSetTeamSpacingModifier( float=1.000000 ) ID=157.
+  void           rmSetPlacementTeam( int=-1 ) ID=158.
+  void           rmSetPlacementSection( float=0.000000, float=1.000000 ) ID=159.
+  bool           rmPlacePlayersCircular( float=0.000000, float=0.000000, float=0.000000 ) ID=160.
+  bool           rmPlacePlayersSquare( float=0.000000, float=0.000000, float=0.000000 ) ID=161.
+  bool           rmPlacePlayersLine( float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.000000 ) ID=162.
+  bool           rmPlacePlayersRiver( int=-1, float=0.000000, float=0.000000, float=0.000000 ) ID=163.
+  bool           rmPlacePlayer( int=0, float=0.000000, float=0.000000 ) ID=164.
+  bool           rmSetPlayerArea( int=-1, int=-1 ) ID=165.
+  float          rmPlayerLocXFraction( int=-1 ) ID=166.
+  float          rmPlayerLocZFraction( int=-1 ) ID=167.
+  int            rmAddFairLoc( string=, bool=1, bool=1, float=0.000000, float=0.000000, float=0.000000, float=0.000000, bool=0, bool=0 ) ID=168.
+  bool           rmPlaceFairLocs( int=-1 ) ID=169.
+  void           rmResetFairLocs() ID=170.
+  int            rmGetNumberFairLocs( int=-1 ) ID=171.
+  float          rmFairLocXFraction( int=-1, int=-1 ) ID=172.
+  float          rmFairLocZFraction( int=-1, int=-1 ) ID=173.
+  bool           rmSetPlayerResource( int=-1, string=, float=0.000000 ) ID=174.
+  bool           rmAddPlayerResource( int=-1, string=, float=0.000000 ) ID=175.
+  bool           rmMultiplyPlayerResource( int=-1, string=, float=0.000000 ) ID=176.
+  string         rmGetPlayerName( int=-1 ) ID=177.
+  int            rmGetPlayerTeam( int=-1 ) ID=178.
+  int            rmGetPlayerCiv( int=-1 ) ID=179.
+  int            rmGetPlayerCulture( int=-1 ) ID=180.
+  int            rmGetNumberPlayersOnTeam( int=-1 ) ID=181.
+  bool           rmSetTeamArea( int=-1, int=-1 ) ID=182.
+  int            rmCreateBoxConstraint( string=, float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.100000 ) ID=183.
+  int            rmCreatePieConstraint( string=, float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.000000, float=0.100000 ) ID=184.
+  int            rmCreateAreaOverlapConstraint( string=, int=-1 ) ID=185.
+  int            rmCreateAreaConstraint( string=, int=-1 ) ID=186.
+  int            rmCreateAreaDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=187.
+  int            rmCreateAreaMaxDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=188.
+  int            rmCreateEdgeConstraint( string=, int=-1 ) ID=189.
+  int            rmCreateEdgeDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=190.
+  int            rmCreateEdgeMaxDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=191.
+  int            rmCreateCliffEdgeConstraint( string=, int=-1 ) ID=192.
+  int            rmCreateCliffEdgeDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=193.
+  int            rmCreateCliffEdgeMaxDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=194.
+  int            rmCreateCliffRampConstraint( string=, int=-1 ) ID=195.
+  int            rmCreateCliffRampDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=196.
+  int            rmCreateCliffRampMaxDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=197.
+  int            rmCreateClassDistanceConstraint( string=, int=-1, float=-1.000000 ) ID=198.
+  int            rmCreateTypeDistanceConstraint( string=, string=, float=-1.000000 ) ID=199.
+  int            rmCreateTerrainDistanceConstraint( string=, string=, bool=0, float=-1.000000 ) ID=200.
+  int            rmCreateTerrainMaxDistanceConstraint( string=, string=, bool=0, float=-1.000000 ) ID=201.
+  int            rmCreateCornerConstraint( string=, int=-1, bool=1 ) ID=202.
+  int            rmCreateTradeRouteDistanceConstraint( string=, float=0.000000 ) ID=203.
+  bool           rmAddAreaConstraint( int=-1, int=-1 ) ID=204.
+  bool           rmCreateHCGPConstraint( string=, float=0.000000 ) ID=205.
+  bool           rmCreateHCGPSelfConstraint( string=, int=-1, float=0.000000 ) ID=206.
+  bool           rmCreateHCGPAllyConstraint( string=, int=-1, float=0.000000 ) ID=207.
+  bool           rmCreateHCGPEnemyConstraint( string=, int=-1, float=0.000000 ) ID=208.
+  int            rmCreateMaxHeightConstraint( string=, float=0.000000 ) ID=209.
+  bool           rmAddFairLocConstraint( int=-1, int=-1 ) ID=210.
+  bool           rmAddObjectDefConstraint( int=-1, int=-1 ) ID=211.
+  int            rmDefineClass( string= ) ID=212.
+  bool           rmAddAreaToClass( int=-1, int=-1 ) ID=213.
+  bool           rmAddObjectDefToClass( int=-1, int=-1 ) ID=214.
+  int            rmClassID( string= ) ID=215.
+  int            rmConstraintID( string= ) ID=216.
+  int            rmCreateObjectDef( string= ) ID=217.
+  int            rmCreateStartingUnitsObjectDef( float=3.000000 ) ID=218.
+  bool           rmSetObjectDefMinDistance( int=-1, float=0.000000 ) ID=219.
+  bool           rmSetObjectDefMaxDistance( int=-1, float=0.000000 ) ID=220.
+  bool           rmSetObjectDefGarrisonSecondaryUnits( int=-1, bool=1 ) ID=221.
+  bool           rmSetObjectDefGarrisonStartingUnits( int=-1, bool=1 ) ID=222.
+  bool           rmSetObjectDefCreateHerd( int=-1, bool=1 ) ID=223.
+  bool           rmSetObjectDefHerdAngle( int=-1, float=45.000000 ) ID=224.
+  bool           rmSetObjectDefAllowOverlap( int=-1, bool=1 ) ID=225.
+  bool           rmSetObjectDefForceFullRotation( int=-1, bool=1 ) ID=226.
+  bool           rmAddObjectDefItem( int=-1, string=, int=0, float=0.000000 ) ID=227.
+  bool           rmAddObjectDefItemByTypeID( int=-1, int=-1, int=0, float=0.000000 ) ID=228.
+  int            rmPlaceObjectDefAtLoc( int=-1, int=-1, float=0.000000, float=0.000000, int=1 ) ID=229.
+  int            rmPlaceObjectDefAtPoint( int=-1, int=-1,  vector=(-1.000000, -1.000000, -1.000000), int=1 ) ID=230.
+  int            rmSetObjectDefTradeRouteID( int=-1, int=-1 ) ID=231.
+  int            rmPlaceObjectDefPerPlayer( int=-1, bool=1, int=1 ) ID=232.
+  int            rmPlaceObjectDefAtAreaLoc( int=-1, int=-1, int=-1, int=1 ) ID=233.
+  int            rmPlaceObjectDefInArea( int=-1, int=-1, int=-1, int=1 ) ID=234.
+  int            rmPlaceObjectDefAtRandomAreaOfClass( int=-1, int=-1, int=-1, int=1 ) ID=235.
+  int            rmPlaceObjectDefInRandomAreaOfClass( int=-1, int=-1, int=-1, int=1 ) ID=236.
+  int            rmCreateConnection( string= ) ID=237.
+  int            rmSetConnectionType( int=-1, int=0, bool=1, float=1.000000 ) ID=238.
+  bool           rmAddConnectionArea( int=-1, int=-1 ) ID=239.
+  bool           rmSetConnectionPositionVariance( int=-1, float=0.000000 ) ID=240.
+  bool           rmSetConnectionWidth( int=-1, float=0.000000, float=0.000000 ) ID=241.
+  bool           rmSetConnectionBaseHeight( int=-1, float=0.000000 ) ID=242.
+  bool           rmSetConnectionCoherence( int=-1, float=0.000000 ) ID=243.
+  bool           rmSetConnectionWarnFailure( int=-1, bool=0 ) ID=244.
+  bool           rmSetConnectionHeightBlend( int=-1, int=0 ) ID=245.
+  bool           rmSetConnectionSmoothDistance( int=-1, int=0 ) ID=246.
+  bool           rmAddConnectionTerrainReplacement( int=-1, string=, string= ) ID=247.
+  bool           rmSetConnectionTerrainCost( int=-1, string=, float=1.000000 ) ID=248.
+  bool           rmSetConnectionBaseTerrainCost( int=-1, float=1.000000 ) ID=249.
+  bool           rmBuildConnection( int=-1 ) ID=250.
+  bool           rmAddConnectionToClass( int=-1, int=-1 ) ID=251.
+  bool           rmAddConnectionConstraint( int=-1, int=-1 ) ID=252.
+  bool           rmAddConnectionStartConstraint( int=-1, int=-1 ) ID=253.
+  bool           rmAddConnectionEndConstraint( int=-1, int=-1 ) ID=254.
+  void           rmSetStatusText( string=, float=0.000000 ) ID=255.
+  float          sqrt( float=0.000000 ) ID=256.
+  void           rmSetVPFile( string= ) ID=257.
+  int            rmCreateTrigger( string= ) ID=258.
+  bool           rmSwitchToTrigger( int=-1 ) ID=259.
+  int            rmTriggerID( string= ) ID=260.
+  int            rmSetTriggerPriority( int=2 ) ID=261.
+  int            rmSetTriggerActive( bool=1 ) ID=262.
+  int            rmSetTriggerRunImmediately( bool=0 ) ID=263.
+  int            rmSetTriggerLoop( bool=0 ) ID=264.
+  int            rmAddTriggerCondition( string= ) ID=265.
+  bool           rmSetTriggerConditionParam( string=, string=, bool=0 ) ID=266.
+  bool           rmSetTriggerConditionParamInt( string=, int=0, bool=0 ) ID=267.
+  bool           rmSetTriggerConditionParamFloat( string=, float=0.000000, bool=0 ) ID=268.
+  bool           rmSetTriggerConditionParamArmy( string=, int=-1, int=-1, bool=0 ) ID=269.
+  bool           rmAddTriggerEffect( string= ) ID=270.
+  int            rmSetTriggerEffectParam( string=, string=, bool=0 ) ID=271.
+  bool           rmSetTriggerEffectParamInt( string=, int=0, bool=0 ) ID=272.
+  bool           rmSetTriggerEffectParamFloat( string=, float=0.000000, bool=0 ) ID=273.
+  bool           rmSetTriggerEffectParamArmy( string=, int=-1, int=-1, bool=0 ) ID=274.
+  int            rmCreateArmy( int=-1, string= ) ID=275.
+  bool           rmAddUnitsToArmy( int=-1, int=-1, int=-1 ) ID=276.
+  int            rmGetNumberUnitsPlaced( int=-1 ) ID=277.
+  int            rmGetUnitPlaced( int=-1, int=-1 ) ID=278.
+  int            rmGetUnitPlacedOfPlayer( int=-1, int=-1 ) ID=279.
+  bool           rmDefineConstant( string=, int=-1 ) ID=280.
+  void           rmSetIgnoreForceToGaia( bool=0 ) ID=281.
+  int            rmCreateGrouping( string=, string= ) ID=282.
+  bool           rmAddGroupingConstraint( int=-1, int=-1 ) ID=283.
+  int            rmPlaceGroupingAtLoc( int=-1, int=-1, float=0.000000, float=0.000000, int=1 ) ID=284.
+  int            rmPlaceGroupingAtPoint( int=-1, int=-1,  vector=(-1.000000, -1.000000, -1.000000), int=1 ) ID=285.
+  int            rmPlaceGroupingInArea( int=-1, int=-1, int=-1, int=1 ) ID=286.
+  bool           rmSetGroupingMinDistance( int=-1, float=0.000000 ) ID=287.
+  bool           rmSetGroupingMaxDistance( int=-1, float=0.000000 ) ID=288.
+  bool           rmAddGroupingToClass( int=-1, int=-1 ) ID=289.
+  int            rmCreateTradeRoute() ID=290.
+  bool           rmAddTradeRouteWaypoint( int=-1, float=0.000000, float=0.000000 ) ID=291.
+  bool           rmAddTradeRouteWaypointVector( int=-1,  vector=(0.000000, 0.000000, 0.000000) ) ID=292.
+  bool           rmAddRandomTradeRouteWaypoints( int=-1, float=0.000000, float=0.000000, int=0, float=0.000000 ) ID=293.
+  bool           rmAddRandomTradeRouteWaypointsVector( int=-1,  vector=(0.000000, 0.000000, 0.000000), int=0, float=0.000000 ) ID=294.
+  bool           rmCreateTradeRouteWaypointsInArea( int=-1, int=-1, float=0.000000 ) ID=295.
+  vector         rmGetTradeRouteWayPoint( int=-1, float=0.000000 ) ID=296.
+  bool           rmBuildTradeRoute( int=-1, string= ) ID=297.
+  bool           rmSetHomeCityGatherPoint( int=-1,  vector=(-1.000000, -1.000000, -1.000000) ) ID=298.
+  bool           rmSetHomeCityWaterSpawnPoint( int=-1,  vector=(-1.000000, -1.000000, -1.000000) ) ID=299.
+  int            rmGetLowHomeCityLevel() ID=300.
+  int            rmGetAverageHomeCityLevel() ID=301.
+  int            rmGetHighHomeCityLevel() ID=302.
+  int            rmGetHomeCityLevel( int=-1 ) ID=303.
+  vector         rmGetUnitPosition( int=-1 ) ID=304.
+  void           rmSetMapType( string= ) ID=305.
+  bool           rmIsMapType( string= ) ID=306.
+  void           rmEnableLocalWater( bool=0 ) ID=307.
+  bool           rmAddClosestPointConstraint( int=-1 ) ID=308.
+  void           rmClearClosestPointConstraints() ID=309.
+  vector         rmFindClosestPoint( float=0.000000, float=0.000000, float=0.000000 ) ID=310.
+  vector         rmFindClosestPointVector(  vector=(0.000000, 0.000000, 0.000000), float=0.000000 ) ID=311.
+  int            rmFindCloserArea( float=0.000000, float=0.000000, int=-1, int=-1 ) ID=312.
+  bool           rmAddAreaCliffWaypoint( int=-1, float=0.000000, float=0.000000 ) ID=313.
+  bool           rmAddAreaCliffRandomWaypoints( int=-1, float=0.000000, float=0.000000, int=0, float=0.000000 ) ID=314.
+  void           rmSetNuggetDifficulty( int=0, int=2147483647 ) ID=315.
+  void           rmSetOceanReveal( bool=1 ) ID=316.
+
+0 User Classes:
+
+
+

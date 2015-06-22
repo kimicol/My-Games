@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo detailsText = "Each person starts with a caravel and an explorer.\n
+\n
+  Search land and sea to find treasures with which you build up your mighty empire.\n
+\n
+  Tips: More players there are more treasures there are\n
+\n
+       Fun in FFA" 
+imagepath = "units\naval\fire_ship\fire_ship_sail1" 
+displayName = "LoSt 2.0" 
+cannotReplace = "" 
+loadDetailsText = "Based on Maox  Mod by KLM  Remod by spy2hot4you \n
+\n
+  Each person starts with a caravel and an explorer.\n
+\n
+  Search land and sea to find treasures with which you build up your mighty empire...\n
+\n
+  But dont let enemy have towns like that one!!!\n
+\n
+  Dont be afraid it always lag at the begining" 
+loadBackground="ui\home_city\intro_hc">
+   <loadss>ui\history\buildings\B_Fort</loadss>
+</mapinfo>

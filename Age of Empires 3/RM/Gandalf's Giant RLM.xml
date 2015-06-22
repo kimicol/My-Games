@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+imagepath = "ui\random_map\all_maps"
+displayName = "Gandalf's GiantRLM"
+detailsText = "a giant random map with endless random variety"  
+loadDetailsText = "Gandalf's Giant Random Land Map is a much-larger-than-normal map with random terrain patterns and matching resources and tribes.  Each map has randomly several Native villages of one or two types and varying positions, randomly several variations on trade routes and endless random variety of other terrain features such as lakes or ponds, cliffs or canyons, rivers or mountains.  The giant size allows different strategies."
+loadBackground="ui\random_map\all_maps">
+
+<loadss>ui\random_map\yukon\yukon_ss_01</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_01</loadss>
+<loadss>ui\random_map\pampas\pampas_ss_02</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+<loadss>ui\random_map\texas\texas_ss_01</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_02</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_03</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_03</loadss>
+<loadss>ui\random_map\everglades\everglades_ss_01</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_03</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_02</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_01</loadss>
+<loadss>ui\random_map\patagonia\patagonia_ss_01</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_02</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_01</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_01</loadss>
+<loadss>ui\random_map\texas\texas_ss_02</loadss>
+<loadss>ui\random_map\pampas\pampas_ss_03</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_03</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+<loadss>ui\random_map\yucatan\yucatan_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+<loadss>ui\random_map\pampas\pampas_ss_01</loadss>
+<loadss>ui\random_map\everglades\everglades_ss_02</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_02</loadss>
+<loadss>ui\random_map\texas\texas_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_03</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_02</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+
+</mapinfo>
+
+ 

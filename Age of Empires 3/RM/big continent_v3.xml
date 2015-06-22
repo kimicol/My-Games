@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+imagepath = "ui\random_map\all_maps"  
+detailsText = "Big Continent: a giant sized random continent" 
+loadDetailsText="Big Continent is a much-larger-than-normal map with random terrain patterns and matching resources and tribes.  Each map has randomly several Native villages of 1 or 2 types, randomly several variations on trade routes and endless random variety of terrain features such as lakes or ponds, cliffs or canyons.  The increased size and rich fishing allows new strategies."  
+displayName = "Big Continent" 
+loadBackground="ui\random_map\all_maps">
+   <loadss>ui\random_map\new_england\new_england_ss_01</loadss>
+   <loadss>ui\random_map\yucatan\yucatan_ss_02</loadss>
+   <loadss>ui\random_map\carolina\carolina_ss_03</loadss>
+   <loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+   <loadss>ui\random_map\yukon\yukon_ss_03</loadss>
+   <loadss>ui\random_map\saguenay\saguenay_ss_01</loadss>
+   <loadss>ui\random_map\pampas\pampas_ss_02</loadss>
+   <loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+   <loadss>ui\random_map\texas\texas_ss_01</loadss>
+   <loadss>ui\random_map\patagonia\patagonia_ss_01</loadss>
+   <loadss>ui\random_map\great_lakes\great_lakes_ss_02</loadss>
+   <loadss>ui\random_map\amazon\amazon_ss_01</loadss>
+   <loadss>ui\random_map\rockies\rockies_ss_01</loadss>
+</mapinfo>

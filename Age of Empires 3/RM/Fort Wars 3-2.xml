@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+detailsText="A fast-paced Norse Wars style blood map, complex and balanced in its own way. \n
+  Please read the easy instructions provided during gameplay. \n \n
+  
+  Units are spawned at a fort which must stay alive all game.  Kill a player's fort to kill the player.  Kill units and gain XP for coin, used to buy and upgrade from the Store Island.  Each civilization has unique weaknesses and bonuses.\n \n
+
+  Fort Wars 3.2 by pftq. AOE3 TWC 1.02 ONLY. Fort Wars created by pftq, Matei, and TBMike. \n
+  Fort Wars POWER RATING now up and running! \n
+  www.NorseWars.com\n
+  www.pftq.com/fortwars" 
+imagepath = "units\naval\fire_ship\fire_ship_sail1" 
+displayName = "Fort Wars 3.2" 
+cannotReplace = ""
+loadDetailsText="
+  A fast-paced Norse Wars style blood map, complex and balanced in its own way.\n
+  EASY Ingame instructions provided.  READ THEM! \n
+\n
+  Fort Wars 3.2 by pftq. AOE3 TWC 1.02 ONLY. Fort Wars created by pftq, Matei, and TBMike.\n
+  Fort Wars POWER RATING now up and running! \n
+  www.NorseWars.com\n
+  www.pftq.com/fortwars
+  \n
+  \n"
+loadBackground="ui\load_screen\master_basics_load">
+<loadss>ui\history\geography\G_R_Llama</loadss>
+</mapinfo>

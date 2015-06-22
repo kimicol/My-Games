@@ -1,0 +1,2484 @@
+Log: Log file open, 06/18/15 19:45:23
+Init: FEngineLoop::PreInit Here
+Init:  ---- call app init here 
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Call platform pre init
+Init: **** Pre InitSHAHashes() ****
+Log: **** InitSHAHashes() ****
+DevSHA: InitializeFileHashes core.u
+DevSHA: InitializeFileHashes engine.u
+DevSHA: InitializeFileHashes gfxui.u
+DevSHA: InitializeFileHashes ipdrv.u
+DevSHA: InitializeFileHashes windrv.u
+DevSHA: InitializeFileHashes gameframework.u
+DevSHA: InitializeFileHashes onlinesubsystemsteamworks.u
+DevSHA: InitializeFileHashes udkbase.u
+DevSHA: InitializeFileHashes utgame.u
+DevSHA: InitializeFileHashes aoc.u
+DevSHA: InitializeFileHashes aoccustomizationcontent.u
+DevSHA: InitializeFileHashes unrealed.u
+DevSHA: InitializeFileHashes uteditor.u
+DevSHA: InitializeFileHashes gfxuieditor.u
+DevSHA: InitializeFileHashes utgamecontent.u
+DevSHA: InitializeFileHashes aocaudiocontent.u
+DevSHA: InitializeFileHashes enginematerials.upk
+DevSHA: InitializeFileHashes enginedebugmaterials.upk
+DevSHA: InitializeFileHashes enginesounds.upk
+DevSHA: InitializeFileHashes enginefonts.upk
+DevSHA: InitializeFileHashes soundclassesandmodes.upk
+DevSHA: InitializeFileHashes ui_fonts.upk
+DevSHA: InitializeFileHashes ui_fonts_final.upk
+DevSHA: InitializeFileHashes aoc-udkfrontendmap.udk
+DevSHA: InitializeFileHashes apexgpuskinvertexfactory.usf
+DevSHA: InitializeFileHashes gpuskinvertexfactory.usf
+DevSHA: InitializeFileHashes apexgpuskinvertexfactory_1bone.usf
+DevSHA: InitializeFileHashes localvertexfactory.usf
+DevSHA: InitializeFileHashes decalfactorycommon.usf
+DevSHA: InitializeFileHashes terrainvertexfactory.usf
+DevSHA: InitializeFileHashes landscapevertexfactory.usf
+DevSHA: InitializeFileHashes fluidvertexfactory.usf
+DevSHA: InitializeFileHashes lensflarevertexfactory.usf
+DevSHA: InitializeFileHashes particlespritevertexfactory.usf
+DevSHA: InitializeFileHashes meshinstancedvertexfactory.usf
+DevSHA: InitializeFileHashes particlebeamtrailvertexfactory.usf
+DevSHA: InitializeFileHashes resolvevertexshader.usf
+DevSHA: InitializeFileHashes definitions.usf
+DevSHA: InitializeFileHashes common360.usf
+DevSHA: InitializeFileHashes common.usf
+DevSHA: InitializeFileHashes resolvepixelshader.usf
+DevSHA: InitializeFileHashes meshpaintdilatepixelshader.usf
+DevSHA: InitializeFileHashes meshpaintdilatevertexshader.usf
+DevSHA: InitializeFileHashes meshpaintpixelshader.usf
+DevSHA: InitializeFileHashes meshpaintvertexshader.usf
+DevSHA: InitializeFileHashes gfxcmatrixpixelshader.usf
+DevSHA: InitializeFileHashes gfxfilterpixelshader.usf
+DevSHA: InitializeFileHashes gfxpixelshader.usf
+DevSHA: InitializeFileHashes gfxvertexshader.usf
+DevSHA: InitializeFileHashes gfxvertex3dshader.usf
+DevSHA: InitializeFileHashes fluidsurfacesimulation.usf
+DevSHA: InitializeFileHashes velocityshader.usf
+DevSHA: InitializeFileHashes depthoffieldcommon.usf
+DevSHA: InitializeFileHashes random.usf
+DevSHA: InitializeFileHashes materialtemplate.usf
+DevSHA: InitializeFileHashes flattessellation.usf
+DevSHA: InitializeFileHashes pntriangles.usf
+DevSHA: InitializeFileHashes tessellation.usf
+DevSHA: InitializeFileHashes ldrextractvertexshader.usf
+DevSHA: InitializeFileHashes texturedensityshader.usf
+DevSHA: InitializeFileHashes perfragmentmaskshader.usf
+DevSHA: InitializeFileHashes shadowprojectionpixelshader.usf
+DevSHA: InitializeFileHashes shadowprojectioncommon.usf
+DevSHA: InitializeFileHashes modshadowprojectionvertexshader.usf
+DevSHA: InitializeFileHashes shadowprojectionvertexshader.usf
+DevSHA: InitializeFileHashes shadowdepthpixelshader.usf
+DevSHA: InitializeFileHashes shadowdepthcommon.usf
+DevSHA: InitializeFileHashes shadowdepthvertexshader.usf
+DevSHA: InitializeFileHashes downsampledepthpixelshader.usf
+DevSHA: InitializeFileHashes gammacorrectionvertexshader.usf
+DevSHA: InitializeFileHashes gammacorrectionpixelshader.usf
+DevSHA: InitializeFileHashes occlusionqueryvertexshader.usf
+DevSHA: InitializeFileHashes hitproxypixelshader.usf
+DevSHA: InitializeFileHashes hitproxyvertexshader.usf
+DevSHA: InitializeFileHashes filtervertexshader.usf
+DevSHA: InitializeFileHashes filterpixelshader.usf
+DevSHA: InitializeFileHashes postprocesscommon.usf
+DevSHA: InitializeFileHashes lightshaftshader.usf
+DevSHA: InitializeFileHashes simplef32pixelshader.usf
+DevSHA: InitializeFileHashes simplef32vertexshader.usf
+DevSHA: InitializeFileHashes deferredlightshaders.usf
+DevSHA: InitializeFileHashes dynamiclightingcommon.usf
+DevSHA: InitializeFileHashes deferredlightingcommon.usf
+DevSHA: InitializeFileHashes lightfunctionpixelshader.usf
+DevSHA: InitializeFileHashes lightfunctionvertexshader.usf
+DevSHA: InitializeFileHashes hitmaskpixelshader.usf
+DevSHA: InitializeFileHashes hitmaskvertexshader.usf
+DevSHA: InitializeFileHashes fogvolumeapplypixelshader.usf
+DevSHA: InitializeFileHashes fogvolumeapplyvertexshader.usf
+DevSHA: InitializeFileHashes fogintegralpixelshader.usf
+DevSHA: InitializeFileHashes fogvolumecommon.usf
+DevSHA: InitializeFileHashes fogintegralvertexshader.usf
+DevSHA: InitializeFileHashes heightfogpixelshader.usf
+DevSHA: InitializeFileHashes heightfogcommon.usf
+DevSHA: InitializeFileHashes heightfogvertexshader.usf
+DevSHA: InitializeFileHashes translucencypostrenderdepthpixelshader.usf
+DevSHA: InitializeFileHashes depthonlypixelshader.usf
+DevSHA: InitializeFileHashes depthonlyvertexshader.usf
+DevSHA: InitializeFileHashes positiononlydepthvertexshader.usf
+DevSHA: InitializeFileHashes simpleelementvertexshader.usf
+DevSHA: InitializeFileHashes simpleelementcolorchannelmaskpixelshader.usf
+DevSHA: InitializeFileHashes simpleelementhitproxypixelshader.usf
+DevSHA: InitializeFileHashes simpleelementpixelshader.usf
+DevSHA: InitializeFileHashes basepasspixelshader.usf
+DevSHA: InitializeFileHashes basepasscommon.usf
+DevSHA: InitializeFileHashes subsurfacescatteringcommon.usf
+DevSHA: InitializeFileHashes sphericalharmoniccommon.usf
+DevSHA: InitializeFileHashes basepasstessellationshaders.usf
+DevSHA: InitializeFileHashes basepassvertexcommon.usf
+DevSHA: InitializeFileHashes basepassvertexshader.usf
+DevSHA: InitializeFileHashes ambientocclusionshader.usf
+DevSHA: InitializeFileHashes binkshaders.usf
+DevSHA: InitializeFileHashes uberpostprocessvertexshader.usf
+DevSHA: InitializeFileHashes uberpostprocessblendpixelshader.usf
+DevSHA: InitializeFileHashes motionblurcommon.usf
+DevSHA: InitializeFileHashes temporalaa.usf
+DevSHA: InitializeFileHashes temporalaamaskshader.usf
+DevSHA: InitializeFileHashes subsurfacescatteringpixelshader.usf
+DevSHA: InitializeFileHashes subsurfacescatteringvertexshader.usf
+DevSHA: InitializeFileHashes branchingpcfmodprojectionpixelshader.usf
+DevSHA: InitializeFileHashes branchingpcfcommon.usf
+DevSHA: InitializeFileHashes modshadowcommon.usf
+DevSHA: InitializeFileHashes modshadowprojectionpixelshader.usf
+DevSHA: InitializeFileHashes spotlightpixelshader.usf
+DevSHA: InitializeFileHashes spotlightvertexshader.usf
+DevSHA: InitializeFileHashes sphericalharmoniclightpixelshader.usf
+DevSHA: InitializeFileHashes sphericalharmoniclightvertexshader.usf
+DevSHA: InitializeFileHashes shadercomplexityapplypixelshader.usf
+DevSHA: InitializeFileHashes shadercomplexityaccumulatepixelshader.usf
+DevSHA: InitializeFileHashes screenvertexshader.usf
+DevSHA: InitializeFileHashes screenpixelshader.usf
+DevSHA: InitializeFileHashes radialblurscreenshader.usf
+DevSHA: InitializeFileHashes fxaashader.usf
+DevSHA: InitializeFileHashes fxaa3_11.usf
+DevSHA: InitializeFileHashes mlaashader.usf
+DevSHA: InitializeFileHashes pointlightpixelshader.usf
+DevSHA: InitializeFileHashes pointlightvertexshader.usf
+DevSHA: InitializeFileHashes lutblender.usf
+DevSHA: InitializeFileHashes lightmapdensityshader.usf
+DevSHA: InitializeFileHashes imagereflectionshader.usf
+DevSHA: InitializeFileHashes imagereflectionmeshshader.usf
+DevSHA: InitializeFileHashes memcopyshader.usf
+DevSHA: InitializeFileHashes restorecolordepthshader.usf
+DevSHA: InitializeFileHashes splashscreenshader.usf
+DevSHA: InitializeFileHashes onecolorshader.usf
+DevSHA: InitializeFileHashes nullpixelshader.usf
+DevSHA: InitializeFileHashes dofandbloomblendvertexshader.usf
+DevSHA: InitializeFileHashes dofandbloomblendpixelshader.usf
+DevSHA: InitializeFileHashes dofandbloomgathervertexshader.usf
+DevSHA: InitializeFileHashes dofandbloomgatherpixelshader.usf
+DevSHA: InitializeFileHashes distortaccumulatepixelshader.usf
+DevSHA: InitializeFileHashes distortaccumulatevertexshader.usf
+DevSHA: InitializeFileHashes distortapplyscreenpixelshader.usf
+DevSHA: InitializeFileHashes distortapplyscreenvertexshader.usf
+DevSHA: InitializeFileHashes directionallightpixelshader.usf
+DevSHA: InitializeFileHashes directionallightvertexshader.usf
+DevSHA: InitializeFileHashes depthdependenthaloapplypixelshader.usf
+DevSHA: InitializeFileHashes branchingpcfprojectionpixelshader.usf
+DevSHA: InitializeFileHashes bokehdof.usf
+Log:  ... running in INSTALLED mode
+Log: Read config file: ..\..\UDKGame\Config\DefaultSystemSettings.ini
+Log: Read config file: ..\..\Engine\Config\BaseSystemSettings.ini
+Log: Read config file: ..\..\Engine\Config\BaseSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultLightmass.ini
+Log: Read config file: ..\..\Engine\Config\BaseLightmass.ini
+Log: Read config file: ..\..\Engine\Config\BaseLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultEngineUDK.ini
+Log: Read config file: ..\..\Engine\Config\BaseEngine.ini
+Log: Read config file: ..\..\Engine\Config\BaseEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultGame.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultGameUDK.ini
+Log: Read config file: ..\..\Engine\Config\BaseGame.ini
+Log: Read config file: ..\..\Engine\Config\BaseGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultInput.ini
+Log: Read config file: ..\..\Engine\Config\BaseInput.ini
+Log: Read config file: ..\..\Engine\Config\BaseInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultUI.ini
+Log: Read config file: ..\..\Engine\Config\BaseUI.ini
+Log: Read config file: ..\..\Engine\Config\BaseUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\Engine\Config\ConsoleVariables.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10246
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Jun 10 2015 10:49:40
+Init: Changelist: 1340247
+Init: Command line: 
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\
+[0000.28] Init: Computer: PC-ARTHUR
+[0000.28] Init: User: Arthur
+[0000.28] Init: CPU Page size=4096, Processors=4
+[0000.28] Init: High frequency timer resolution =2.240906 MHz
+[0000.28] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=131072.0GB
+[0001.19] Log: Steam Client API initialized 1
+[0001.19] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0001.20] Init: Object subsystem initialized
+[0001.83] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0001.88] Log: SystemSettings::LoadFromIni in file ..\..\UDKGame\Config\UDKSystemSettings.ini section: SystemSettings
+[0001.97] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0001.97] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0001.97] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0001.97] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0002.17] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.49] Log: PhysX GPU Support: DISABLED
+[0005.58] Init: Initializing FaceFX...
+[0005.60] Init: FaceFX 1.7.4 initialized.
+[0005.64] Init: WinSock: I am PC-arthur (192.168.1.13:0)
+[0005.69] Init: XAudio2 using 'Haut-parleur/Ecouteurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0006.22] Log: Read config file: ..\..\UDKGame\Localization\INT\Engine.INT
+[0006.22] Log: Read config file: ..\..\Engine\Localization\INT\Engine.INT
+[0006.22] Log: Read config file: ..\..\Engine\Localization\INT\Core.INT
+[0010.27] Log: Read config file: ..\..\UDKGame\Config\DefaultWeapon.ini
+[0010.28] Log: Read config file: ..\..\UDKGame\Config\DefaultWeapon.ini
+[0010.28] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0010.30] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0010.30] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0010.32] Log: Read config file: ..\..\UDKGame\Config\DefaultCharInfo.ini
+[0010.33] Log: Read config file: ..\..\UDKGame\Config\DefaultCharInfo.ini
+[0010.33] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0010.34] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0010.34] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0010.65] Log: Read config file: ..\..\UDKGame\Localization\INT\AOC.INT
+[0011.06] Log: Read config file: ..\..\UDKGame\Config\DefaultSettings.ini
+[0011.07] Log: Read config file: ..\..\UDKGame\Config\DefaultSettings.ini
+[0011.08] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0011.08] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0011.08] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0011.21] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0011.24] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0011.24] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0011.29] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0011.29] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0011.29] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0011.99] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0012.03] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0012.03] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0032.48] Init: Finished loading startup packages in 26.29 seconds
+[0032.49] Log: 105300 objects as part of root set at end of initial load.
+[0032.49] Log: 0 out of 0 bytes used by permanent object pool.
+[0032.49] Log: Initializing Engine...
+[0033.20] Init: UEngine initialized
+[0033.41] Warning: Warning, Failed to load 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpIn01': Failed to find object 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpIn01'
+[0033.41] Warning: Warning, Failed to load 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpOut01': Failed to find object 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpOut01'
+[0033.41] Init: XAudio2Device initialized.
+[0033.65] Init: Client initialized
+[0033.72] Log: Size of window 1280 720
+[0033.72] Log: Read config file: ..\..\Engine\Localization\INT\UnrealEd.INT
+[0033.95] Log: We're in AMD Eyefinity
+[0036.72] Log: Initializing Steamworks
+[0036.78] Log: Logged in as 'kimicol'
+[0036.98] Log: Read config file: ..\..\UDKGame\Localization\INT\GFxUI.INT
+[0037.08] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKEngine.ini
+[0037.10] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKGame.ini
+[0037.12] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKInput.ini
+[0037.14] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKSystemSettings.ini
+[0037.14] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKUI.ini
+[0037.15] Log: Read config file: ..\..\UDKGame\Config\WrangleContent.ini
+[0043.91] Log: Read config file: ..\..\Engine\Localization\FRA\Core.FRA
+[0043.91] Log: Read config file: ..\..\UDKGame\Localization\FRA\Engine.FRA
+[0043.91] Log: Read config file: ..\..\Engine\Localization\FRA\Engine.FRA
+[0043.91] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOC.FRA
+[0043.91] DevDlc: Initialize Called
+[0044.16] DevDlc: Looking for DLC...
+[0044.27] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0044.76] Warning: Warning, Failed to find object 'Class None.'
+[0044.76] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0044.76] Warning: Warning, Failed to find object 'Class None.'
+[0044.86] Log: Read config file: ..\..\UDKGame\Cloud\CloudStorage.ini
+[0045.85] DevDlc: Shipping Level: AOC-UDKFrontEndMap
+[0048.00] Log: LoadMap: AOC-UDKFrontEndMap?Name=Player?Team=255
+[0048.71] DevDlc: Shipping Level: AOC-UDKFrontEndMap
+[0051.72] Log: Game class is 'AOCEntry'
+[0051.82] Log: Primary PhysX scene will be in software.
+[0051.82] Log: Creating Primary PhysX Scene.
+[0052.30] Log: Bringing World AOC-UDKFrontEndMap.TheWorld up for play (0) at 2015.06.18-19.46.15
+[0052.70] Log: Bringing up level for play took: 0.970237
+[0059.94] Log: UTextureMovie::Play
+[0059.94] Log: UTextureMovie::InitDecoder
+[0059.97] Log: UTextureMovie::Play
+[0059.97] Log: UTextureMovie::InitDecoder
+[0061.69] DevSteam: ReadUserStats(0) called with result 1 code 8
+[0061.69] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0061.69] Log: Current focused movie? SWF.GeneralManager
+[0061.77] Log: Current focused movie? SWF.PersistentScreenElements
+[0061.83] Log: ########### Finished loading level: 13.822102 seconds
+[0061.89] Init: Game engine initialized
+[0061.89] Log: Initializing Engine Completed
+[0061.95] Log: >>>>>>>>>>>>>> Initial startup: 61.95s <<<<<<<<<<<<<<<
+[0062.10] DevSteam: ReadUserStats(0) completed with result '8' k_EResultInvalidParam (a parameter is incorrect)
+[0062.15] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 2168ms
+[0062.31] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCUI.FRA
+[0062.54] Log: CreateBrowser ApiCall: 346117241831425
+[0062.59] Log: UTextureMovie::Play
+[0062.59] Log: UTextureMovie::InitDecoder
+[0062.65] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0062.66] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCUI.INT
+[0062.95] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCKeybinds.FRA
+[0063.00] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCKeybinds.INT
+[0063.29] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0063.29] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_shore) for 'UI_Frontend_SWF.map_shore.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_shore]?
+[0063.29] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_shore.png': Failed to find object 'Texture UI_Frontend_SWF.map_shore.png'
+[0063.29] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_outpost) for 'UI_Frontend_SWF.map_outpost.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_outpost]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_outpost.png': Failed to find object 'Texture UI_Frontend_SWF.map_outpost.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_nomercy) for 'UI_Frontend_SWF.map_nomercy.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_nomercy]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_nomercy.png': Failed to find object 'Texture UI_Frontend_SWF.map_nomercy.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_kings_garden) for 'UI_Frontend_SWF.map_kings_garden.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_kings_garden]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_kings_garden.png': Failed to find object 'Texture UI_Frontend_SWF.map_kings_garden.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_irilla) for 'UI_Frontend_SWF.map_irilla.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_irilla]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_irilla.png': Failed to find object 'Texture UI_Frontend_SWF.map_irilla.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_impasse) for 'UI_Frontend_SWF.map_impasse.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_impasse]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_impasse.png': Failed to find object 'Texture UI_Frontend_SWF.map_impasse.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hordetown) for 'UI_Frontend_SWF.map_hordetown.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hordetown]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hordetown.png': Failed to find object 'Texture UI_Frontend_SWF.map_hordetown.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hillside_pyre) for 'UI_Frontend_SWF.map_hillside_pyre.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hillside_pyre]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hillside_pyre.png': Failed to find object 'Texture UI_Frontend_SWF.map_hillside_pyre.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hideout) for 'UI_Frontend_SWF.map_hideout.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hideout]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hideout.png': Failed to find object 'Texture UI_Frontend_SWF.map_hideout.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_forest) for 'UI_Frontend_SWF.map_forest.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_forest]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_forest.png': Failed to find object 'Texture UI_Frontend_SWF.map_forest.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_drunken_bazaar) for 'UI_Frontend_SWF.map_drunken_bazaar.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_drunken_bazaar]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_drunken_bazaar.png': Failed to find object 'Texture UI_Frontend_SWF.map_drunken_bazaar.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_darkforest_valley) for 'UI_Frontend_SWF.map_darkforest_valley.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_darkforest_valley]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_darkforest_valley.png': Failed to find object 'Texture UI_Frontend_SWF.map_darkforest_valley.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_darkforest_cistern) for 'UI_Frontend_SWF.map_darkforest_cistern.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_darkforest_cistern]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_darkforest_cistern.png': Failed to find object 'Texture UI_Frontend_SWF.map_darkforest_cistern.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_cove) for 'UI_Frontend_SWF.map_cove.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_cove]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_cove.png': Failed to find object 'Texture UI_Frontend_SWF.map_cove.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_courtyard) for 'UI_Frontend_SWF.map_courtyard.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_courtyard]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_courtyard.png': Failed to find object 'Texture UI_Frontend_SWF.map_courtyard.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_colosseum) for 'UI_Frontend_SWF.map_colosseum.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_colosseum]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_colosseum.png': Failed to find object 'Texture UI_Frontend_SWF.map_colosseum.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_coldfront) for 'UI_Frontend_SWF.map_coldfront.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_coldfront]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_coldfront.png': Failed to find object 'Texture UI_Frontend_SWF.map_coldfront.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_castle_assault) for 'UI_Frontend_SWF.map_castle_assault.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_castle_assault]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_castle_assault.png': Failed to find object 'Texture UI_Frontend_SWF.map_castle_assault.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_belmez) for 'UI_Frontend_SWF.map_belmez.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_belmez]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_belmez.png': Failed to find object 'Texture UI_Frontend_SWF.map_belmez.png'
+[0063.30] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_battlegrounds_farm) for 'UI_Frontend_SWF.map_battlegrounds_farm.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_battlegrounds_farm]?
+[0063.30] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_battlegrounds_farm.png': Failed to find object 'Texture UI_Frontend_SWF.map_battlegrounds_farm.png'
+[0063.35] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCCustomization.FRA
+[0063.38] Warning: Warning, Failed to load 'SwfMovie UI_Frontend_SWF.ProfileMenu': Failed to find object 'SwfMovie UI_Frontend_SWF.ProfileMenu'
+[0063.38] Log: GFx attempted to load missing object [UI_Frontend_SWF.ProfileMenu]
+[0063.38] Warning: Warning, Failed to load 'SwfMovie UI_Frontend_SWF.ProfileMenu': Failed to find object 'SwfMovie UI_Frontend_SWF.ProfileMenu'
+[0063.38] Log: GFx attempted to load missing object [UI_Frontend_SWF.ProfileMenu]
+[0063.41] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCGame.FRA
+[0063.43] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCMaps.FRA
+[0063.45] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCMaps.INT
+[0063.47] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCGame.INT
+[0063.50] Warning: Warning, Failed to load 'Texture None.None': Failed to find object 'Texture None.None'
+[0063.89] Log: GFullScreen End Movie -- 1
+[0064.00] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 1899ms
+[0064.19] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCCommon.FRA
+[0064.40] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCCustomization.INT
+[0064.44] Log: FSocketWin::Close
+[0065.20] Log: AddDropInfoPayloadToMap
+[0065.20] Log: AddDropInfoPayloadToMap 0
+[0065.20] Log: AddDropInfoPayloadToMap 1
+[0065.20] Log: AddDropInfoPayloadToMap 2
+[0065.20] Log: AddDropInfoPayloadToMap 3
+[0065.20] Log: AddDropInfoPayloadToMap 4
+[0065.20] Log: AddDropInfoPayloadToMap 5
+[0065.20] Log: AddDropInfoPayloadToMap 6
+[0065.20] Log: AddDropInfoPayloadToMap 7
+[0065.20] Log: AddDropInfoPayloadToMap 8
+[0065.20] Log: AddDropInfoPayloadToMap 9
+[0065.20] Log: AddDropInfoPayloadToMap 10
+[0065.20] Log: AddDropInfoPayloadToMap 11
+[0065.20] Log: AddDropInfoPayloadToMap 12
+[0065.20] Log: AddDropInfoPayloadToMap 13
+[0065.20] Log: AddDropInfoPayloadToMap 14
+[0065.20] Log: AddDropInfoPayloadToMap 15
+[0065.20] Log: AddDropInfoPayloadToMap 16
+[0065.20] Log: AddDropInfoPayloadToMap 17
+[0065.20] Log: AddDropInfoPayloadToMap 18
+[0065.20] Log: AddDropInfoPayloadToMap 19
+[0065.20] Log: AddDropInfoPayloadToMap 20
+[0065.20] Log: AddDropInfoPayloadToMap 21
+[0065.20] Log: AddDropInfoPayloadToMap 22
+[0065.20] Log: AddDropInfoPayloadToMap 23
+[0065.20] Log: AddDropInfoPayloadToMap 24
+[0065.20] Log: AddDropInfoPayloadToMap 25
+[0065.20] Log: AddDropInfoPayloadToMap 26
+[0065.20] Log: AddDropInfoPayloadToMap 27
+[0065.20] Log: AddDropInfoPayloadToMap 28
+[0065.20] Log: AddDropInfoPayloadToMap 29
+[0065.20] Log: AddDropInfoPayloadToMap 30
+[0065.20] Log: AddDropInfoPayloadToMap 31
+[0065.20] Log: AddDropInfoPayloadToMap 32
+[0065.20] Log: AddDropInfoPayloadToMap 33
+[0065.20] Log: AddDropInfoPayloadToMap 34
+[0065.20] Log: AddDropInfoPayloadToMap 35
+[0065.20] Log: AddDropInfoPayloadToMap 36
+[0065.20] Log: AddDropInfoPayloadToMap 37
+[0065.20] Log: AddDropInfoPayloadToMap 38
+[0065.20] Log: AddDropInfoPayloadToMap 39
+[0065.20] Log: AddDropInfoPayloadToMap 40
+[0065.20] Log: AddDropInfoPayloadToMap 41
+[0065.20] Log: AddDropInfoPayloadToMap 42
+[0065.20] Log: AddDropInfoPayloadToMap 43
+[0065.20] Log: AddWeaponInfosToMap
+[0065.20] Log: AddHelmetInfosToMap
+[0065.23] Log: FSocketWin::Close
+[0069.00] Log: UTextureMovie::Stop
+[0069.01] Log: UTextureMovie::Play
+[0113.25] Init: WinSock: Socket queue 32768 / 32768
+[0113.80] NetComeGo: Close IpNetDriverSteamworks_0 IpNetConnectionSteamworks_0 209.15.212.147:8477 06/18/15 19:47:17
+[0113.84] Init: WinSock: Socket queue 32768 / 32768
+[0119.61] DevDlc: Connection package map list count:290
+[0119.61] DevDlc: 0: PackageInfoFlags
+[0119.61] DevDlc: 1: PackageInfoFlags
+[0119.61] DevDlc: 2: PackageInfoFlags
+[0119.61] DevDlc: 3: PackageInfoFlags
+[0119.61] DevDlc: 4: PackageInfoFlags
+[0119.61] DevDlc: 5: PackageInfoFlags
+[0119.61] DevDlc: 6: PackageInfoFlags
+[0119.61] DevDlc: 7: PackageInfoFlags
+[0119.61] DevDlc: 8: PackageInfoFlags
+[0119.61] DevDlc: 9: PackageInfoFlags
+[0119.61] DevDlc: 10: PackageInfoFlags
+[0119.61] DevDlc: 11: PackageInfoFlags
+[0119.61] DevDlc: 12: PackageInfoFlags
+[0119.61] DevDlc: 13: PackageInfoFlags
+[0119.61] DevDlc: 14: PackageInfoFlags
+[0119.61] DevDlc: 15: PackageInfoFlags
+[0119.61] DevDlc: 16: PackageInfoFlags
+[0119.61] DevDlc: 17: PackageInfoFlags
+[0119.61] DevDlc: 18: PackageInfoFlags
+[0119.61] DevDlc: 19: PackageInfoFlags
+[0119.61] DevDlc: 20: PackageInfoFlags
+[0119.61] DevDlc: 21: PackageInfoFlags
+[0119.61] DevDlc: 22: PackageInfoFlags
+[0119.61] DevDlc: 23: PackageInfoFlags
+[0119.61] DevDlc: 24: PackageInfoFlags
+[0119.61] DevDlc: 25: PackageInfoFlags
+[0119.61] DevDlc: 26: PackageInfoFlags
+[0119.61] DevDlc: 27: PackageInfoFlags
+[0119.61] DevDlc: 28: PackageInfoFlags
+[0119.61] DevDlc: 29: PackageInfoFlags
+[0119.61] DevDlc: 30: PackageInfoFlags
+[0119.61] DevDlc: 31: PackageInfoFlags
+[0119.61] DevDlc: 32: PackageInfoFlags
+[0119.61] DevDlc: 33: PackageInfoFlags
+[0119.61] DevDlc: 34: PackageInfoFlags
+[0119.61] DevDlc: 35: PackageInfoFlags
+[0119.61] DevDlc: 36: PackageInfoFlags
+[0119.61] DevDlc: 37: PackageInfoFlags
+[0119.61] DevDlc: 38: PackageInfoFlags
+[0119.61] DevDlc: 39: PackageInfoFlags
+[0119.61] DevDlc: 40: PackageInfoFlags
+[0119.61] DevDlc: 41: PackageInfoFlags
+[0119.61] DevDlc: 42: PackageInfoFlags
+[0119.61] DevDlc: 43: PackageInfoFlags
+[0119.61] DevDlc: 44: PackageInfoFlags
+[0119.61] DevDlc: 45: PackageInfoFlags
+[0119.61] DevDlc: 46: PackageInfoFlags
+[0119.61] DevDlc: 47: PackageInfoFlags
+[0119.61] DevDlc: 48: PackageInfoFlags
+[0119.61] DevDlc: 49: PackageInfoFlags
+[0119.61] DevDlc: 50: PackageInfoFlags
+[0119.61] DevDlc: 51: PackageInfoFlags
+[0119.61] DevDlc: 52: PackageInfoFlags
+[0119.61] DevDlc: 53: PackageInfoFlags
+[0119.61] DevDlc: 54: PackageInfoFlags
+[0119.61] DevDlc: 55: PackageInfoFlags
+[0119.61] DevDlc: 56: PackageInfoFlags
+[0119.61] DevDlc: 57: PackageInfoFlags
+[0119.61] DevDlc: 58: PackageInfoFlags
+[0119.61] DevDlc: 59: PackageInfoFlags
+[0119.61] DevDlc: 60: PackageInfoFlags
+[0119.61] DevDlc: 61: PackageInfoFlags
+[0119.61] DevDlc: 62: PackageInfoFlags
+[0119.61] DevDlc: 63: PackageInfoFlags
+[0119.61] DevDlc: 64: PackageInfoFlags
+[0119.61] DevDlc: 65: PackageInfoFlags
+[0119.61] DevDlc: 66: PackageInfoFlags
+[0119.61] DevDlc: 67: PackageInfoFlags
+[0119.61] DevDlc: 68: PackageInfoFlags
+[0119.61] DevDlc: 69: PackageInfoFlags
+[0119.61] DevDlc: 70: PackageInfoFlags
+[0119.61] DevDlc: 71: PackageInfoFlags
+[0119.61] DevDlc: 72: PackageInfoFlags
+[0119.61] DevDlc: 73: PackageInfoFlags
+[0119.61] DevDlc: 74: PackageInfoFlags
+[0119.61] DevDlc: 75: PackageInfoFlags
+[0119.61] DevDlc: 76: PackageInfoFlags
+[0119.61] DevDlc: 77: PackageInfoFlags
+[0119.61] DevDlc: 78: PackageInfoFlags
+[0119.61] DevDlc: 79: PackageInfoFlags
+[0119.61] DevDlc: 80: PackageInfoFlags
+[0119.61] DevDlc: 81: PackageInfoFlags
+[0119.61] DevDlc: 82: PackageInfoFlags
+[0119.61] DevDlc: 83: PackageInfoFlags
+[0119.61] DevDlc: 84: PackageInfoFlags
+[0119.61] DevDlc: 85: PackageInfoFlags
+[0119.61] DevDlc: 86: PackageInfoFlags
+[0119.61] DevDlc: 87: PackageInfoFlags
+[0119.61] DevDlc: 88: PackageInfoFlags
+[0119.61] DevDlc: 89: PackageInfoFlags
+[0119.61] DevDlc: 90: PackageInfoFlags
+[0119.61] DevDlc: 91: PackageInfoFlags
+[0119.61] DevDlc: 92: PackageInfoFlags
+[0119.61] DevDlc: 93: PackageInfoFlags
+[0119.61] DevDlc: 94: PackageInfoFlags
+[0119.61] DevDlc: 95: PackageInfoFlags
+[0119.61] DevDlc: 96: PackageInfoFlags
+[0119.61] DevDlc: 97: PackageInfoFlags
+[0119.61] DevDlc: 98: PackageInfoFlags
+[0119.61] DevDlc: 99: PackageInfoFlags
+[0119.61] DevDlc: 100: PackageInfoFlags
+[0119.61] DevDlc: 101: PackageInfoFlags
+[0119.61] DevDlc: 102: PackageInfoFlags
+[0119.61] DevDlc: 103: PackageInfoFlags
+[0119.61] DevDlc: 104: PackageInfoFlags
+[0119.61] DevDlc: 105: PackageInfoFlags
+[0119.61] DevDlc: 106: PackageInfoFlags
+[0119.61] DevDlc: 107: PackageInfoFlags
+[0119.61] DevDlc: 108: PackageInfoFlags
+[0119.61] DevDlc: 109: PackageInfoFlags
+[0119.61] DevDlc: 110: PackageInfoFlags
+[0119.61] DevDlc: 111: PackageInfoFlags
+[0119.61] DevDlc: 112: PackageInfoFlags
+[0119.61] DevDlc: 113: PackageInfoFlags
+[0119.61] DevDlc: 114: PackageInfoFlags
+[0119.61] DevDlc: 115: PackageInfoFlags
+[0119.61] DevDlc: 116: PackageInfoFlags
+[0119.61] DevDlc: 117: PackageInfoFlags
+[0119.61] DevDlc: 118: PackageInfoFlags
+[0119.61] DevDlc: 119: PackageInfoFlags
+[0119.61] DevDlc: 120: PackageInfoFlags
+[0119.61] DevDlc: 121: PackageInfoFlags
+[0119.61] DevDlc: 122: PackageInfoFlags
+[0119.61] DevDlc: 123: PackageInfoFlags
+[0119.61] DevDlc: 124: PackageInfoFlags
+[0119.61] DevDlc: 125: PackageInfoFlags
+[0119.61] DevDlc: 126: PackageInfoFlags
+[0119.61] DevDlc: 127: PackageInfoFlags
+[0119.61] DevDlc: 128: PackageInfoFlags
+[0119.61] DevDlc: 129: PackageInfoFlags
+[0119.61] DevDlc: 130: PackageInfoFlags
+[0119.61] DevDlc: 131: PackageInfoFlags
+[0119.61] DevDlc: 132: PackageInfoFlags
+[0119.61] DevDlc: 133: PackageInfoFlags
+[0119.61] DevDlc: 134: PackageInfoFlags
+[0119.61] DevDlc: 135: PackageInfoFlags
+[0119.61] DevDlc: 136: PackageInfoFlags
+[0119.61] DevDlc: 137: PackageInfoFlags
+[0119.61] DevDlc: 138: PackageInfoFlags
+[0119.61] DevDlc: 139: PackageInfoFlags
+[0119.61] DevDlc: 140: PackageInfoFlags
+[0119.61] DevDlc: 141: PackageInfoFlags
+[0119.61] DevDlc: 142: PackageInfoFlags
+[0119.61] DevDlc: 143: PackageInfoFlags
+[0119.61] DevDlc: 144: PackageInfoFlags
+[0119.61] DevDlc: 145: PackageInfoFlags
+[0119.61] DevDlc: 146: PackageInfoFlags
+[0119.61] DevDlc: 147: PackageInfoFlags
+[0119.61] DevDlc: 148: PackageInfoFlags
+[0119.61] DevDlc: 149: PackageInfoFlags
+[0119.61] DevDlc: 150: PackageInfoFlags
+[0119.61] DevDlc: 151: PackageInfoFlags
+[0119.61] DevDlc: 152: PackageInfoFlags
+[0119.61] DevDlc: 153: PackageInfoFlags
+[0119.61] DevDlc: 154: PackageInfoFlags
+[0119.61] DevDlc: 155: PackageInfoFlags
+[0119.61] DevDlc: 156: PackageInfoFlags
+[0119.61] DevDlc: 157: PackageInfoFlags
+[0119.61] DevDlc: 158: PackageInfoFlags
+[0119.61] DevDlc: 159: PackageInfoFlags
+[0119.61] DevDlc: 160: PackageInfoFlags
+[0119.61] DevDlc: 161: PackageInfoFlags
+[0119.61] DevDlc: 162: PackageInfoFlags
+[0119.61] DevDlc: 163: PackageInfoFlags
+[0119.61] DevDlc: 164: PackageInfoFlags
+[0119.61] DevDlc: 165: PackageInfoFlags
+[0119.61] DevDlc: 166: PackageInfoFlags
+[0119.61] DevDlc: 167: PackageInfoFlags
+[0119.61] DevDlc: 168: PackageInfoFlags
+[0119.61] DevDlc: 169: PackageInfoFlags
+[0119.61] DevDlc: 170: PackageInfoFlags
+[0119.61] DevDlc: 171: PackageInfoFlags
+[0119.61] DevDlc: 172: PackageInfoFlags
+[0119.61] DevDlc: 173: PackageInfoFlags
+[0119.61] DevDlc: 174: PackageInfoFlags
+[0119.61] DevDlc: 175: PackageInfoFlags
+[0119.61] DevDlc: 176: PackageInfoFlags
+[0119.61] DevDlc: 177: PackageInfoFlags
+[0119.61] DevDlc: 178: PackageInfoFlags
+[0119.61] DevDlc: 179: PackageInfoFlags
+[0119.61] DevDlc: 180: PackageInfoFlags
+[0119.61] DevDlc: 181: PackageInfoFlags
+[0119.61] DevDlc: 182: PackageInfoFlags
+[0119.61] DevDlc: 183: PackageInfoFlags
+[0119.61] DevDlc: 184: PackageInfoFlags
+[0119.61] DevDlc: 185: PackageInfoFlags
+[0119.61] DevDlc: 186: PackageInfoFlags
+[0119.61] DevDlc: 187: PackageInfoFlags
+[0119.61] DevDlc: 188: PackageInfoFlags
+[0119.61] DevDlc: 189: PackageInfoFlags
+[0119.61] DevDlc: 190: PackageInfoFlags
+[0119.61] DevDlc: 191: PackageInfoFlags
+[0119.61] DevDlc: 192: PackageInfoFlags
+[0119.61] DevDlc: 193: PackageInfoFlags
+[0119.61] DevDlc: 194: PackageInfoFlags
+[0119.61] DevDlc: 195: PackageInfoFlags
+[0119.61] DevDlc: 196: PackageInfoFlags
+[0119.61] DevDlc: 197: PackageInfoFlags
+[0119.61] DevDlc: 198: PackageInfoFlags
+[0119.61] DevDlc: 199: PackageInfoFlags
+[0119.61] DevDlc: 200: PackageInfoFlags
+[0119.61] DevDlc: 201: PackageInfoFlags
+[0119.61] DevDlc: 202: PackageInfoFlags
+[0119.61] DevDlc: 203: PackageInfoFlags
+[0119.61] DevDlc: 204: PackageInfoFlags
+[0119.61] DevDlc: 205: PackageInfoFlags
+[0119.61] DevDlc: 206: PackageInfoFlags
+[0119.61] DevDlc: 207: PackageInfoFlags
+[0119.61] DevDlc: 208: PackageInfoFlags
+[0119.61] DevDlc: 209: PackageInfoFlags
+[0119.61] DevDlc: 210: PackageInfoFlags
+[0119.61] DevDlc: 211: PackageInfoFlags
+[0119.61] DevDlc: 212: PackageInfoFlags
+[0119.61] DevDlc: 213: PackageInfoFlags
+[0119.61] DevDlc: 214: PackageInfoFlags
+[0119.61] DevDlc: 215: PackageInfoFlags
+[0119.61] DevDlc: 216: PackageInfoFlags
+[0119.61] DevDlc: 217: PackageInfoFlags
+[0119.61] DevDlc: 218: PackageInfoFlags
+[0119.61] DevDlc: 219: PackageInfoFlags
+[0119.61] DevDlc: 220: PackageInfoFlags
+[0119.61] DevDlc: 221: PackageInfoFlags
+[0119.61] DevDlc: 222: PackageInfoFlags
+[0119.61] DevDlc: 223: PackageInfoFlags
+[0119.61] DevDlc: 224: PackageInfoFlags
+[0119.61] DevDlc: 225: PackageInfoFlags
+[0119.61] DevDlc: 226: PackageInfoFlags
+[0119.61] DevDlc: 227: PackageInfoFlags
+[0119.61] DevDlc: 228: PackageInfoFlags
+[0119.61] DevDlc: 229: PackageInfoFlags
+[0119.61] DevDlc: 230: PackageInfoFlags
+[0119.61] DevDlc: 231: PackageInfoFlags
+[0119.61] DevDlc: 232: PackageInfoFlags
+[0119.61] DevDlc: 233: PackageInfoFlags
+[0119.61] DevDlc: 234: PackageInfoFlags
+[0119.61] DevDlc: 235: PackageInfoFlags
+[0119.61] DevDlc: 236: PackageInfoFlags
+[0119.61] DevDlc: 237: PackageInfoFlags
+[0119.61] DevDlc: 238: PackageInfoFlags
+[0119.61] DevDlc: 239: PackageInfoFlags
+[0119.61] DevDlc: 240: PackageInfoFlags
+[0119.61] DevDlc: 241: PackageInfoFlags
+[0119.61] DevDlc: 242: PackageInfoFlags
+[0119.61] DevDlc: 243: PackageInfoFlags
+[0119.61] DevDlc: 244: PackageInfoFlags
+[0119.61] DevDlc: 245: PackageInfoFlags
+[0119.61] DevDlc: 246: PackageInfoFlags
+[0119.61] DevDlc: 247: PackageInfoFlags
+[0119.61] DevDlc: 248: PackageInfoFlags
+[0119.61] DevDlc: 249: PackageInfoFlags
+[0119.61] DevDlc: 250: PackageInfoFlags
+[0119.61] DevDlc: 251: PackageInfoFlags
+[0119.61] DevDlc: 252: PackageInfoFlags
+[0119.61] DevDlc: 253: PackageInfoFlags
+[0119.61] DevDlc: 254: PackageInfoFlags
+[0119.61] DevDlc: 255: PackageInfoFlags
+[0119.61] DevDlc: 256: PackageInfoFlags
+[0119.61] DevDlc: 257: PackageInfoFlags
+[0119.61] DevDlc: 258: PackageInfoFlags
+[0119.61] DevDlc: 259: PackageInfoFlags
+[0119.61] DevDlc: 260: PackageInfoFlags
+[0119.61] DevDlc: 261: PackageInfoFlags
+[0119.61] DevDlc: 262: PackageInfoFlags
+[0119.61] DevDlc: 263: PackageInfoFlags
+[0119.61] DevDlc: 264: PackageInfoFlags
+[0119.61] DevDlc: 265: PackageInfoFlags
+[0119.61] DevDlc: 266: PackageInfoFlags
+[0119.61] DevDlc: 267: PackageInfoFlags
+[0119.61] DevDlc: 268: PackageInfoFlags
+[0119.61] DevDlc: 269: PackageInfoFlags
+[0119.61] DevDlc: 270: PackageInfoFlags
+[0119.61] DevDlc: 271: PackageInfoFlags
+[0119.61] DevDlc: 272: PackageInfoFlags
+[0119.61] DevDlc: 273: PackageInfoFlags
+[0119.61] DevDlc: 274: PackageInfoFlags
+[0119.61] DevDlc: 275: PackageInfoFlags
+[0119.61] DevDlc: 276: PackageInfoFlags
+[0119.61] DevDlc: 277: PackageInfoFlags
+[0119.61] DevDlc: 278: PackageInfoFlags
+[0119.61] DevDlc: 279: PackageInfoFlags
+[0119.61] DevDlc: 280: PackageInfoFlags
+[0119.61] DevDlc: 281: PackageInfoFlags
+[0119.61] DevDlc: 282: PackageInfoFlags
+[0119.61] DevDlc: 283: PackageInfoFlags
+[0119.61] DevDlc: 284: PackageInfoFlags
+[0119.61] DevDlc: 285: PackageInfoFlags
+[0119.61] DevDlc: 286: PackageInfoFlags
+[0119.61] DevDlc: 287: PackageInfoFlags
+[0119.61] DevDlc: 288: PackageInfoFlags
+[0119.61] DevDlc: 289: PackageInfoFlags
+[0119.63] DevDlc: DownloadableContentManager NewState DS_GetFileDetails
+[0119.64] DevDlc: DownloadableContentManager NewState DS_DownloadFiles
+[0119.69] DevDlc: DownloadableContentManager ResetConnection
+[0119.69] DevDlc: DownloadableContentManager NewState DS_Inactive
+[0119.73] Log: LoadMap: steam.90096001423535110/aoctd-castleassault-cm_p?Name=Player?Team=255?game=AOC.AOCTD
+[0119.76] Log: --- LOADING MOVIE START ---
+[0120.27] Log: Current focused movie? SWF.GeneralManager
+[0120.43] Log: UTextureMovie::Stop
+[0120.50] Log: UTextureMovie::Stop
+[0120.56] Log: FSocketWin::Close
+[0120.56] Log: FSocketWin::Close
+[0120.59] Exit: IpNetDriverSteamworks_0 shut down
+[0120.73] DevDlc: Shipping Level: aoctd-castleassault-cm_p
+[0134.71] Warning: Warning, CreateImport: Bailed becaused tried to load editor resource 'Default__GroupActor': Package UnrealEd
+[0153.50] Log: Primary PhysX scene will be in software.
+[0153.50] Log: Creating Primary PhysX Scene.
+[0153.64] Log: Bringing World aoctd-castleassault-cm_p.TheWorld up for play (714) at 2015.06.18-19.47.57
+[0153.68] Log: Bringing up level for play took: 0.369710
+[0153.68] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0153.68] Warning: Warning, Failed to find object 'Class None.'
+[0153.68] Log: PlayerController class for the pending level is PlayerController
+[0153.68] Log: ########### Finished loading level: 33.947160 seconds
+[0153.79] DevDlc: Shipping Level: aoctd-castleassault-cm_p
+[0154.58] Log: Current focused movie? SWF.PersistentScreenElements
+[0154.65] Log: Current focused movie? SWF.PersistentScreenElements
+[0154.65] Log: UTextureMovie::Play
+[0154.65] Log: UTextureMovie::InitDecoder
+[0154.88] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_vang_over) for 'UI_Loadout_SWF.class_image_mason_vang_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_vang_over]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_vang_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_vang_over.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_vang_normal) for 'UI_Loadout_SWF.class_image_mason_vang_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_vang_normal]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_vang_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_vang_normal.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_maa_over) for 'UI_Loadout_SWF.class_image_mason_maa_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_maa_over]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_maa_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_maa_over.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_maa_normal) for 'UI_Loadout_SWF.class_image_mason_maa_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_maa_normal]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_maa_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_maa_normal.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_knight_over) for 'UI_Loadout_SWF.class_image_mason_knight_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_knight_over]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_knight_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_knight_over.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_knight_normal) for 'UI_Loadout_SWF.class_image_mason_knight_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_knight_normal]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_knight_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_knight_normal.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_arch_over) for 'UI_Loadout_SWF.class_image_mason_arch_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_arch_over]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_arch_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_arch_over.png'
+[0154.89] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_arch_normal) for 'UI_Loadout_SWF.class_image_mason_arch_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_arch_normal]?
+[0154.89] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_arch_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_arch_normal.png'
+[0155.14] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0155.14] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0155.14] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0155.14] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0155.14] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0155.14] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0155.14] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0155.14] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0155.14] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0155.14] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0155.14] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0155.15] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0155.15] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0155.15] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0155.15] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0155.15] Log: Loading Asset Class 'WP_aux_Saber.WEP_Saber'
+[0155.16] Log: Loading Asset Class 'WP_aux_Saber.SM_Saber'
+[0155.16] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0155.17] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0155.17] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0155.17] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0155.17] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0155.18] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0155.18] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0155.20] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0155.20] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0155.20] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0155.20] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0155.20] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0155.20] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0155.20] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0155.20] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0155.20] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0155.20] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0155.20] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0155.20] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0155.20] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0155.20] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0155.20] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0155.20] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.20] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.20] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0155.20] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0155.20] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0155.23] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0155.23] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0155.23] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0155.23] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0155.23] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0155.23] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'WP_2hs_Zweihander.wep_zweihander'
+[0155.23] Log: Loading Asset Class 'WP_2hs_Zweihander.sm_zweihander'
+[0155.23] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0155.23] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0155.23] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0155.23] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0155.23] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0155.23] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0155.23] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0155.23] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0155.23] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0155.23] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0155.23] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0155.23] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0155.24] Log: Loading Asset Class 'WP_spr_Spear.WEP_spear'
+[0155.24] Log: Loading Asset Class 'WP_spr_Spear.sm_spear'
+[0155.24] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0155.24] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0155.24] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0155.24] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0155.24] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0155.24] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.24] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.24] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0155.24] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0155.24] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0155.24] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0155.24] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0155.24] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0155.24] Log: Loading Asset Class 'WP_dag_ThrustDagger.WEP_thrustingdagger'
+[0155.24] Log: Loading Asset Class 'WP_dag_ThrustDagger.sm_thrustingdagger'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0155.24] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0155.24] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0155.24] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0155.24] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0155.24] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0155.24] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0155.24] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0155.24] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0155.24] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0155.24] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0155.24] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0155.24] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0155.24] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0155.24] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0155.24] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0155.24] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0155.24] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0155.24] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0155.24] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0155.24] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0155.24] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0155.24] Log: Loading Asset Class 'WP_aux_Saber.WEP_Saber'
+[0155.24] Log: Loading Asset Class 'WP_aux_Saber.SM_Saber'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0155.25] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0155.25] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0155.25] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0155.25] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0155.25] Log: Loading Asset Class 'WP_1hs_Falchion.WEP_falchion'
+[0155.25] Log: Loading Asset Class 'WP_1hs_Falchion.sm_falchion'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0155.25] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0155.25] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0155.25] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0155.25] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0155.25] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0155.25] Log: Loading Asset Class 'CH_HP_Community_Helms.Meshes.SK_Community_Helm'
+[0155.25] Log: Loading Asset Class 'CH_HP_Community_Helms.SM_Community_Helm'
+[0155.25] Log: Loading Asset Class 'CH_HP_Community_Helms.Materials.M_Community_Helm_Mason'
+[0155.26] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0155.26] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0155.26] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0155.26] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0155.26] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0155.26] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0155.26] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0155.26] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0155.28] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0155.28] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0155.28] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0155.28] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0155.28] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_MasonMaa_Helm'
+[0155.28] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_MasonMaa_Helm'
+[0155.28] Log: Loading Asset Class 'WP_pol_Bardiche.WEP_bardiche'
+[0155.28] Log: Loading Asset Class 'WP_pol_Bardiche.sm_bardiche'
+[0155.28] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0155.28] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0155.28] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0155.28] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0155.28] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0155.28] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.28] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0155.28] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0155.28] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0155.28] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0155.28] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0155.78] DevSteam: ReadUserStats(76561198104328142) called with result 1 code 1
+[0156.24] DevSteam: ReadUserStats(76561198079243483) called with result 1 code 1
+[0156.64] DevSteam: ReadUserStats(76561198089530662) called with result 1 code 1
+[0157.29] DevSteam: ReadUserStats(76561198085517231) called with result 1 code 1
+[0157.73] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0158.24] DevSteam: ReadUserStats(76561198075224776) called with result 1 code 1
+[0158.60] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0159.01] DevSteam: ReadUserStats(76561198168728670) called with result 1 code 1
+[0159.57] DevSteam: ReadUserStats(76561198113309594) called with result 1 code 1
+[0159.93] DevSteam: ReadUserStats(76561198120889984) called with result 1 code 1
+[0160.33] DevSteam: ReadUserStats(76561198049545503) called with result 1 code 1
+[0160.94] DevSteam: ReadUserStats(76561198080354611) called with result 1 code 1
+[0161.35] DevSteam: ReadUserStats(76561197996337753) called with result 1 code 1
+[0161.84] DevSteam: ReadUserStats(76561198079099036) called with result 1 code 1
+[0162.35] DevSteam: ReadUserStats(76561198070405373) called with result 1 code 1
+[0162.80] DevSteam: ReadUserStats(76561198009899278) called with result 1 code 1
+[0163.77] DevSteam: ReadUserStats(76561197998202314) called with result 1 code 1
+[0164.22] DevSteam: ReadUserStats(76561198081787026) called with result 1 code 1
+[0164.93] DevSteam: ReadUserStats(76561198042404358) called with result 1 code 1
+[0165.38] DevSteam: ReadUserStats(76561198025019777) called with result 1 code 1
+[0165.94] DevSteam: ReadUserStats(76561198220782140) called with result 1 code 1
+[0166.34] DevSteam: ReadUserStats(76561198040703626) called with result 1 code 1
+[0166.80] DevSteam: ReadUserStats(76561198189838577) called with result 1 code 1
+[0167.20] DevSteam: ReadUserStats(76561198051560993) called with result 1 code 1
+[0167.60] DevSteam: ReadUserStats(76561198095074317) called with result 1 code 1
+[0175.51] Log: Flushing async loaders.
+[0181.98] Log: Flushed async loaders.
+[0182.39] Log: No Cached Brush Physics Data Found Or Out Of Date (Model_6) (Owner: BlockingVolume_37) - Cooking Now.
+[0182.67] Log: --- LOADING MOVIE TIME: 1:02 min ---
+[0183.24] Log: GFullScreen End Movie -- 1
+[0183.90] DevSteam: ReadUserStats(76561198104328142) completed with result '1' k_EResultOK (success) and took 28719ms
+[0183.94] DevSteam: ReadUserStats(76561198079243483) completed with result '1' k_EResultOK (success) and took 28749ms
+[0183.96] DevSteam: ReadUserStats(76561198089530662) completed with result '1' k_EResultOK (success) and took 28773ms
+[0183.99] DevSteam: ReadUserStats(76561198085517231) completed with result '1' k_EResultOK (success) and took 28799ms
+[0184.01] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 28825ms
+[0184.08] DevSteam: ReadUserStats(76561198075224776) completed with result '1' k_EResultOK (success) and took 28888ms
+[0184.11] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 28910ms
+[0184.68] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0184.68] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0185.05] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0185.60] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0185.90] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0186.30] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0211.47] Log: Failed to create audio buffer for 'SoundNodeWave A_Footsteps.Stone_Hard_04'
+[0211.50] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0211.50] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0211.50] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0211.50] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0211.50] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0211.50] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0211.83] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0211.83] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0211.83] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0211.83] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0211.83] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0211.83] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0211.83] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0211.83] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0211.83] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0211.84] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0211.84] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0212.56] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0212.56] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0212.56] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0212.56] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0212.56] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0212.56] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0212.56] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0212.56] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0212.56] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0212.56] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0212.56] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0212.56] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0212.56] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0212.56] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0212.57] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0212.57] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0212.57] Log: Loading Asset Class 'WP_15hs_Messer.Messer.wep_messer'
+[0212.61] Log: Loading Asset Class 'WP_15hs_Messer.Messer.sm_messer'
+[0212.61] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0212.61] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0212.61] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0212.61] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0212.61] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0212.61] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0212.61] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0212.61] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0212.61] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0212.61] Log: Loading Asset Class 'CH_H_Veteran.a_k.sk_CH_AgathaKnight_Helmet_Veteran'
+[0212.61] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_AgathaKnight_Helmet_Veteran'
+[0213.29] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0213.29] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0213.29] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0213.29] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0213.29] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0213.29] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0213.29] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0213.29] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0213.29] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0213.29] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0213.29] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0213.29] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0213.29] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0213.30] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0213.30] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0213.30] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0213.30] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0213.30] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0213.30] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0213.30] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0213.30] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0213.30] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0213.31] Log: Loading Asset Class 'CH_HP_Community_Helms.Meshes.SK_Community_Helm'
+[0213.31] Log: Loading Asset Class 'CH_HP_Community_Helms.SM_Community_Helm'
+[0213.31] Log: Loading Asset Class 'CH_HP_Community_Helms.Materials.M_Community_Helm_Mason'
+[0213.31] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0213.31] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0213.31] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0213.31] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0213.31] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0213.31] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0213.31] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0213.31] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0213.31] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0213.32] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_MasonMaa_Helm'
+[0213.32] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_MasonMaa_Helm'
+[0213.32] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0213.32] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0213.32] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0213.32] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0213.32] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0213.32] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0213.32] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0213.32] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0213.32] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0213.32] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0213.32] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0213.32] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0213.32] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0213.33] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0213.33] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0213.33] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0213.33] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0213.33] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0213.33] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0213.33] Log: Loading Asset Class 'WP_bow_Shortbow.WEP_shortbow'
+[0213.57] Log: Loading Asset Class 'WP_bow_Shortbow.SM_shortbow'
+[0213.57] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0213.57] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0213.57] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.MasonArcherANIMRIG'
+[0213.57] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Head'
+[0213.57] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Body'
+[0213.57] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.Sk_CH_3P_MasonArcher'
+[0213.57] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_1P_MAsonArcher'
+[0220.22] Log: Loading Asset Class 'WP_pol_Bardiche.WEP_bardiche'
+[0220.22] Log: Loading Asset Class 'WP_pol_Bardiche.sm_bardiche'
+[0220.22] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0220.22] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0220.22] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0220.22] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0220.22] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0220.22] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0220.22] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0220.22] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0220.22] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0220.22] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0220.22] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0220.23] Log: FSocketWin::Close
+[0220.39] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_low_01'
+[0220.39] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_low_19'
+[0220.79] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0220.79] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0220.79] Log: Loading Asset Class 'WP_dag_ThrustDagger.WEP_thrustingdagger'
+[0220.79] Log: Loading Asset Class 'WP_dag_ThrustDagger.sm_thrustingdagger'
+[0220.79] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0220.79] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0220.79] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0220.79] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0220.79] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0220.80] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0220.80] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0220.88] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_1 Component: StaticMeshComponent_15 StaticMesh: WP_15hs_Longsword.sm_Longsword (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0221.73] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_2 Component: StaticMeshComponent_16 StaticMesh: WP_shld_TowerShield.Materials.WP_TowerShield_m (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0221.80] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0221.80] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0221.80] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0221.80] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0221.80] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0221.80] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0221.80] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0221.80] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0221.80] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0221.80] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0221.80] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0221.81] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0221.81] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0221.81] Log: Loading Asset Class 'WP_1hs_Falchion.WEP_falchion'
+[0221.81] Log: Loading Asset Class 'WP_1hs_Falchion.sm_falchion'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0221.81] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0221.86] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_medium_09'
+[0222.16] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_AG_gurgle_12'
+[0222.24] DevSteam: ReadUserStats(76561198024154988) called with result 1 code 1
+[0222.27] Log: Loading Asset Class 'WP_15hs_Messer.Messer.wep_messer'
+[0222.30] Log: Loading Asset Class 'WP_15hs_Messer.Messer.sm_messer'
+[0222.30] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0222.30] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0222.30] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0222.30] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0222.30] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0222.30] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0222.30] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0222.30] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0222.30] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0222.31] Log: Loading Asset Class 'CH_H_Veteran.a_k.sk_CH_AgathaKnight_Helmet_Veteran'
+[0222.31] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_AgathaKnight_Helmet_Veteran'
+[0222.57] DevSteam: ReadUserStats(76561198012991448) called with result 1 code 1
+[0222.79] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0222.79] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0222.79] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0222.79] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0222.79] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0222.79] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0222.79] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0222.79] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0222.79] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0222.79] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0222.79] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0222.79] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0222.79] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0223.00] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.bob_gasp_01'
+[0224.13] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_3 Component: StaticMeshComponent_20 StaticMesh: WP_dl1_PoleHammer.SM_polehammer (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0224.13] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.snook_pain_high_04'
+[0226.25] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_4 Component: StaticMeshComponent_21 StaticMesh: WP_pol_Bardiche.sm_bardiche (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0227.26] Log: Current focused movie? SWF.PersistentScreenElements
+[0227.48] Log: Current focused movie? SWF.PersistentScreenElements
+[0227.49] Log: Flushing async loaders.
+[0228.05] Log: Flushed async loaders.
+[0228.87] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_torch) for 'UI_HUD_SWF.large_icon_torch.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_torch]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_torch.png': Failed to find object 'Texture ui_hud_swf.large_icon_torch.png'
+[0228.88] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_protect) for 'UI_HUD_SWF.large_icon_protect.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_protect]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_protect.png': Failed to find object 'Texture ui_hud_swf.large_icon_protect.png'
+[0228.88] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_kill) for 'UI_HUD_SWF.large_icon_kill.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_kill]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_kill.png': Failed to find object 'Texture ui_hud_swf.large_icon_kill.png'
+[0228.88] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_escort) for 'UI_HUD_SWF.large_icon_escort.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_escort]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_escort.png': Failed to find object 'Texture ui_hud_swf.large_icon_escort.png'
+[0228.88] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_capture) for 'UI_HUD_SWF.large_icon_capture.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_capture]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_capture.png': Failed to find object 'Texture ui_hud_swf.large_icon_capture.png'
+[0228.88] Warning: Warning, The Outer object (Package ui_hud_swf.large_icon_break) for 'UI_HUD_SWF.large_icon_break.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.large_icon_break]?
+[0228.88] Warning: Warning, Failed to load 'Texture ui_hud_swf.large_icon_break.png': Failed to find object 'Texture ui_hud_swf.large_icon_break.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.triangle) for 'ui_hud_swf.triangle.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.triangle]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.triangle.png': Failed to find object 'Texture ui_hud_swf.triangle.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_use) for 'ui_hud_swf.icon_use.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_use]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_use.png': Failed to find object 'Texture ui_hud_swf.icon_use.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_pillage) for 'ui_hud_swf.icon_pillage.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_pillage]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_pillage.png': Failed to find object 'Texture ui_hud_swf.icon_pillage.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_kill) for 'ui_hud_swf.icon_kill.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_kill]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_kill.png': Failed to find object 'Texture ui_hud_swf.icon_kill.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_escort) for 'ui_hud_swf.icon_escort.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_escort]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_escort.png': Failed to find object 'Texture ui_hud_swf.icon_escort.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_defend) for 'ui_hud_swf.icon_defend.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_defend]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_defend.png': Failed to find object 'Texture ui_hud_swf.icon_defend.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_capture) for 'ui_hud_swf.icon_capture.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_capture]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_capture.png': Failed to find object 'Texture ui_hud_swf.icon_capture.png'
+[0228.98] Warning: Warning, The Outer object (Package ui_hud_swf.icon_break) for 'ui_hud_swf.icon_break.png' couldn't be loaded [while loading package ui_hud_swf]: Invalid linker index [couldn't load Package ui_hud_swf.icon_break]?
+[0228.98] Warning: Warning, Failed to load 'Texture ui_hud_swf.icon_break.png': Failed to find object 'Texture ui_hud_swf.icon_break.png'
+[0228.98] Log: Current focused movie? SWF.PersistentScreenElements
+[0229.05] Log: Current focused movie? SWF.PersistentScreenElements
+[0229.05] Log: Current focused movie? SWF.PersistentScreenElements
+[0229.17] Log: UTextureMovie::Stop
+[0229.93] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_5 Component: StaticMeshComponent_22 StaticMesh: WP_1hb_Mace.sm_Mace (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0229.93] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_6 Component: StaticMeshComponent_23 StaticMesh: WP_shld_Heatshield.sm_mason_heatshield (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0229.94] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.ryan_pain_high_04'
+[0230.78] Log: Current focused movie? SWF.PersistentScreenElements
+[0231.02] Log: UTextureMovie::Play
+[0231.02] Log: UTextureMovie::InitDecoder
+[0231.81] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0231.81] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0231.81] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0231.81] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0231.81] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0231.81] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0231.81] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0231.81] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0231.81] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0231.81] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0231.81] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0231.81] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0231.81] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0231.81] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0231.85] Warning: Warning, Failed to load 'Texture None.None': Failed to find object 'Texture None.None'
+[0232.20] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_7 Component: StaticMeshComponent_25 StaticMesh: WP_dag_ThrustDagger.sm_thrustingdagger (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0234.89] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0234.89] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0234.89] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0234.89] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0234.89] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0234.89] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0234.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0234.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0234.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0234.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0234.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0234.89] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0234.89] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0235.96] Log: UTextureMovie::Stop
+[0235.96] Log: UTextureMovie::Play
+[0235.96] Log: UTextureMovie::InitDecoder
+[0236.01] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0236.01] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0236.01] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0236.01] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0236.01] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0236.01] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0236.01] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0236.01] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0238.55] Log: Failed to create audio buffer for 'SoundNodeWave A_Footsteps.Foliage_Hard_06'
+[0241.28] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0241.29] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0241.29] Log: Loading Asset Class 'WP_aux_Saber.WEP_Saber'
+[0241.29] Log: Loading Asset Class 'WP_aux_Saber.SM_Saber'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0241.29] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0241.29] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0245.74] Log: Failed to create audio buffer for 'SoundNodeWave A_Footsteps.Stone_Norm_05'
+[0249.21] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.ryan_pain_low_08'
+[0249.65] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0249.65] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0249.65] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0249.65] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0249.65] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0249.65] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0249.65] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0249.65] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0249.65] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0249.66] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0249.66] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0252.93] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0252.93] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0252.93] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0252.93] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0252.93] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0252.93] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0252.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0252.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0252.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0252.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0252.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0252.94] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0252.94] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0253.95] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_low_05'
+[0256.35] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0256.35] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0256.35] Log: Loading Asset Class 'WP_dag_ThrustDagger.WEP_thrustingdagger'
+[0256.35] Log: Loading Asset Class 'WP_dag_ThrustDagger.sm_thrustingdagger'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0256.35] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0256.35] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0256.40] Log: Loading Asset Class 'WP_pol_Bardiche.WEP_bardiche'
+[0256.40] Log: Loading Asset Class 'WP_pol_Bardiche.sm_bardiche'
+[0256.40] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0256.40] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0256.40] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0256.40] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0256.40] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0256.40] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0256.40] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0256.40] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0256.40] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0256.41] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0256.41] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0259.92] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0259.92] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0259.92] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0259.92] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0259.92] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0259.92] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0259.92] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0259.92] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0259.92] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0259.92] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0259.92] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0259.92] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0259.92] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0260.29] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.bob_pain_med_07'
+[0261.36] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0261.36] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0261.36] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0261.36] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0261.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0261.36] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0262.50] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_MasonMaa_Helm'
+[0262.50] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_MasonMaa_Helm'
+[0266.98] Log: Size of window 1280 720
+[0267.13] Log: Read config file: ..\..\Engine\Localization\FRA\UnrealEd.FRA
+[0268.14] Log: We're in AMD Eyefinity
+[0268.20] Log: Int DetailMode set to 0
+[0268.30] Log: Bool DynamicLights set to 0
+[0268.35] Log: Bool DynamicShadows set to 0
+[0268.36] Log: Bool Bloom set to 0
+[0268.37] Log: Bool DepthOfField set to 1
+[0268.38] Log: Bool UseVsync set to 1
+[0268.41] Log: Bool MotionBlur set to 0
+[0268.44] Log: Bool AmbientOcclusion set to 0
+[0268.45] Log: Bool bAllowLightShafts set to 0
+[0268.48] Log: Int SkeletalMeshLODBias set to 2
+[0268.49] Log: Int FoliageLODBias set to 2
+[0268.50] Log: Int ParticleLODBias set to 2
+[0268.52] Log: Int SSAOQuality set to 2
+[0268.53] Log: Int MaxAnisotropy set to 1
+[0268.54] Log: Int AnimationLODBias set to 0
+[0268.55] Log: Bool bAllowPostprocessMLAA set to 0
+[0268.56] Log: Int PostProcessAAType set to 3
+[0269.00] Log: Int CurrentBucket set to 6
+[0269.03] Log: Int MaxSoundNodeRandomChildren set to 6
+[0269.41] Log: UTextureMovie::Play
+[0269.41] Log: UTextureMovie::InitDecoder
+[0269.45] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_low_03'
+[0269.86] Log: UTextureMovie::Stop
+[0271.28] Log: UTextureMovie::Stop
+[0271.28] Log: Current focused movie? SWF.PersistentScreenElements
+[0273.37] Log: Current focused movie? SWF.PersistentScreenElements
+[0273.39] Log: UTextureMovie::Play
+[0273.39] Log: UTextureMovie::InitDecoder
+[0273.67] Warning: Warning, Failed to load 'Texture None.None': Failed to find object 'Texture None.None'
+[0275.19] Log: UTextureMovie::Stop
+[0275.19] Log: Current focused movie? SWF.PersistentScreenElements
+[0275.19] Log: Current focused movie? SWF.PersistentScreenElements
+[0275.19] Log: UTextureMovie::Play
+[0275.19] Log: UTextureMovie::InitDecoder
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_vang_over) for 'UI_Loadout_SWF.class_image_mason_vang_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_vang_over]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_vang_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_vang_over.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_vang_normal) for 'UI_Loadout_SWF.class_image_mason_vang_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_vang_normal]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_vang_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_vang_normal.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_maa_over) for 'UI_Loadout_SWF.class_image_mason_maa_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_maa_over]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_maa_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_maa_over.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_maa_normal) for 'UI_Loadout_SWF.class_image_mason_maa_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_maa_normal]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_maa_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_maa_normal.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_knight_over) for 'UI_Loadout_SWF.class_image_mason_knight_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_knight_over]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_knight_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_knight_over.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_knight_normal) for 'UI_Loadout_SWF.class_image_mason_knight_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_knight_normal]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_knight_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_knight_normal.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_arch_over) for 'UI_Loadout_SWF.class_image_mason_arch_over.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_arch_over]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_arch_over.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_arch_over.png'
+[0275.98] Warning: Warning, The Outer object (Package ui_loadout_swf.class_image_mason_arch_normal) for 'UI_Loadout_SWF.class_image_mason_arch_normal.png' couldn't be loaded [while loading package ui_loadout_swf]: Invalid linker index [couldn't load Package ui_loadout_swf.class_image_mason_arch_normal]?
+[0275.98] Warning: Warning, Failed to load 'Texture ui_loadout_swf.class_image_mason_arch_normal.png': Failed to find object 'Texture ui_loadout_swf.class_image_mason_arch_normal.png'
+[0277.90] Warning: Warning, Failed to load 'SwfMovie None.SwfMovie': Failed to find object 'SwfMovie None.SwfMovie'
+[0279.36] Log: Loading Asset Class 'WP_15hs_Messer.Messer.wep_messer'
+[0279.36] Log: Loading Asset Class 'WP_15hs_Messer.Messer.sm_messer'
+[0279.36] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0279.36] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0279.36] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0279.36] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0279.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0279.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0279.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0279.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0279.36] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0279.37] Log: Loading Asset Class 'CH_H_Veteran.a_k.sk_CH_AgathaKnight_Helmet_Veteran'
+[0279.37] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_AgathaKnight_Helmet_Veteran'
+[0279.99] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_medium_10'
+[0280.81] Log: Current focused movie? SWF.PersistentScreenElements
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.04] Log: GetDropInfoFor 0
+[0281.04] Log: Found drop
+[0281.10] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_low_17'
+[0281.58] Log: UTextureMovie::Stop
+[0281.65] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0281.65] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0281.65] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0281.65] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0281.65] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0281.65] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0281.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0281.66] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0281.66] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0281.66] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0281.66] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0281.66] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0281.66] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0282.13] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0282.13] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0282.13] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0282.13] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0282.13] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0282.13] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0282.13] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0282.13] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0282.13] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0282.14] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0282.14] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0288.78] Log: Loading Asset Class 'WP_2hs_Zweihander.wep_zweihander'
+[0288.78] Log: Loading Asset Class 'WP_2hs_Zweihander.sm_zweihander'
+[0288.78] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0288.78] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0288.78] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0288.78] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0288.78] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0288.78] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0288.78] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0288.78] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0288.78] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0288.78] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0288.78] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0289.89] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0289.89] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0289.89] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0289.89] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0289.89] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0292.19] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0292.19] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0292.19] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0292.19] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0292.19] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0292.19] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0292.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0292.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0292.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0292.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0292.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0292.20] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0292.20] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0295.73] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.ryan_pain_high_11'
+[0295.95] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0295.95] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0295.95] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0295.95] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0295.95] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0295.95] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0295.95] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0295.95] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0295.95] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0295.95] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0295.95] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0295.95] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0295.95] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0295.96] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0295.96] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0295.96] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0295.96] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0295.96] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0295.96] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0295.96] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0295.96] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0295.96] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0295.97] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0295.97] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0297.06] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0297.06] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0297.06] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0297.06] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0297.07] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0297.07] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0301.53] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0301.53] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0301.53] Log: Loading Asset Class 'WP_aux_Saber.WEP_Saber'
+[0301.53] Log: Loading Asset Class 'WP_aux_Saber.SM_Saber'
+[0301.53] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0301.53] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0301.53] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0301.53] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0301.53] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0301.54] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0301.54] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0302.59] Log: Loading Asset Class 'WP_bow_Longbow.Meshes.WEP_Longbow'
+[0302.59] Log: Loading Asset Class 'WP_bow_Longbow.Meshes.SM_Long_Bow'
+[0302.59] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0302.59] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.MasonArcherANIMRIG'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Head'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Body'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.Sk_CH_3P_MasonArcher'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_1P_MAsonArcher'
+[0302.59] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_MasonArcher_Helm01'
+[0302.61] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_MasonArcher_Helm01'
+[0311.37] Log: Loading Asset Class 'WP_15hs_Messer.Messer.wep_messer'
+[0311.37] Log: Loading Asset Class 'WP_15hs_Messer.Messer.sm_messer'
+[0311.37] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0311.37] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0311.37] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0311.37] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0311.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0311.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0311.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0311.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0311.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0311.37] Log: Loading Asset Class 'CH_H_Veteran.a_k.sk_CH_AgathaKnight_Helmet_Veteran'
+[0311.37] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_AgathaKnight_Helmet_Veteran'
+[0312.16] DevSteam: ReadUserStats(76561198093886478) called with result 1 code 1
+[0314.33] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0314.33] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0314.33] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0314.33] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0314.33] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0314.33] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Head'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.Materials.MI_CH_3P_AgathaMaa_Body'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Gore'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.Sk_CH_1P_AgathaMaa'
+[0314.33] Log: Loading Asset Class 'CH_AgathanMaa_PKG.SkeletalMesh.SK_CH_3P_AgathaMaa_Helm01'
+[0314.33] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_3P_AgathaMaa_Helm01'
+[0315.42] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0315.42] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0315.42] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0315.42] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0315.42] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0315.42] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0317.19] Log: Loading Asset Class 'WP_pol_Bardiche.WEP_bardiche'
+[0317.19] Log: Loading Asset Class 'WP_pol_Bardiche.sm_bardiche'
+[0317.19] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0317.19] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0317.19] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0317.19] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0317.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0317.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0317.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0317.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0317.19] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0317.20] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0317.20] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0325.21] DevSteam: ReadUserStats(76561198151601603) called with result 1 code 1
+[0325.95] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0325.95] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0325.95] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0325.95] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0326.00] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0326.37] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0326.37] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0326.37] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0326.37] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0326.37] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0326.37] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0326.37] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0326.37] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0328.08] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0328.08] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0328.08] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0328.08] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0328.08] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_MasonMaa_Helm'
+[0328.08] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_MasonMaa_Helm'
+[0328.63] Log: Loading Asset Class 'WP_2hs_Zweihander.wep_zweihander'
+[0328.63] Log: Loading Asset Class 'WP_2hs_Zweihander.sm_zweihander'
+[0328.63] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0328.63] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0328.63] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0328.63] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0328.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0328.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0328.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0328.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0328.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0328.64] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0328.64] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0328.74] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0328.74] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0328.74] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0328.74] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0328.74] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0328.74] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0328.74] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0328.74] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0328.74] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0328.74] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0328.74] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0328.74] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0328.74] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0328.88] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0328.88] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0328.88] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0328.88] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0328.88] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0329.80] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0329.80] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0329.80] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0329.80] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0329.80] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0329.80] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0329.80] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0329.80] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0329.80] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0329.80] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0329.80] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0329.81] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0329.81] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0330.93] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0330.93] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0330.93] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0330.93] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0330.93] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0330.93] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0330.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0330.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0330.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0330.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0330.93] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0330.93] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0330.93] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0331.27] Log: Loading Asset Class 'WP_bow_Longbow.Meshes.WEP_Longbow'
+[0331.27] Log: Loading Asset Class 'WP_bow_Longbow.Meshes.SM_Long_Bow'
+[0331.27] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0331.27] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.MasonArcherANIMRIG'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Head'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Body'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.Sk_CH_3P_MasonArcher'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_1P_MAsonArcher'
+[0331.27] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_MasonArcher_Helm01'
+[0331.27] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_MasonArcher_Helm01'
+[0331.28] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0331.28] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0331.28] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0331.28] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0331.28] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0331.54] Log: Loading Asset Class 'WP_bow_Shortbow.WEP_shortbow'
+[0331.54] Log: Loading Asset Class 'WP_bow_Shortbow.SM_shortbow'
+[0331.54] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0331.54] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0331.54] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.MasonArcherANIMRIG'
+[0331.54] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Head'
+[0331.54] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Body'
+[0331.54] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.Sk_CH_3P_MasonArcher'
+[0331.54] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_1P_MAsonArcher'
+[0333.70] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0333.70] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0333.70] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0333.70] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0333.70] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0333.70] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0333.70] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0333.70] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0333.70] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0333.71] Log: Loading Asset Class 'CH_HP_Community_Helms.Meshes.SK_Community_Helm'
+[0333.71] Log: Loading Asset Class 'CH_HP_Community_Helms.SM_Community_Helm'
+[0333.71] Log: Loading Asset Class 'CH_HP_Community_Helms.Materials.M_Community_Helm_Mason'
+[0337.88] Log: AActor::SetBase : Bone (b_shield_1) not found on AOCPawn_38 for UTEmit_BloodSpray_1!
+[0337.91] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_medium_11'
+[0340.94] Log: Loading Asset Class 'WP_DL1_Flail.WEP_H-Flail'
+[0341.17] Log: Loading Asset Class 'WP_DL1_Flail.SM_H-Flail'
+[0341.17] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0341.17] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0341.17] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0341.47] Log: execBoneIsChildOf: BoneName 'b_handle' not found in SkeletalMesh 'SK_CH_3P_AgathaKnight'
+[0341.47] Log: execBoneIsChildOf: BoneName 'b_handle' not found in SkeletalMesh 'SK_CH_3P_AgathaKnight'
+[0341.86] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0341.86] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0341.86] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0341.86] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0341.86] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0341.86] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0341.86] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0341.86] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0341.86] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0341.86] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0341.86] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0341.87] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0341.87] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0343.25] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0343.25] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0343.25] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0343.25] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0343.25] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0343.25] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0343.25] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0343.25] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0343.25] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0343.25] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0343.25] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0343.26] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0343.26] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0344.81] Log: AActor::SetBase : Bone (b_handle) not found on AOCPawn_28 for UTEmit_BloodSpray_6!
+[0345.13] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0345.13] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0345.13] Log: Loading Asset Class 'WP_dag_ThrustDagger.WEP_thrustingdagger'
+[0345.13] Log: Loading Asset Class 'WP_dag_ThrustDagger.sm_thrustingdagger'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0345.13] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0345.13] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0345.81] Log: AActor::SetBase : Bone (b_shield_1) not found on AOCPawn_29 for UTEmit_BloodSpray_8!
+[0345.93] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_13 Component: StaticMeshComponent_106 StaticMesh: WP_2hs_greatsword.sm_greatsword (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0345.95] Log: AActor::SetBase : Bone (b_shield_1) not found on AOCPawn_42 for UTEmit_BloodSpray_11!
+[0345.95] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2482.792 Y=-9772.368 Z=1298.493] for [AOCDroppedWeapon]
+[0347.25] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_14 Component: StaticMeshComponent_108 StaticMesh: WP_2hs_Zweihander.sm_zweihander (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0350.03] Log: AActor::SetBase : Bone (b_shield_1) not found on AOCPawn_38 for UTEmit_BloodSpray_17!
+[0350.06] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.pappas_mo_knight_pain_medium_23'
+[0351.52] Log: AActor::SetBase : Bone (b_handle) not found on AOCPawn_28 for UTEmit_BloodSpray_19!
+[0351.53] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_18 Component: StaticMeshComponent_117 StaticMesh: WP_shld_TowerShield.Materials.WP_TowerShield_a (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0351.61] Log: AActor::SetBase : Bone (b_handle) not found on AOCPawn_28 for UTEmit_BloodSpray_20!
+[0351.83] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0351.83] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0351.83] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0351.83] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0351.83] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0351.83] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0351.83] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0351.83] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0351.83] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0351.83] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0351.83] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0351.83] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0351.83] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0352.11] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0352.12] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0352.12] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0352.12] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0352.12] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0352.12] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0352.12] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0352.12] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0352.12] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0352.12] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0352.12] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0352.12] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0352.12] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0354.65] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_21 Component: StaticMeshComponent_121 StaticMesh: WP_shld_Kite.sm_ma_kite (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0355.89] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0355.89] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0355.89] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0355.89] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0355.89] Log: Loading Asset Class 'WP_throw_Pots.wep_smoke_pot'
+[0355.89] Log: Loading Asset Class 'WP_throw_Pots.SM_smoke_pot'
+[0355.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0355.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0355.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0355.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0355.89] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0355.89] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0355.89] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0356.81] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0356.81] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0356.81] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0356.81] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0356.81] Log: Loading Asset Class 'WP_throw_Pots.wep_smoke_pot'
+[0356.81] Log: Loading Asset Class 'WP_throw_Pots.SM_smoke_pot'
+[0356.81] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0356.81] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0356.81] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0356.81] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0356.81] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0356.82] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0356.82] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0361.42] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0361.42] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0361.42] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0361.42] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0361.42] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0361.42] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0361.42] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0361.42] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0361.42] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0361.42] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0361.42] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0361.42] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0361.42] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0362.26] Log: Loading Asset Class 'WP_2ha_doubleaxe.WEP_doubleaxe'
+[0362.26] Log: Loading Asset Class 'WP_2ha_doubleaxe.SM_Double_Axe'
+[0362.26] Log: Loading Asset Class 'WP_1hb_Mace.WEP_mace'
+[0362.26] Log: Loading Asset Class 'WP_1hb_Mace.sm_Mace'
+[0362.26] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0362.26] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0362.26] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0362.26] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0362.26] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0362.27] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0362.27] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0363.76] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_25 Component: StaticMeshComponent_129 StaticMesh: WP_2ha_doubleaxe.SM_Double_Axe (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0366.10] Log: WARNING: Cooking Convex For Actor: aoctd-castleassault-cm_p.TheWorld:PersistentLevel.AOCDroppedWeapon_26 Component: StaticMeshComponent_130 StaticMesh: WP_aux_Shortsword.SM_Short_Sword (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0367.59] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0367.59] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0367.59] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0367.59] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0367.59] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0367.59] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0367.59] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0367.59] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0367.59] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0367.59] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0367.59] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0369.55] Log: Loading Asset Class 'WP_pol_Bardiche.WEP_bardiche'
+[0369.55] Log: Loading Asset Class 'WP_pol_Bardiche.sm_bardiche'
+[0369.55] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0369.55] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0369.55] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0369.55] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0369.55] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0369.55] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0369.55] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0369.55] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0369.55] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0369.55] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0369.55] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0371.45] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0371.45] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0371.45] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0371.45] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0371.45] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0371.45] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0371.45] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0371.45] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0371.45] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0371.46] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0371.46] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0372.26] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0372.26] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0372.26] Log: Loading Asset Class 'WP_aux_Saber.WEP_Saber'
+[0372.26] Log: Loading Asset Class 'WP_aux_Saber.SM_Saber'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0372.26] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0372.26] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0373.80] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0373.80] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0373.80] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0373.80] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0373.80] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0374.57] Log: Loading Asset Class 'WP_2hs_Zweihander.wep_zweihander'
+[0374.57] Log: Loading Asset Class 'WP_2hs_Zweihander.sm_zweihander'
+[0374.57] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0374.57] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0374.57] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0374.57] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0374.57] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0374.57] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0374.57] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0374.57] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0374.57] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0374.57] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0374.57] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0375.63] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.ryan_pain_high_07'
+[0377.36] Log: Loading Asset Class 'WP_jav_Javelin.WEP_Javelin'
+[0377.36] Log: Loading Asset Class 'WP_jav_Javelin.JavelinStatic'
+[0377.36] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0377.36] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0377.36] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0377.36] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0379.97] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0379.97] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0379.97] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0379.97] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0379.97] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0379.97] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0379.97] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0379.97] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0379.97] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0379.97] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0379.97] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0379.97] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0379.97] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0383.54] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0383.54] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0383.54] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0383.54] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0383.54] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0383.54] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0383.54] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0383.54] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0384.47] Log: Loading Asset Class 'WP_DL1_sling.WEP_sling'
+[0384.47] Log: Loading Asset Class 'WP_DL1_sling.sm_sling'
+[0384.47] Log: Loading Asset Class 'WP_dag_ThrustDagger.WEP_thrustingdagger'
+[0384.47] Log: Loading Asset Class 'WP_dag_ThrustDagger.sm_thrustingdagger'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Head'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.Materials.MI_CH_3P_AgathaArcher_Body'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_3P_AgathaArcher_Gore'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_1P_AgathaArcher'
+[0384.47] Log: Loading Asset Class 'CH_AgathaArcher_PKG.models.SK_CH_AgathaArcher_Helm01'
+[0384.47] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_AgathaArcher_Helm01'
+[0384.48] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0384.48] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0384.48] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0384.48] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0384.48] Log: Loading Asset Class 'WP_throw_knife.wep_throwingKnife'
+[0384.48] Log: Loading Asset Class 'WP_throw_knife.ThrowingKnife_3rdP'
+[0384.48] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0384.48] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0384.48] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0384.48] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0384.48] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0384.49] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0384.49] Log: Loading Asset Class 'CH_sm_helms.smhelms_CrusaderHA_PSKrightNew'
+[0386.33] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0386.33] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0386.33] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0386.33] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0386.33] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0386.33] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0386.33] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0386.33] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0386.33] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0386.34] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0386.34] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0386.37] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0386.37] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0386.37] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0386.37] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0386.37] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0386.37] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0386.37] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0386.37] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0386.37] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0386.37] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0386.37] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0386.38] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0386.38] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0386.60] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0386.60] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0386.60] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0386.60] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0386.60] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0386.60] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0386.60] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0386.60] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0386.60] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0386.60] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0386.60] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0386.61] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0386.61] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0387.43] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0387.43] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0387.43] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0387.43] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0387.43] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0387.43] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0387.43] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0387.43] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0387.43] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0387.43] Log: Loading Asset Class 'CH_HP_Community_Helms.Meshes.SK_Community_Helm'
+[0387.43] Log: Loading Asset Class 'CH_HP_Community_Helms.SM_Community_Helm'
+[0387.43] Log: Loading Asset Class 'CH_HP_Community_Helms.Materials.M_Community_Helm_Mason'
+[0387.44] Log: Loading Asset Class 'WP_1hs_Norse_Sword.wep_norsesword'
+[0387.44] Log: Loading Asset Class 'WP_1hs_Norse_Sword.sm_NorseSword'
+[0387.44] Log: Loading Asset Class 'WP_dag_BroadDagger.WEP_broadDagger'
+[0387.44] Log: Loading Asset Class 'WP_dag_BroadDagger.Broad_Dagger.Broad_Dagger'
+[0387.44] Log: Loading Asset Class 'WP_throw_Pots.wep_oil_pot'
+[0387.44] Log: Loading Asset Class 'WP_throw_Pots.SM_oil_pot'
+[0387.44] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_MasonMaa'
+[0387.44] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Head'
+[0387.44] Log: Loading Asset Class 'CH_MasonMaa_PKG.Materials.MI_MasonMaa_Body'
+[0387.44] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_3P_MasonMaa_Gore'
+[0387.44] Log: Loading Asset Class 'CH_MasonMaa_PKG.models.SK_CH_1P_MasonMaa'
+[0388.63] Log: Loading Asset Class 'WP_2hs_greatsword.wep_greatsword'
+[0388.63] Log: Loading Asset Class 'WP_2hs_greatsword.sm_greatsword'
+[0388.63] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0388.63] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0388.63] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0388.63] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0388.63] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0388.64] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0388.64] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0388.64] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0388.64] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0388.64] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0388.64] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0388.65] Log: Loading Asset Class 'WP_dl1_PoleHammer.WEP_polehammer'
+[0388.65] Log: Loading Asset Class 'WP_dl1_PoleHammer.SM_polehammer'
+[0388.65] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0388.65] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0388.65] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0388.65] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0388.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0388.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0388.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0388.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0388.65] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0388.65] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0388.65] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0391.66] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0391.66] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0391.66] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0391.66] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0391.66] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight'
+[0391.66] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Head'
+[0391.66] Log: Loading Asset Class 'CH_MasonKnight.Materials.MI_CH_3P_MasonKnight_Body'
+[0391.66] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_3P_MasonKnight_Gore'
+[0391.66] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_1P_MasonKnight'
+[0391.67] Log: Loading Asset Class 'CH_MasonKnight.models.SK_CH_MasonKnight_Helm01'
+[0391.67] Log: Loading Asset Class 'CH_MasonKnight.models.SM_CH_MasonKnight_Helm01'
+[0392.76] Log: Loading Asset Class 'WP_15hs_Longsword.WEP_Longsword'
+[0392.76] Log: Loading Asset Class 'WP_15hs_Longsword.sm_Longsword'
+[0392.76] Log: Loading Asset Class 'WP_1hs_Broadsword.WEP_Broadsword'
+[0392.76] Log: Loading Asset Class 'WP_1hs_Broadsword.sm_Broadsword'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Head'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.Materials.MI_CH_3P_AgathaKnight_Body'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_3P_AgathaKnight_Gore'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_1P_AgathaKnight'
+[0392.76] Log: Loading Asset Class 'CH_AgathanKnight_PKG.models.SK_CH_AgathaKnight_Helm01'
+[0392.76] Log: Loading Asset Class 'CH_sm_helms.smhelms_SK_CH_Agathaknight_Helm02'
+[0393.63] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.john_pain_medium_01'
+[0393.99] Log: Loading Asset Class 'WP_bow_Shortbow.WEP_shortbow'
+[0393.99] Log: Loading Asset Class 'WP_bow_Shortbow.SM_shortbow'
+[0393.99] Log: Loading Asset Class 'WP_aux_Shortsword.wep_shortsword'
+[0393.99] Log: Loading Asset Class 'WP_aux_Shortsword.SM_Short_Sword'
+[0393.99] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.MasonArcherANIMRIG'
+[0393.99] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Head'
+[0393.99] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.Materials.MI_CH_3P_MasonArcher_Body'
+[0393.99] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.Sk_CH_3P_MasonArcher'
+[0393.99] Log: Loading Asset Class 'CH_A_MasonArcher_PKG.SkeletalMesh.SK_CH_1P_MAsonArcher'
+[0395.38] Log: Loading Asset Class 'WP_2hs_Zweihander.wep_zweihander'
+[0395.38] Log: Loading Asset Class 'WP_2hs_Zweihander.sm_zweihander'
+[0395.38] Log: Loading Asset Class 'WP_1ha_Waraxe.WEP_WarAxe'
+[0395.38] Log: Loading Asset Class 'WP_1ha_Waraxe.Meshes.SM_WarAxe'
+[0395.38] Log: Loading Asset Class 'WP_throw_axe.wep_throwingAxe'
+[0395.38] Log: Loading Asset Class 'WP_throw_axe.WarAxe'
+[0395.38] Log: Loading Asset Class 'CH_A_Vanguard_PKG.MasonVanguardANIMRIG'
+[0395.38] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0395.38] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_M_Vanguard_INST'
+[0395.38] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_M_Vanguard_Gore'
+[0395.38] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP'
+[0395.39] Log: Loading Asset Class 'CH_H_Veteran.m_v.sk_CH_MasonVanguard_Helmet_Basic'
+[0395.39] Log: Loading Asset Class 'CH_H_Veteran.a_a.sm_CH_MasonVanguard_Helmet_Basic'
+[0396.44] Log: Failed to create audio buffer for 'SoundNodeWave A_VO_Pain.snook_pain_high_09'
+[0396.50] DevSpawn: SpawnActor failed because of collision at the spawn location [X=2017.977 Y=-10292.449 Z=1313.702] for [AOCDroppedWeapon]
+[0396.59] Log: Loading Asset Class 'CH_A_Vanguard_PKG.AgathaVanguardANIMRIG'
+[0396.59] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0396.59] Log: Loading Asset Class 'CH_A_Vanguard_PKG.Materials.M_A_Vanguard_INST'
+[0396.59] Log: Loading Asset Class 'CH_A_Vanguard_PKG.SkeletalMesh.SK_CH_3P_Vanguard_Gore'
+[0396.59] Log: Loading Asset Class 'CH_A_Vanguard_PKG.PlayerviewTEMP_agatha'
+[0396.59] Log: Loading Asset Class 'CH_Crusader_Agathia.CrusaderHA_PSKrightNew'
+[0396.59] Log: Loading Asset Class 'CH_sm_helms.smhelm

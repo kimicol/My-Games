@@ -1,0 +1,734 @@
+Log: Log file open, 06/19/15 21:08:50
+Init: FEngineLoop::PreInit Here
+Init:  ---- call app init here 
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Call platform pre init
+Init: **** Pre InitSHAHashes() ****
+Log: **** InitSHAHashes() ****
+DevSHA: InitializeFileHashes core.u
+DevSHA: InitializeFileHashes engine.u
+DevSHA: InitializeFileHashes gfxui.u
+DevSHA: InitializeFileHashes ipdrv.u
+DevSHA: InitializeFileHashes windrv.u
+DevSHA: InitializeFileHashes gameframework.u
+DevSHA: InitializeFileHashes onlinesubsystemsteamworks.u
+DevSHA: InitializeFileHashes udkbase.u
+DevSHA: InitializeFileHashes utgame.u
+DevSHA: InitializeFileHashes aoc.u
+DevSHA: InitializeFileHashes aoccustomizationcontent.u
+DevSHA: InitializeFileHashes unrealed.u
+DevSHA: InitializeFileHashes uteditor.u
+DevSHA: InitializeFileHashes gfxuieditor.u
+DevSHA: InitializeFileHashes utgamecontent.u
+DevSHA: InitializeFileHashes aocaudiocontent.u
+DevSHA: InitializeFileHashes enginematerials.upk
+DevSHA: InitializeFileHashes enginedebugmaterials.upk
+DevSHA: InitializeFileHashes enginesounds.upk
+DevSHA: InitializeFileHashes enginefonts.upk
+DevSHA: InitializeFileHashes soundclassesandmodes.upk
+DevSHA: InitializeFileHashes ui_fonts.upk
+DevSHA: InitializeFileHashes ui_fonts_final.upk
+DevSHA: InitializeFileHashes aoc-udkfrontendmap.udk
+DevSHA: InitializeFileHashes apexgpuskinvertexfactory.usf
+DevSHA: InitializeFileHashes gpuskinvertexfactory.usf
+DevSHA: InitializeFileHashes apexgpuskinvertexfactory_1bone.usf
+DevSHA: InitializeFileHashes localvertexfactory.usf
+DevSHA: InitializeFileHashes decalfactorycommon.usf
+DevSHA: InitializeFileHashes terrainvertexfactory.usf
+DevSHA: InitializeFileHashes landscapevertexfactory.usf
+DevSHA: InitializeFileHashes fluidvertexfactory.usf
+DevSHA: InitializeFileHashes lensflarevertexfactory.usf
+DevSHA: InitializeFileHashes particlespritevertexfactory.usf
+DevSHA: InitializeFileHashes meshinstancedvertexfactory.usf
+DevSHA: InitializeFileHashes particlebeamtrailvertexfactory.usf
+DevSHA: InitializeFileHashes resolvevertexshader.usf
+DevSHA: InitializeFileHashes definitions.usf
+DevSHA: InitializeFileHashes common360.usf
+DevSHA: InitializeFileHashes common.usf
+DevSHA: InitializeFileHashes resolvepixelshader.usf
+DevSHA: InitializeFileHashes meshpaintdilatepixelshader.usf
+DevSHA: InitializeFileHashes meshpaintdilatevertexshader.usf
+DevSHA: InitializeFileHashes meshpaintpixelshader.usf
+DevSHA: InitializeFileHashes meshpaintvertexshader.usf
+DevSHA: InitializeFileHashes gfxcmatrixpixelshader.usf
+DevSHA: InitializeFileHashes gfxfilterpixelshader.usf
+DevSHA: InitializeFileHashes gfxpixelshader.usf
+DevSHA: InitializeFileHashes gfxvertexshader.usf
+DevSHA: InitializeFileHashes gfxvertex3dshader.usf
+DevSHA: InitializeFileHashes fluidsurfacesimulation.usf
+DevSHA: InitializeFileHashes velocityshader.usf
+DevSHA: InitializeFileHashes depthoffieldcommon.usf
+DevSHA: InitializeFileHashes random.usf
+DevSHA: InitializeFileHashes materialtemplate.usf
+DevSHA: InitializeFileHashes flattessellation.usf
+DevSHA: InitializeFileHashes pntriangles.usf
+DevSHA: InitializeFileHashes tessellation.usf
+DevSHA: InitializeFileHashes ldrextractvertexshader.usf
+DevSHA: InitializeFileHashes texturedensityshader.usf
+DevSHA: InitializeFileHashes perfragmentmaskshader.usf
+DevSHA: InitializeFileHashes shadowprojectionpixelshader.usf
+DevSHA: InitializeFileHashes shadowprojectioncommon.usf
+DevSHA: InitializeFileHashes modshadowprojectionvertexshader.usf
+DevSHA: InitializeFileHashes shadowprojectionvertexshader.usf
+DevSHA: InitializeFileHashes shadowdepthpixelshader.usf
+DevSHA: InitializeFileHashes shadowdepthcommon.usf
+DevSHA: InitializeFileHashes shadowdepthvertexshader.usf
+DevSHA: InitializeFileHashes downsampledepthpixelshader.usf
+DevSHA: InitializeFileHashes gammacorrectionvertexshader.usf
+DevSHA: InitializeFileHashes gammacorrectionpixelshader.usf
+DevSHA: InitializeFileHashes occlusionqueryvertexshader.usf
+DevSHA: InitializeFileHashes hitproxypixelshader.usf
+DevSHA: InitializeFileHashes hitproxyvertexshader.usf
+DevSHA: InitializeFileHashes filtervertexshader.usf
+DevSHA: InitializeFileHashes filterpixelshader.usf
+DevSHA: InitializeFileHashes postprocesscommon.usf
+DevSHA: InitializeFileHashes lightshaftshader.usf
+DevSHA: InitializeFileHashes simplef32pixelshader.usf
+DevSHA: InitializeFileHashes simplef32vertexshader.usf
+DevSHA: InitializeFileHashes deferredlightshaders.usf
+DevSHA: InitializeFileHashes dynamiclightingcommon.usf
+DevSHA: InitializeFileHashes deferredlightingcommon.usf
+DevSHA: InitializeFileHashes lightfunctionpixelshader.usf
+DevSHA: InitializeFileHashes lightfunctionvertexshader.usf
+DevSHA: InitializeFileHashes hitmaskpixelshader.usf
+DevSHA: InitializeFileHashes hitmaskvertexshader.usf
+DevSHA: InitializeFileHashes fogvolumeapplypixelshader.usf
+DevSHA: InitializeFileHashes fogvolumeapplyvertexshader.usf
+DevSHA: InitializeFileHashes fogintegralpixelshader.usf
+DevSHA: InitializeFileHashes fogvolumecommon.usf
+DevSHA: InitializeFileHashes fogintegralvertexshader.usf
+DevSHA: InitializeFileHashes heightfogpixelshader.usf
+DevSHA: InitializeFileHashes heightfogcommon.usf
+DevSHA: InitializeFileHashes heightfogvertexshader.usf
+DevSHA: InitializeFileHashes translucencypostrenderdepthpixelshader.usf
+DevSHA: InitializeFileHashes depthonlypixelshader.usf
+DevSHA: InitializeFileHashes depthonlyvertexshader.usf
+DevSHA: InitializeFileHashes positiononlydepthvertexshader.usf
+DevSHA: InitializeFileHashes simpleelementvertexshader.usf
+DevSHA: InitializeFileHashes simpleelementcolorchannelmaskpixelshader.usf
+DevSHA: InitializeFileHashes simpleelementhitproxypixelshader.usf
+DevSHA: InitializeFileHashes simpleelementpixelshader.usf
+DevSHA: InitializeFileHashes basepasspixelshader.usf
+DevSHA: InitializeFileHashes basepasscommon.usf
+DevSHA: InitializeFileHashes subsurfacescatteringcommon.usf
+DevSHA: InitializeFileHashes sphericalharmoniccommon.usf
+DevSHA: InitializeFileHashes basepasstessellationshaders.usf
+DevSHA: InitializeFileHashes basepassvertexcommon.usf
+DevSHA: InitializeFileHashes basepassvertexshader.usf
+DevSHA: InitializeFileHashes ambientocclusionshader.usf
+DevSHA: InitializeFileHashes binkshaders.usf
+DevSHA: InitializeFileHashes uberpostprocessvertexshader.usf
+DevSHA: InitializeFileHashes uberpostprocessblendpixelshader.usf
+DevSHA: InitializeFileHashes motionblurcommon.usf
+DevSHA: InitializeFileHashes temporalaa.usf
+DevSHA: InitializeFileHashes temporalaamaskshader.usf
+DevSHA: InitializeFileHashes subsurfacescatteringpixelshader.usf
+DevSHA: InitializeFileHashes subsurfacescatteringvertexshader.usf
+DevSHA: InitializeFileHashes branchingpcfmodprojectionpixelshader.usf
+DevSHA: InitializeFileHashes branchingpcfcommon.usf
+DevSHA: InitializeFileHashes modshadowcommon.usf
+DevSHA: InitializeFileHashes modshadowprojectionpixelshader.usf
+DevSHA: InitializeFileHashes spotlightpixelshader.usf
+DevSHA: InitializeFileHashes spotlightvertexshader.usf
+DevSHA: InitializeFileHashes sphericalharmoniclightpixelshader.usf
+DevSHA: InitializeFileHashes sphericalharmoniclightvertexshader.usf
+DevSHA: InitializeFileHashes shadercomplexityapplypixelshader.usf
+DevSHA: InitializeFileHashes shadercomplexityaccumulatepixelshader.usf
+DevSHA: InitializeFileHashes screenvertexshader.usf
+DevSHA: InitializeFileHashes screenpixelshader.usf
+DevSHA: InitializeFileHashes radialblurscreenshader.usf
+DevSHA: InitializeFileHashes fxaashader.usf
+DevSHA: InitializeFileHashes fxaa3_11.usf
+DevSHA: InitializeFileHashes mlaashader.usf
+DevSHA: InitializeFileHashes pointlightpixelshader.usf
+DevSHA: InitializeFileHashes pointlightvertexshader.usf
+DevSHA: InitializeFileHashes lutblender.usf
+DevSHA: InitializeFileHashes lightmapdensityshader.usf
+DevSHA: InitializeFileHashes imagereflectionshader.usf
+DevSHA: InitializeFileHashes imagereflectionmeshshader.usf
+DevSHA: InitializeFileHashes memcopyshader.usf
+DevSHA: InitializeFileHashes restorecolordepthshader.usf
+DevSHA: InitializeFileHashes splashscreenshader.usf
+DevSHA: InitializeFileHashes onecolorshader.usf
+DevSHA: InitializeFileHashes nullpixelshader.usf
+DevSHA: InitializeFileHashes dofandbloomblendvertexshader.usf
+DevSHA: InitializeFileHashes dofandbloomblendpixelshader.usf
+DevSHA: InitializeFileHashes dofandbloomgathervertexshader.usf
+DevSHA: InitializeFileHashes dofandbloomgatherpixelshader.usf
+DevSHA: InitializeFileHashes distortaccumulatepixelshader.usf
+DevSHA: InitializeFileHashes distortaccumulatevertexshader.usf
+DevSHA: InitializeFileHashes distortapplyscreenpixelshader.usf
+DevSHA: InitializeFileHashes distortapplyscreenvertexshader.usf
+DevSHA: InitializeFileHashes directionallightpixelshader.usf
+DevSHA: InitializeFileHashes directionallightvertexshader.usf
+DevSHA: InitializeFileHashes depthdependenthaloapplypixelshader.usf
+DevSHA: InitializeFileHashes branchingpcfprojectionpixelshader.usf
+DevSHA: InitializeFileHashes bokehdof.usf
+Log:  ... running in INSTALLED mode
+Log: Read config file: ..\..\UDKGame\Config\DefaultSystemSettings.ini
+Log: Read config file: ..\..\Engine\Config\BaseSystemSettings.ini
+Log: Read config file: ..\..\Engine\Config\BaseSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKSystemSettings.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultLightmass.ini
+Log: Read config file: ..\..\Engine\Config\BaseLightmass.ini
+Log: Read config file: ..\..\Engine\Config\BaseLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKLightmass.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultEngineUDK.ini
+Log: Read config file: ..\..\Engine\Config\BaseEngine.ini
+Log: Read config file: ..\..\Engine\Config\BaseEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKEngine.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultGame.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultGameUDK.ini
+Log: Read config file: ..\..\Engine\Config\BaseGame.ini
+Log: Read config file: ..\..\Engine\Config\BaseGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKGame.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultInput.ini
+Log: Read config file: ..\..\Engine\Config\BaseInput.ini
+Log: Read config file: ..\..\Engine\Config\BaseInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKInput.ini
+Log: Read config file: ..\..\UDKGame\Config\DefaultUI.ini
+Log: Read config file: ..\..\Engine\Config\BaseUI.ini
+Log: Read config file: ..\..\Engine\Config\BaseUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\UDKGame\Config\UDKUI.ini
+Log: Read config file: ..\..\Engine\Config\ConsoleVariables.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10246
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Jun 10 2015 10:49:40
+Init: Changelist: 1340247
+Init: Command line: 195.154.168.136:7777
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\
+[0000.35] Init: Computer: PC-ARTHUR
+[0000.35] Init: User: Arthur
+[0000.35] Init: CPU Page size=4096, Processors=4
+[0000.35] Init: High frequency timer resolution =2.240905 MHz
+[0000.35] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=131072.0GB
+[0000.48] Log: Steam Client API initialized 1
+[0000.48] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.99] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0001.02] Log: SystemSettings::LoadFromIni in file ..\..\UDKGame\Config\UDKSystemSettings.ini section: SystemSettings
+[0001.05] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0001.05] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0001.06] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0001.06] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0001.08] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.13] Log: PhysX GPU Support: DISABLED
+[0001.13] Init: Initializing FaceFX...
+[0001.13] Init: FaceFX 1.7.4 initialized.
+[0001.15] Init: WinSock: I am PC-arthur (192.168.1.13:0)
+[0001.16] Init: XAudio2 using 'Haut-parleur/Ecouteurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.33] Log: Read config file: ..\..\UDKGame\Localization\INT\Engine.INT
+[0001.33] Log: Read config file: ..\..\Engine\Localization\INT\Engine.INT
+[0001.33] Log: Read config file: ..\..\Engine\Localization\INT\Core.INT
+[0004.03] Log: Read config file: ..\..\UDKGame\Config\DefaultWeapon.ini
+[0004.05] Log: Read config file: ..\..\UDKGame\Config\DefaultWeapon.ini
+[0004.05] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0004.06] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0004.06] Log: Read config file: ..\..\UDKGame\Config\UDKWeapon.ini
+[0004.09] Log: Read config file: ..\..\UDKGame\Config\DefaultCharInfo.ini
+[0004.10] Log: Read config file: ..\..\UDKGame\Config\DefaultCharInfo.ini
+[0004.10] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0004.11] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0004.11] Log: Read config file: ..\..\UDKGame\Config\UDKCharInfo.ini
+[0004.46] Log: Read config file: ..\..\UDKGame\Localization\INT\AOC.INT
+[0004.83] Log: Read config file: ..\..\UDKGame\Config\DefaultSettings.ini
+[0004.84] Log: Read config file: ..\..\UDKGame\Config\DefaultSettings.ini
+[0004.84] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0004.84] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0004.84] Log: Read config file: ..\..\UDKGame\Config\UDKSettings.ini
+[0004.99] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0005.01] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0005.02] Log: Read config file: ..\..\UDKGame\Config\UDKCustomization.ini
+[0005.08] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0005.08] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0005.08] Log: Read config file: ..\..\UDKGame\Config\UDKStats.ini
+[0005.71] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0005.75] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0005.75] Log: Read config file: ..\..\UDKGame\Config\UDKPlayerInput.ini
+[0023.70] Init: Finished loading startup packages in 22.40 seconds
+[0023.72] Log: 105300 objects as part of root set at end of initial load.
+[0023.72] Log: 0 out of 0 bytes used by permanent object pool.
+[0023.72] Log: Initializing Engine...
+[0024.35] Init: UEngine initialized
+[0024.56] Warning: Warning, Failed to load 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpIn01': Failed to find object 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpIn01'
+[0024.56] Warning: Warning, Failed to load 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpOut01': Failed to find object 'SoundNodeWave A_Interface.RadioChirps.Radio_ChirpOut01'
+[0024.56] Init: XAudio2Device initialized.
+[0024.97] Init: Client initialized
+[0025.09] Log: Size of window 1280 720
+[0025.09] Log: Read config file: ..\..\Engine\Localization\INT\UnrealEd.INT
+[0025.59] Log: We're in AMD Eyefinity
+[0028.42] Log: Initializing Steamworks
+[0028.46] Log: Logged in as 'kimicol'
+[0028.59] Log: Read config file: ..\..\UDKGame\Localization\INT\GFxUI.INT
+[0028.73] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKEngine.ini
+[0028.75] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKGame.ini
+[0028.78] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKInput.ini
+[0028.79] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKSystemSettings.ini
+[0028.80] Log: Read config file: ..\..\UDKGame\Config\PCServer-UDKUI.ini
+[0028.81] Log: Read config file: ..\..\UDKGame\Config\WrangleContent.ini
+[0034.96] Log: Read config file: ..\..\Engine\Localization\FRA\Core.FRA
+[0034.96] Log: Read config file: ..\..\UDKGame\Localization\FRA\Engine.FRA
+[0034.96] Log: Read config file: ..\..\Engine\Localization\FRA\Engine.FRA
+[0034.96] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOC.FRA
+[0034.96] DevDlc: Initialize Called
+[0035.09] DevDlc: Looking for DLC...
+[0035.10] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.21] Warning: Warning, Failed to find object 'Class None.'
+[0035.22] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.22] Warning: Warning, Failed to find object 'Class None.'
+[0035.22] Log: Read config file: ..\..\UDKGame\Cloud\CloudStorage.ini
+[0035.33] Init: WinSock: Socket queue 32768 / 32768
+[0035.36] DevDlc: Shipping Level: AOC-UDKFrontEndMap
+[0035.53] Log: LoadMap: AOC-UDKFrontEndMap?Name=Player?Team=255
+[0035.57] DevDlc: Shipping Level: AOC-UDKFrontEndMap
+[0036.03] Log: Game class is 'AOCEntry'
+[0036.11] Log: Primary PhysX scene will be in software.
+[0036.11] Log: Creating Primary PhysX Scene.
+[0036.20] Log: Bringing World AOC-UDKFrontEndMap.TheWorld up for play (0) at 2015.06.19-21.09.26
+[0036.53] Log: Bringing up level for play took: 0.487361
+[0046.21] Log: UTextureMovie::Play
+[0046.21] Log: UTextureMovie::InitDecoder
+[0046.24] DevSteam: ReadUserStats(0) called with result 1 code 8
+[0046.24] Log: UTextureMovie::Play
+[0046.24] Log: UTextureMovie::InitDecoder
+[0047.93] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0047.93] Log: Current focused movie? SWF.GeneralManager
+[0048.00] Log: Current focused movie? SWF.PersistentScreenElements
+[0048.05] Log: ########### Finished loading level: 12.523842 seconds
+[0048.12] Init: Game engine initialized
+[0048.12] Log: Initializing Engine Completed
+[0048.20] Log: >>>>>>>>>>>>>> Initial startup: 48.20s <<<<<<<<<<<<<<<
+[0048.34] DevSteam: ReadUserStats(0) completed with result '8' k_EResultInvalidParam (a parameter is incorrect)
+[0048.41] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 2129ms
+[0048.58] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCUI.FRA
+[0048.77] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0048.77] Log: CreateBrowser ApiCall: 346213089017857
+[0048.79] Log: UTextureMovie::Play
+[0048.79] Log: UTextureMovie::InitDecoder
+[0048.82] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCUI.INT
+[0049.19] DevSteam: ReadUserStats(76561198034802246) called with result 1 code 1
+[0049.19] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCKeybinds.FRA
+[0049.21] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCKeybinds.INT
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_shore) for 'UI_Frontend_SWF.map_shore.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_shore]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_shore.png': Failed to find object 'Texture UI_Frontend_SWF.map_shore.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_outpost) for 'UI_Frontend_SWF.map_outpost.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_outpost]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_outpost.png': Failed to find object 'Texture UI_Frontend_SWF.map_outpost.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_nomercy) for 'UI_Frontend_SWF.map_nomercy.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_nomercy]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_nomercy.png': Failed to find object 'Texture UI_Frontend_SWF.map_nomercy.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_kings_garden) for 'UI_Frontend_SWF.map_kings_garden.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_kings_garden]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_kings_garden.png': Failed to find object 'Texture UI_Frontend_SWF.map_kings_garden.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_irilla) for 'UI_Frontend_SWF.map_irilla.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_irilla]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_irilla.png': Failed to find object 'Texture UI_Frontend_SWF.map_irilla.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_impasse) for 'UI_Frontend_SWF.map_impasse.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_impasse]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_impasse.png': Failed to find object 'Texture UI_Frontend_SWF.map_impasse.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hordetown) for 'UI_Frontend_SWF.map_hordetown.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hordetown]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hordetown.png': Failed to find object 'Texture UI_Frontend_SWF.map_hordetown.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hillside_pyre) for 'UI_Frontend_SWF.map_hillside_pyre.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hillside_pyre]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hillside_pyre.png': Failed to find object 'Texture UI_Frontend_SWF.map_hillside_pyre.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_hideout) for 'UI_Frontend_SWF.map_hideout.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_hideout]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_hideout.png': Failed to find object 'Texture UI_Frontend_SWF.map_hideout.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_forest) for 'UI_Frontend_SWF.map_forest.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_forest]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_forest.png': Failed to find object 'Texture UI_Frontend_SWF.map_forest.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_drunken_bazaar) for 'UI_Frontend_SWF.map_drunken_bazaar.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_drunken_bazaar]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_drunken_bazaar.png': Failed to find object 'Texture UI_Frontend_SWF.map_drunken_bazaar.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_darkforest_valley) for 'UI_Frontend_SWF.map_darkforest_valley.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_darkforest_valley]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_darkforest_valley.png': Failed to find object 'Texture UI_Frontend_SWF.map_darkforest_valley.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_darkforest_cistern) for 'UI_Frontend_SWF.map_darkforest_cistern.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_darkforest_cistern]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_darkforest_cistern.png': Failed to find object 'Texture UI_Frontend_SWF.map_darkforest_cistern.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_cove) for 'UI_Frontend_SWF.map_cove.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_cove]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_cove.png': Failed to find object 'Texture UI_Frontend_SWF.map_cove.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_courtyard) for 'UI_Frontend_SWF.map_courtyard.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_courtyard]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_courtyard.png': Failed to find object 'Texture UI_Frontend_SWF.map_courtyard.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_colosseum) for 'UI_Frontend_SWF.map_colosseum.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_colosseum]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_colosseum.png': Failed to find object 'Texture UI_Frontend_SWF.map_colosseum.png'
+[0049.44] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_coldfront) for 'UI_Frontend_SWF.map_coldfront.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_coldfront]?
+[0049.44] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_coldfront.png': Failed to find object 'Texture UI_Frontend_SWF.map_coldfront.png'
+[0049.45] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_castle_assault) for 'UI_Frontend_SWF.map_castle_assault.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_castle_assault]?
+[0049.45] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_castle_assault.png': Failed to find object 'Texture UI_Frontend_SWF.map_castle_assault.png'
+[0049.45] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_belmez) for 'UI_Frontend_SWF.map_belmez.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_belmez]?
+[0049.45] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_belmez.png': Failed to find object 'Texture UI_Frontend_SWF.map_belmez.png'
+[0049.45] Warning: Warning, The Outer object (Package UI_Frontend_SWF.map_battlegrounds_farm) for 'UI_Frontend_SWF.map_battlegrounds_farm.png' couldn't be loaded [while loading package UI_Frontend_SWF]: Invalid linker index [couldn't load Package UI_Frontend_SWF.map_battlegrounds_farm]?
+[0049.45] Warning: Warning, Failed to load 'Texture UI_Frontend_SWF.map_battlegrounds_farm.png': Failed to find object 'Texture UI_Frontend_SWF.map_battlegrounds_farm.png'
+[0049.56] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCCustomization.FRA
+[0049.58] Warning: Warning, Failed to load 'SwfMovie UI_Frontend_SWF.ProfileMenu': Failed to find object 'SwfMovie UI_Frontend_SWF.ProfileMenu'
+[0049.58] Log: GFx attempted to load missing object [UI_Frontend_SWF.ProfileMenu]
+[0049.58] Warning: Warning, Failed to load 'SwfMovie UI_Frontend_SWF.ProfileMenu': Failed to find object 'SwfMovie UI_Frontend_SWF.ProfileMenu'
+[0049.58] Log: GFx attempted to load missing object [UI_Frontend_SWF.ProfileMenu]
+[0049.61] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCGame.FRA
+[0049.63] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCMaps.FRA
+[0049.65] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCMaps.INT
+[0049.67] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCGame.INT
+[0049.69] Warning: Warning, Failed to load 'Texture None.None': Failed to find object 'Texture None.None'
+[0050.03] Log: GFullScreen End Movie -- 1
+[0051.47] DevSteam: ReadUserStats(76561198034802246) completed with result '1' k_EResultOK (success) and took 3128ms
+[0051.58] Log: Read config file: ..\..\UDKGame\Localization\FRA\AOCCommon.FRA
+[0052.73] Log: Read config file: ..\..\UDKGame\Localization\INT\AOCCustomization.INT
+[0052.99] Log: FSocketWin::Close
+[0053.14] Log: AddDropInfoPayloadToMap
+[0053.14] Log: AddDropInfoPayloadToMap 0
+[0053.14] Log: AddDropInfoPayloadToMap 1
+[0053.14] Log: AddDropInfoPayloadToMap 2
+[0053.14] Log: AddDropInfoPayloadToMap 3
+[0053.14] Log: AddDropInfoPayloadToMap 4
+[0053.14] Log: AddDropInfoPayloadToMap 5
+[0053.14] Log: AddDropInfoPayloadToMap 6
+[0053.14] Log: AddDropInfoPayloadToMap 7
+[0053.14] Log: AddDropInfoPayloadToMap 8
+[0053.14] Log: AddDropInfoPayloadToMap 9
+[0053.14] Log: AddDropInfoPayloadToMap 10
+[0053.14] Log: AddDropInfoPayloadToMap 11
+[0053.14] Log: AddDropInfoPayloadToMap 12
+[0053.14] Log: AddDropInfoPayloadToMap 13
+[0053.14] Log: AddDropInfoPayloadToMap 14
+[0053.14] Log: AddDropInfoPayloadToMap 15
+[0053.14] Log: AddDropInfoPayloadToMap 16
+[0053.14] Log: AddDropInfoPayloadToMap 17
+[0053.14] Log: AddDropInfoPayloadToMap 18
+[0053.14] Log: AddDropInfoPayloadToMap 19
+[0053.14] Log: AddDropInfoPayloadToMap 20
+[0053.14] Log: AddDropInfoPayloadToMap 21
+[0053.14] Log: AddDropInfoPayloadToMap 22
+[0053.14] Log: AddDropInfoPayloadToMap 23
+[0053.14] Log: AddDropInfoPayloadToMap 24
+[0053.14] Log: AddDropInfoPayloadToMap 25
+[0053.14] Log: AddDropInfoPayloadToMap 26
+[0053.14] Log: AddDropInfoPayloadToMap 27
+[0053.14] Log: AddDropInfoPayloadToMap 28
+[0053.14] Log: AddDropInfoPayloadToMap 29
+[0053.14] Log: AddDropInfoPayloadToMap 30
+[0053.14] Log: AddDropInfoPayloadToMap 31
+[0053.14] Log: AddDropInfoPayloadToMap 32
+[0053.14] Log: AddDropInfoPayloadToMap 33
+[0053.14] Log: AddDropInfoPayloadToMap 34
+[0053.14] Log: AddDropInfoPayloadToMap 35
+[0053.14] Log: AddDropInfoPayloadToMap 36
+[0053.14] Log: AddDropInfoPayloadToMap 37
+[0053.14] Log: AddDropInfoPayloadToMap 38
+[0053.14] Log: AddDropInfoPayloadToMap 39
+[0053.14] Log: AddDropInfoPayloadToMap 40
+[0053.14] Log: AddDropInfoPayloadToMap 41
+[0053.14] Log: AddDropInfoPayloadToMap 42
+[0053.14] Log: AddDropInfoPayloadToMap 43
+[0053.14] Log: AddWeaponInfosToMap
+[0053.14] Log: AddHelmetInfosToMap
+[0053.17] Log: FSocketWin::Close
+[0053.70] DevDlc: Connection package map list count:252
+[0053.70] DevDlc: 0: PackageInfoFlags
+[0053.70] DevDlc: 1: PackageInfoFlags
+[0053.70] DevDlc: 2: PackageInfoFlags
+[0053.70] DevDlc: 3: PackageInfoFlags
+[0053.70] DevDlc: 4: PackageInfoFlags
+[0053.70] DevDlc: 5: PackageInfoFlags
+[0053.70] DevDlc: 6: PackageInfoFlags
+[0053.70] DevDlc: 7: PackageInfoFlags
+[0053.70] DevDlc: 8: PackageInfoFlags
+[0053.70] DevDlc: 9: PackageInfoFlags
+[0053.70] DevDlc: 10: PackageInfoFlags
+[0053.70] DevDlc: 11: PackageInfoFlags
+[0053.70] DevDlc: 12: PackageInfoFlags
+[0053.70] DevDlc: 13: PackageInfoFlags
+[0053.70] DevDlc: 14: PackageInfoFlags
+[0053.70] DevDlc: 15: PackageInfoFlags
+[0053.70] DevDlc: 16: PackageInfoFlags
+[0053.70] DevDlc: 17: PackageInfoFlags
+[0053.70] DevDlc: 18: PackageInfoFlags
+[0053.70] DevDlc: 19: PackageInfoFlags
+[0053.70] DevDlc: 20: PackageInfoFlags
+[0053.70] DevDlc: 21: PackageInfoFlags
+[0053.70] DevDlc: 22: PackageInfoFlags
+[0053.70] DevDlc: 23: PackageInfoFlags
+[0053.70] DevDlc: 24: PackageInfoFlags
+[0053.70] DevDlc: 25: PackageInfoFlags
+[0053.70] DevDlc: 26: PackageInfoFlags
+[0053.70] DevDlc: 27: PackageInfoFlags
+[0053.70] DevDlc: 28: PackageInfoFlags
+[0053.70] DevDlc: 29: PackageInfoFlags
+[0053.70] DevDlc: 30: PackageInfoFlags
+[0053.70] DevDlc: 31: PackageInfoFlags
+[0053.70] DevDlc: 32: PackageInfoFlags
+[0053.70] DevDlc: 33: PackageInfoFlags
+[0053.70] DevDlc: 34: PackageInfoFlags
+[0053.70] DevDlc: 35: PackageInfoFlags
+[0053.70] DevDlc: 36: PackageInfoFlags
+[0053.70] DevDlc: 37: PackageInfoFlags
+[0053.70] DevDlc: 38: PackageInfoFlags
+[0053.70] DevDlc: 39: PackageInfoFlags
+[0053.70] DevDlc: 40: PackageInfoFlags
+[0053.70] DevDlc: 41: PackageInfoFlags
+[0053.70] DevDlc: 42: PackageInfoFlags
+[0053.70] DevDlc: 43: PackageInfoFlags
+[0053.70] DevDlc: 44: PackageInfoFlags
+[0053.70] DevDlc: 45: PackageInfoFlags
+[0053.70] DevDlc: 46: PackageInfoFlags
+[0053.70] DevDlc: 47: PackageInfoFlags
+[0053.70] DevDlc: 48: PackageInfoFlags
+[0053.70] DevDlc: 49: PackageInfoFlags
+[0053.70] DevDlc: 50: PackageInfoFlags
+[0053.70] DevDlc: 51: PackageInfoFlags
+[0053.71] DevDlc: 52: PackageInfoFlags
+[0053.71] DevDlc: 53: PackageInfoFlags
+[0053.71] DevDlc: 54: PackageInfoFlags
+[0053.71] DevDlc: 55: PackageInfoFlags
+[0053.71] DevDlc: 56: PackageInfoFlags
+[0053.71] DevDlc: 57: PackageInfoFlags
+[0053.71] DevDlc: 58: PackageInfoFlags
+[0053.71] DevDlc: 59: PackageInfoFlags
+[0053.71] DevDlc: 60: PackageInfoFlags
+[0053.71] DevDlc: 61: PackageInfoFlags
+[0053.71] DevDlc: 62: PackageInfoFlags
+[0053.71] DevDlc: 63: PackageInfoFlags
+[0053.71] DevDlc: 64: PackageInfoFlags
+[0053.71] DevDlc: 65: PackageInfoFlags
+[0053.71] DevDlc: 66: PackageInfoFlags
+[0053.71] DevDlc: 67: PackageInfoFlags
+[0053.71] DevDlc: 68: PackageInfoFlags
+[0053.71] DevDlc: 69: PackageInfoFlags
+[0053.71] DevDlc: 70: PackageInfoFlags
+[0053.71] DevDlc: 71: PackageInfoFlags
+[0053.71] DevDlc: 72: PackageInfoFlags
+[0053.71] DevDlc: 73: PackageInfoFlags
+[0053.71] DevDlc: 74: PackageInfoFlags
+[0053.71] DevDlc: 75: PackageInfoFlags
+[0053.71] DevDlc: 76: PackageInfoFlags
+[0053.71] DevDlc: 77: PackageInfoFlags
+[0053.71] DevDlc: 78: PackageInfoFlags
+[0053.71] DevDlc: 79: PackageInfoFlags
+[0053.71] DevDlc: 80: PackageInfoFlags
+[0053.71] DevDlc: 81: PackageInfoFlags
+[0053.71] DevDlc: 82: PackageInfoFlags
+[0053.71] DevDlc: 83: PackageInfoFlags
+[0053.71] DevDlc: 84: PackageInfoFlags
+[0053.71] DevDlc: 85: PackageInfoFlags
+[0053.71] DevDlc: 86: PackageInfoFlags
+[0053.71] DevDlc: 87: PackageInfoFlags
+[0053.71] DevDlc: 88: PackageInfoFlags
+[0053.71] DevDlc: 89: PackageInfoFlags
+[0053.71] DevDlc: 90: PackageInfoFlags
+[0053.71] DevDlc: 91: PackageInfoFlags
+[0053.71] DevDlc: 92: PackageInfoFlags
+[0053.71] DevDlc: 93: PackageInfoFlags
+[0053.71] DevDlc: 94: PackageInfoFlags
+[0053.71] DevDlc: 95: PackageInfoFlags
+[0053.71] DevDlc: 96: PackageInfoFlags
+[0053.71] DevDlc: 97: PackageInfoFlags
+[0053.71] DevDlc: 98: PackageInfoFlags
+[0053.71] DevDlc: 99: PackageInfoFlags
+[0053.71] DevDlc: 100: PackageInfoFlags
+[0053.71] DevDlc: 101: PackageInfoFlags
+[0053.71] DevDlc: 102: PackageInfoFlags
+[0053.71] DevDlc: 103: PackageInfoFlags
+[0053.71] DevDlc: 104: PackageInfoFlags
+[0053.71] DevDlc: 105: PackageInfoFlags
+[0053.71] DevDlc: 106: PackageInfoFlags
+[0053.71] DevDlc: 107: PackageInfoFlags
+[0053.71] DevDlc: 108: PackageInfoFlags
+[0053.71] DevDlc: 109: PackageInfoFlags
+[0053.71] DevDlc: 110: PackageInfoFlags
+[0053.71] DevDlc: 111: PackageInfoFlags
+[0053.71] DevDlc: 112: PackageInfoFlags
+[0053.71] DevDlc: 113: PackageInfoFlags
+[0053.71] DevDlc: 114: PackageInfoFlags
+[0053.71] DevDlc: 115: PackageInfoFlags
+[0053.71] DevDlc: 116: PackageInfoFlags
+[0053.71] DevDlc: 117: PackageInfoFlags
+[0053.71] DevDlc: 118: PackageInfoFlags
+[0053.71] DevDlc: 119: PackageInfoFlags
+[0053.71] DevDlc: 120: PackageInfoFlags
+[0053.71] DevDlc: 121: PackageInfoFlags
+[0053.71] DevDlc: 122: PackageInfoFlags
+[0053.71] DevDlc: 123: PackageInfoFlags
+[0053.71] DevDlc: 124: PackageInfoFlags
+[0053.71] DevDlc: 125: PackageInfoFlags
+[0053.71] DevDlc: 126: PackageInfoFlags
+[0053.71] DevDlc: 127: PackageInfoFlags
+[0053.71] DevDlc: 128: PackageInfoFlags
+[0053.71] DevDlc: 129: PackageInfoFlags
+[0053.71] DevDlc: 130: PackageInfoFlags
+[0053.71] DevDlc: 131: PackageInfoFlags
+[0053.71] DevDlc: 132: PackageInfoFlags
+[0053.71] DevDlc: 133: PackageInfoFlags
+[0053.71] DevDlc: 134: PackageInfoFlags
+[0053.71] DevDlc: 135: PackageInfoFlags
+[0053.71] DevDlc: 136: PackageInfoFlags
+[0053.71] DevDlc: 137: PackageInfoFlags
+[0053.71] DevDlc: 138: PackageInfoFlags
+[0053.71] DevDlc: 139: PackageInfoFlags
+[0053.71] DevDlc: 140: PackageInfoFlags
+[0053.71] DevDlc: 141: PackageInfoFlags
+[0053.71] DevDlc: 142: PackageInfoFlags
+[0053.71] DevDlc: 143: PackageInfoFlags
+[0053.71] DevDlc: 144: PackageInfoFlags
+[0053.71] DevDlc: 145: PackageInfoFlags
+[0053.71] DevDlc: 146: PackageInfoFlags
+[0053.71] DevDlc: 147: PackageInfoFlags
+[0053.71] DevDlc: 148: PackageInfoFlags
+[0053.71] DevDlc: 149: PackageInfoFlags
+[0053.71] DevDlc: 150: PackageInfoFlags
+[0053.71] DevDlc: 151: PackageInfoFlags
+[0053.71] DevDlc: 152: PackageInfoFlags
+[0053.71] DevDlc: 153: PackageInfoFlags
+[0053.71] DevDlc: 154: PackageInfoFlags
+[0053.71] DevDlc: 155: PackageInfoFlags
+[0053.71] DevDlc: 156: PackageInfoFlags
+[0053.71] DevDlc: 157: PackageInfoFlags
+[0053.71] DevDlc: 158: PackageInfoFlags
+[0053.71] DevDlc: 159: PackageInfoFlags
+[0053.71] DevDlc: 160: PackageInfoFlags
+[0053.71] DevDlc: 161: PackageInfoFlags
+[0053.71] DevDlc: 162: PackageInfoFlags
+[0053.71] DevDlc: 163: PackageInfoFlags
+[0053.71] DevDlc: 164: PackageInfoFlags
+[0053.71] DevDlc: 165: PackageInfoFlags
+[0053.71] DevDlc: 166: PackageInfoFlags
+[0053.71] DevDlc: 167: PackageInfoFlags
+[0053.71] DevDlc: 168: PackageInfoFlags
+[0053.71] DevDlc: 169: PackageInfoFlags
+[0053.71] DevDlc: 170: PackageInfoFlags
+[0053.71] DevDlc: 171: PackageInfoFlags
+[0053.71] DevDlc: 172: PackageInfoFlags
+[0053.71] DevDlc: 173: PackageInfoFlags
+[0053.71] DevDlc: 174: PackageInfoFlags
+[0053.71] DevDlc: 175: PackageInfoFlags
+[0053.71] DevDlc: 176: PackageInfoFlags
+[0053.71] DevDlc: 177: PackageInfoFlags
+[0053.71] DevDlc: 178: PackageInfoFlags
+[0053.71] DevDlc: 179: PackageInfoFlags
+[0053.71] DevDlc: 180: PackageInfoFlags
+[0053.71] DevDlc: 181: PackageInfoFlags
+[0053.71] DevDlc: 182: PackageInfoFlags
+[0053.71] DevDlc: 183: PackageInfoFlags
+[0053.71] DevDlc: 184: PackageInfoFlags
+[0053.71] DevDlc: 185: PackageInfoFlags
+[0053.71] DevDlc: 186: PackageInfoFlags
+[0053.71] DevDlc: 187: PackageInfoFlags
+[0053.71] DevDlc: 188: PackageInfoFlags
+[0053.71] DevDlc: 189: PackageInfoFlags
+[0053.71] DevDlc: 190: PackageInfoFlags
+[0053.71] DevDlc: 191: PackageInfoFlags
+[0053.71] DevDlc: 192: PackageInfoFlags
+[0053.71] DevDlc: 193: PackageInfoFlags
+[0053.71] DevDlc: 194: PackageInfoFlags
+[0053.71] DevDlc: 195: PackageInfoFlags
+[0053.71] DevDlc: 196: PackageInfoFlags
+[0053.71] DevDlc: 197: PackageInfoFlags
+[0053.71] DevDlc: 198: PackageInfoFlags
+[0053.71] DevDlc: 199: PackageInfoFlags
+[0053.71] DevDlc: 200: PackageInfoFlags
+[0053.71] DevDlc: 201: PackageInfoFlags
+[0053.71] DevDlc: 202: PackageInfoFlags
+[0053.71] DevDlc: 203: PackageInfoFlags
+[0053.71] DevDlc: 204: PackageInfoFlags
+[0053.71] DevDlc: 205: PackageInfoFlags
+[0053.71] DevDlc: 206: PackageInfoFlags
+[0053.71] DevDlc: 207: PackageInfoFlags
+[0053.71] DevDlc: 208: PackageInfoFlags
+[0053.71] DevDlc: 209: PackageInfoFlags
+[0053.71] DevDlc: 210: PackageInfoFlags
+[0053.71] DevDlc: 211: PackageInfoFlags
+[0053.71] DevDlc: 212: PackageInfoFlags
+[0053.71] DevDlc: 213: PackageInfoFlags
+[0053.71] DevDlc: 214: PackageInfoFlags
+[0053.71] DevDlc: 215: PackageInfoFlags
+[0053.71] DevDlc: 216: PackageInfoFlags
+[0053.71] DevDlc: 217: PackageInfoFlags
+[0053.71] DevDlc: 218: PackageInfoFlags
+[0053.71] DevDlc: 219: PackageInfoFlags
+[0053.71] DevDlc: 220: PackageInfoFlags
+[0053.71] DevDlc: 221: PackageInfoFlags
+[0053.71] DevDlc: 222: PackageInfoFlags
+[0053.71] DevDlc: 223: PackageInfoFlags
+[0053.71] DevDlc: 224: PackageInfoFlags
+[0053.71] DevDlc: 225: PackageInfoFlags
+[0053.71] DevDlc: 226: PackageInfoFlags
+[0053.71] DevDlc: 227: PackageInfoFlags
+[0053.71] DevDlc: 228: PackageInfoFlags
+[0053.71] DevDlc: 229: PackageInfoFlags
+[0053.71] DevDlc: 230: PackageInfoFlags
+[0053.71] DevDlc: 231: PackageInfoFlags
+[0053.71] DevDlc: 232: PackageInfoFlags
+[0053.71] DevDlc: 233: PackageInfoFlags
+[0053.71] DevDlc: 234: PackageInfoFlags
+[0053.71] DevDlc: 235: PackageInfoFlags
+[0053.71] DevDlc: 236: PackageInfoFlags
+[0053.71] DevDlc: 237: PackageInfoFlags
+[0053.71] DevDlc: 238: PackageInfoFlags
+[0053.71] DevDlc: 239: PackageInfoFlags
+[0053.71] DevDlc: 240: PackageInfoFlags
+[0053.71] DevDlc: 241: PackageInfoFlags
+[0053.71] DevDlc: 242: PackageInfoFlags
+[0053.71] DevDlc: 243: PackageInfoFlags
+[0053.71] DevDlc: 244: PackageInfoFlags
+[0053.71] DevDlc: 245: PackageInfoFlags
+[0053.71] DevDlc: 246: PackageInfoFlags
+[0053.71] DevDlc: 247: PackageInfoFlags
+[0053.71] DevDlc: 248: PackageInfoFlags
+[0053.71] DevDlc: 249: PackageInfoFlags
+[0053.71] DevDlc: 250: PackageInfoFlags
+[0053.71] DevDlc: 251: PackageInfoFlags
+[0053.71] DevDlc: DownloadableContentManager NewState DS_GetFileDetails
+[0053.73] DevDlc: DownloadableContentManager NewState DS_DownloadFiles
+[0053.76] DevDlc: DownloadableContentManager ResetConnection
+[0053.76] DevDlc: DownloadableContentManager NewState DS_Inactive
+[0053.79] Log: LoadMap: 195.154.168.136/aocffa-hillside_p?Name=Player?Team=255?game=AOC.AOCFFA
+[0053.84] Log: --- LOADING MOVIE START ---
+[0054.19] Log: Current focused movie? SWF.GeneralManager
+[0054.19] Log: UTextureMovie::Stop
+[0055.31] Log: UTextureMovie::Stop
+[0055.58] Log: World AOC-UDKFrontEndMap.TheWorld not cleaned up by garbage collection! 
+[0056.90] Log: 
+[0056.90] Log: World AOC-UDKFrontEndMap.TheWorld is not referenced
+[0056.90] Log: Shortest reachability from root to World AOC-UDKFrontEndMap.TheWorld:
+[0056.90] Log:    World AOC-UDKFrontEndMap.TheWorld [target]
+[0056.90] Log:    OnlineAuthInterfaceSteamworks Transient.OnlineSubsystemSteamworks_0:OnlineAuthInterfaceSteamworks_0  (ArrayProperty IpDrv.OnlineAuthInterfaceImpl:ClientAuthCompleteDelegates)
+[0056.90] Log:    OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0  (ObjectProperty OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CachedAuthInt)
+[0056.90] Log:    AOCGameEngine Transient.AOCGameEngine_0 (root) (ArrayProperty Engine.Engine:GamePlayers)
+[0056.90] Log: 
+[0056.90] Log: 
+[0057.70] Log:    World AOC-UDKFrontEndMap.TheWorld [target]
+   OnlineAuthInterfaceSteamworks Transient.OnlineSubsystemSteamworks_0:OnlineAuthInterfaceSteamworks_0  (ArrayProperty IpDrv.OnlineAuthInterfaceImpl:ClientAuthCompleteDelegates)
+   OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0  (ObjectProperty OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CachedAuthInt)
+   AOCGameEngine Transient.AOCGameEngine_0 (root) (ArrayProperty Engine.Engine:GamePlayers)
+
+[0057.70] Critical: appError called: World AOC-UDKFrontEndMap.TheWorld not cleaned up by garbage collection!
+   World AOC-UDKFrontEndMap.TheWorld [target]
+   OnlineAuthInterfaceSteamworks Transient.OnlineSubsystemSteamworks_0:OnlineAuthInterfaceSteamworks_0  (ArrayProperty IpDrv.OnlineAuthInterfaceImpl:ClientAuthCompleteDelegates)
+   OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0  (ObjectProperty OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CachedAuthInt)
+   AOCGameEngine Transient.AOCGameEngine_0 (root) (ArrayProperty Engine.Engine:GamePlayers)
+
+[0057.70] Critical: Windows GetLastError: Lopération a réussi. (0)
+[0145.90] Log: === Critical error: ===
+World AOC-UDKFrontEndMap.TheWorld not cleaned up by garbage collection!
+   World AOC-UDKFrontEndMap.TheWorld [target]
+   OnlineAuthInterfaceSteamworks Transient.OnlineSubsystemSteamworks_0:OnlineAuthInterfaceSteamworks_0  (ArrayProperty IpDrv.OnlineAuthInterfaceImpl:ClientAuthCompleteDelegates)
+   OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0  (ObjectProperty OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:CachedAuthInt)
+   AOCGameEngine Transient.AOCGameEngine_0 (root) (ArrayProperty Engine.Engine:GamePlayers)
+
+
+Address = 0x7f99606c (filename not found) [in C:\WINDOWS\system32\KERNELBASE.dll]
+Address = 0x1a5dc6c5 (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1a59ba6b (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1a96cb8a (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1a95f084 (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1b11858d (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1b11e5ec (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1b11e63a (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1b11e6f1 (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x1b440697 (filename not found) [in C:\Program Files (x86)\Steam\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe]
+Address = 0x822116ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x823be954 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x823be954 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+

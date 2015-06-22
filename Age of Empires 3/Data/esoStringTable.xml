@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StringTable version ='8'>
+   <Language name ='French'>
+      <String _locID ='1'>Nom du canal trop long.</String>
+      <String _locID ='2'>nb max. de canaux par pers. atteint</String>
+      <String _locID ='3'>Impossible de rejoindre le canal.</String>
+      <String _locID ='4'>canal saturé</String>
+      <String _locID ='5'>le canal n'existe pas</String>
+      <String _locID ='6'>aucun canal spécifié</String>
+      <String _locID ='7'>Le service de discussion ne fonctionne pas.</String>
+      <String _locID ='8'>liste de discussion terminée</String>
+      <String _locID ='9'>Aucune information sur le clan trouvée.</String>
+      <String _locID ='10'>Le clan n'existe pas.</String>
+      <String _locID ='11'>utilisateur exclu de ce canal.</String>
+      <String _locID ='12'>échec de l'authentification</String>
+      <String _locID ='13'>échec de l'ajout de l'utilisateur.</String>
+      <String _locID ='14'>canal rejoint</String>
+      <String _locID ='15'>Erreur de serveur interne.</String>
+      <String _locID ='16'>l'utilisateur n'est pas sur le canal</String>
+      <String _locID ='17'>canal quitté</String>
+      <String _locID ='18'>commande privilégiée</String>
+      <String _locID ='19'>échec de l'ajout de mot de passe</String>
+      <String _locID ='20'>mot de passe ajouté</String>
+      <String _locID ='21'>échec de la suppression du mot de passe</String>
+      <String _locID ='22'>mot de passe supprimé</String>
+      <String _locID ='23'>utilisateur expulsé</String>
+      <String _locID ='24'>échec de l'expulsion de l'utilisateur</String>
+      <String _locID ='25'>l'utilisateur est déjà sur la liste d'exclusion</String>
+      <String _locID ='26'>utilisateur exclu</String>
+      <String _locID ='27'>échec de l'exclusion de l'utilisateur</String>
+      <String _locID ='28'>utilisateur réautorisé</String>
+      <String _locID ='29'>commande non autorisée</String>
+      <String _locID ='30'>ajout d'opérateurs terminé</String>
+      <String _locID ='31'>échec de l'ajout d'opérateurs</String>
+      <String _locID ='32'>suppression d'opérateurs terminée</String>
+      <String _locID ='33'>échec de la suppression d'opérateurs</String>
+      <String _locID ='34'>ajout de modérateurs terminé</String>
+      <String _locID ='35'>échec de l'ajout de modérateurs</String>
+      <String _locID ='36'>suppression de modérateurs terminée</String>
+      <String _locID ='37'>échec de la suppression de modérateurs</String>
+      <String _locID ='38'>Canal défini sur modéré</String>
+      <String _locID ='39'>Canal défini sur non modéré</String>
+      <String _locID ='40'>Liste d'utilisateurs réussie.</String>
+      <String _locID ='41'>canal modéré</String>
+      <String _locID ='42'>Invitation(s) envoyée(s).</String>
+      <String _locID ='43'>Échec de l'envoi d'une ou plusieurs invitations.</String>
+      <String _locID ='44'>Échec de l'envoi de l'invitation.</String>
+      <String _locID ='45'>rubrique non valide</String>
+      <String _locID ='46'>Nom du clan manquant.</String>
+      <String _locID ='47'>Le nom du clan comprend des caractères non valides</String>
+      <String _locID ='48'>Nom du clan non autorisé.</String>
+      <String _locID ='49'>Abréviation du clan manquante.</String>
+      <String _locID ='50'>L'abréviation du clan comprend des caractères non valides</String>
+      <String _locID ='51'>Abréviation du clan non autorisée.</String>
+      <String _locID ='52'>Abréviation du clan trop longue.</String>
+      <String _locID ='53'>Abréviation du clan déjà utilisée.</String>
+      <String _locID ='54'>Cet utilisateur est déjà dans le clan.</String>
+      <String _locID ='55'>Échec de la création du clan.</String>
+      <String _locID ='56'>Le clan existe déjà.</String>
+      <String _locID ='57'>Clan créé.</String>
+      <String _locID ='58'>Nom du clan manquant.</String>
+      <String _locID ='59'>Autorisations insuffisantes pour cette opération.</String>
+      <String _locID ='60'>Clan introuvable.</String>
+      <String _locID ='61'>Impossible de supprimer le clan.</String>
+      <String _locID ='62'>Clan supprimé.</String>
+      <String _locID ='63'>Nom d'utilisateur non valide.</String>
+      <String _locID ='64'>Autorisations insuffisantes pour cette opération.</String>
+      <String _locID ='65'>Propriétaire modifié.</String>
+      <String _locID ='66'>Mdj mis à jour.</String>
+      <String _locID ='67'>Mdj récupéré.</String>
+      <String _locID ='68'>Aucune invitation pour cet utilisateur.</String>
+      <String _locID ='69'>Réponse traitée.</String>
+      <String _locID ='70'>L'utilisateur est déjà membre de ce clan.</String>
+      <String _locID ='71'>L'utilisateur est membre d'un autre clan.</String>
+      <String _locID ='72'>Utilisateur invité.</String>
+      <String _locID ='73'>Utilisateurs supprimés.</String>
+      <String _locID ='74'>Échec de la suppression des utilisateurs.</String>
+      <String _locID ='75'>Échec de la suppression de certains utilisateurs.</String>
+      <String _locID ='76'>Veuillez utiliser disperser ou changer le propriétaire, puis quitter.</String>
+      <String _locID ='77'>N'est pas membre de ce clan.</String>
+      <String _locID ='78'>supprimé du clan.</String>
+      <String _locID ='79'>Rang du joueur défini.</String>
+      <String _locID ='80'>Échec de la définition du rang du joueur.</String>
+      <String _locID ='81'>Échec de la définition du rang de certains joueurs.</String>
+      <String _locID ='82'>Rangs récupérés</String>
+      <String _locID ='83'>Nombre d'utilisateurs non valide.</String>
+      <String _locID ='84'>Informations sur le clan trouvées.</String>
+      <String _locID ='85'>Roster récupéré.</String>
+      <String _locID ='86'>Message(s) ajouté(s).</String>
+      <String _locID ='87'>Échec de l'ajout de message(s).</String>
+      <String _locID ='88'>Message(s) récupéré(s).</String>
+      <String _locID ='89'>Message(s) modifié(s).</String>
+      <String _locID ='90'>Échec de la modification de message(s).</String>
+      <String _locID ='91'>Échec de la modification de certains messages.</String>
+      <String _locID ='92'>partie non répertoriée</String>
+      <String _locID ='93'>impossible de rejoindre une partie en cours.</String>
+      <String _locID ='94'>mot de passe non valide</String>
+      <String _locID ='95'>liste d'utilisateurs manquante</String>
+      <String _locID ='96'>Hôte de la partie manquant.</String>
+      <String _locID ='97'>liste réussie</String>
+      <String _locID ='98'>aucune partie spécifiée</String>
+      <String _locID ='99'>plus d'une partie spécifiée</String>
+      <String _locID ='100'>nom de partie non valide</String>
+      <String _locID ='101'>Le nom de partie est trop long</String>
+      <String _locID ='102'>type de partie non valide</String>
+      <String _locID ='103'>informations sur l'adresse ip manquantes</String>
+      <String _locID ='104'>impossible de trouver l'utilisateur hôte.</String>
+      <String _locID ='105'>une partie est déjà accueillie par l'utilisateur.</String>
+      <String _locID ='106'>ajout réussi</String>
+      <String _locID ='107'>mise à jour terminée</String>
+      <String _locID ='108'>n'est pas le propriétaire de la partie</String>
+      <String _locID ='109'>impossible de supprimer une partie en cours.</String>
+      <String _locID ='110'>échec de la destruction de la partie.</String>
+      <String _locID ='111'>suppression réussie</String>
+      <String _locID ='112'>l'utilisateur n'est pas dans la partie.</String>
+      <String _locID ='113'>l'utilisateur a quitté la partie.</String>
+      <String _locID ='114'>état de l'utilisateur pas à jour.</String>
+      <String _locID ='115'>état de l'utilisateur mis à jour.</String>
+      <String _locID ='116'>stats de l'utilisateur mises à jour.</String>
+      <String _locID ='117'>Aucune (ou certaines seulement) stats de l'utilisateur n'a été mise à jour.</String>
+      <String _locID ='118'>abonnement réussi</String>
+      <String _locID ='119'>désabonnement réussi</String>
+      <String _locID ='120'>état utilisateur mis à jour.</String>
+      <String _locID ='121'>état utilisateur non mis à jour pour certains ou tous les utilisateurs.</String>
+      <String _locID ='122'>aucun gagnant déterminé.</String>
+      <String _locID ='123'>liste de gagnants récupérée.</String>
+      <String _locID ='124'>Utilisateur à inviter non valide ou manquant</String>
+      <String _locID ='125'>Expéditeur introuvable.</String>
+      <String _locID ='126'>Vous n'accueillez aucune partie.</String>
+      <String _locID ='127'>L'utilisateur n'est pas en ligne.</String>
+      <String _locID ='128'>utilisateurs ajoutés à la partie</String>
+      <String _locID ='129'>Paramètres non valides</String>
+      <String _locID ='130'>Conflit possible avec l'échelle existante.</String>
+      <String _locID ='131'>Impossible de créer une table des rangs.</String>
+      <String _locID ='132'>échec de l'insertion des infos sur l'échelle</String>
+      <String _locID ='133'>échec de la création des colonnes de l'échelle</String>
+      <String _locID ='134'>Échec de la création de contraintes d'échelle</String>
+      <String _locID ='135'>Échec du téléchargement de l'échelle</String>
+      <String _locID ='136'>Question non valide.</String>
+      <String _locID ='137'>échelle introuvable</String>
+      <String _locID ='138'>Les informations sur l'échelle ne sont pas disponibles</String>
+      <String _locID ='139'>résultats récupérés</String>
+      <String _locID ='140'>Nom de canal non valide.</String>
+      <String _locID ='141'>Discussion générale 1</String>
+      <String _locID ='142'>Discussion générale 2</String>
+      <String _locID ='143'>Discussion générale 3</String>
+      <String _locID ='144'>Discussion générale 4</String>
+      <String _locID ='145'>Événements de la communauté</String>
+      <String _locID ='146'>Débutants uniquement</String>
+      <String _locID ='147'>Experts uniquement</String>
+      <String _locID ='148'>Stratégie</String>
+      <String _locID ='149'>Combat à mort</String>
+      <String _locID ='150'>Experts uniquement</String>
+      <String _locID ='151'>Sinophones</String>
+      <String _locID ='152'>Francophones</String>
+      <String _locID ='153'>Germanophones</String>
+      <String _locID ='154'>Italianophones</String>
+      <String _locID ='155'>De langue japonaise</String>
+      <String _locID ='156'>De langue coréenne</String>
+      <String _locID ='157'>Lusophones</String>
+      <String _locID ='158'>Hispanophones</String>
+      <String _locID ='159'>Néerlandophones</String>
+      <String _locID ='160'>Équipe</String>
+      <String _locID ='161'>Nom</String>
+      <String _locID ='162'>Victoires</String>
+      <String _locID ='163'>Défaites</String>
+      <String _locID ='164'>Tués max.</String>
+      <String _locID ='165'>Échelle de test</String>
+      <String _locID ='166'>La création de partie n'est pas initialisée</String>
+      <String _locID ='167'>La création de partie a commencé</String>
+      <String _locID ='168'>réserve de la partie non spécifiée</String>
+      <String _locID ='169'>Création de partie annulée</String>
+      <String _locID ='170'>Partie créée</String>
+      <String _locID ='171'>abandon de l'utilisateur</String>
+      <String _locID ='172'>Aucune partie pour cet utilisateur</String>		
+      <String _locID ='173'>L'utilisateur n'est pas l'hôte</String>		
+      <String _locID ='174'>Pas d'utilisateur correspondant</String>		
+      <String _locID ='175'>Ce nom de compte n'est pas valide. Seuls les caractères A-Z, a-z, 0-9 et _ sont autorisés.</String>		
+      <String _locID ='176'>Ce nom de compte n'est pas valide car il contient des mots non autorisés.</String>		
+      <String _locID ='177'>Ce nom de compte n'est pas valide. La longueur max. est</String>		
+      <String _locID ='178'>Cette question (indice) n'est pas valide. La longueur max. est</String>		
+      <String _locID ='179'>Cette réponse (indice) n'est pas valide. La longueur max. est</String>		
+      <String _locID ='180'>Échec demande de réinit. du mot de passe : </String>		
+      <String _locID ='181'>Échec de la mise à jour du compte : </String>		
+      <String _locID ='182'>Échec de la réinitialisation du mot de passe : </String>		
+      <String _locID ='183'>Échec récupération de l'indice : </String>		
+      <String _locID ='184'>Échec de la déconnexion du compte : </String>		
+      <String _locID ='185'>Échec de la connexion au compte : </String>		
+      <String _locID ='186'>Échec de la création du compte : </String>		
+      <String _locID ='187'>Nom d'utilisateur requis.</String>		
+      <String _locID ='188'>Échec de la récupération du compte.</String>		
+      <String _locID ='189'>La réponse (indice) ne correspond pas.</String>		
+      <String _locID ='190'>Échec de la mise à jour du mot de passe.</String>		
+      <String _locID ='191'>Compte non valide.</String>		
+      <String _locID ='192'>Échec de la mise à jour des champs.</String>		
+      <String _locID ='193'>Une requête de mot de passe active existe déjà pour cet utilisateur.</String>		
+      <String _locID ='194'>Échec de la requête d'ajout de mot de passe.</String>		
+      <String _locID ='195'>Aucun compte correspondant.</String>		
+      <String _locID ='196'>La session n'existe pas.</String>		
+      <String _locID ='197'>Échec de la déconnexion.</String>		
+      <String _locID ='198'>Cette clé CD correspond à un autre titre de partie.</String>		
+      <String _locID ='199'>Nom d'utilisateur ou mot de passe non valide.</String>		
+      <String _locID ='200'>Compte désactivé.</String>		
+      <String _locID ='201'>Erreur 101: Merci de consulter www.eso.com/101.aspx</String>		
+      <String _locID ='202'>Le nom d'utilisateur existe déjà.</String>		
+      <String _locID ='203'>Nom d'échelle trop long.</String>		
+      <String _locID ='204'>Un ou plusieurs noms de colonne sont trop longs.</String>		
+      <String _locID ='205'>Score militaire le plus élevé dans une partie 1 contre 1</String>
+      <String _locID ='206'>Échelle pour les joueurs batailleurs dans les parties 1 contre 1.</String>
+      <String _locID ='207'>Utilisateur</String>
+      <String _locID ='208'>Score militaire le plus élevé</String>
+      <String _locID ='209'>Nombre total de parties jouées ESO</String>
+      <String _locID ='210'>La plupart des parties jouées depuis le lancement d'ESO</String>
+      <String _locID ='211'>Parties jouées</String>
+      <String _locID ='212'>Score économique le plus élevé dans une partie 2 contre 2</String>
+      <String _locID ='213'>Échelle pour les joueurs en forte progression dans les parties 2 contre 2.</String>
+      <String _locID ='214'>Score économique le plus élevé</String>
+      <String _locID ='215'>Record d'équipe en 2 contre 2</String>
+      <String _locID ='216'>Meilleure échelle de record pour les équipes de 2 joueurs</String>
+      <String _locID ='217'>Joueur d'équipe 1</String>
+      <String _locID ='218'>Joueur d'équipe 2</String>
+      <String _locID ='219'>Victoires</String>
+      <String _locID ='220'>Défaites</String>
+      <String _locID ='221'>Meilleure échelle de record pour les joueurs en 1 contre 1.</String>
+      <String _locID ='222'>Record dans les parties 1 contre 1</String>
+      <String _locID ='223'>Leader</String>
+      <String _locID ='224'>Responsable</String>
+      <String _locID ='225'>Membre</String>
+      <String _locID ='226'>Candidat</String>
+      <String _locID="227" hresult="0" symbol="cStringESO_S_OK">Opération terminée</String>
+      <String _locID="228" hresult="-833617920" symbol="cStringESO_E_FAIL">Erreur non spécifiée</String>
+      <String _locID="229" hresult="-833617904" symbol="cStringESO_E_SQL_INSERT_ERROR">Erreur d'insertion SQL</String>
+      <String _locID="230" hresult="-833617888" symbol="cStringESO_E_SQL_SELECT_ERROR">Erreur de sélection SQL</String>
+      <String _locID="231" hresult="-833617872" symbol="cStringESO_E_UNSUPPORTED_TOPIC">Rubrique non prise en charge</String>
+      <String _locID="232" hresult="-833613824" symbol="cStringESO_E_USER_NAME_REQ">Nom d'utilisateur requis</String>
+      <String _locID="233" hresult="-833613823" symbol="cStringESO_E_FRIEND_NAME_REQ">Nom d'ami requis</String>
+      <String _locID="234" hresult="-833613822" symbol="cStringESO_E_USER_NOT_EXISTS">L'utilisateur n'existe pas</String>
+      <String _locID="235" hresult="-833613821" symbol="cStringESO_E_FRIEND_REQ_AUTH">Une autorisation pour l'ami est nécessaire ; une requête va être envoyée</String>
+      <String _locID="236" hresult="-833613820" symbol="cStringESO_E_FRIEND_EXISTS">L'ami existe déjà</String>
+      <String _locID="237" hresult="-833613819" symbol="cStringESO_E_FRIEND_UPDATE">Échec de la mise à jour de l'ami</String>
+      <String _locID="238" hresult="-833613818" symbol="cStringESO_E_FRIEND_RETRIEVE">Échec de la récupération des amis</String>
+      <String _locID="239" hresult="-833613817" symbol="cStringESO_E_FRIEND_NOT_EXISTS">L'ami n'existe pas</String>
+      <String _locID="240" hresult="-833613816" symbol="cStringESO_E_USER_EQUALS_FRIEND">L'utilisateur et l'ami sont identiques</String>
+      <String _locID="241" hresult="-833609728" symbol="cStringESO_E_MISSING_STREAM_DATA">Données de type flux/chunk manquantes</String>
+      <String _locID="242" hresult="-833609727" symbol="cStringESO_E_MISSING_STREAM_ID">ID flux manquant</String>
+      <String _locID="243" hresult="-833605631" symbol="cStringESO_E_FILE_NOT_FOUND">Fichier introuvable</String>
+      <String _locID="244" hresult="-833576960" symbol="cStringESO_E_HC_UNKNOWN_ERROR">Erreur : métropole inconnue</String>
+      <String _locID="245" hresult="-833576959" symbol="cStringESO_E_HC_INVALID_HOMECITY">Métropole non valide</String>
+      <String _locID="246" hresult="-833576958" symbol="cStringESO_E_HC_MISSING_CIV">Civ. manquante</String>
+      <String _locID="247" hresult="-833576957" symbol="cStringESO_E_HC_MISSING_TECH">Tech. manquante</String>
+      <String _locID="248" hresult="-833576956" symbol="cStringESO_E_HC_INVALID_CIV">Civilisation non valide</String>
+      <String _locID="249" hresult="-833576955" symbol="cStringESO_E_HC_NEED_HC_NAME">Plus d'une métropole pour cette civ., au moins une civ. doit avoir un nom</String>
+      <String _locID="250" hresult="-833576954" symbol="cStringESO_E_HC_NEED_SKILLPOINTS">Pas assez de points</String>
+      <String _locID="251" hresult="-833576953" symbol="cStringESO_E_HC_MISSING_NAME">Nom de la métropole manquant</String>
+      <String _locID="252" hresult="-833576952" symbol="cStringESO_E_HC_MISSING_HC">Impossible de localiser la métropole requise</String>
+      <String _locID="253" hresult="-833576951" symbol="cStringESO_E_HC_MISSING_TYPE">Type de métropole manquant</String>
+      <String _locID="254" hresult="-833576944" symbol="cStringESO_E_HC_INVALID_TECH">Tech. non valide</String>
+      <String _locID="255" hresult="-833576943" symbol="cStringESO_E_HC_TECH_NOT_AVAILABLE">Cette tech. n'est pas disponible pour la civ. donnée</String>
+      <String _locID="256" hresult="-833576942" symbol="cStringESO_E_HC_LEVEL_TOO_LOW">Le niveau de la métropole est trop bas pour cette tech.</String>
+      <String _locID="257" hresult="-833576941" symbol="cStringESO_E_HC_EXCEEDS_RESEARCH_LIMIT">Les recherches dépasseraient les limites de la métropole</String>
+      <String _locID="258" hresult="-833576940" symbol="cStringESO_E_HC_EXCEEDS_LIMITS_PARTIAL_RESEARCH">Seule une partie des unités requises a été entraînée</String>
+      <String _locID="259" hresult="-833576939" symbol="cStringESO_E_HC_PARTIAL_RESEARCH">Recherches partiellement effectuées</String>
+      <String _locID="260" hresult="-833576938" symbol="cStringESO_E_HC_RESEARCH_FAILED">Échec de l'entraînement de toutes les unités requises</String>
+      <String _locID="261" hresult="-833576937" symbol="cStringESO_E_HC_PREREQ_FAILED">Conditions pour cette tech. non satisfaites</String>
+      <String _locID="262" hresult="-833576928" symbol="cStringESO_E_HC_CREATE_DEFAULT">Échec de la création d'une métropole par défaut pour cette civ.</String>
+      <String _locID="263" hresult="-833576912" symbol="cStringESO_E_HC_MISSING_EXPLORER">Explorateur de la métropole manquant</String>
+      <String _locID="264" hresult="-833576911" symbol="cStringESO_E_HC_ALREADY_EXISTS">Une métropole porte déjà ce nom</String>
+      <String _locID="265" hresult="240164914" symbol="cStringESO_S_HC_CURRENT">Métropole actuellement sélectionnée</String>
+      <String _locID="266" hresult="-833572864" symbol="cStringESO_E_ST_MISSING_PLAYER">Nom du joueur manquant</String>
+      <String _locID="267" hresult="-833572863" symbol="cStringESO_E_ST_MISSING_REPORTER">Nom d'utilisateur manquant</String>
+      <String _locID="268" hresult="-833572862" symbol="cStringESO_E_ST_MISSING_GAMEID">ID de partie manquant</String>
+      <String _locID="269" hresult="-833572861" symbol="cStringESO_E_ST_MISSING_STAT">Stat manquante</String>
+      <String _locID="270" hresult="-833572860" symbol="cStringESO_E_ST_MISSING_VALUE">Valeur manquante</String>
+      <String _locID="271" hresult="-833572859" symbol="cStringESO_E_ST_INSERT_FAILED">Échec d'insertion de la mini-stat</String>
+      <String _locID="272" hresult="-833568768" symbol="cStringESO_E_G_NOT_A_MEMBER">Vous n'êtes pas membre de cette partie</String>
+      <String _locID='273'>Création d'une vue du tableau impossible.</String>
+      <String _locID='274'>Canal déjà existant.</String>
+      <String _locID='275'>Échelle Suprématie classée</String>			
+      <String _locID='276'>Échelle de tous les joueurs participant aux parties Suprématie classées.</String>	  
+      <String _locID='277'>Échelle Combat à mort classée</String>
+      <String _locID='278'>Échelle de tous les joueurs participant aux parties Combat à mort classées.</String>
+      <String _locID="279" hresult="-833576909" symbol="cStringESO_E_HC_DECK_NOT_EXIST">Jeu inexistant</String>
+      <String _locID="280" hresult="-833576908" symbol="cStringESO_E_HC_INVALID_DECK">Jeu invalide</String>
+      <String _locID="281" hresult="-833576907" symbol="cStringESO_E_HC_MISSING_PROP_NAME">Nom de personnalisation manquant</String>
+      <String _locID='282'>Échelle de métropole espagnole</String>
+      <String _locID='283'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole espagnole.</String>
+      <String _locID='284'>Échelle de métropole britannique</String>
+      <String _locID='285'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole britannique.</String>
+      <String _locID='286'>Échelle de métropole française</String>
+      <String _locID='287'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole française.</String>
+      <String _locID='288'>Échelle de métropole portugaise</String>
+      <String _locID='289'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole portugaise.</String>
+      <String _locID='290'>Échelle de métropole hollandaise</String>            
+      <String _locID='291'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole hollandaise.</String>
+      <String _locID='292'>Échelle de métropole russe</String>
+      <String _locID='293'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole russe.</String>
+      <String _locID='294'>Échelle de métropole allemande</String>
+      <String _locID='295'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole allemande.</String>
+      <String _locID='296'>Échelle de métropole ottomane</String>
+      <String _locID='297'>Échelle de tous les joueurs participant aux parties Suprématie utilisant une métropole ottomane.</String>
+      <String _locID='298'>2 contre 2 en coopération contre IA</String>
+      <String _locID='299'>Échelle non classée des parties en coopération contre l'IA.</String>
+      <String _locID='300'>Échelle classée du clan 2 contre 2</String>
+      <String _locID='301'>Échelle classée du clan 2 contre 2 contre les parties Suprématie du clan.</String>
+      <String _locID='302'>Unités tuées/Unités perdues max</String>
+      <String _locID='303'>Échelle Suprématie classée des unités tuées/unités perdues max</String>
+      <String _locID='304'>Plus rapide vers l'âge 3</String>
+      <String _locID='305'>Échelle Suprématie classée de la recherche la plus rapide vers l'âge 3</String>
+      <String _locID='306'>Unités tuées/Unités perdues</String>
+      <String _locID='307'>Passage à l'âge 3</String>
+      <String _locID="308" hresult="-833576906" symbol="cStringESO_E_HC_NEED_POINTS">Points insuffisants</String>
+      <String _locID="309" hresult="-833576905" symbol="cStringESO_E_HC_HOMECITY_REMOVED">La métropole a été supprimée</String>
+      <String _locID='310'>SUP - Victoires - 1 contre 1</String>
+      <String _locID='311'>SUP - Victoires - 2 contre 2</String>
+      <String _locID='312'>SUP - Victoires - Britannique</String>
+      <String _locID='313'>SUP - Victoires - Hollandais</String>
+      <String _locID='314'>SUP - Victoires - Portugais</String>
+      <String _locID='315'>SUP - Victoires - Espagnol</String>
+      <String _locID='316'>SUP - Victoires - Russe</String>
+      <String _locID='317'>SUP - Victoires - Ottoman</String>
+      <String _locID='318'>SUP - Victoires - Français</String>
+      <String _locID='319'>SUP - Victoires - Allemand</String>
+      <String _locID='320'>plus grand nombre de victoires en 1 contre 1</String>
+      <String _locID='321'>plus grand nombre de victoires en 2 contre 2</String>
+      <String _locID='322'>plus grand nombre de victoires en tant que Britannique</String>
+      <String _locID='323'>plus grand nombre de victoires en tant que Hollandais</String>
+      <String _locID='324'>plus grand nombre de victoires en tant que Portugais</String>
+      <String _locID='325'>plus grand nombre de victoires en tant qu'Espagnol</String>
+      <String _locID='326'>plus grand nombre de victoires en tant que Russe</String>
+      <String _locID='327'>plus grand nombre de victoires en tant qu'Ottoman</String>
+      <String _locID='328'>plus grand nombre de victoires en tant que Français</String>
+      <String _locID='329'>plus grand nombre de victoires en tant qu'Allemand</String>
+      <String _locID='330'>CM - Victoires - 1 contre 1</String>
+      <String _locID='331'>CM - Victoires - 2 contre 2</String>
+      <String _locID='332'>CM - Victoires - Britannique</String>
+      <String _locID='333'>CM - Victoires - Hollandais</String>
+      <String _locID='334'>CM - Victoires - Portugais</String>
+      <String _locID='335'>CM - Victoires - Espagnol</String>
+      <String _locID='336'>CM - Victoires - Russe</String>
+      <String _locID='337'>CM - Victoires - Ottoman</String>
+      <String _locID='338'>CM - Victoires - Français</String>
+      <String _locID='339'>CM - Victoires - Allemand</String>
+      <String _locID='340'>SUP - EXP - Leader</String>
+      <String _locID='341'>SUP - EXP - Britannique</String>
+      <String _locID='342'>SUP - EXP - Hollandais</String>
+      <String _locID='343'>SUP - EXP - Portugais</String>
+      <String _locID='344'>SUP - EXP - Espagnol</String>
+      <String _locID='345'>SUP - EXP - Russe</String>
+      <String _locID='346'>SUP - EXP - Ottoman</String>
+      <String _locID='347'>SUP - EXP - Français</String>
+      <String _locID='348'>SUP - EXP - Allemand</String>
+      <String _locID='349'>EXP totale la plus élevée</String>
+      <String _locID='350'>EXP la plus élevée en tant que Britannique</String>
+      <String _locID='351'>EXP la plus élevée en tant que Hollandais</String>
+      <String _locID='352'>EXP la plus élevée en tant que Portugais</String>
+      <String _locID='353'>EXP la plus élevée en tant qu'Espagnol</String>
+      <String _locID='354'>EXP la plus élevée en tant que Russe</String>
+      <String _locID='355'>EXP la plus élevée en tant qu'Ottoman</String>
+      <String _locID='356'>EXP la plus élevée en tant que Français</String>
+      <String _locID='357'>EXP la plus élevée en tant qu'Allemand</String>
+      <String _locID='358'>CM - EXP - Leader</String>
+      <String _locID='359'>CM - EXP - Britannique</String>
+      <String _locID='360'>CM - EXP - Hollandais</String>
+      <String _locID='361'>CM - EXP - Portugais</String>
+      <String _locID='362'>CM - EXP - Espagnol</String>
+      <String _locID='363'>CM - EXP - Russe</String>
+      <String _locID='364'>CM - EXP - Ottoman</String>
+      <String _locID='365'>CM - EXP - Français</String>
+      <String _locID='366'>CM - EXP - Allemand</String>
+      <String _locID='367'>Plus rapide Age2 - 1 contre 1</String>
+      <String _locID='368'>Plus rapide Age2 - 2 contre 2</String>
+      <String _locID='369'>Plus rapide Age3 - 1 contre 1</String>
+      <String _locID='370'>Plus rapide Age3 - 2 contre 2</String>
+      <String _locID='371'>Plus rapide Age4 - 1 contre 1</String>
+      <String _locID='372'>Plus rapide Age4 - 2 contre 2</String>
+      <String _locID='373'>Plus rapide Age5 - 1 contre 1</String>
+      <String _locID='374'>Plus rapide Age5 - 2 contre 2</String>
+      <String _locID='375'>Durée 2e âge 1 contre 1</String>
+      <String _locID='376'>Durée moyenne 2e âge 2 contre 2</String>
+      <String _locID='377'>Durée 3e âge 1 contre 1</String>
+      <String _locID='378'>Durée moyenne 3e âge 2 contre 2</String>
+      <String _locID='379'>Durée 4e âge 1 contre 1</String>
+      <String _locID='380'>Durée moyenne 4e âge 2 contre 2</String>
+      <String _locID='381'>Durée 5e âge 1 contre 1</String>
+      <String _locID='382'>Durée moyenne 5e âge 2 contre 2</String>
+      <String _locID='383'>Divers - Victoires - Carte aléatoire</String>
+      <String _locID='384'>Divers - Victoires - Grandes Plaines</String>
+      <String _locID='385'>Divers - Victoires - Caraïbes</String>
+      <String _locID='386'>Divers - Victoires - Caroline</String>
+      <String _locID='387'>Divers - Ramasseur de trésors</String>
+      <String _locID='388'>plus grand nombre de victoires sur cartes aléatoires</String>
+      <String _locID='389'>plus grand nombre de victoires dans les Grandes Plaines</String>
+      <String _locID='390'>plus grand nombre de victoires dans les Caraïbes</String>
+      <String _locID='391'>plus grand nombre de victoires en Caroline</String>
+      <String _locID='392'>plus grand nombre de trésors récupérés</String>
+      <String _locID='393'>Joueur</String>
+      <String _locID='394'>Joueur 1</String>
+      <String _locID='395'>Joueur 2</String>
+      <String _locID='396'>Expérience</String>
+      <String _locID='397'>Durée</String>
+      <String _locID='398'>Durée moyenne</String>
+      <String _locID='399'>Trésors</String>
+      <String _locID="400" hresult="-833576904" symbol="cStringESO_E_HC_MAX_CITIES">Vous avez atteint le nombre maximum de métropoles autorisé. Supprimez-en une avant d'une créer une autre.</String>
+      <String _locID="401" hresult="-833613815" symbol="cStringESO_E_FRIEND_WHISPER_BLANK">Message murmure vide.</String>
+      <String _locID="402" hresult="-833613808" symbol="cStringESO_E_FRIEND_OFFLINE">Ami hors ligne.</String>
+      <String _locID='403'>Clé CD incorrecte</String>
+      <String _locID="404" hresult="-833613807" symbol="cStringESO_E_FRIEND_ADD">Ami impossible à ajouter</String>
+      <String _locID="405" hresult="-833613806" symbol="cStringESO_E_FRIEND_LIST">Amis impossibles à répertorier</String>
+      <String _locID="406" hresult="-833613805" symbol="cStringESO_E_FRIEND_REMOVE">Ami impossible à supprimer</String>
+      <String _locID="407" hresult="-833613804" symbol="cStringESO_E_FRIEND_WHISPER">Murmure ami impossible</String>
+      <String _locID="408" hresult="-833613803" symbol="cStringESO_E_FRIEND_MAX_FRIEND">Vous avez atteint le nombre maximum d'amis. Supprimez-en un avant d'en ajouter un autre.</String>
+      <String _locID="409" hresult="-833613802" symbol="cStringESO_E_FRIEND_MAX_PEST">Vous avez atteint le nombre maximum d'indésirables. Supprimez-en un avant d'en ajouter un autre.</String>
+      <String _locID='410'>L'adresse IP que le jeu utilise n'est pas valide.</String>      
+      <String _locID='411'>Support technique ESO</String>      
+      <String _locID='412'>Titre</String>
+      <String _locID='413'>Compétence</String>
+      <String _locID='414'>Points</String>
+      <String _locID='415'>SUP - Classement de pouvoir</String>
+      <String _locID='416'>Échelle Suprématie en fonction du classement de pouvoir.</String>
+      <String _locID='417'>CM - Classement de pouvoir</String>
+      <String _locID='418'>Échelle Combat à mort en fonction du classement de pouvoir.</String>
+      <String _locID='419'>Compte non activé pour ce jeu.</String>
+      <String _locID='420'>Échec de l'enregistrement du jeu : </String>
+      <String _locID='421' symbol ='cStringRankFieldMarshal'>Maréchal</String>
+		<String _locID='422' symbol ='cStringRankGeneral'>Général</String>
+		<String _locID='423' symbol ='cStringRankLtGeneral'>Lieutenant général</String>
+		<String _locID='424' symbol ='cStringRankMajorGeneral'>Major général</String>
+		<String _locID='425' symbol ='cStringRankBrigadier'>Brigadier</String>
+		<String _locID='426' symbol ='cStringRankColonel'>Colonel</String>
+		<String _locID='427' symbol ='cStringRankLtColonel'>Lieutenant colonel</String>
+		<String _locID='428' symbol ='cStringRankMajor'>Major</String>
+		<String _locID='429' symbol ='cStringRankCaptain'>Capitaine</String>
+		<String _locID='430' symbol ='cStringRankFirstLieutenant'>1er lieutenant</String>
+		<String _locID='431' symbol ='cStringRankSecondLieutenant'>2e lieutenant</String>
+		<String _locID='432' symbol ='cStringRankMasterSergeant'>Sergent chef</String>
+		<String _locID='433' symbol ='cStringRankSergeant'>Sergent</String>
+		<String _locID='434' symbol ='cStringRankCorporal'>Caporal</String>
+		<String _locID='435' symbol ='cStringRankLanceCorporal'>Caporal chef</String>
+		<String _locID='436' symbol ='cStringRankPrivate'>Soldat</String>
+		<String _locID='437' symbol ='cStringRankConscript'>Conscrit</String>
+		<String _locID="438" hresult="-833576903" symbol="cStringESO_E_HC_INVALID_GAME">Votre jeu ne permet pas cette opération.</String>
+      <String _locID="439">CM - Victoires - Aztèque</String>
+      <String _locID="440">CM - Victoires - Iroquois</String>
+      <String _locID="441">CM - Victoires - Sioux</String>
+      <String _locID="442">SUP - Victoires - Aztèque</String>
+      <String _locID="443">SUP - Victoires - Iroquois</String>
+      <String _locID="444">SUP - Victoires - Sioux</String>
+      <String _locID="445">plus grand nombre de victoires en tant qu'Aztèque</String>
+      <String _locID="446">plus grand nombre de victoires en tant qu'Iroquois</String>
+      <String _locID="447">plus grand nombre de victoires en tant qu'Iroquois</String>
+      <String _locID="448">TR - Classement de pouvoir</String>
+      <String _locID="449">Échelle de diplomatie en fonction du classement de pouvoir.</String>
+      <String _locID='450'>CM - Victoires - Japon</String>
+      <String _locID='451'>CM - Victoires - Inde</String>
+      <String _locID='452'>CM - Victoires - Chine</String>
+      <String _locID='453'>Sup - Victoires - Japon</String>
+      <String _locID='454'>Sup - Victoires - Inde</String>
+      <String _locID='455'>Sup - Victoires - Chine</String>
+      <String _locID='456'>plus grande nombre de victoires en tant que Japonais</String>
+      <String _locID='457'>plus grande nombre de victoires en tant qu'Indien</String>
+      <String _locID='458'>plus grande nombre de victoires en tant que Chinois</String>
+      <String _locID='459'>TR - Victoires - 1 contre 1</String>
+      <String _locID='460'>TR - Victoires - 2 contre 2</String>
+      <String _locID='461'>TR - Victoires - 3 contre 3</String>
+      <String _locID='462'>CM - Victoires - 3 contre 3</String>
+      <String _locID='463'>SUP - Victoires - 3 contre 3</String>
+      <String _locID='464'>plus grand nombre de victoires en 3 contre 3</String>
+      <String _locID='465'>SUP - Victoires - Total</String>
+      <String _locID='466'>CM - Victoires - Total</String>
+      <String _locID='467'>TR - Victoires - Total</String>
+      <String _locID='468'>plus grand nombre de victoires tous types de partie confondus</String>
+      <String _locID='469'>Joueur 3</String>
+   </Language>
+</StringTable>

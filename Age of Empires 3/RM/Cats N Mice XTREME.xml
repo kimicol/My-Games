@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+
+detailsText = "Cats N Mice XTREME!!\n-Created by kirbyx100000\n-Join his Custom Map Clan for the newest Maps!\n-Team 1 = Mice, Team 2 = Cats\n-The Mice get a Settler Wagon\n-The Cats get a Fort Wagon\n-The Mice must stay alive 30 Minutes to Win\n-But the Cats have to kill the Mice to Win\n-There should always be even Teams\n-Always Play in Fortress Age or lower \n \n-Good luck, and have fun!" 
+imagepath = "effects\fireworks\flare_additive"
+displayName = "C N M XTREME!!!" 
+cannotReplace = ""
+loadDetailsText ="Cats N Mice XTREME!!!\n-Created by kirbyx100000\n-Join his Custom Map Clan for the newest Maps!\n-Team 1 = Mice, Team 2 = Cats\n-The Mice get a Settler Wagon\n-The Cats get a Fort Wagon\n-The Mice must stay alive 30 Minutes to Win\n-But the Cats have to kill the Mice to Win\n-There should always be even Teams\n-Always Play in Fortress Age or lower \n \n-Good luck, and have fun!" 
+loadBackground="effects\fireworks\flare_additive">
+
+<loadss>ui\history\geography\G_R_Cougar</loadss>
+
+</mapinfo>

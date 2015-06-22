@@ -1,0 +1,926 @@
+Log: Log file open, 11/22/14 12:53:46
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 10499
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Oct  2 2014 19:07:19
+Init: Changelist: 1426632
+Init: Command line: 
+Init: Base directory: C:\Program Files (x86)\by Decepticon\Styx Master of Shadows\Binaries\Win64\
+[0000.34] Log: Deleting old log file Launch-backup-2014.11.17-10.51.48.log
+[0000.39] Log: Deleting old log file Launch-backup-2014.11.17-12.06.54.log
+[0000.42] Log: Deleting old log file Launch-backup-2014.11.17-20.45.39.log
+[0000.42] Log: Deleting old log file Launch-backup-2014.11.22-12.53.46.log
+[0000.42] Init: Computer: PC-ARTHUR
+[0000.42] Init: User: Arthur
+[0000.42] Init: CPU Page size=4096, Processors=4
+[0000.42] Init: High frequency timer resolution =2.240906 MHz
+[0000.42] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=131072.0GB
+[0000.42] Log: Steam Client API initialized 1
+[0000.42] Log: Steam Game Server API initialized 1
+[0000.42] Init: Presizing for 33476 objects not considered by GC, pre-allocating 0 bytes.
+[0000.43] Init: Object subsystem initialized
+[0000.56] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0000.58] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0000.58] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0000.58] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0000.58] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[0000.59] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.66] Log: PhysX GPU Support: DISABLED
+[0008.32] Log: 84442 objects as part of root set at end of initial load.
+[0008.32] Log: 0 out of 0 bytes used by permanent object pool.
+[0008.32] Log: Initializing Engine...
+[0009.28] Log: UFMODProject::PostLoad: Char_Elf_Gen.Char_Elf_Gen: setting media path to '140696840105920:'
+[0009.30] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.31] Log: UFMODProject::PostLoad: Clone_Anim_SND.Char_Clone_Anim: setting media path to '140696840105280:'
+[0009.31] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.32] Log: UFMODProject::PostLoad: Clone_Fx_SND.Char_Clone_Fx: setting media path to '140696840104640:'
+[0009.33] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.33] Log: UFMODProject::PostLoad: Clone_Land_SND.Char_Clone_Land: setting media path to '140696840104000:'
+[0009.34] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.34] Log: UFMODProject::PostLoad: Clone_Run_SND.Char_Clone_Run: setting media path to '140696840103360:'
+[0009.35] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.35] Log: UFMODProject::PostLoad: Clone_Sneak_SND.Char_Clone_Sneak: setting media path to '140696840102720:'
+[0009.36] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.36] Log: UFMODProject::PostLoad: Clone_Walk_SND.Char_Clone_Walk: setting media path to '140696840102080:'
+[0009.37] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.37] Log: UFMODProject::PostLoad: Fx_Amber_SND.Fx_Amber: setting media path to '140696840101440:'
+[0009.38] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.38] Log: UFMODProject::PostLoad: Fx_Blood_SND.fx_blood: setting media path to '140696840100800:'
+[0009.39] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.40] Log: UFMODProject::PostLoad: guard1_voicekit.guard1: setting media path to '140696840100160:'
+[0009.40] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.41] Log: UFMODProject::PostLoad: Human_Gen_SND.Char_Human_Gen: setting media path to '140696840099200:'
+[0009.41] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.42] Log: UFMODProject::PostLoad: Human_Heavy_SND.Char_Human_H: setting media path to '140696840098560:'
+[0009.42] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.43] Log: UFMODProject::PostLoad: Interactive_Cupboard_SND.Obj_Cupboard: setting media path to '140696840097920:'
+[0009.43] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.44] Log: UFMODProject::PostLoad: Interactive_Detachable_SND.Obj_Detachable: setting media path to '140696840097280:'
+[0009.45] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.45] Log: UFMODProject::PostLoad: Interactive_Door_SND.Obj_Door: setting media path to '140696840096640:'
+[0009.46] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.46] Log: UFMODProject::PostLoad: Interactive_DoubleDoor_SND.Obj_Door_Double: setting media path to '140696840096000:'
+[0009.47] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.47] Log: UFMODProject::PostLoad: Interactive_Lever_SND.Obj_Lever: setting media path to '140696840095360:'
+[0009.48] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.48] Log: UFMODProject::PostLoad: Interactive_Torch_SND.Obj_Torch: setting media path to '140696840094720:'
+[0009.49] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.49] Log: UFMODProject::PostLoad: Interactive_Trunk_SND.Obj_Trunk: setting media path to '140696840094080:'
+[0009.50] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.50] Log: UFMODProject::PostLoad: m01_h01_cin_jailmap_sfx.m01_h01_sfx: setting media path to '140696839568768:'
+[0009.51] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.52] Log: UFMODProject::PostLoad: m02_h02_cin_jailkey_sfx.m02_h02_sfx: setting media path to '140696839568128:'
+[0009.52] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.53] Log: UFMODProject::PostLoad: m03_h03_cin_jailpris_sfx.m03_h03_sfx: setting media path to '140696839567488:'
+[0009.53] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.54] Log: UFMODProject::PostLoad: m03_s16_cin_twist_sfx.m03_s16_sfx: setting media path to '140696839566848:'
+[0009.54] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.55] Log: UFMODProject::PostLoad: m04_s15_cin_torture_sfx.m04_s15_sfx: setting media path to '140696839566208:'
+[0009.55] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.56] Log: UFMODProject::PostLoad: m05_h05_cin_vision_sfx.m05_h05_sfx: setting media path to '140696839565568:'
+[0009.56] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.57] Log: UFMODProject::PostLoad: m05_s01_cin_endfight_sfx.m05_s01_sfx: setting media path to '140696839564928:'
+[0009.57] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.58] Log: UFMODProject::PostLoad: m07_s18_cin_heart_sfx.m07_s18_sfx: setting media path to '140696839563968:'
+[0009.58] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.59] Log: UFMODProject::PostLoad: Orc_SND.Char_Orc: setting media path to '140696839563008:'
+[0009.59] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.60] Log: UFMODProject::PostLoad: Physic_BodyFalls.Phy_Body: setting media path to '140696839562368:'
+[0009.61] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.61] Log: UFMODProject::PostLoad: Physic_Objects_Furnitures.Phy_Obj: setting media path to '140696839561728:'
+[0009.62] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.62] Log: UFMODProject::PostLoad: Rakash_Anim_SND.Char_Rakash_Anim: setting media path to '140696839561088:'
+[0009.63] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.63] Log: UFMODProject::PostLoad: Rakash_Fx_SND.Char_Rakash_Fx: setting media path to '140696839560768:'
+[0009.64] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.64] Log: UFMODProject::PostLoad: Rakash_Land_SND.Char_Rakash_Land: setting media path to '140696839560128:'
+[0009.65] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.66] Log: UFMODProject::PostLoad: Rakash_Run_SND.Char_Rakash_Run: setting media path to '140696839559488:'
+[0009.66] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.67] Log: UFMODProject::PostLoad: Rakash_Sneak_SND.Char_Rakash_Sneak: setting media path to '140696839558848:'
+[0009.67] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.68] Log: UFMODProject::PostLoad: rakash_voicekit.Rakash: setting media path to '140696839557888:'
+[0009.68] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.69] Log: UFMODProject::PostLoad: Rakash_Walk_SND.Char_Rakash_Walk: setting media path to '140696839557248:'
+[0009.69] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.70] Log: UFMODProject::PostLoad: User_Interface.UI: setting media path to '140696839556288:'
+[0009.70] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.71] Log: UFMODProject::PostLoad: voicekit_clones.voicekit_clones: setting media path to '140696839555648:'
+[0009.72] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.72] Log: UFMODProject::PostLoad: voicekit_orc.voicekit_orc: setting media path to '140696839555008:'
+[0009.73] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.73] Log: UFMODProject::PostLoad: Weapon_Bite_SND.Obj_Weap_Bites: setting media path to '140696839554368:'
+[0009.74] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.74] Log: UFMODProject::PostLoad: Weapon_Blade_SND.Obj_Weap_Blade: setting media path to '140696839553728:'
+[0009.75] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.75] Log: UFMODProject::PostLoad: Weapon_Blunt_SND.Obj_Weap_Blunt: setting media path to '140696839564608:'
+[0009.76] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.76] Log: UFMODProject::PostLoad: Weapon_Crossbow_SND.Obj_Weap_Cbow: setting media path to '140696840437440:'
+[0009.77] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.77] Log: UFMODProject::PostLoad: Weapon_ForceWave_SND.Obj_Weap_Fwave: setting media path to '140696840436800:'
+[0009.78] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.78] Log: UFMODProject::PostLoad: Weapon_Knife_SND.Obj_Weap_Knife: setting media path to '140696840436480:'
+[0009.79] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.79] Log: UFMODProject::PostLoad: Weapon_Spear_SND.Obj_Weap_Spear: setting media path to '140696840435840:'
+[0009.80] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.81] Log: UFMODProject::PostLoad: Weapon_Spit_SND.Obj_Weap_Spits: setting media path to '140696840435520:'
+[0009.81] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0009.82] Log: UFMODProject::PostLoad: Wisp_SND.Char_Wisp: setting media path to '140696840435200:'
+[0009.82] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0013.29] Log: Initializing Steamworks
+[0013.31] Log: Logged in as 'RLD!'
+[0013.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0013.87] Warning: Warning, Failed to find object 'Class None.'
+[0013.98] Log: LoadMap: StartUp_P?Name=Player?Team=255
+[0014.30] Log: Game class is 'StyxGame'
+[0014.37] Log: Primary PhysX scene will be in software.
+[0014.37] Log: Creating Primary PhysX Scene.
+[0014.47] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0014.47] Log: Bringing World StartUp_P.TheWorld up for play (0) at 2014.11.22-12.54.00
+[0014.48] ScriptLog: Styx svn version : 25803
+[0014.48] ScriptLog: StyxSetting::GetSupportedResolution = 26
+[0014.48] ScriptLog:    320x200:32:40
+[0014.48] ScriptLog:    320x200:32:60
+[0014.48] ScriptLog:    320x240:32:40
+[0014.48] ScriptLog:    320x240:32:60
+[0014.48] ScriptLog:    400x300:32:40
+[0014.48] ScriptLog:    400x300:32:60
+[0014.48] ScriptLog:    512x384:32:40
+[0014.48] ScriptLog:    512x384:32:60
+[0014.48] ScriptLog:    640x400:32:40
+[0014.48] ScriptLog:    640x400:32:60
+[0014.48] ScriptLog:    640x480:32:40
+[0014.48] ScriptLog:    640x480:32:60
+[0014.48] ScriptLog:    800x600:32:40
+[0014.48] ScriptLog:    800x600:32:60
+[0014.48] ScriptLog:    1024x768:32:40
+[0014.48] ScriptLog:    1024x768:32:60
+[0014.48] ScriptLog:    1280x600:32:40
+[0014.48] ScriptLog:    1280x600:32:60
+[0014.48] ScriptLog:    1280x720:32:40
+[0014.48] ScriptLog:    1280x720:32:60
+[0014.48] ScriptLog:    1280x768:32:40
+[0014.48] ScriptLog:    1280x768:32:60
+[0014.48] ScriptLog:    1360x768:32:40
+[0014.48] ScriptLog:    1360x768:32:60
+[0014.48] ScriptLog:    1366x768:32:40
+[0014.48] ScriptLog:    1366x768:32:60
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange True
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange for Fullscreen to value='1'
+[0014.55] ScriptLog: [StyxSettings]::ApplyChangeForSettings Fullscreen
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange for Fullscreen
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange for Resolution to value='12'
+[0014.55] ScriptLog: [StyxSettings]::ApplyChangeForSettings Resolution
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange for Resolution
+[0014.55] ScriptLog: [StyxSettings]:: ApplyChange for Gamma to value='5'
+[0014.55] ScriptLog: [StyxSettings]::ApplyChangeForSettings Gamma
+[0014.56] ScriptLog: SETGAMME PC = none
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for Gamma
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for Bloom to value='1'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings Bloom
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for Bloom
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for MotionBlur to value='0'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings MotionBlur
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for MotionBlur
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for DepthOfField to value='1'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings DepthOfField
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for DepthOfField
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for Distortion to value='1'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings Distortion
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for Distortion
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for VSync to value='1'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings VSync
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for VSync
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for LightShaft to value='1'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings LightShaft
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for LightShaft
+[0014.56] ScriptLog: [StyxSettings]:: ApplyChange for MaxMultiSamples to value='0'
+[0014.56] ScriptLog: [StyxSettings]::ApplyChangeForSettings MaxMultiSamples
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for MaxMultiSamples
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for DistantObjects to value='1'
+[0014.57] ScriptLog: [StyxSettings]::ApplyChangeForSettings DistantObjects
+[0014.57] ScriptLog: SetDistantObjects : DistantObjects
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for DistantObjects
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for DynamicShadows to value='1'
+[0014.57] ScriptLog: [StyxSettings]::ApplyChangeForSettings DynamicShadows
+[0014.57] ScriptLog: Change shado quality to TextureMedium
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for DynamicShadows
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for TextureDetail to value='1'
+[0014.57] ScriptLog: [StyxSettings]::ApplyChangeForSettings TextureDetail
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for TextureDetail
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for MaxAnisotropy to value='0'
+[0014.57] ScriptLog: [StyxSettings]::ApplyChangeForSettings MaxAnisotropy
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for MaxAnisotropy
+[0014.57] ScriptLog: [StyxSettings]:: ApplyChange for Language to value='0'
+[0014.57] ScriptLog: [StyxSettings]::ApplyChangeForSettings Language
+[0014.58] ScriptLog: [StyxSettings]:: ApplyChange for Language
+[0014.58] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity to value='5'
+[0014.58] ScriptLog: [StyxSettings]::ApplyChangeForSettings MouseSensitivity
+[0014.58] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity
+[0014.58] ScriptLog: [StyxSettings]:: ApplyChange for InvertX to value='0'
+[0014.58] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertX
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for InvertX
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for InvertY to value='0'
+[0014.59] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertY
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for InvertY
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideObjectifIcon to value='0'
+[0014.59] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideObjectifIcon
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideObjectifIcon
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideDetectionIcon to value='0'
+[0014.59] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideDetectionIcon
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideDetectionIcon
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideSubtitle to value='0'
+[0014.59] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideSubtitle
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for HideSubtitle
+[0014.59] ScriptLog: [StyxSettings]:: ApplyChange for MusicVolume to value='10'
+[0014.59] ScriptLog: [StyxSettings]::ApplyChangeForSettings MusicVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for MusicVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for SfxVolume to value='10'
+[0014.60] ScriptLog: [StyxSettings]::ApplyChangeForSettings SfxVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for SfxVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for VoiceVolume to value='10'
+[0014.60] ScriptLog: [StyxSettings]::ApplyChangeForSettings VoiceVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for VoiceVolume
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for Global to value='10'
+[0014.60] ScriptLog: [StyxSettings]::ApplyChangeForSettings Global
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for Global
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for VoiceLanguage to value='0'
+[0014.60] ScriptLog: [StyxSettings]::ApplyChangeForSettings VoiceLanguage
+[0014.60] ScriptLog: [StyxSettings]:: ApplyChange for VoiceLanguage
+[0014.63] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange False
+[0014.63] ScriptLog: [StyxSettings]:: ApplyChange for Language to value='0'
+[0014.63] ScriptLog: [StyxSettings]::ApplyChangeForSettings Language
+[0014.63] ScriptLog: [StyxSettings]:: ApplyChange for Language
+[0014.64] ScriptLog:  OnRefreshSaveDataListComplete() bWasSuccessful: True, LocalUserNum: 0
+[0014.64] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName QuickSave.sav, waiting for 0 requests
+[0014.86] ScriptLog: OnUpdateDescription, success ?  True, SaveFileName AutoSave.sav, waiting for 0 requests
+[0015.16] ScriptLog: OnUpdateDescription, success ?  True, SaveFileName Save0.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save1.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save2.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save3.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save4.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save5.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save6.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save7.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save8.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save9.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save10.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save11.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save12.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save13.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save14.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save15.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save16.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save17.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save18.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save19.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save20.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save21.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save22.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save23.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save24.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save25.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save26.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save27.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save28.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save29.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save30.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save31.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save32.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save33.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save34.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save35.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save36.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save37.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save38.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save39.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save40.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save41.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save42.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save43.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save44.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save45.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save46.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save47.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save48.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save49.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save50.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save51.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save52.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save53.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save54.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save55.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save56.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save57.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save58.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save59.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save60.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save61.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save62.sav, waiting for 0 requests
+[0015.20] ScriptLog: OnUpdateDescription, success ?  False, SaveFileName Save63.sav, waiting for 0 requests
+[0015.22] ScriptLog: Enter state StyxGame_State_Loading
+[0015.22] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0015.22] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0015.22] ScriptLog: Mission or hub not started with the game flow
+[0015.28] Log: Bringing up level for play took: 0.962314
+[0015.48] Log: WARNING: Cooking Convex For Actor: StartUp_P.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_0 Component: StaticMeshComponent_1 StaticMesh: 1H_Dagger_02.StaticMesh.1H_styx_dagger (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0015.51] Error: Can't start an online game that hasn't been created
+[0015.51] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0015.89] ScriptLog: OnFocusGained InterfaceMenu.StyxBG_LoadingSectored
+[0016.15] ScriptLog: Input mode changed to False
+[0016.15] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange False
+[0016.15] ScriptLog: [StyxSettings]:: ApplyChange for Gamma to value='5'
+[0016.15] ScriptLog: [StyxSettings]::ApplyChangeForSettings Gamma
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for Gamma
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity to value='5'
+[0016.20] ScriptLog: [StyxSettings]::ApplyChangeForSettings MouseSensitivity
+[0016.20] ScriptLog: [StyxSettings]::SetMouseSensitivity 10.0000
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for InvertX to value='0'
+[0016.20] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertX
+[0016.20] ScriptLog: [StyxSettings]::SetInvertX, PlayerInput.bInvertMouse: False, newValue: False
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for InvertX
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for InvertY to value='0'
+[0016.20] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertY
+[0016.20] ScriptLog: [StyxSettings]::SetInvertY, PlayerInput.bInvertTurn: False, newValue: False
+[0016.20] ScriptLog: [StyxSettings]:: ApplyChange for InvertY
+[0016.21] Log: ########### Finished loading level: 2.230996 seconds
+[0016.22] Log: Initializing Engine Completed
+[0016.22] Log: >>>>>>>>>>>>>> Initial startup: 16.22s <<<<<<<<<<<<<<<
+[0016.30] Log: Don't use 'IsSteamSocketsServer' on non-listen-server clients; crashing
+[0016.30] Log: Don't use 'IsSteamSocketsServer' on non-listen-server clients; crashing
+[0016.30] Log: Steam game server UID: 85568392921039424
+[0017.72] ScriptLog: Main world info found on :StartUp_P
+[0018.36] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0018.36] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0018.36] ScriptLog: Exit state StyxGame_State_Loading
+[0018.37] ScriptLog: Loading map 'StartUp_P' take 2.1333 seconds
+[0018.37] ScriptLog: Enter state StyxGame_State_StartUp
+[0018.37] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0018.37] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0018.44] Log: Flushing async loaders.
+[0018.55] Log: UFMODProject::PostLoad: voices_generic.monologues_telepathies.gen_rak: setting media path to '140696841362048:'
+[0021.17] Log: Flushed async loaders.
+[0021.27] ScriptLog: OnFocusLost InterfaceMenu.StyxBG_LoadingSectored
+[0021.27] ScriptLog: OnFocusGained InterfacePregame.StyxSplashscreens
+[0021.33] Log: ApplyDistDissolveMaterialSettings took 0.000036 seconds
+[0021.33] Log:    Num modified static components = 0
+[0021.33] Log:    Num created materials = 0
+[0031.02] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0031.02] ScriptLog: Enter sub state StyxGame_SubState_PreLoading
+[0031.02] ScriptLog: Gain focus sub state StyxGame_SubState_PreLoading
+[0031.02] ScriptLog: LoadingMap: MainMenu_P, Index: 0
+[0031.69] ScriptLog: Loose focus sub state StyxGame_SubState_PreLoading
+[0031.69] ScriptLog: Exit sub state StyxGame_SubState_PreLoading
+[0031.69] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0031.69] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0031.69] ScriptLog: Exit state StyxGame_State_StartUp
+[0031.69] Warning: Warning, C:\dev\Cyanide\Styx\Trunk\UE3\Development\Src\FMODAudio\Src\UnFMODEventInstance.cpp(213): Transient.FMODEventInstance_0: IsHandleValid returned FALSE
+[0031.72] Log: LoadMap: MainMenu_P?Name=Player?Team=255
+[0031.85] ScriptLog: OnFocusLost InterfacePregame.StyxSplashscreens
+[0032.11] Log: Game class is 'StyxGame'
+[0032.11] Log: Primary PhysX scene will be in software.
+[0032.11] Log: Creating Primary PhysX Scene.
+[0032.11] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0032.11] Log: Bringing World MainMenu_P.TheWorld up for play (0) at 2014.11.22-12.54.18
+[0032.11] ScriptLog: Enter state StyxGame_State_Loading
+[0032.11] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0032.11] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0032.11] ScriptLog: Mission or hub not started with the game flow
+[0032.12] Log: Bringing up level for play took: 0.010997
+[0032.14] Error: Can't start an online game that hasn't been created
+[0032.14] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0032.22] ScriptLog: OnFocusGained InterfaceMenu.StyxBG_LoadingSectored
+[0032.29] ScriptLog: Input mode changed to False
+[0032.29] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange False
+[0032.29] ScriptLog: [StyxSettings]:: ApplyChange for Gamma to value='5'
+[0032.29] ScriptLog: [StyxSettings]::ApplyChangeForSettings Gamma
+[0032.29] ScriptLog: [StyxSettings]:: ApplyChange for Gamma
+[0032.29] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity to value='5'
+[0032.29] ScriptLog: [StyxSettings]::ApplyChangeForSettings MouseSensitivity
+[0032.29] ScriptLog: [StyxSettings]::SetMouseSensitivity 10.0000
+[0032.30] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity
+[0032.30] ScriptLog: [StyxSettings]:: ApplyChange for InvertX to value='0'
+[0032.30] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertX
+[0032.30] ScriptLog: [StyxSettings]::SetInvertX, PlayerInput.bInvertMouse: False, newValue: False
+[0032.30] ScriptLog: [StyxSettings]:: ApplyChange for InvertX
+[0032.30] ScriptLog: [StyxSettings]:: ApplyChange for InvertY to value='0'
+[0032.30] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertY
+[0032.30] ScriptLog: [StyxSettings]::SetInvertY, PlayerInput.bInvertTurn: False, newValue: False
+[0032.30] ScriptLog: [StyxSettings]:: ApplyChange for InvertY
+[0032.30] Log: ########### Finished loading level: 0.575141 seconds
+[0032.30] Log: Flushing async loaders.
+[0032.56] Log: UFMODProject::PostLoad: Placeables.Envir_3D: setting media path to '140696650367680:'
+[0032.57] Log: UFMODProject::PostLoad: Human_Medium_SND.Char_Human_M: setting media path to '140696650373760:'
+[0033.05] Log: Flushed async loaders.
+[0033.43] Log: WARNING: Cooking Convex For Actor: e3_styxentry_new.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_5 Component: StaticMeshComponent_7 StaticMesh: 1H_Dagger_01.1H_Dagger_01 (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0033.43] Log: WARNING: Cooking Convex For Actor: e3_styxentry_new.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_6 Component: StaticMeshComponent_8 StaticMesh: 1H_Sword_barimen_JR.StaticMesh.1H_sword_Barimen (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0033.49] ScriptLog: Main world info found on :MainMenu_P
+[0033.49] ScriptLog: World info found on :e3_styxentry_new (UseAsGraphReference=False)
+[0036.41] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0036.41] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0036.41] ScriptLog: Exit state StyxGame_State_Loading
+[0036.41] ScriptLog: Loading map 'MainMenu_P' take 4.7150 seconds
+[0036.41] ScriptLog: Enter state StyxGame_State_MainMenu
+[0036.41] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0036.41] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0036.46] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0036.46] ScriptLog: Enter sub state StyxGame_SubState_PressStart
+[0036.47] ScriptLog: OnFocusLost InterfaceMenu.StyxBG_LoadingSectored
+[0036.47] ScriptLog: Gain focus sub state StyxGame_SubState_PressStart
+[0036.47] Log: ApplyDistDissolveMaterialSettings took 0.000116 seconds
+[0036.47] Log:    Num modified static components = 1
+[0036.47] Log:    Num created materials = 3
+[0036.71] Log: UFMODProject::PostLoad: exteriors.Envir_2D_Exterior: setting media path to '140696863017216:'
+[0042.05] Log: UFMODProject::PostLoad: Music.Music: setting media path to '140696772906496:'
+[0044.77] ScriptLog: Loose focus sub state StyxGame_SubState_PressStart
+[0044.77] ScriptLog: Exit sub state StyxGame_SubState_PressStart
+[0044.77] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0044.77] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0044.77] ScriptLog: Enter sub state StyxGame_SubState_MainMenu
+[0044.78] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuGeneric
+[0044.89] ScriptLog: Gain focus sub state StyxGame_SubState_MainMenu
+[0047.84] ScriptLog: Loose focus sub state StyxGame_SubState_MainMenu
+[0047.84] ScriptLog: Enter sub state StyxGame_SubState_PreLoading
+[0047.84] ScriptLog: Gain focus sub state StyxGame_SubState_PreLoading
+[0047.84] ScriptLog: Substate_Preloading.uc:InitLoadingScreen(), MapPath = M01_S11_P
+[0047.84] ScriptLog: LoadingMap: M01_S11_P, Index: 1
+[0047.84] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuGeneric
+[0049.72] ScriptLog: SaveManager.uc::Load Save0.sav
+[0049.86] ScriptLog: Loose focus sub state StyxGame_SubState_PreLoading
+[0049.86] ScriptLog: Exit sub state StyxGame_SubState_PreLoading
+[0049.86] ScriptLog: Loose focus sub state StyxGame_SubState_MainMenu
+[0049.86] ScriptLog: Exit sub state StyxGame_SubState_MainMenu
+[0049.86] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0049.86] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0049.86] ScriptLog: Exit state StyxGame_State_MainMenu
+[0049.87] Log: LoadMap: M01_S11_P?Name=Player?Team=255
+[0050.16] Log: UFMODProject::PostLoad: voices_m01_s11_gob_int.monologues_telepathies.m01_s11: setting media path to '140696865429184:'
+[0050.18] Log: UFMODProject::PostLoad: voices_m06_s11_elf_int.monologues_telepathies.m06_s11_elf: setting media path to '140696865435904:'
+[0050.19] Log: UFMODProject::PostLoad: voices_m06_s11_gob_int.monologues_telepathies.m06_s11: setting media path to '140696865436864:'
+[0050.72] Log: Game class is 'StyxGame'
+[0050.73] Log: Primary PhysX scene will be in software.
+[0050.73] Log: Creating Primary PhysX Scene.
+[0050.73] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0050.73] Log: Bringing World M01_S11_P.TheWorld up for play (0) at 2014.11.22-12.54.36
+[0050.73] ScriptLog: Enter state StyxGame_State_Loading
+[0050.73] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0050.73] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0050.73] Log: Bringing up level for play took: 0.009452
+[0050.74] Error: Can't start an online game that hasn't been created
+[0050.74] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0050.81] ScriptLog: OnFocusGained InterfaceMenu.StyxBG_LoadingSectored
+[0050.88] ScriptLog: Input mode changed to False
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange False
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for Gamma to value='5'
+[0050.88] ScriptLog: [StyxSettings]::ApplyChangeForSettings Gamma
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for Gamma
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity to value='5'
+[0050.88] ScriptLog: [StyxSettings]::ApplyChangeForSettings MouseSensitivity
+[0050.88] ScriptLog: [StyxSettings]::SetMouseSensitivity 10.0000
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for InvertX to value='0'
+[0050.88] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertX
+[0050.88] ScriptLog: [StyxSettings]::SetInvertX, PlayerInput.bInvertMouse: False, newValue: False
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for InvertX
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for InvertY to value='0'
+[0050.88] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertY
+[0050.88] ScriptLog: [StyxSettings]::SetInvertY, PlayerInput.bInvertTurn: False, newValue: False
+[0050.88] ScriptLog: [StyxSettings]:: ApplyChange for InvertY
+[0050.89] Log: ########### Finished loading level: 1.020773 seconds
+[0050.89] Log: Flushing async loaders.
+[0055.43] Log: UFMODProject::PostLoad: guard2_voicekit.guard2: setting media path to '140696758250496:'
+[0055.70] Log: UFMODProject::PostLoad: Human_Light_SND.Char_Human_L: setting media path to '140696758249856:'
+[0055.74] Log: UFMODProject::PostLoad: Human_Medium_SND.Char_Human_M: setting media path to '140696758249216:'
+[0055.76] Log: UFMODProject::PostLoad: nofighter_voicekit.nofighter: setting media path to '140696758248576:'
+[0055.83] Log: UFMODProject::PostLoad: worker1_voicekit.worker1: setting media path to '140696758247936:'
+[0056.62] Log: UFMODProject::PostLoad: elf1_voicekit.elf1: setting media path to '140696720285248:'
+[0056.97] Log: UFMODProject::PostLoad: Interactive_SecretWood_SND.Obj_Secret_Wood: setting media path to '140696716695232:'
+[0057.00] Log: UFMODProject::PostLoad: Placeables.Envir_3D: setting media path to '140696716691072:'
+[0057.01] Log: UFMODProject::PostLoad: Interactive_Gate_SND.Obj_Door_Gate: setting media path to '140696716696832:'
+[0057.03] Log: UFMODProject::PostLoad: Interactive_MediumGate_SND.Obj_Door_Gate_Medium: setting media path to '140696716696512:'
+[0057.05] Log: UFMODProject::PostLoad: Interactive_SecretGateSt_SND.Obj_Secret_GateSt: setting media path to '140696716695552:'
+[0057.07] Log: UFMODProject::PostLoad: Florishes.Envir_2D_Florish: setting media path to '140696716697472:'
+[0057.10] Log: UFMODProject::PostLoad: Interactive_Misc_SND.Obj_Misc: setting media path to '140696716695872:'
+[0057.11] Log: UFMODProject::PostLoad: Interiors_StoneHalls.Envir_2D_StoneHall: setting media path to '140696716694592:'
+[0057.14] Log: UFMODProject::PostLoad: Interiors_StoneRooms.Envir_2D_StoneRoom: setting media path to '140696716693952:'
+[0057.16] Log: UFMODProject::PostLoad: Layers.Envir_2D_Layer: setting media path to '140696716692992:'
+[0057.18] Log: UFMODProject::PostLoad: Mus_Jingle_04.Gen04: setting media path to '140696716691712:'
+[0057.20] Log: UFMODProject::PostLoad: Special.Envir_2D_Special: setting media path to '140696716690432:'
+[0057.39] Log: UFMODProject::PostLoad: Music.Music: setting media path to '140697145673344:'
+[0057.50] Log: Flushed async loaders.
+[0059.91] Log: UPhysicsAssetInstance::InitInstance : Actor has non-uniform scaling: SkeletalMeshActor_0
+[0059.91] Log: UPhysicsAssetInstance::InitInstance : Actor has non-uniform scaling: SkeletalMeshActor_1
+[0059.91] Log: UPhysicsAssetInstance::InitInstance : Actor has non-uniform scaling: SkeletalMeshActor_17
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_20 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_34 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_36 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_2 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_41 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_42 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_43 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_45 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_46 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_47 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_48 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_18 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_19 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_53 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_54 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_55 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_56 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_57 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_58 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_59 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_17 - b_torch_wall_top)
+[0061.94] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_38 - b_torch_wall_top)
+[0061.99] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_5 - b_torch_wall_top)
+[0061.99] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_15 - b_torch_wall_top)
+[0061.99] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_16 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_14 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_9 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_6 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_12 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_13 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_8 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_11 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_7 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_52 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_0 - b_torch_wall_top)
+[0062.03] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_4 - b_torch_wall_top)
+[0062.07] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_21 - b_torch_wall_top)
+[0062.07] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_32 - b_torch_wall_top)
+[0062.07] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_22 - b_torch_wall_top)
+[0062.07] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_23 - b_torch_wall_top)
+[0062.07] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_24 - b_torch_wall_top)
+[0062.12] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_3 - b_torch_wall_top)
+[0062.13] Log: WARNING: Cooking Convex For Actor: s11_gp_com_a.TheWorld:PersistentLevel.StyxInteractiveObject_Trunk_14 Component: StaticMeshComponent_201 StaticMesh: Barrels.StaticMeshes.Barrel_02 (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0062.18] Log: URB_ConstraintInstance::InitConstraint - Invalid 6DOF joint description (StyxInteractiveObject_Torch_37 - b_torch_wall_top)
+[0064.23] Log: WARNING: Cooking Convex For Actor: s11_gp_m01_a.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_19 Component: StaticMeshComponent_25 StaticMesh: 1H_Sword.StaticMesh.1H_Sword_01 (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0064.34] Log: WARNING: Cooking Convex For Actor: s11_gp_m01_a.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_90 Component: StaticMeshComponent_96 StaticMesh: 1H_Sword_02.StaticMesh.ContrebandierBase_sword (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0065.32] ScriptLog: Main world info found on :M01_S11_P
+[0065.33] ScriptLog: World info found on :s11_graph_env_a (UseAsGraphReference=True)
+[0065.33] ScriptLog: Retrieve world properties
+[0065.33] ScriptLog: World info found on :s11_gp_col_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_gp_com_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_gp_m01_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_gp_phys_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_cin (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_snd_com_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_snd_m01_a (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :s11_walltower (UseAsGraphReference=False)
+[0065.33] ScriptLog: World info found on :sall_mus_utopia_a (UseAsGraphReference=False)
+[0065.46] Log: Warning (NavMeshObstacle_2) just tried to register itself with the navmesh, but it already was!  You must first unregister before re-registering an object
+[0065.46] Log: Warning (NavMeshObstacle_3) just tried to register itself with the navmesh, but it already was!  You must first unregister before re-registering an object
+[0065.46] Log: Warning (NavMeshObstacle_4) just tried to register itself with the navmesh, but it already was!  You must first unregister before re-registering an object
+[0065.46] Log: Warning (NavMeshObstacle_1) just tried to register itself with the navmesh, but it already was!  You must first unregister before re-registering an object
+[0073.24] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0073.24] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0073.24] ScriptLog: Exit state StyxGame_State_Loading
+[0073.24] ScriptLog: Loading map 'M01_S11_P' take 23.5044 seconds
+[0073.24] ScriptLog: Enter state StyxGame_State_Mission
+[0073.24] ScriptLog: Enter sub state StyxGame_SubState_Base
+[0073.24] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0073.24] ScriptLog: OnFocusLost InterfaceMenu.StyxBG_LoadingSectored
+[0073.24] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0073.24] ScriptLog: Enter sub state StyxGame_SubState_InGame
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange True
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Fullscreen to value='1'
+[0073.26] ScriptLog: [StyxSettings]::ApplyChangeForSettings Fullscreen
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Fullscreen
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Resolution to value='12'
+[0073.26] ScriptLog: [StyxSettings]::ApplyChangeForSettings Resolution
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Resolution
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Gamma to value='5'
+[0073.26] ScriptLog: [StyxSettings]::ApplyChangeForSettings Gamma
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Gamma
+[0073.26] ScriptLog: [StyxSettings]:: ApplyChange for Bloom to value='1'
+[0073.26] ScriptLog: [StyxSettings]::ApplyChangeForSettings Bloom
+[0073.26] Log: Bool Bloom set to 1
+[0073.33] ScriptLog: [StyxSettings]:: ApplyChange for Bloom
+[0073.33] ScriptLog: [StyxSettings]:: ApplyChange for MotionBlur to value='0'
+[0073.33] ScriptLog: [StyxSettings]::ApplyChangeForSettings MotionBlur
+[0073.33] Log: Bool MotionBlur set to 0
+[0073.35] ScriptLog: [StyxSettings]:: ApplyChange for MotionBlur
+[0073.35] ScriptLog: [StyxSettings]:: ApplyChange for DepthOfField to value='1'
+[0073.35] ScriptLog: [StyxSettings]::ApplyChangeForSettings DepthOfField
+[0073.35] Log: Bool DepthOfField set to 1
+[0073.36] ScriptLog: [StyxSettings]:: ApplyChange for DepthOfField
+[0073.36] ScriptLog: [StyxSettings]:: ApplyChange for Distortion to value='1'
+[0073.36] ScriptLog: [StyxSettings]::ApplyChangeForSettings Distortion
+[0073.36] Log: Bool Distortion set to 1
+[0073.38] ScriptLog: [StyxSettings]:: ApplyChange for Distortion
+[0073.38] ScriptLog: [StyxSettings]:: ApplyChange for VSync to value='1'
+[0073.38] ScriptLog: [StyxSettings]::ApplyChangeForSettings VSync
+[0073.38] Log: Bool UseVsync set to 1
+[0073.39] ScriptLog: [StyxSettings]:: ApplyChange for VSync
+[0073.39] ScriptLog: [StyxSettings]:: ApplyChange for LightShaft to value='1'
+[0073.39] ScriptLog: [StyxSettings]::ApplyChangeForSettings LightShaft
+[0073.39] Log: Bool bAllowLightShafts set to 1
+[0073.40] ScriptLog: [StyxSettings]:: ApplyChange for LightShaft
+[0073.40] ScriptLog: [StyxSettings]:: ApplyChange for MaxMultiSamples to value='0'
+[0073.40] ScriptLog: [StyxSettings]::ApplyChangeForSettings MaxMultiSamples
+[0073.40] Log: Int MaxMultiSamples set to 1
+[0073.44] ScriptLog: [StyxSettings]:: ApplyChange for MaxMultiSamples
+[0073.44] ScriptLog: [StyxSettings]:: ApplyChange for DistantObjects to value='1'
+[0073.44] ScriptLog: [StyxSettings]::ApplyChangeForSettings DistantObjects
+[0073.44] ScriptLog: SetDistantObjects : DistantObjects
+[0073.44] Log: Float MaxDrawDistanceScale set to 2
+[0073.46] ScriptLog: [StyxSettings]:: ApplyChange for DistantObjects
+[0073.46] ScriptLog: [StyxSettings]:: ApplyChange for DynamicShadows to value='1'
+[0073.46] ScriptLog: [StyxSettings]::ApplyChangeForSettings DynamicShadows
+[0073.46] ScriptLog: Change shado quality to TextureMedium
+[0073.46] Log: Bool DynamicShadows set to 1
+[0073.47] Log: Bool LightEnvironmentShadows set to 0
+[0073.48] ScriptLog: [StyxSettings]:: ApplyChange for DynamicShadows
+[0073.48] ScriptLog: [StyxSettings]:: ApplyChange for TextureDetail to value='1'
+[0073.48] ScriptLog: [StyxSettings]::ApplyChangeForSettings TextureDetail
+[0073.48] Log: SystemSettings based on: SystemSettings
+[0073.50] ScriptLog: [StyxSettings]:: ApplyChange for TextureDetail
+[0073.50] ScriptLog: [StyxSettings]:: ApplyChange for MaxAnisotropy to value='0'
+[0073.50] ScriptLog: [StyxSettings]::ApplyChangeForSettings MaxAnisotropy
+[0073.50] Log: Int MaxAnisotropy set to 1
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for MaxAnisotropy
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for Language to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings Language
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for Language
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity to value='5'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings MouseSensitivity
+[0073.51] ScriptLog: [StyxSettings]::SetMouseSensitivity 10.0000
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for MouseSensitivity
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for InvertX to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertX
+[0073.51] ScriptLog: [StyxSettings]::SetInvertX, PlayerInput.bInvertMouse: False, newValue: False
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for InvertX
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for InvertY to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings InvertY
+[0073.51] ScriptLog: [StyxSettings]::SetInvertY, PlayerInput.bInvertTurn: False, newValue: False
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for InvertY
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideObjectifIcon to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideObjectifIcon
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideObjectifIcon
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideDetectionIcon to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideDetectionIcon
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideDetectionIcon
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideSubtitle to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings HideSubtitle
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for HideSubtitle
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for MusicVolume to value='10'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings MusicVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for MusicVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for SfxVolume to value='10'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings SfxVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for SfxVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for VoiceVolume to value='10'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings VoiceVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for VoiceVolume
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for Global to value='10'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings Global
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for Global
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for VoiceLanguage to value='0'
+[0073.51] ScriptLog: [StyxSettings]::ApplyChangeForSettings VoiceLanguage
+[0073.51] ScriptLog: [StyxSettings]:: ApplyChange for VoiceLanguage
+[0073.62] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuGeneric
+[0073.64] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuGeneric
+[0073.65] ScriptLog: Preload sector map image SectorImages.plan_s11m01
+[0073.68] ScriptLog: Preload treasure image TreasureImages.treasure_M01S02
+[0073.68] Log: Flushing async loaders.
+[0073.71] Log: Flushed async loaders.
+[0073.78] Log: ApplyDistDissolveMaterialSettings took 0.032613 seconds
+[0073.78] Log:    Num modified static components = 1192
+[0073.78] Log:    Num created materials = 1341
+[0073.81] ScriptLog: AddMissionObjective 'M01_S11_Prim_01' on StyxInteractiveObject_Item_15
+[0073.88] ScriptLog: [StyxSettings]:: ApplyChange with bForceChange False
+[0073.90] Log: WARNING: Cooking Convex For Actor: s11_gp_m01_a.TheWorld:PersistentLevel.DynamicSMActor_Spawnable_159 Component: StaticMeshComponent_165 StaticMesh: Mace.StaticMesh.Mace (Scale: 1.000000 1.000000 1.000000) Please go and set PreCachedPhysScale on the mesh to have this scale for RunTime spawned objects.
+[0074.04] ScriptLog: End preload SectorImages.plan_s11m01
+[0075.15] ScriptLog: End preload TreasureImages.treasure_M01S02
+[0093.75] ScriptLog: Fail to load facefx anim 
+[0142.39] ScriptLog: Fail to load facefx anim 
+[0148.80] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0148.80] ScriptLog: Enter sub state StyxGame_SubState_Pause
+[0148.81] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuGeneric
+[0148.84] ScriptLog: Gain focus sub state StyxGame_SubState_Pause
+[0148.84] ScriptLog: Pause::GainFocus
+[0149.68] ScriptLog: Loose focus sub state StyxGame_SubState_Pause
+[0149.69] ScriptLog: Exit sub state StyxGame_SubState_Pause
+[0149.69] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuGeneric
+[0150.28] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0150.28] ScriptLog: Enter sub state StyxGame_SubState_Objective
+[0150.28] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0150.28] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0150.30] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0150.30] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuTabs
+[0150.30] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuTabs
+[0150.30] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0150.30] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0150.30] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuTabs
+[0150.30] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuTabs
+[0150.30] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0150.30] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0159.92] ScriptLog: Loose focus sub state StyxGame_SubState_Objective
+[0159.92] ScriptLog: Exit sub state StyxGame_SubState_Objective
+[0159.92] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0159.92] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0159.92] ScriptLog: Enter sub state StyxGame_SubState_Treasure
+[0159.92] ScriptLog: Gain focus sub state StyxGame_SubState_Treasure
+[0159.92] ScriptLog: OnFocusGained InterfaceMenu.StyxTabTreasure
+[0159.93] ScriptLog: Gain focus sub state StyxGame_SubState_Treasure
+[0163.09] ScriptLog: Loose focus sub state StyxGame_SubState_Treasure
+[0163.09] ScriptLog: Exit sub state StyxGame_SubState_Treasure
+[0163.09] ScriptLog: OnFocusLost InterfaceMenu.StyxTabTreasure
+[0163.09] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0163.09] ScriptLog: Enter sub state StyxGame_SubState_Skill
+[0163.09] ScriptLog: Gain focus sub state StyxGame_SubState_Skill
+[0163.09] ScriptLog: OnFocusGained InterfaceMenu.StyxTabSkilltree
+[0163.11] ScriptLog: Gain focus sub state StyxGame_SubState_Skill
+[0166.22] ScriptLog: Loose focus sub state StyxGame_SubState_Skill
+[0166.22] ScriptLog: Exit sub state StyxGame_SubState_Skill
+[0166.22] ScriptLog: OnFocusLost InterfaceMenu.StyxTabSkilltree
+[0166.22] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0166.22] ScriptLog: Enter sub state StyxGame_SubState_Objective
+[0166.22] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0166.22] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0166.23] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0172.36] ScriptLog: Loose focus sub state StyxGame_SubState_Objective
+[0172.39] ScriptLog: Exit sub state StyxGame_SubState_Objective
+[0172.39] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0174.14] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0174.14] ScriptLog: Enter sub state StyxGame_SubState_Objective
+[0174.14] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0174.14] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0174.14] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0174.14] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuTabs
+[0174.14] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuTabs
+[0174.14] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0174.14] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0187.58] ScriptLog: Loose focus sub state StyxGame_SubState_Objective
+[0187.58] ScriptLog: Exit sub state StyxGame_SubState_Objective
+[0187.58] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0234.55] ScriptLog: Fail to load facefx anim 
+[0283.39] ScriptLog: Fail to load facefx anim 
+[0332.33] ScriptLog: Fail to load facefx anim 
+[0334.54] ScriptLog: Fail to load facefx anim 
+[0381.18] ScriptLog: Fail to load facefx anim 
+[0391.68] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0391.68] ScriptLog: Enter sub state StyxGame_SubState_Objective
+[0391.68] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0391.68] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0391.68] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0391.68] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuTabs
+[0391.68] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuTabs
+[0391.68] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0391.69] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0409.81] ScriptLog: Loose focus sub state StyxGame_SubState_Objective
+[0409.81] ScriptLog: Exit sub state StyxGame_SubState_Objective
+[0409.81] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0440.35] ScriptLog: Suspicisous Begin By : EDT_Visual
+[0449.94] ScriptLog: Suspicisous Begin By : EDT_Visual
+[0455.31] ScriptLog: Fail to load facefx anim 
+[0472.12] ScriptLog: RootMotionParameters not found for StyxPawn_NPC_8 with anim frontstab_near_02_in_T
+[0472.12] ScriptLog: RootMotionParameters not found for StyxPawn_NPC_8 with anim frontstab_near_02_out_02_T
+[0472.12] ScriptLog: RootMotionParameters not found for StyxPawn_NPC_8 with anim frontstab_near_02_out_01_T
+[0502.42] ScriptWarning: Accessed None 'Sound'
+	StyxInteractionKeyframe_SoundStop InteractiveObject.Interactions.Interaction_Torch:StyxInteractionKeyframe_SoundStop_2
+	Function StyxGame.StyxInteractionKeyframe_SoundStop:Execute:00E1
+[0534.98] ScriptWarning: Accessed None 'Sound'
+	StyxInteractionKeyframe_SoundStop InteractiveObject.Interactions.Interaction_Torch:StyxInteractionKeyframe_SoundStop_2
+	Function StyxGame.StyxInteractionKeyframe_SoundStop:Execute:00E1
+[0536.49] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0536.49] ScriptLog: Enter sub state StyxGame_SubState_Objective
+[0536.49] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0536.49] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0536.49] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0536.49] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuTabs
+[0536.49] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuTabs
+[0536.49] ScriptLog: OnFocusGained InterfaceMenu.StyxTabMission
+[0536.50] ScriptLog: Gain focus sub state StyxGame_SubState_Objective
+[0547.43] ScriptLog: Loose focus sub state StyxGame_SubState_Objective
+[0547.43] ScriptLog: Exit sub state StyxGame_SubState_Objective
+[0547.43] ScriptLog: OnFocusLost InterfaceMenu.StyxTabMission
+[0680.00] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0680.00] ScriptLog: Enter sub state StyxGame_SubState_Pause
+[0680.05] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuGeneric
+[0680.09] ScriptLog: Gain focus sub state StyxGame_SubState_Pause
+[0680.09] ScriptLog: Pause::GainFocus
+[0684.04] ScriptLog: Loose focus sub state StyxGame_SubState_Pause
+[0684.04] ScriptLog: Enter sub state StyxGame_SubState_Popup
+[0684.04] ScriptLog: Gain focus sub state StyxGame_SubState_Popup
+[0684.08] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuGeneric
+[0684.08] ScriptLog: OnFocusGained InterfaceMenu.StyxPopup
+[0688.49] ScriptLog: Loose focus sub state StyxGame_SubState_Popup
+[0688.49] ScriptLog: Exit sub state StyxGame_SubState_Popup
+[0688.49] ScriptLog: Gain focus sub state StyxGame_SubState_Pause
+[0688.49] ScriptLog: Pause::GainFocus
+[0688.49] ScriptLog: OnFocusLost InterfaceMenu.StyxPopup
+[0688.49] ScriptLog: OnFocusGained InterfaceMenu.StyxMenuGeneric
+[0688.77] ScriptLog: Loose focus sub state StyxGame_SubState_Pause
+[0688.78] ScriptLog: Exit sub state StyxGame_SubState_Pause
+[0688.78] ScriptLog: OnFocusLost InterfaceMenu.StyxMenuGeneric
+[0688.78] ScriptLog: Loose focus sub state StyxGame_SubState_InGame
+[0688.79] ScriptLog: Exit sub state StyxGame_SubState_InGame
+[0688.79] ScriptLog: Gain focus sub state StyxGame_SubState_Base
+[0688.79] ScriptLog: Loose focus sub state StyxGame_SubState_Base
+[0688.79] ScriptLog: Exit sub state StyxGame_SubState_Base
+[0688.79] ScriptLog: Exit state StyxGame_State_Mission
+[0689.33] Log: Closing by request
+[0689.78] Log: appRequestExit(0)
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_26390'(inside 'FMODAmbientEvent_17') was'nt stop. Name='Small'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_0'(inside 'FMODAmbientEvent_2') was'nt stop. Name='Activate'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_41239'(inside 'FMODAmbientEvent_29') was'nt stop. Name='Rush_01_Random'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_0'(inside 'FMODAmbientEvent_3') was'nt stop. Name='Activate'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7653'(inside 'FMODAmbientEvent_36') was'nt stop. Name='Windowed'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_26374'(inside 'FMODAmbientEvent_42') was'nt stop. Name='Fireplace'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7663'(inside 'FMODAmbientEvent_43') was'nt stop. Name='Lp'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7664'(inside 'FMODAmbientEvent_44') was'nt stop. Name='Rattling'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_26376'(inside 'FMODAmbientEvent_49') was'nt stop. Name='Brazero_Small'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_0'(inside 'FMODAmbientEvent_5') was'nt stop. Name='Activate'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_26376'(inside 'FMODAmbientEvent_50') was'nt stop. Name='Brazero_Small'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_60355'(inside 'FMODAmbientEvent_56') was'nt stop. Name='Pigeon_Flaps'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_41239'(inside 'FMODAmbientEvent_63') was'nt stop. Name='Rush_01_Random'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_41239'(inside 'FMODAmbientEvent_64') was'nt stop. Name='Rush_01_Random'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_87038'(inside 'FMODAmbientEvent_66') was'nt stop. Name='Rush_01_Continuous'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_87038'(inside 'FMODAmbientEvent_67') was'nt stop. Name='Rush_01_Continuous'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_87038'(inside 'FMODAmbientEvent_69') was'nt stop. Name='Rush_01_Continuous'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_26378'(inside 'FMODAmbientEvent_73') was'nt stop. Name='Brazero_Small'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_0'(inside 'FMODAmbientEvent_76') was'nt stop. Name='Rush_01'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7653'(inside 'FMODAmbientEvent_78') was'nt stop. Name='Windowed'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_5383'(inside 'FMODAmbientEvent_79') was'nt stop. Name='Juggling'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7650'(inside 'FMODAmbientEvent_82') was'nt stop. Name='Lp'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_7650'(inside 'FMODAmbientEvent_83') was'nt stop. Name='Lp'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_4'(inside 'FMODAmbientEvent_85') was'nt stop. Name='Idle_Lp'. It would make the game crash !!!
+[0690.11] Error: Error, ERROR, The sound 'FMODEventComponent_13753'(inside 'FMODAmbientEvent_87') was'nt stop. Name='Fountain'. It would make the game crash !!!
+[0696.66] Exit: Preparing to exit.
+[0719.35] Exit: Game engine shut down
+[0721.76] Exit: Windows client shut down
+[0723.79] Exit: FMOD Memory Leak! (166602 bytes).
+[0723.79] Exit: FMOD Audio Device shut down.
+[0737.75] Exit: Object subsystem successfully closed.
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <StartUp_P.TheWorld:PersistentLevel.StyxPawn_Player_0.StyxComponent_MaterialManager_0.MaterialInstanceConstant_0>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <MainMenu_P.TheWorld:PersistentLevel.StyxPawn_Player_1.StyxComponent_MaterialManager_1.MaterialInstanceConstant_8>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <e3_styxentry_new.TheWorld:PersistentLevel.StyxPawn_Player_11.StyxComponent_MaterialManager_2.MaterialInstanceConstant_16>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <BaseGuard_Range.Material.rakash_ClothShader_INST>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <BaseGuard_Melee.Material.ClothBaseShader_INST>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <e3_styxentry_new.TheWorld:PersistentLevel.StyxPawn_Player_11.StyxComponent_MaterialManager_2.MaterialInstanceConstant_29>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <M01_S11_P.TheWorld:PersistentLevel.StyxPawn_Player_2.StyxComponent_MaterialManager_5.MaterialInstanceConstant_30>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_7.StyxComponent_MaterialManager_7.MaterialInstanceConstant_38>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_8.StyxComponent_MaterialManager_11.MaterialInstanceConstant_41>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <Human_Ambassadeur.Material.ClothBaseShader_INST>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_14.StyxComponent_MaterialManager_13.MaterialInstanceConstant_44>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_10.StyxComponent_MaterialManager_14.MaterialInstanceConstant_45>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_25.StyxComponent_MaterialManager_16.MaterialInstanceConstant_46>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_46.StyxComponent_MaterialManager_18.MaterialInstanceConstant_49>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_23.StyxComponent_MaterialManager_19.MaterialInstanceConstant_52>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_22.StyxComponent_MaterialManager_20.MaterialInstanceConstant_55>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_3.StyxComponent_MaterialManager_22.MaterialInstanceConstant_56>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_43.StyxComponent_MaterialManager_23.MaterialInstanceConstant_59>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_26.StyxComponent_MaterialManager_25.MaterialInstanceConstant_62>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_27.StyxComponent_MaterialManager_26.MaterialInstanceConstant_65>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_28.StyxComponent_MaterialManager_27.MaterialInstanceConstant_68>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_0.StyxComponent_MaterialManager_28.MaterialInstanceConstant_71>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_31.StyxComponent_MaterialManager_29.MaterialInstanceConstant_74>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_9.StyxComponent_MaterialManager_30.MaterialInstanceConstant_77>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_18.StyxComponent_MaterialManager_32.MaterialInstanceConstant_82>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_12.StyxComponent_MaterialManager_33.MaterialInstanceConstant_87>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <Servant.Material.Cloth_01>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_49.StyxComponent_MaterialManager_38.MaterialInstanceConstant_88>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_38.StyxComponent_MaterialManager_41.MaterialInstanceConstant_90>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_24.StyxComponent_MaterialManager_43.MaterialInstanceConstant_92>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_42.StyxComponent_MaterialManager_45.MaterialInstanceConstant_94>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_33.StyxComponent_MaterialManager_48.MaterialInstanceConstant_97>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_29.StyxComponent_MaterialManager_49.MaterialInstanceConstant_100>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_20.StyxComponent_MaterialManager_50.MaterialInstanceConstant_103>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_2.StyxComponent_MaterialManager_51.MaterialInstanceConstant_106>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_48.StyxComponent_MaterialManager_53.MaterialInstanceConstant_109>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_47.StyxComponent_MaterialManager_54.MaterialInstanceConstant_112>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_40.StyxComponent_MaterialManager_55.MaterialInstanceConstant_115>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_4.StyxComponent_MaterialManager_56.MaterialInstanceConstant_117>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_13.StyxComponent_MaterialManager_58.MaterialInstanceConstant_122>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_39.StyxComponent_MaterialManager_59.MaterialInstanceConstant_125>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_55.StyxComponent_MaterialManager_60.MaterialInstanceConstant_130>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_5.StyxComponent_MaterialManager_61.MaterialInstanceConstant_133>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <Rakash.Material.rakash_ClothShader_INST>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <ElfAmbassadeur.Material.ElfAmbassadeur_Hair>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <ElfAmbassadeur.Material.elfambassador_cloth>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <Styx.Material.rakash_ClothShader_INST>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <Barimen_SR.Material.Barimen_Sr_cloth>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <M01_S11_P.TheWorld:PersistentLevel.StyxPawn_Player_2.StyxComponent_MaterialManager_5.MaterialInstanceConstant_1480>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_24.StyxComponent_MaterialManager_43.MaterialInstanceConstant_1481>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_43.StyxComponent_MaterialManager_23.MaterialInstanceConstant_1482>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_48.StyxComponent_MaterialManager_53.MaterialInstanceConstant_1483>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_7.StyxComponent_MaterialManager_7.MaterialInstanceConstant_1484>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_13.StyxComponent_MaterialManager_58.MaterialInstanceConstant_1485>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_23.StyxComponent_MaterialManager_19.MaterialInstanceConstant_1486>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_0.StyxComponent_MaterialManager_28.MaterialInstanceConstant_1487>
+[0739.67] DevPhysics: APEX Debug Warning: physx::apex::ApexResourceProvider::destroy: Unreleased resource found during teardown: Namespace <ApexMaterials>, Name <s11_gp_m01_a.TheWorld:PersistentLevel.StyxPawn_NPC_8.StyxComponent_MaterialManager_11.MaterialInstanceConstant_1488>
+[0740.21] Log: Shutting down FaceFX...
+[0740.21] Log: FaceFX shutdown.
+[0756.65] Exit: Exiting.
+[0757.08] Log: Log file closed, 11/22/14 13:06:23

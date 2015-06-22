@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+detailsText = "teams on opposite sides of a glacier" 
+imagepath = "ui\random_map\standard_maps" 
+displayName = "Glacier" 
+loadDetailsText="Teams start on mountain highlands on opposite sides of a wide glacier. Resources are standard except that all extra mines are located on exposed mountain tops in midst of the glacier.  There is one trade route on each side, and there are Nootka villages in these mountains." 
+loadBackground="ui\random_map\standard_maps">
+   <loadss>ui\random_map\rockies\rockies_ss_01</loadss>
+</mapinfo>

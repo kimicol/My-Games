@@ -1,0 +1,1924 @@
+Loading asset C:\Users\Arthur\Documents\My Games\HotlineMiami\hotline.cfg from disk
+CSplashScreen::Initialize
+Loading asset Fonts/fntLevelSelect_INT.fnt from disk
+Loading asset Fonts/fntMenu_INT_INT.fnt from disk
+Loading asset Fonts/fntMenu_JP_INT.fnt from disk
+Loading asset Fonts/fntChapter_INT.fnt from disk
+Loading asset Fonts/fntFeatsBig_INT_INT.fnt from disk
+Loading asset Fonts/fntFeatsBig_JP_INT.fnt from disk
+Loading asset Fonts/fntPart_INT.fnt from disk
+Loading asset Fonts/fntCheckpoint_INT_INT.fnt from disk
+Loading asset Fonts/fntCheckpoint_JP_INT.fnt from disk
+Loading asset Fonts/fntScore_INT_INT.fnt from disk
+Loading asset Fonts/fntScore_JP_INT.fnt from disk
+Loading asset Fonts/fntScoreUpdate_INT_INT.fnt from disk
+Loading asset Fonts/fntScoreUpdate_JP_INT.fnt from disk
+Loading asset Fonts/fntPointShow_INT_INT.fnt from disk
+Loading asset Fonts/fntPointShow_JP_INT.fnt from disk
+Loading asset Fonts/fntFeats_INT_INT.fnt from disk
+Loading asset Fonts/fntFeats_JP_INT.fnt from disk
+Loading asset Fonts/fntUnlock_INT_INT.fnt from disk
+Loading asset Fonts/fntUnlock_JP_INT.fnt from disk
+Loading asset Fonts/fntBikerCredits_INT.fnt from disk
+Loading asset Fonts/fntDate_INT_INT.fnt from disk
+Loading asset Fonts/fntDate_JP_INT.fnt from disk
+Loading asset Fonts/fntDescription_INT_INT.fnt from disk
+Loading asset Fonts/fntDescription_JP_INT.fnt from disk
+Loading asset Fonts/fntWarning_INT.fnt from disk
+Loading asset Fonts/fntLeaderboards_INT.fnt from disk
+Loading asset Fonts/fntLeaderboardsLevel_INT.fnt from disk
+Loading asset Fonts/fntBands_INT.fnt from disk
+Loading asset Fonts/fntCredits_INT.fnt from disk
+Loading asset Fonts/fntGrading_INT_INT.fnt from disk
+Loading asset Fonts/fntGrading_JP_INT.fnt from disk
+Loading asset Fonts/fntGrade_INT.fnt from disk
+Loading asset Fonts/fntGradeSmall_INT.fnt from disk
+Loading asset Fonts/fntDetails_INT_INT.fnt from disk
+Loading asset Fonts/fntDetails_JP_INT.fnt from disk
+Loading asset Fonts/fntTopic_INT.fnt from disk
+Loading asset Fonts/fntCredit_INT.fnt from disk
+Loading asset Fonts/fntCreditList_INT.fnt from disk
+Loading asset Fonts/fntPointShow_dupe1_INT.fnt from disk
+Loading asset Fonts/fntPointShow_INT_dupe1_INT.fnt from disk
+Loading asset Fonts/fntPointShow_JP_dupe1_INT.fnt from disk
+Loading asset Fonts/fntQuestion_INT.fnt from disk
+Loading asset Fonts/fntAnswers_INT.fnt from disk
+Framerate = 31.093227 fps, 32.161345 ms
+Framerate = 57.587490 fps, 17.364883 ms
+CSplashScreen::Release
+Unloading cluster Assets/GL/splash_fr.png
+Creating room 97
+Setting room 97
+Loading Room 97
+Loaded Room 97
+Framerate = 37.345955 fps, 26.776662 ms
+Framerate = 55.691612 fps, 17.956025 ms
+Creating room 171
+Setting room 171
+Loading Room 171
+Loaded Room 171
+Releasing room 97
+Framerate = 60.000191 fps, 16.666614 ms
+Creating room 93
+Setting room 93
+Loading Room 93
+Loaded Room 93
+Releasing room 171
+Framerate = 51.798847 fps, 19.305449 ms
+Creating room 1
+Loading asset HorseSteppin.ogg from disk
+Setting room 1
+Loading Room 1
+Creating surface 0 (453x319)
+Creating surface 1 (640x480)
+Creating surface 2 (640x480)
+Loaded Room 1
+Releasing room 93
+Unloading cluster AssetScripts/d/splDennatonPieces.ags
+Unloading cluster AssetScripts/d/splDennatonFlash.ags
+Unloading cluster AssetScripts/b/splBullet.ags
+Unloading cluster AssetScripts/s/splSplashShift.ags
+Unloading cluster AssetScripts/w/splWaveComing.ags
+Unloading cluster AssetScripts/d/splDennatonTitle.ags
+Unloading cluster AssetScripts/s/Splash.ags
+Unloading cluster AssetScripts/n/sprNoise.ags
+Framerate = 50.171375 fps, 19.931684 ms
+Framerate = 57.644825 fps, 17.347611 ms
+Creating room 76
+Setting room 76
+Loading Room 76
+Queue remove surface 0 (453x319)
+Queue remove surface 1 (640x480)
+Queue remove surface 2 (640x480)
+Creating surface 3 (453x255)
+Surface destructor -1
+Reusing surface 1 (640x480)
+Surface destructor -1
+Reusing surface 2 (640x480)
+Surface destructor -1
+Loaded Room 76
+Releasing room 1
+Unloading cluster AssetScripts/t/sprTitle.ags
+Unloading cluster AssetScripts/p/sprPalmTrees.ags
+Removing surface 0 (453x319)
+Framerate = 55.598038 fps, 17.986246 ms
+Loading asset Perturbator.ogg from disk
+Creating room 18
+Setting room 18
+Loading Room 18
+Queue remove surface 3 (453x255)
+Queue remove surface 1 (640x480)
+Queue remove surface 2 (640x480)
+Reusing surface 3 (453x255)
+Surface destructor -1
+Reusing surface 1 (640x480)
+Surface destructor -1
+Reusing surface 2 (640x480)
+Surface destructor -1
+Loaded Room 18
+Releasing room 76
+Unloading cluster AssetScripts/h/sprHouse3.ags
+Unloading cluster AssetScripts/t/sprTrainstation.ags
+Framerate = 53.723015 fps, 18.613996 ms
+Framerate = 59.377262 fps, 16.841464 ms
+Framerate = 59.999893 fps, 16.666696 ms
+Creating room 33
+Setting room 33
+Creating surface 0 (640x608)
+Creating surface 4 (640x608)
+Loading Room 33
+Queue remove surface 1 (640x480)
+Creating surface 5 (640x608)
+Surface destructor -1
+Queue remove surface 2 (640x480)
+Creating surface 6 (640x608)
+Surface destructor -1
+Creating surface 7 (453x255)
+Loaded Room 33
+Queue remove surface 6 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Creating surface 8 (640x608)
+Queue remove surface 8 (640x608)
+Releasing room 18
+Unloading cluster AssetScripts/p/sprPalmTrees.ags
+Unloading cluster AssetScripts/h/sprHouse.ags
+ext_SteamRunCallbacks
+Removing surface 1 (640x480)
+Removing surface 2 (640x480)
+Removing surface 8 (640x608)
+Framerate = 55.446548 fps, 18.035388 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999870 fps, 16.666703 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999981 fps, 16.666672 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 58.997925 fps, 16.949749 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.985870 fps, 16.670592 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.014305 fps, 16.662694 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 57.185177 fps, 17.487049 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.215759 fps, 16.887396 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.997784 fps, 16.667282 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.002262 fps, 16.666038 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.913998 fps, 16.690591 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999985 fps, 16.666671 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.997833 fps, 16.667269 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.001923 fps, 16.666133 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.997669 fps, 16.667314 ms
+ext_SteamRunCallbacks
+Framerate = 60.002510 fps, 16.665969 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999985 fps, 16.666671 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999802 fps, 16.666722 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.000538 fps, 16.666517 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999756 fps, 16.666734 ms
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+ext_SteamRunCallbacks
+Framerate = 59.996773 fps, 16.667563 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.994816 fps, 16.668107 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.008244 fps, 16.664377 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.000114 fps, 16.666635 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.000141 fps, 16.666627 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999985 fps, 16.666671 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.384270 fps, 16.839476 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016335 fps, 16.662131 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.973576 fps, 16.674010 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+ext_SteamRunCallbacks
+Framerate = 60.005554 fps, 16.665124 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.996639 fps, 16.667600 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.991417 fps, 16.669051 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.986378 fps, 16.670451 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.994678 fps, 16.668145 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.995396 fps, 16.667946 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.006798 fps, 16.664779 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999870 fps, 16.666703 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.983295 fps, 16.671308 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990086 fps, 16.669421 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.006451 fps, 16.664875 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.983524 fps, 16.671245 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.013161 fps, 16.663012 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.976776 fps, 16.673120 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.026272 fps, 16.659372 ms
+ext_SteamRunCallbacks
+Framerate = 59.993557 fps, 16.668457 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016403 fps, 16.662111 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999763 fps, 16.666732 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+ext_SteamRunCallbacks
+Framerate = 59.973740 fps, 16.673964 ms
+ext_SteamRunCallbacks
+Framerate = 60.013985 fps, 16.662783 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.008785 fps, 16.664227 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.987072 fps, 16.670259 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016369 fps, 16.662121 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999985 fps, 16.666671 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.997986 fps, 16.667226 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.998405 fps, 16.667110 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 60.003632 fps, 16.665658 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.996532 fps, 16.667630 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.986977 fps, 16.670285 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016418 fps, 16.662107 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.996639 fps, 16.667600 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.003357 fps, 16.665734 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.000031 fps, 16.666658 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.983433 fps, 16.671270 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990093 fps, 16.669419 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.011436 fps, 16.663490 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.978516 fps, 16.672637 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990101 fps, 16.669417 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.010059 fps, 16.663873 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016121 fps, 16.662190 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999744 fps, 16.666738 ms
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+ext_SteamRunCallbacks
+Framerate = 59.973896 fps, 16.673921 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019855 fps, 16.661153 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+Surface destructor 6
+Queue remove surface 6 (640x608)
+Surface destructor 5
+Queue remove surface 5 (640x608)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 5 (640x608)
+Reusing surface 6 (640x608)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Releasing room 33
+Reusing surface 7 (453x255)
+Surface destructor -1
+Surface destructor 7
+Queue remove surface 7 (453x255)
+Reusing surface 7 (453x255)
+Setting room 33
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Reusing surface 0 (640x608)
+Reusing surface 4 (640x608)
+ext_SteamRunCallbacks
+Creating surface 1 (640x608)
+Surface destructor -1
+Queue remove surface 1 (640x608)
+Removing surface 1 (640x608)
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.553375 fps, 16.791660 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+Creating room 34
+Creating dynamic sprite 1508
+Queue remove surface 7 (453x255)
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 0 (640x608)
+Queue remove surface 4 (640x608)
+Creating surface 1 (640x600)
+Creating surface 2 (640x600)
+Loading Room 34
+Queue remove surface 6 (640x608)
+Creating surface 8 (640x600)
+Surface destructor -1
+Queue remove surface 5 (640x608)
+Creating surface 9 (640x600)
+Surface destructor -1
+Loaded Room 34
+Queue remove surface 9 (640x600)
+Reusing surface 9 (640x600)
+Surface destructor -1
+Creating surface 10 (640x600)
+Queue remove surface 10 (640x600)
+Unloading cluster AssetScripts/p/sprPBashBoss2.ags
+Unloading cluster AssetScripts/l/sprLocustDead.ags
+Unloading cluster AssetScripts/l/sprLocustDeadWhite.ags
+Unloading cluster AssetScripts/d/danceFloor.ags
+Removing surface 0 (640x608)
+Removing surface 4 (640x608)
+Removing surface 5 (640x608)
+Removing surface 6 (640x608)
+Removing surface 7 (453x255)
+Removing surface 10 (640x600)
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.262974 fps, 16.873942 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Framerate = 59.990112 fps, 16.669414 ms
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.016079 fps, 16.662201 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.999973 fps, 16.666674 ms
+ext_SteamRunCallbacks
+Framerate = 59.973839 fps, 16.673937 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.850399 fps, 16.708326 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.970039 fps, 16.674993 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.970047 fps, 16.674991 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.049652 fps, 16.652886 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.998676 fps, 16.667034 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.991425 fps, 16.669049 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990112 fps, 16.669414 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 60.019867 fps, 16.661150 ms
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 59.990108 fps, 16.669415 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Reusing surface 3 (453x255)
+Reusing surface 8 (640x600)
+Reusing surface 9 (640x600)
+Releasing room 33
+Surface destructor -1
+Releasing room 34
+Surface destructor -1
+Surface destructor -1
+Surface destructor -1
+Setting room 34
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Reusing surface 1 (640x600)
+Reusing surface 2 (640x600)
+Creating surface 0 (640x600)
+Surface destructor -1
+Queue remove surface 0 (640x600)
+Removing surface 0 (640x600)
+Creating dynamic sprite 1509
+Framerate = 53.070545 fps, 18.842844 ms
+Creating room 68
+Surface destructor -1
+Setting room 68
+Queue remove surface 1 (640x600)
+Queue remove surface 2 (640x600)
+Loading Room 68
+Loaded Room 68
+Removing surface 1 (640x600)
+Removing surface 2 (640x600)
+ext_SteamRunCallbacks
+ext_SteamRunCallbacks
+Framerate = 58.508121 fps, 17.091644 ms
+ext_SteamRunCallbacks
+Surface destructor 9
+Queue remove surface 9 (640x600)
+Surface destructor 8
+Queue remove surface 8 (640x600)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Releasing room 33
+Releasing room 34
+Loading asset HorseSteppin.ogg from disk
+Removing dynamic sprite 1508
+Removing dynamic sprite 1509
+Creating room 1
+Setting room 1
+Loading Room 1
+Creating surface 0 (453x319)
+Creating surface 1 (640x480)
+Creating surface 2 (640x480)
+Loaded Room 1
+Releasing room 68
+Removing surface 3 (453x255)
+Removing surface 8 (640x600)
+Removing surface 9 (640x600)
+Creating room 125
+Setting room 125
+Loading Room 125
+Queue remove surface 0 (453x319)
+Creating surface 3 (453x255)
+Surface destructor -1
+Loaded Room 125
+Releasing room 1
+Unloading cluster AssetScripts/s/SingleSprites.ags
+Unloading cluster AssetScripts/f/furniture.ags
+Unloading cluster AssetScripts/p/player.ags
+Unloading cluster AssetScripts/b/bulletFx.ags
+Unloading cluster AssetScripts/t/sprTitle.ags
+Unloading cluster AssetScripts/p/sprPalmTrees.ags
+Unloading cluster AssetScripts/e/enemies.ags
+Unloading cluster AssetScripts/e/enemies3.ags
+Unloading cluster AssetScripts/e/enemies5.ags
+Unloading cluster AssetScripts/e/enemies2.ags
+Unloading cluster AssetScripts/b/sprBoss2ThrowKnife.ags
+Unloading cluster AssetScripts/e/enemies4.ags
+Framerate = 45.178139 fps, 22.134599 ms
+Removing surface 0 (453x319)
+Releasing room 125
+Surface destructor 1
+Queue remove surface 1 (640x480)
+Surface destructor 2
+Queue remove surface 2 (640x480)
+Surface destructor 3
+Queue remove surface 3 (453x255)
+Unloading cluster AssetScripts/savingAnimation.ags
+Unloading cluster AssetScripts/s/SingleSprites.ags
+Unloading cluster AssetScripts/w/sprWave.ags
+Queue remove surface 0
+Queue remove surface 1 (640x480)
+Queue remove surface 2 (640x480)
+Queue remove surface 3 (453x255)
+Queue remove surface 4
+Queue remove surface 5
+Queue remove surface 6
+Queue remove surface 7
+Queue remove surface 8
+Queue remove surface 9
+Queue remove surface 10
+Queue remove surface 11
+Queue remove surface 12
+Queue remove surface 13
+Queue remove surface 14
+Queue remove surface 15
+Queue remove surface 16
+Queue remove surface 17
+Queue remove surface 18
+Queue remove surface 19
+Queue remove surface 20
+Queue remove surface 21
+Queue remove surface 22
+Queue remove surface 23
+Queue remove surface 24
+Queue remove surface 25
+Queue remove surface 26
+Queue remove surface 27
+Queue remove surface 28
+Queue remove surface 29
+Queue remove surface 30
+Queue remove surface 31

@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo
+
+detailsText = "Cats and Mice v1.2 By mephilip" 
+imagepath = "ui\techs\black_watch\black_watch"
+displayName = "Cats and Mice v1.2" 
+cannotReplace = ""
+loadDetailsText ="Team1=Mice\nTeam2=Cats" 
+loadBackground="blackness">
+
+<loadss>ui\history\histories\H_E_The Fur Trade</loadss>
+
+</mapinfo>

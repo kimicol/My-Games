@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "" imagepath = "ui\random_map\carolina\guiana" displayName = "french guiana" cannotReplace = ""
+loadDetailsText="The french guiana is a colony of frence,is very good to atack the enemy,this map is very big,not indian villages,and very trade routes,he have caribs..Since European settlement by the French in 1604, French Guiana was the site of notorious penal settlements (see Devil's Island) until 1951. French Guiana was originally inhabited by a number of Native American peoples" loadBackground="ui\random_map\carolina\guyana_map">
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+</mapinfo>
+
+	

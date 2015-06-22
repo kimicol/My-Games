@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "" imagepath = "ui\random_map\southamerica" displayName = "mataatlantica" cannotReplace = ""
+loadDetails="193560" loadBackground="ui\random_map\atlantica\atlantica_map">
+<loadss>ui\random_map\caribbean\caribbean_ss_01</loadss>
+</mapinfo>
+

@@ -1,0 +1,229 @@
+{
+    "version": "1.0",
+    "featureAds": {
+        "visible": "true",
+        "content": [
+		   {
+                "id": "GodPackTest",
+                "header": "Get All Gods for $29.99",
+                "desc": "Purchase Ultimate God Pack and get ALL Gods current and future",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_UltimateGodPack.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_UltimateGodPack.jpg",
+                "data": "8231",
+                "type": "0",
+                "probability": "0",
+				"hideIfOwned" : "ugp"
+            },
+            {
+                "id": "Arena",
+                "header": "Battle in the New Arena",
+                "desc": "Test your strength against the Gods in the new Arena.",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_ArenaScreenshot.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_NewArenaScreenshot.jpg",
+                "data": "0",
+                "type": "0",
+                "probability": "10000"
+            },
+			{ 
+			  "id": "SumSmite22",
+			  "header": "Summer of SMITE",
+			  "desc": "Catch a Wave of New Skins, Icons and More",
+			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_FireworkEmote.jpg",
+			  "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_FireworkEmote.jpg",
+			  "data": "9",
+			  "type": "1",
+			  "probability" : "1000"
+			},
+			{
+				"id": "FriendswithBenefits",
+				"header": "Friends with Benefits",
+				"desc": "Earn more rewards when you play with friends this weekend.",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_DoubleFriendWeekend.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_DoubleFriendWeekend.jpg",
+				"data": "0",
+				"type": "0",
+				"probability" : "100000"
+            },
+			    { 
+				"id": "curse",
+			    "header": "SMITE Partners with Curse Voice",
+			    "desc": "Earn 200 Gems and the Curse Voice Apollo Skin",
+			    "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Feature_Images_CURSE_Apollo5.jpg",
+			    "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Feature_Images_CURSE_Apollo_THUMB2.jpg",
+			    "data": "http://beta.cursevoice.com/games/smite",
+			    "type": "3",
+			    "probability" : "100"
+			},
+			{
+				"id": "ReferAFriend22",
+				"header": "Triumph and Agni: All the world's a stage",
+				"desc": "Unlock this cool new Triumph and Agni skin when you play 30 hours with Referred Friends",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_TriumphAgni.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(Thumb)_TriumphAgni.jpg",
+				"data": "11599",
+				"type": "0",
+				"probability" : "1000"
+            },
+			{
+				"id": "Instagram",
+				"header": "Follow SMITE on Instagram",
+				"desc": "Unlock an Xbox Beta Key by following SMITE on Instagram #HipsterGods",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Instagram_PC-featureImage.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Instagram_PC-featureImage-thumb.jpg",
+				"data": "hrz.io/instagramkey",
+				"type": "3",
+				"probability" : "10"
+            }
+			
+        ]
+    },
+"storeFeatured": {
+        "visible": "true",
+        "content": [
+		{
+                "id": "GodPackTest22",
+                "header": "Get All Gods for $29.99",
+                "desc": "Purchase Ultimate God Pack and get ALL Gods current and future",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_UltimateGodPack.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_UltimateGodPack.jpg",
+                "data": "8231",
+                "type": "0",
+                "probability": "0",
+				"hideIfOwned" : "ugp"
+            },
+          {
+				"id": "MadameNox2",
+				"header": "Mama Nox is Back!",
+				"desc": "The Goddess of the Night has stepped out of the shadows and is ready for battle. ",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_MadameNox.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_MadameNox.jpg",
+				"data": "11604",
+				"type": "0",
+				"probability" : "1000"
+            },
+            {
+				"id": "FireworksEmote2",
+				"header": "Summer of SMITE: Fireworks Emote",
+				"desc": "Light up the sky this summer in SMITE!!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_FireworkEmote.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_FireworkEmote.jpg",
+				"data": "11606",
+				"type": "0",
+				"probability" : "100"
+            },
+            {
+                "id": "esportsseasonticket",
+                "header": "SPL Season Ticket",
+                "desc": "Earn points and unlock exclusive skins with the new SPL Season Ticket!",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/TopImage_eSportsTicket.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/TopImage_eSportsTicket.jpg",
+                "data": "SeasonTicket",
+                "type": "2",
+                "probability": "10"
+            },
+            {
+				"id": "KhaliSkin",
+				"header": "Crimson Death Kali",
+				"desc": "The Goddess of Destruction has come for vengeance",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_CrimsonKali.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/ThumbCrimsonKali.jpg",
+				"data": "11601",
+				"type": "0",
+				"probability" : "100"
+            },
+            {
+                "id": "HeavenlyWarlord",
+                "header": "Heavenly Warlord SunWukong",
+                "desc": "Wage war on the heavens and battle the Gods with this new skin.",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_WarlordWukong.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_WarlordWukong.jpg",
+                "data": "11600",
+                "type": "0",
+                "probability": "100"
+            }
+        ]
+    },
+
+	"storeQuickSale": {
+        "visible": "true",
+        "content": [
+            { 
+			  "id": "c9chest2",
+              "header": "C9 Team Chest",
+              "desc": "Support your favorite team with the new eSports chests!",
+              "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/C9Chest.jpg",
+              "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/C9Chest.jpg",
+              "data": "11485",
+              "type": "0",
+              "probability": "0"
+			}
+        ]
+    },
+
+	"storeTopSeller": {
+        "visible": "true",
+        "content": 
+		[
+            { 
+			  "id": "FnaticChest",
+			  "header": "New Fnatic Team Chest",
+			  "desc": "Support your favorite team with the new eSports chests!",
+			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/RightSide_FnaticChest.jpg",
+			  "data": "11482",
+			  "type": "0",
+			  "probability" : "0"
+			},
+            {
+                "id": "DIG",
+                "header": "New DIG Team Chest",
+                "desc": "Support your favorite team with the new eSports chests!",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/RightSide_DigChest.jpg",
+                "data": "11538",
+                "type": "0",
+                "probability": "1000"
+            },
+            { 
+				"id": "Denial",
+				"header": "New Denial Team Chest",
+				"desc": "Support your favorite team with the new eSports chests!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/RightSide_DenialChest.jpg",
+				"data": "11537",
+				"type": "0",
+				"probability": "100"
+			}
+        ]
+    },
+	
+	"storeBottomPanel": {
+        "visible": "true",
+        "content": [
+         {
+				"id": "Sharky",
+				"header": "Sharky Icon",
+				"desc": "You're going to need a bigger boat for this icon!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/335x198_SharkyIcon.jpg",
+				"data": "11578",
+				"type": "0",
+				"probability" : "100"
+            },
+            {
+               "id": "Hunculese",
+                "header": "Hunculese",
+                "desc": "Do you even lift bro?!",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/335x198_Hunkulese.jpg",
+                "data": "11519",
+                "type": "0",
+                "probability": "100"
+            },
+            { 
+				"id": "Ratatork",
+			    "header": "Ratatoskr the Sly Messenger",
+			    "desc": "Your gonna love his nuts.",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/335x198_Ratatoskr.jpg",
+				"data": "11448",
+				"type": "0",
+				"probability": "10"
+			}
+        ]
+    }
+}

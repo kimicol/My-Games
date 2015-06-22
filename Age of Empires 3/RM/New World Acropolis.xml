@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\all_maps" 
+displayName = "New World Acropolis" 
+detailsText = "players start on a cliff area with limited access" 
+loadDetailsText = "Players start on a raised hill mostly surrounded by cliff for a defensive starting position. This map randomizes terrain patterns and matching resources and tribes on a standard-sized map. Each map has randomly Native villages of one or two types with varying number and positions, several variations on trade routes and other possible features." 
+loadBackground="ui\random_map\all_maps">
+
+<loadss>ui\random_map\yukon\yukon_ss_01</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_03</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_01</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_01</loadss>
+<loadss>ui\random_map\texas\texas_ss_01</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_02</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_03</loadss>
+<loadss>ui\random_map\everglades\everglades_ss_01</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_03</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_01</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_03</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_02</loadss>
+<loadss>ui\random_map\patagonia\patagonia_ss_01</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_02</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_01</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_01</loadss>
+<loadss>ui\random_map\texas\texas_ss_02</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+<loadss>ui\random_map\yucatan\yucatan_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+<loadss>ui\random_map\everglades\everglades_ss_02</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_02</loadss>
+<loadss>ui\random_map\texas\texas_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_03</loadss>
+<loadss>ui\random_map\saguenay\saguenay_ss_03</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_02</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+
+</mapinfo>
+
+ 

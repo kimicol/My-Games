@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+detailsText = "isolated mountains in the midst of an icefield" 
+imagepath = "ui\random_map\standard_maps" 
+displayName = "Icefield" 
+loadDetailsText="Players start on mountain outcrops in the middle of a wide expanse of ice. Resources are not standard - all extra resources are located on exposed mountain tops in the midst of the icefield or on the ridge of land surrounding the icefield.  There are two trade routes on the sides of the map, and there are Nootka villages on other mountain outcrops." 
+loadBackground="ui\random_map\standard_maps">
+   <loadss>ui\random_map\rockies\rockies_ss_02</loadss>
+</mapinfo>

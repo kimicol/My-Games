@@ -1,0 +1,120 @@
+[0000.30] Log: Async Log file open, 06/20/15 22:21:48
+[0000.30] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.30] Log:  ... running in INSTALLED mode
+[0000.30] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.30] Init: Version: 10897
+[0000.30] Init: Epic Internal: 0
+[0000.30] Init: Compiled (32-bit): Jun 17 2015 19:43:54
+[0000.30] Init: Changelist: 1532151
+[0000.30] Init: Game is version 2.8.2808.0.
+[0000.30] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722372295220232583277328732184299423642525208522 -cnmg2=722372295222232283227327732784279424642825277529 -ASYNCTICK=FALSE -HiCommand -HEXX=65E44FAD
+[0000.30] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.42] Init: Computer: PC-ARTHUR
+[0000.42] Init: User: Arthur
+[0000.42] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.42] Init: High frequency timer resolution =2.240908 MHz
+[0000.42] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=4.0GB
+[0000.48] DevOnline: Initializing MCTS
+[0000.48] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.48] Init: Object subsystem initialized
+[0000.48] Log: Overriding lang INT w/ command-line option of FRA
+[0000.63] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0000.64] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0000.64] Log: ShadowPatch: Error -pid should be passed on command line.
+[0000.80] Log: AsyncTickTasks DISABLED at startup
+[0000.96] Log: SystemSettings based on: SystemSettings
+[0000.96] Log: SystemSettings based on: SystemSettings
+[0000.96] Log: SystemSettings based on: SystemSettings
+[0000.97] Log: SystemSettings based on: SystemSettings
+[0000.97] Log: SystemSettings based on: SystemSettings
+[0001.52] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0001.52] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0001.55] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.16] Log: PhysX GPU Support: DISABLED
+[0004.14] Log: Assembly Loaded Version: DBExport: 06/17/2015 19:03:54,  Src=devsql.hirezcorp.com:smite_live_build, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0028.03] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0029.04] Log: 116989 objects as part of root set at end of initial load.
+[0029.04] Log: 0 out of 0 bytes used by permanent object pool.
+[0029.04] Log: Initializing Engine...
+[0032.92] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0032.92] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0033.03] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0033.03] Log: GFx attempted to load missing object [Logos]
+[0033.03] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0033.03] Warning: Warning, Failed to find object 'Class None.'
+[0033.03] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0033.09] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0033.85] Log: Map Game ID = 0
+[0033.85] Log: Map Instance ID = 124831741
+[0033.88] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0033.88] Log: Performance:  appCycles 11 nsec
+[0033.93] Log: Performance:  memCopy per KB 236 nsec
+[0033.96] Log: Performance:  memZero per KB 166 nsec
+[0033.97] Log: Performance:  appInterlockedIncrement 13 nsec
+[0033.98] Log: Performance:  GetTickCount 4 nsec
+[0033.98] Log: Game class is 'TgGameLaunch'
+[0034.00] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0034.00] Log: Flushing async loaders.
+[0034.11] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0034.11] Log: Flushed async loaders.
+[0034.18] Log: Primary PhysX scene will be in software.
+[0034.18] Log: Creating Primary PhysX Scene.
+[0035.26] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0035.26] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.20-22.22.23
+[0035.26] Log: Skipping initialization of FSMPartPool!
+[0036.05] Log: Bringing up level for play took: 1.929628
+[0053.51] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0053.51] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0053.69] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0055.66] Log: ########### Finished loading level: 22.565225 seconds
+[0056.44] Log: Flushing async loaders.
+[0057.25] Log: Flushed async loaders.
+[0057.25] Log: Initializing Engine Completed
+[0057.25] Log: >>>>>>>>>>>>>> Initial startup: 57.25s <<<<<<<<<<<<<<<
+[0057.25] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0057.44] Log: WebFactory created
+[0059.04] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[0059.04] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[0071.68] Log: Login Success: kimicol
+[0071.75] Error: Failed to read file '..\..\BattleGame\LandingPanel\c9chest2.jpg' error ()
+[0071.75] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest22.jpg' error ()
+[0071.75] Error: Failed to read file '..\..\BattleGame\LandingPanel\MadameNox2.jpg' error ()
+[0071.75] Error: Failed to read file '..\..\BattleGame\LandingPanel\FireworksEmote2.jpg' error ()
+[0071.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\KhaliSkin.jpg' error ()
+[0071.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\HeavenlyWarlord.jpg' error ()
+[0072.19] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest.jpg' error ()
+[0073.85] Log: Team/Instance chat routed to Instance Server.
+[0073.85] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0073.85] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0074.59] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0078.46] Log: Chat[1]: Statut du clan : Tiny42SH
+[0078.46] Log: ---- UpdateClanData
+[0082.91] Log: ---- UpdateClanData
+[0101.63] Log: ---- UpdateClanData
+[0101.76] Log: ---- UpdateClanData
+[0101.91] Log: GFx attempted to load missing object [MenuManager.undefined]
+[0119.00] Log: Closing by request
+[0119.00] Log: appRequestExit(0)
+[0119.00] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[0119.80] Exit: Preparing to exit.
+[0120.11] Exit: Game engine shut down
+[0120.24] Exit: Windows client shut down
+[0120.26] Exit: XAudio2 Device shut down.
+[0120.50] Exit: Object subsystem successfully closed.
+[0122.00] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0122.12] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0122.12] Log: Shutting down FaceFX...
+[0122.12] Log: FaceFX shutdown.
+[0122.33] Exit: Exiting.

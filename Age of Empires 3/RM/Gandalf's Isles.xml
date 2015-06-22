@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\all_maps" 
+displayName="Gandalf's Isles"
+detailsText = "Gandalf's Isles - a large random island map" 
+loadDetailsText="Players start on separate islands on a very large map with random terrains. Control the seas for access to the resources on the scattered extra islands as well as rich fishing and whaling. Note that some mines produce gold rather than silver, yielding 2.5 times the coin. A short trade route is found on a center island. One native village of a single tribe is found on each player island, with a few of a different tribe placed on other islands." 
+ 
+loadBackground="ui\random_map\all_maps">
+   <loadss>ui\random_map\new_england\new_england_ss_01</loadss>
+   <loadss>ui\random_map\yucatan\yucatan_ss_02</loadss>
+   <loadss>ui\random_map\hispaniola\hispaniola_ss_02</loadss>
+   <loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+   <loadss>ui\random_map\carolina\carolina_ss_01</loadss>
+   <loadss>ui\random_map\great_lakes\great_lakes_ss_02</loadss>
+   <loadss>ui\random_map\caribbean\caribbean_ss_01</loadss> 
+   <loadss>ui\random_map\hispaniola\hispaniola_ss_03</loadss>
+   <loadss>ui\random_map\caribbean\caribbean_ss_03</loadss> 
+   <loadss>ui\random_map\great_lakes\great_lakes_ss_01</loadss>
+   <loadss>ui\random_map\hispaniola\hispaniola_ss_01</loadss>
+   <loadss>ui\random_map\caribbean\caribbean_ss_02</loadss> 
+</mapinfo>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo 
+imagepath = "ui\random_map\all_maps" 
+displayName = "Barrier Ridge"
+detailsText="Can you hold the pass and gain the victory?"
+loadDetailsText = "A rectangular map, with teams arranged far apart on opposite sides of a mountain ridge with only one pass. The map features 19 different terrain patterns with matching native types and resources. Native tribes are of 1 or 2 types per map and of varied number. There is always one trade route on each side of the barrier ridge."
+loadBackground="ui\random_map\all_maps">
+<loadss>ui\random_map\yukon\yukon_ss_01</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+<loadss>ui\random_map\texas\texas_ss_01</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_02</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_03</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_03</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_03</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_01</loadss>
+<loadss>ui\random_map\patagonia\patagonia_ss_01</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_02</loadss>
+<loadss>ui\random_map\amazon\amazon_ss_01</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_01</loadss>
+<loadss>ui\random_map\texas\texas_ss_02</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_03</loadss>
+<loadss>ui\random_map\great_lakes\great_lakes_ss_03</loadss>
+<loadss>ui\random_map\yucatan\yucatan_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+<loadss>ui\random_map\rockies\rockies_ss_02</loadss>
+<loadss>ui\random_map\texas\texas_ss_03</loadss>
+<loadss>ui\random_map\great_plains\great_plains_ss_01</loadss>
+<loadss>ui\random_map\yukon\yukon_ss_02</loadss>
+<loadss>ui\random_map\sonora\sonora_ss_02</loadss>
+
+</mapinfo>
