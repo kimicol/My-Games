@@ -1,111 +1,2107 @@
-[0000.28] Log: Async Log file open, 06/22/15 11:17:42
-[0000.28] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[0000.28] Log:  ... running in INSTALLED mode
-[0000.28] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
-[0000.28] Init: Version: 10897
-[0000.28] Init: Epic Internal: 0
-[0000.28] Init: Compiled (32-bit): Jun 17 2015 19:43:54
-[0000.28] Init: Changelist: 1532151
-[0000.28] Init: Game is version 2.8.2808.0.
-[0000.28] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722172285229232283217328732484269429642825275529 -cnmg2=72297220522823218326732073278426942764290624 -ASYNCTICK=FALSE -HiCommand -HEXX=710807D8
-[0000.28] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
-[0000.35] Init: Computer: PC-ARTHUR
-[0000.35] Init: User: Arthur
-[0000.35] Init: CPU Page size=4096, Processors=4, Cores=2
-[0000.35] Init: High frequency timer resolution =2.240906 MHz
-[0000.35] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=4.0GB
-[0000.43] DevOnline: Initializing MCTS
-[0000.43] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
-[0000.43] Init: Object subsystem initialized
-[0000.43] Log: Overriding lang INT w/ command-line option of FRA
-[0000.48] Log: TgAIBehaviorTreeManager :: Loading behavior trees
-[0000.49] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
-[0000.49] Log: ShadowPatch: Error -pid should be passed on command line.
-[0000.69] Log: AsyncTickTasks DISABLED at startup
-[0000.70] Log: SystemSettings based on: SystemSettings
-[0000.70] Log: SystemSettings based on: SystemSettings
-[0000.70] Log: SystemSettings based on: SystemSettings
-[0000.70] Log: SystemSettings based on: SystemSettings
-[0000.70] Log: SystemSettings based on: SystemSettings
-[0001.24] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
-[0001.24] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
-[0001.26] Log: Shader platform (RHI): PC-D3D-SM3
-[0001.29] Log: PhysX GPU Support: DISABLED
-[0002.74] Log: Assembly Loaded Version: DBExport: 06/17/2015 19:03:54,  Src=devsql.hirezcorp.com:smite_live_build, LangSrc=devsql.hirezcorp.com:smite_translations,
-[0025.46] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
-[0026.38] Log: 116989 objects as part of root set at end of initial load.
-[0026.38] Log: 0 out of 0 bytes used by permanent object pool.
-[0026.38] Log: Initializing Engine...
-[0028.27] ScriptWarning: Script call stack:
+[0000.16] Log: Async Log file open, 06/23/15 21:39:54
+[0000.16] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.16] Log:  ... running in INSTALLED mode
+[0000.16] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.16] Init: Version: 10897
+[0000.16] Init: Epic Internal: 0
+[0000.16] Init: Compiled (32-bit): Jun 17 2015 19:43:54
+[0000.16] Init: Changelist: 1532151
+[0000.16] Init: Game is version 2.8.2808.0.
+[0000.16] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722172205227232883207321732784229427642325296527 -cnmg2=722772215221232083217327732384279421642325250627 -ASYNCTICK=FALSE -HiCommand -HEXX=2552E581
+[0000.16] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.17] Init: Computer: PC-ARTHUR
+[0000.17] Init: User: Arthur
+[0000.17] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.17] Init: High frequency timer resolution =2.240908 MHz
+[0000.17] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=4.0GB
+[0000.27] DevOnline: Initializing MCTS
+[0000.27] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.27] Init: Object subsystem initialized
+[0000.27] Log: Overriding lang INT w/ command-line option of FRA
+[0000.66] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0000.67] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0000.67] Log: ShadowPatch: Error -pid should be passed on command line.
+[0000.90] Log: AsyncTickTasks DISABLED at startup
+[0000.95] Log: SystemSettings based on: SystemSettings
+[0000.95] Log: SystemSettings based on: SystemSettings
+[0000.95] Log: SystemSettings based on: SystemSettings
+[0000.95] Log: SystemSettings based on: SystemSettings
+[0000.95] Log: SystemSettings based on: SystemSettings
+[0001.57] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0001.57] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0001.82] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.94] Log: PhysX GPU Support: DISABLED
+[0002.98] Log: Assembly Loaded Version: DBExport: 06/17/2015 19:03:54,  Src=devsql.hirezcorp.com:smite_live_build, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0019.75] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0020.50] Log: 116989 objects as part of root set at end of initial load.
+[0020.50] Log: 0 out of 0 bytes used by permanent object pool.
+[0020.50] Log: Initializing Engine...
+[0021.98] ScriptWarning: Script call stack:
 	Function Engine.GameViewportClient:Init
 
 	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
 	Function Engine.GameViewportClient:Init:0025
-[0028.27] ScriptWarning: Assertion failed, line 672
+[0021.98] ScriptWarning: Assertion failed, line 672
 	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
 	Function Engine.GameViewportClient:Init:0025
-[0028.35] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
-[0028.35] Log: GFx attempted to load missing object [Logos]
-[0028.35] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0028.35] Warning: Warning, Failed to find object 'Class None.'
-[0028.35] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
-[0028.36] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
-[0028.73] Log: Map Game ID = 0
-[0028.73] Log: Map Instance ID = 124964691
-[0028.76] Log: Performance: Critical section Lock/Unlock 23 nsec
-[0028.76] Log: Performance:  appCycles 11 nsec
-[0028.83] Log: Performance:  memCopy per KB 346 nsec
-[0028.86] Log: Performance:  memZero per KB 131 nsec
-[0028.87] Log: Performance:  appInterlockedIncrement 10 nsec
-[0028.87] Log: Performance:  GetTickCount 4 nsec
-[0028.87] Log: Game class is 'TgGameLaunch'
-[0028.94] TgSLO: Async Load: GodSkins_Portraits_and_Icons
-[0028.94] Log: Flushing async loaders.
-[0029.97] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
-[0029.97] Log: Flushed async loaders.
-[0030.04] Log: Primary PhysX scene will be in software.
-[0030.04] Log: Creating Primary PhysX Scene.
-[0030.92] Log: *** WARNING - PATHS MAY NOT BE VALID ***
-[0030.92] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.22-11.18.13
-[0030.92] Log: Skipping initialization of FSMPartPool!
-[0031.36] Log: Bringing up level for play took: 1.381808
-[0047.39] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
-[0047.39] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
-[0048.12] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
-[0049.56] Log: ########### Finished loading level: 21.196717 seconds
-[0050.36] Log: Flushing async loaders.
-[0051.20] Log: Flushed async loaders.
-[0051.20] Log: Initializing Engine Completed
-[0051.20] Log: >>>>>>>>>>>>>> Initial startup: 51.20s <<<<<<<<<<<<<<<
-[0051.20] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
-[0053.04] Log: WebFactory created
-[0055.79] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
-[0055.79] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
-[0086.55] Log: Login Success: kimicol
-[0091.88] Log: Team/Instance chat routed to Instance Server.
-[0091.93] Log: ---- UpdateClanData
-[0092.08] Log: ---- UpdateClanData
-[0092.88] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
-[0115.96] Log: ---- UpdateClanData
-[0116.14] Log: ---- UpdateClanData
-[0116.26] Log: GFx attempted to load missing object [MenuManager.undefined]
-[0117.36] Log: ---- UpdateClanData
-[0141.54] Log: Closing by request
-[0141.54] Log: appRequestExit(0)
-[0141.54] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
-[0142.61] Exit: Preparing to exit.
-[0142.91] Exit: Game engine shut down
-[0143.03] Exit: Windows client shut down
-[0143.07] Exit: XAudio2 Device shut down.
-[0143.32] Exit: Object subsystem successfully closed.
-[0144.84] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
-[0144.98] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
-[0145.05] Log: Shutting down FaceFX...
-[0145.05] Log: FaceFX shutdown.
-[0145.27] Exit: Exiting.
+[0021.98] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0021.98] Log: GFx attempted to load missing object [Logos]
+[0021.98] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.00] Warning: Warning, Failed to find object 'Class None.'
+[0022.03] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0022.03] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0022.59] Log: Map Game ID = 0
+[0022.59] Log: Map Instance ID = 125088416
+[0022.62] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0022.62] Log: Performance:  appCycles 10 nsec
+[0022.68] Log: Performance:  memCopy per KB 254 nsec
+[0022.71] Log: Performance:  memZero per KB 165 nsec
+[0022.72] Log: Performance:  appInterlockedIncrement 10 nsec
+[0022.72] Log: Performance:  GetTickCount 4 nsec
+[0022.72] Log: Game class is 'TgGameLaunch'
+[0022.73] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0022.73] Log: Flushing async loaders.
+[0022.86] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0022.86] Log: Flushed async loaders.
+[0022.89] Log: Primary PhysX scene will be in software.
+[0022.89] Log: Creating Primary PhysX Scene.
+[0022.89] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0022.89] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.23-21.40.17
+[0022.89] Log: Skipping initialization of FSMPartPool!
+[0023.33] Log: Bringing up level for play took: 0.461694
+[0032.72] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0032.72] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0032.91] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0033.85] Log: ########### Finished loading level: 11.819757 seconds
+[0033.93] Log: Flushing async loaders.
+[0034.15] Log: Flushed async loaders.
+[0034.15] Log: Initializing Engine Completed
+[0034.15] Log: >>>>>>>>>>>>>> Initial startup: 34.15s <<<<<<<<<<<<<<<
+[0034.15] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0035.00] Log: WebFactory created
+[0036.35] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[0036.36] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[0050.29] Log: Login Success: kimicol
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\c9chest2.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest22.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\MadameNox2.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBeeCupid2.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\KhaliSkin.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\HeavenlyWarlord.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\FnaticChest.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\DIG.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Denial.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Sharky.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Hunculese.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Ratatork.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest_thumb.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Arena.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Arena_thumb.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\SizzyBSummerOfSmite.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\SizzyBSummerOfSmite_thumb.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\curse.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\curse_thumb.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\ReferAFriend22.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\ReferAFriend22_thumb.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Instagram.jpg' error ()
+[0050.80] Error: Failed to read file '..\..\BattleGame\LandingPanel\Instagram_thumb.jpg' error ()
+[0050.82] Log: Team/Instance chat routed to Instance Server.
+[0050.82] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0050.82] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0051.62] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0069.20] Log: Chat[1]: Statut du clan : Tiny42SH
+[0069.20] Log: ---- UpdateClanData
+[0074.42] Log: RequestingChannelMembers ch[4] [kimicol a rejoint la discussion.]
+[0076.35] Log: ---- UpdateClanData
+[0114.20] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0114.20] Log: Chat[4]: Yadavac a rejoint la file d'attente du groupe.
+[0140.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0140.87] Warning: Warning, Failed to find object 'Class None.None'
+[0234.82] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0234.82] Log: RequestingChannelMembers ch[3] [Yadavac a quitté la discussion.]
+[0236.46] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0237.55] Log: RequestingChannelMembers ch[3] [Cmapyxa a rejoint la discussion.]
+[0238.04] Log: RequestingChannelMembers ch[3] [marteaufout a rejoint la discussion.]
+[0239.94] TgSLO: Async Load: GOD_Athena
+[0239.94] TgSLO: Async Load: GOD_Athena_Lobby
+[0239.94] TgSLO: Async Load: FX_Athena
+[0241.40] TgSLO: Finish Load: GOD_Athena
+[0241.77] TgSLO: Finish Load: GOD_Athena_Lobby
+[0242.52] TgSLO: Finish Load: FX_Athena
+[0242.54] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_12)
+[0252.22] TgSLO: Async Load: GOD_Ymir
+[0252.22] TgSLO: Async Load: GOD_Ymir_Lobby
+[0252.22] TgSLO: Async Load: FX_Ymir
+[0253.59] TgSLO: Finish Load: GOD_Ymir
+[0253.78] TgSLO: Finish Load: GOD_Ymir_Lobby
+[0254.41] TgSLO: Finish Load: FX_Ymir
+[0303.01] TgSLO: Async Load: GOD_Neith
+[0303.01] TgSLO: Async Load: GOD_Neith_Lobby
+[0303.01] TgSLO: Async Load: FX_Neith
+[0303.94] TgSLO: Finish Load: GOD_Neith
+[0304.57] TgSLO: Finish Load: GOD_Neith_Lobby
+[0304.97] TgSLO: Finish Load: FX_Neith
+[0314.28] TgSLO: Async Load: GOD_Hades
+[0314.28] TgSLO: Async Load: GOD_Hades_Lobby
+[0314.28] TgSLO: Async Load: FX_Hades
+[0314.28] TgSLO: Async Load: GOD_Hades_Skins
+[0314.28] TgSLO: Async Load: FX_Hades_Skin1
+[0314.28] TgSLO: Async Load: AUD_God_Hades
+[0314.28] TgSLO: Async Load: FX_Hades_Targeting
+[0314.28] TgSLO: Async Load: AnimNotify7774
+[0314.95] TgSLO: Finish Load: GOD_Hades
+[0315.15] TgSLO: Finish Load: GOD_Hades_Lobby
+[0315.44] TgSLO: Finish Load: FX_Hades
+[0315.48] TgSLO: Finish Load: GOD_Hades_Skins
+[0315.83] TgSLO: Finish Load: FX_Hades_Skin1
+[0316.40] TgSLO: Finish Load: AUD_God_Hades
+[0316.62] TgSLO: Finish Load: FX_Hades_Targeting
+[0316.66] TgSLO: Finish Load: AnimNotify7774
+[0325.58] Log: Chat[3]: poseidon
+[0327.74] Log: Chat[3]: change
+[0331.03] Log: Chat[3]: 3 magic
+[0334.14] TgSLO: Async Load: GOD_Poseidon
+[0334.14] TgSLO: Async Load: GOD_Poseidon_Lobby
+[0334.14] TgSLO: Async Load: GOD_Poseidon_Skin3
+[0334.14] TgSLO: Async Load: GOD_Poseidon_Skin3_Lobby
+[0334.15] TgSLO: Async Load: FX_Poseidon_Skin3
+[0334.15] TgSLO: Async Load: GOD_Poseidon_Skin3_Shark
+[0334.15] TgSLO: Async Load: AnimNotify11064
+[0335.07] TgSLO: Finish Load: GOD_Poseidon
+[0335.35] TgSLO: Finish Load: GOD_Poseidon_Lobby
+[0335.60] TgSLO: Finish Load: GOD_Poseidon_Skin3
+[0335.98] TgSLO: Finish Load: GOD_Poseidon_Skin3_Lobby
+[0336.44] TgSLO: Finish Load: FX_Poseidon_Skin3
+[0336.51] TgSLO: Finish Load: GOD_Poseidon_Skin3_Shark
+[0336.58] TgSLO: Finish Load: AnimNotify11064
+[0344.98] DevNet: URL: Adding default option Team=255
+[0344.98] Log: ReceiveChangeMap: mapGameId 1510
+[0345.25] DevNet: URL: Adding default option Team=255
+[0345.25] DevNet: Browse: 37.48.125.80:9029/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164825220?Team=255
+[0345.25] DevNet: Game client on port 9029, rate 25000
+[0345.55] DevNet: Welcomed by server (Level: mayan_siege, Game: TgGame.TgGame_Battle_Conquest_Erez)
+[0345.71] Log: LoadMap: 37.48.125.80:9029/mayan_siege?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164825220?Team=255?game=TgGame.TgGame_Battle_Conquest_Erez
+[0347.22] Log: Map Game ID = 0
+[0347.22] Log: Map Instance ID = 125088416
+[0347.25] Log: Performance: Critical section Lock/Unlock 27 nsec
+[0347.25] Log: Performance:  appCycles 15 nsec
+[0347.31] Log: Performance:  memCopy per KB 301 nsec
+[0347.36] Log: Performance:  memZero per KB 203 nsec
+[0347.37] Log: Performance:  appInterlockedIncrement 10 nsec
+[0347.37] Log: Performance:  GetTickCount 4 nsec
+[0372.50] TgSLO: Async Load: FX_Store_Items
+[0372.50] TgSLO: Async Load: FX_Store_Items_Targeting
+[0372.50] TgSLO: Async Load: FX_Status_Effects
+[0372.50] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0372.50] TgSLO: Async Load: GOD_Common_AT
+[0372.50] TgSLO: Async Load: AUD_VOX_Narrator
+[0372.50] TgSLO: Async Load: NPC_Ward2
+[0372.50] TgSLO: Async Load: FX_Buff_Belts_V2
+[0372.51] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0372.51] TgSLO: Async Load: GOD_Hades
+[0372.51] TgSLO: Async Load: GOD_Hades_Textures
+[0372.51] TgSLO: Async Load: FX_Hades
+[0372.51] TgSLO: Async Load: AUD_God_Hades
+[0372.51] TgSLO: Async Load: GOD_Hades_Skins
+[0372.51] TgSLO: Async Load: FX_Hades_Skin1
+[0372.51] TgSLO: Async Load: FX_Hades_Targeting
+[0372.51] TgSLO: Async Load: AnimNotify7774
+[0372.51] TgSLO: Async Load: GOD_Poseidon
+[0372.51] TgSLO: Async Load: AUD_God_Poseidon
+[0372.51] TgSLO: Async Load: GOD_Poseidon_Skin3
+[0372.51] TgSLO: Async Load: FX_Poseidon_Skin3
+[0372.51] TgSLO: Async Load: GOD_Poseidon_Skin3_Shark
+[0372.51] TgSLO: Async Load: AnimNotify11064
+[0372.51] TgSLO: Async Load: GOD_Neith
+[0372.51] TgSLO: Async Load: GOD_Neith_Textures
+[0372.51] TgSLO: Async Load: FX_Neith
+[0372.51] TgSLO: Async Load: AUD_God_Neith
+[0372.51] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[0372.51] TgSLO: Async Load: AUD_UI
+[0372.51] TgSLO: Async Load: GOD_Ymir
+[0372.51] TgSLO: Async Load: GOD_Ymir_Textures
+[0372.51] TgSLO: Async Load: FX_Ymir
+[0372.51] TgSLO: Async Load: FX_Ymir_Targeting
+[0372.51] TgSLO: Async Load: AUD_God_Ymir
+[0372.51] TgSLO: Async Load: GOD_Xbalanque
+[0372.51] TgSLO: Async Load: GOD_Xbalanque_Textures
+[0372.51] TgSLO: Async Load: FX_Xbalanque
+[0372.51] TgSLO: Async Load: AUD_God_Xbalanque
+[0372.51] TgSLO: Async Load: NPC_Ward_Cactus
+[0372.51] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0372.51] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0372.51] TgSLO: Async Load: FX_Common
+[0372.51] TgSLO: Async Load: GOD_AoKuang_V2
+[0372.51] TgSLO: Async Load: GOD_AoKuang_V2_Textures
+[0372.51] TgSLO: Async Load: FX_AoKuang_V2
+[0372.51] TgSLO: Async Load: AUD_God_AoKuang_V2
+[0372.51] TgSLO: Async Load: NPC_Ward_Curse
+[0372.52] TgSLO: Async Load: GOD_Anubis_V2
+[0372.52] TgSLO: Async Load: GOD_Anubis_V2_Textures
+[0372.52] TgSLO: Async Load: AUD_God_Anubis
+[0372.52] TgSLO: Async Load: FX_Anubis_V2_Skin3
+[0372.52] TgSLO: Async Load: GOD_Anubis_V2_Skin3
+[0372.52] TgSLO: Async Load: FX_Anubis_Targeting_Skin3
+[0372.52] TgSLO: Async Load: AnimNotify9578
+[0372.52] TgSLO: Async Load: NPC_Ward_Titan
+[0372.52] TgSLO: Async Load: GOD_Kukulkan
+[0372.52] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0372.52] TgSLO: Async Load: FX_Kukulkan
+[0372.52] TgSLO: Async Load: AUD_God_Kukulkan
+[0372.52] TgSLO: Async Load: NPC_Ward_Norse
+[0372.52] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[0372.52] TgSLO: Async Load: NPC_Phoenix
+[0372.52] TgSLO: Async Load: NPC_Phoenix_Textures
+[0372.52] TgSLO: Async Load: FX_Phoenix
+[0372.52] TgSLO: Async Load: AUD_NPC_Phoenix
+[0372.54] TgSLO: Async Load: FX_Tower
+[0372.54] TgSLO: Async Load: FX_Greek_Tower
+[0372.54] TgSLO: Async Load: AUD_Tower
+[0372.56] TgSLO: Async Load: MDL_PseudoMesh
+[0372.57] TgSLO: Async Load: NPC_Greek_Tower
+[0372.57] TgSLO: Async Load: NPC_Greek_Tower_Textures
+[0372.57] TgSLO: Async Load: FX_Mayan_Tower
+[0372.57] TgSLO: Async Load: NPC_Mayan_Towers
+[0372.57] TgSLO: Async Load: NPC_Olympus
+[0372.57] TgSLO: Async Load: AUD_NPC_Olympus
+[0372.57] TgSLO: Async Load: NPC_Minion_Universal
+[0372.59] TgSLO: Async Load: FX_Roman
+[0372.59] TgSLO: Async Load: FX_Minion_Death
+[0372.59] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0372.59] TgSLO: Async Load: NPC_Mayan_Minions
+[0372.59] TgSLO: Async Load: NPC_Cyclops_V2
+[0372.59] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0372.59] TgSLO: Async Load: AUD_NPC_Cyclops
+[0372.59] TgSLO: Async Load: FX_Greek_Tower_Old
+[0372.59] TgSLO: Async Load: NPC_Guardian_Female
+[0372.59] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0372.59] TgSLO: Async Load: FX_Guardian_Female
+[0372.59] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0372.59] TgSLO: Async Load: NPC_Guardian_Male
+[0372.59] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0372.59] TgSLO: Async Load: FX_Guardian_Male
+[0372.60] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0372.60] TgSLO: Async Load: NPC_SiegeJuggernaut
+[0372.60] TgSLO: Async Load: FX_SiegeJuggernaut
+[0372.60] TgSLO: Async Load: AUD_NPC_SiegeJuggernaut
+[0372.60] Log: Flushing async loaders.
+[0372.68] TgSLO: Finish Load: FX_Store_Items
+[0372.83] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0372.85] TgSLO: Finish Load: FX_Status_Effects
+[0372.98] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0373.01] TgSLO: Finish Load: GOD_Common_AT
+[0373.18] TgSLO: Finish Load: AUD_VOX_Narrator
+[0373.22] TgSLO: Finish Load: NPC_Ward2
+[0373.30] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0373.33] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0373.46] TgSLO: Finish Load: GOD_Hades
+[0373.46] TgSLO: Finish Load: GOD_Hades_Textures
+[0373.48] TgSLO: Finish Load: FX_Hades
+[0373.55] TgSLO: Finish Load: AUD_God_Hades
+[0373.55] TgSLO: Finish Load: GOD_Hades_Skins
+[0373.58] TgSLO: Finish Load: FX_Hades_Skin1
+[0373.59] TgSLO: Finish Load: FX_Hades_Targeting
+[0373.60] TgSLO: Finish Load: AnimNotify7774
+[0373.72] TgSLO: Finish Load: GOD_Poseidon
+[0373.79] TgSLO: Finish Load: AUD_God_Poseidon
+[0373.82] TgSLO: Finish Load: GOD_Poseidon_Skin3
+[0373.86] TgSLO: Finish Load: FX_Poseidon_Skin3
+[0373.86] TgSLO: Finish Load: GOD_Poseidon_Skin3_Shark
+[0373.87] TgSLO: Finish Load: AnimNotify11064
+[0373.97] TgSLO: Finish Load: GOD_Neith
+[0373.98] TgSLO: Finish Load: GOD_Neith_Textures
+[0374.00] TgSLO: Finish Load: FX_Neith
+[0374.29] TgSLO: Finish Load: AUD_God_Neith
+[0374.32] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[0374.62] TgSLO: Finish Load: AUD_UI
+[0374.80] TgSLO: Finish Load: GOD_Ymir
+[0374.80] TgSLO: Finish Load: GOD_Ymir_Textures
+[0374.87] TgSLO: Finish Load: FX_Ymir
+[0374.91] TgSLO: Finish Load: FX_Ymir_Targeting
+[0375.08] TgSLO: Finish Load: AUD_God_Ymir
+[0375.37] TgSLO: Finish Load: GOD_Xbalanque
+[0375.38] TgSLO: Finish Load: GOD_Xbalanque_Textures
+[0375.44] TgSLO: Finish Load: FX_Xbalanque
+[0375.55] TgSLO: Finish Load: AUD_God_Xbalanque
+[0375.77] TgSLO: Finish Load: NPC_Ward_Cactus
+[0375.77] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0375.91] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0376.02] TgSLO: Finish Load: FX_Common
+[0376.75] TgSLO: Finish Load: GOD_AoKuang_V2
+[0376.77] TgSLO: Finish Load: GOD_AoKuang_V2_Textures
+[0376.85] TgSLO: Finish Load: FX_AoKuang_V2
+[0376.90] TgSLO: Finish Load: AUD_God_AoKuang_V2
+[0376.97] TgSLO: Finish Load: NPC_Ward_Curse
+[0377.69] TgSLO: Finish Load: GOD_Anubis_V2
+[0377.73] TgSLO: Finish Load: GOD_Anubis_V2_Textures
+[0377.82] TgSLO: Finish Load: AUD_God_Anubis
+[0378.08] TgSLO: Finish Load: FX_Anubis_V2_Skin3
+[0378.16] TgSLO: Finish Load: GOD_Anubis_V2_Skin3
+[0378.19] Log: Missing cached shader map for material FX_Anubis_Targeting_Skin3.Materials.FX_DeathGaze_STILL_MAT, quality 0, compiling.
+[0378.19] Warning: Warning, Failed to compile Material FX_Anubis_Targeting_Skin3.Materials.FX_DeathGaze_STILL_MAT for platform PC-D3D-SM3, Default Material will be used in game.
+[0378.20] TgSLO: Finish Load: FX_Anubis_Targeting_Skin3
+[0378.28] TgSLO: Finish Load: AnimNotify9578
+[0378.36] TgSLO: Finish Load: NPC_Ward_Titan
+[0378.76] TgSLO: Finish Load: GOD_Kukulkan
+[0378.76] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0378.83] TgSLO: Finish Load: FX_Kukulkan
+[0378.92] TgSLO: Finish Load: AUD_God_Kukulkan
+[0379.05] TgSLO: Finish Load: NPC_Ward_Norse
+[0379.11] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[0379.27] TgSLO: Finish Load: NPC_Phoenix
+[0379.27] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0379.30] TgSLO: Finish Load: FX_Phoenix
+[0379.36] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0379.38] TgSLO: Finish Load: FX_Tower
+[0379.45] TgSLO: Finish Load: FX_Greek_Tower
+[0379.57] TgSLO: Finish Load: AUD_Tower
+[0379.59] TgSLO: Finish Load: MDL_PseudoMesh
+[0380.27] TgSLO: Finish Load: NPC_Greek_Tower
+[0380.29] Warning: Warning, Failed to compile Material Instance NPC_Greek_Tower_Textures.MIC_Tower_Friendly with Base MAT_Tower_Optimized for platform PC-D3D-SM3, Default Material will be used in game.
+[0380.29] TgSLO: Finish Load: NPC_Greek_Tower_Textures
+[0380.34] TgSLO: Finish Load: FX_Mayan_Tower
+[0380.48] TgSLO: Finish Load: NPC_Mayan_Towers
+[0380.55] TgSLO: Finish Load: NPC_Olympus
+[0380.60] TgSLO: Finish Load: AUD_NPC_Olympus
+[0380.80] TgSLO: Finish Load: NPC_Minion_Universal
+[0380.83] TgSLO: Finish Load: FX_Roman
+[0380.84] TgSLO: Finish Load: FX_Minion_Death
+[0380.88] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0380.94] TgSLO: Finish Load: NPC_Mayan_Minions
+[0381.21] TgSLO: Finish Load: NPC_Cyclops_V2
+[0381.21] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0381.30] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0381.33] TgSLO: Finish Load: FX_Greek_Tower_Old
+[0381.92] TgSLO: Finish Load: NPC_Guardian_Female
+[0381.94] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0381.95] TgSLO: Finish Load: FX_Guardian_Female
+[0381.96] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0382.25] TgSLO: Finish Load: NPC_Guardian_Male
+[0382.27] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0382.30] TgSLO: Finish Load: FX_Guardian_Male
+[0382.32] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0382.77] TgSLO: Finish Load: NPC_SiegeJuggernaut
+[0382.84] TgSLO: Finish Load: FX_SiegeJuggernaut
+[0382.85] TgSLO: Finish Load: AUD_NPC_SiegeJuggernaut
+[0382.85] Log: Flushed async loaders.
+[0382.88] Log: Primary PhysX scene will be in software.
+[0382.88] Log: Creating Primary PhysX Scene.
+[0382.91] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0382.91] Log: Bringing World mayan_siege.TheWorld up for play (595) at 2015.06.23-21.46.17
+[0382.91] Log: Skipping initialization of FSMPartPool!
+[0382.92] Log: Bringing up level for play took: 0.070766
+[0382.92] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0382.92] Warning: Warning, Failed to find object 'Class None.'
+[0382.92] Log: PlayerController class for the pending level is PlayerController
+[0382.92] Log: ########### Finished loading level: 37.210122 seconds
+[0382.92] Log: Flushing async loaders.
+[0384.45] Log: Flushed async loaders.
+[0384.55] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0384.75] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0384.75] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0384.75] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0384.76] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0384.76] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0384.77] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0384.77] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0384.77] Log: Mark Effect Group 28503: Not of type HIT SPECIAL!
+[0385.13] Log: ---- UpdateClanData
+[0385.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.14] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0385.14] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.14] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0385.15] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.15] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.16] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0385.16] Log: TeamIndex 2 has new leader: 6681561
+[0385.16] Log: TeamIndex 1 has new leader: 3685738
+[0385.17] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.17] Log: Activated mayan_siege_assist 1 1 0
+[0385.17] Log: ActivateLevel mayan_siege_assist 1 1 0
+[0385.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.24] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.24] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0385.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0385.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0389.25] Log: TeamIndex 1 has new leader: 6468508
+[0395.29] Log: TeamIndex 1 has new leader: 4861693
+[0395.30] Log: ---- UpdateClanData
+[0400.66] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0412.41] Log: Requesting purchase of itemId (10040) amount (1)
+[0417.63] Log: Requesting purchase of itemId (10204) amount (1)
+[0445.76] Log: Chat[3]: [VHH] Besoin d'aide !
+[0451.46] Log: Chat[3]: [VHH] Besoin d'aide !
+[0457.31] Log: Chat[3]: [VVGS] Malédiction !
+[0463.61] Log: Chat[3]: [VSBN] Besoin du bonus de jungle.
+[0470.56] Log: Chat[3]: hades go with poseidon
+[0473.35] Log: Chat[3]: [VHH] Besoin d'aide !
+[0476.82] Log: Chat[3]: [VHH] Besoin d'aide !
+[0483.96] Log: Chat[3]: [VVT] Merci !
+[0551.90] Log: Requesting purchase of itemId (10045) amount (1)
+[0565.28] Log: Chat[3]: [VCC] Attention !
+[0568.38] Log: Chat[3]: [VVVR] Ultime prêt !
+[0580.26] Log: PUSHING Accolade: marteaufout verse le Premier sang !, local: false
+[0581.77] Log: Expiring Accolade: 
+[0583.84] Log: Chat[3]: [VVS] Désolé !
+[0593.25] Log: Chat[9]: Tuer dangereren123 vous a donné 264 XP et 178 pièces d'or.
+[0593.43] Log: PUSHING Accolade: VICTIME, local: true
+[0605.34] Log: Chat[3]: [VVB] Je reviens !
+[0639.26] Log: PUSHING Accolade: meroo1 a tué un joueur !, local: false
+[0642.59] Log: Requesting purchase of itemId (10205) amount (1)
+[0647.61] Log: PUSHING Accolade: meroo1 a fait un doublé !, local: false
+[0647.61] Log: Suppressing Accolade: 
+[0667.26] Log: PUSHING Accolade: , local: false
+[0684.33] Log: Chat[3]: [VA1] Attaquez à gauche !
+[0723.57] Log: PUSHING Accolade: meroo1 fait une tuerie ! (x3), local: false
+[0749.67] Log: PUSHING Accolade: marteaufout fait une tuerie ! (x3), local: false
+[0754.80] Log: Requesting purchase of itemId (12166) amount (1)
+[0758.22] Log: PUSHING Accolade: marteaufout a fait un doublé !, local: false
+[0758.22] Log: Suppressing Accolade: 
+[0761.48] Log: Requesting purchase of itemId (10201) amount (1)
+[0761.58] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0761.58] Warning: Warning, Failed to find object 'Class None.None'
+[0761.59] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0761.59] Warning: Warning, Failed to find object 'Class None.None'
+[0762.39] Log: Chat[3]: [VVGN] Bien joué !
+[0763.74] Log: Chat[3]: [VSR] Retraite!
+[0764.88] Log: Chat[3]: [VHH] Besoin d'aide !
+[0769.19] Log: Chat[3]: [VVVE] J'arrive !
+[0777.53] Log: Chat[3]: [VVB] Je reviens !
+[0794.74] Log: Chat[3]: [VA2] Attaquez au centre !
+[0807.89] Log: Chat[3]: [VH2] Besoin d'aide au centre !
+[0823.62] Log: PUSHING Accolade: MASTODONTE SAUVAGE TUÉ, local: true
+[0828.19] Log: Chat[3]: [VA1] Attaquez à gauche !
+[0841.71] Log: Requesting purchase of itemId (9025) amount (1)
+[0849.55] Log: Chat[3]: [VD3] Défendez à droite !
+[0860.38] Log: Chat[9]: Tuer meroo1 vous a donné 401 XP et 223 pièces d'or.
+[0860.57] Log: PUSHING Accolade: VICTIME, local: true
+[0862.08] Log: PUSHING Accolade: VENGEANCE, local: true
+[0881.55] Log: PUSHING Accolade: , local: false
+[0883.05] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0889.72] Log: PUSHING Accolade: , local: false
+[0895.75] Log: Chat[3]: [VVVR] Ultime prêt !
+[0938.48] Log: PUSHING Accolade: dangereren123 a tué un joueur !, local: false
+[0942.41] Log: PlayCustomAnim Offhand_04_Outro_FromCom, CustomChildIndex: 1, Animation Not Found!!
+[0944.24] Log: Requesting purchase of itemId (10203) amount (1)
+[0947.92] Log: Requesting purchase of itemId (9003) amount (1)
+[0948.89] Log: Chat[3]: [VVS] Désolé !
+[0958.51] Log: Chat[3]: [VCJ] Attention dans la jungle !
+[0990.58] Log: PUSHING Accolade: dangereren123 fait une tuerie ! (x3), local: false
+[0992.09] Log: Expiring Accolade: 
+[0993.65] Log: Chat[3]: [VVN] Non !
+[0994.75] Log: Chat[3]: [VVGS] Malédiction !
+[1013.91] Log: Chat[3]: [VVVR] Ultime prêt !
+[1025.77] Log: PUSHING Accolade: marteaufout fait un massacre ! (x5), local: false
+[1027.28] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1067.89] Log: PUSHING Accolade: , local: false
+[1069.41] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1096.10] Log: Chat[3]: [VA2] Attaquez au centre !
+[1106.76] Log: Chat[3]: [VSR] Retraite!
+[1108.97] Log: Chat[3]: [VR1] Retraite à gauche !
+[1120.88] Log: PUSHING Accolade: , local: false
+[1121.98] Log: Chat[3]: L'équipe ennemie a accepté de capituler (2 contre 1) !
+[1122.52] Log: ---- UpdateClanData
+[1122.52] Log: ---- UpdateClanData
+[1122.52] Log: ---- UpdateClanData
+[1122.52] Log: ---- UpdateClanData
+[1124.31] Log: Chat[3]: [VVGG] Belle partie !
+[1125.36] Log: Chat[3]: [VVGG] Belle partie !
+[1126.90] Log: Chat[3]: [VVT] Merci !
+[1128.56] Log: Chat[3]: [VVGG] Belle partie !
+[1135.49] Log: ---- UpdateClanData
+[1135.62] Log: ---- UpdateClanData
+[1140.89] DevNet: URL: Adding default option Team=255
+[1140.89] Log: ReceiveChangeMap: mapGameId 1447
+[1140.89] Log: ---- UpdateClanData
+[1140.89] Log: RequestingChannelMembers ch[3] [marteaufout a quitté la discussion.]
+[1140.90] DevNet: URL: Adding default option Team=255
+[1140.90] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1141.56] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1141.76] NetComeGo: Close PComNetDriver_0 PComNetConn_0 37.48.125.80:9029 06/23/15 21:58:55
+[1141.97] Exit: PComNetDriver_0 shut down
+[1142.37] Log: Map Game ID = 0
+[1142.37] Log: Map Instance ID = 125088416
+[1142.39] Log: Performance: Critical section Lock/Unlock 25 nsec
+[1142.40] Log: Performance:  appCycles 11 nsec
+[1142.45] Log: Performance:  memCopy per KB 245 nsec
+[1142.48] Log: Performance:  memZero per KB 163 nsec
+[1142.49] Log: Performance:  appInterlockedIncrement 13 nsec
+[1142.50] Log: Performance:  GetTickCount 4 nsec
+[1142.50] Log: Game class is 'TgGameLaunch'
+[1142.50] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1142.50] Log: Flushing async loaders.
+[1142.63] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1142.63] Log: Flushed async loaders.
+[1142.68] Log: Primary PhysX scene will be in software.
+[1142.68] Log: Creating Primary PhysX Scene.
+[1142.68] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1142.68] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.23-21.58.56
+[1142.68] Log: Skipping initialization of FSMPartPool!
+[1142.76] Log: Bringing up level for play took: 0.127801
+[1143.80] TgSLO: Async Load: GOD_Ymir
+[1143.80] TgSLO: Async Load: GOD_Ymir_Lobby
+[1143.80] TgSLO: Async Load: FX_Ymir
+[1143.80] Log: Flushing async loaders.
+[1143.95] TgSLO: Finish Load: GOD_Ymir
+[1143.98] TgSLO: Finish Load: GOD_Ymir_Lobby
+[1144.03] TgSLO: Finish Load: FX_Ymir
+[1144.03] Log: Flushed async loaders.
+[1144.04] Log: ########### Finished loading level: 2.483589 seconds
+[1144.07] Log: Flushing async loaders.
+[1144.19] Log: Flushed async loaders.
+[1144.19] Log: ---- UpdateClanData
+[1144.19] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[1144.72] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[1144.72] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[1144.74] Log: RequestingChannelMembers ch[8] [CrimsonTowers a rejoint la discussion.]
+[1145.48] Log: RequestingChannelMembers ch[8] [marteaufout a rejoint la discussion.]
+[1146.57] Log: RequestingChannelMembers ch[8] [Cmapyxa a rejoint la discussion.]
+[1147.05] Log: RequestingChannelMembers ch[8] [meroo1 a rejoint la discussion.]
+[1148.29] Log: RequestingChannelMembers ch[8] [Yadavac a rejoint la discussion.]
+[1150.03] Log: Chat[8]: lol 4v3
+[1155.94] Log: RequestingChannelMembers ch[8] [marteaufout a quitté la discussion.]
+[1156.56] Log: RequestingChannelMembers ch[8] [meroo1 a quitté la discussion.]
+[1176.26] Log: RequestingChannelMembers ch[8] [dangereren123 a quitté la discussion.]
+[1178.43] Log: RequestingChannelMembers ch[8] [Yadavac a quitté la discussion.]
+[1180.41] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[1180.41] Log: Chat[4]: Yadavac a rejoint la file d'attente du groupe.
+[1183.58] Log: ERROR: Attempting to log in without settings.
+[1186.92] TgSLO: Async Load: GOD_Athena
+[1186.92] TgSLO: Async Load: GOD_Athena_Lobby
+[1186.92] TgSLO: Async Load: FX_Athena
+[1187.95] TgSLO: Finish Load: GOD_Athena
+[1188.19] TgSLO: Finish Load: GOD_Athena_Lobby
+[1188.91] TgSLO: Finish Load: FX_Athena
+[1188.92] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_12)
+[1216.51] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[1218.72] Log: RequestingChannelMembers ch[3] [Bloodrainer a rejoint la discussion.]
+[1219.06] Log: RequestingChannelMembers ch[3] [Yadavac a rejoint la discussion.]
+[1225.37] Log: RequestingChannelMembers ch[3] [CyndaQuin a rejoint la discussion.]
+[1225.60] TgSLO: Async Load: GOD_Anubis_V2
+[1225.60] TgSLO: Async Load: GOD_Anubis_V2_Lobby
+[1225.60] TgSLO: Async Load: FX_Anubis_V2
+[1225.64] TgSLO: Async Load: GOD_Monkey
+[1225.64] TgSLO: Async Load: GOD_Monkey_Lobby
+[1225.64] TgSLO: Async Load: FX_Monkey
+[1225.64] TgSLO: Async Load: GOD_Janus
+[1225.64] TgSLO: Async Load: GOD_Janus_Lobby
+[1225.64] TgSLO: Async Load: FX_Janus
+[1225.64] TgSLO: Async Load: GOD_Janus_Skins
+[1225.64] TgSLO: Async Load: AUD_God_Janus
+[1225.64] TgSLO: Async Load: GOD_Ra
+[1225.64] TgSLO: Async Load: GOD_Ra_Lobby
+[1225.64] TgSLO: Async Load: FX_Ra
+[1226.96] TgSLO: Finish Load: GOD_Anubis_V2
+[1227.19] TgSLO: Finish Load: GOD_Anubis_V2_Lobby
+[1227.98] TgSLO: Finish Load: FX_Anubis_V2
+[1227.99] Log: Flushing async loaders.
+[1228.57] TgSLO: Finish Load: GOD_Monkey
+[1228.80] TgSLO: Finish Load: GOD_Monkey_Lobby
+[1228.90] TgSLO: Finish Load: FX_Monkey
+[1229.11] TgSLO: Finish Load: GOD_Janus
+[1229.26] TgSLO: Finish Load: GOD_Janus_Lobby
+[1229.35] TgSLO: Finish Load: FX_Janus
+[1229.36] TgSLO: Finish Load: GOD_Janus_Skins
+[1229.41] TgSLO: Finish Load: AUD_God_Janus
+[1229.45] TgSLO: Finish Load: GOD_Ra
+[1229.52] TgSLO: Finish Load: GOD_Ra_Lobby
+[1229.56] TgSLO: Finish Load: FX_Ra
+[1229.56] Log: Flushed async loaders.
+[1230.75] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'CSO_FX_R_Fist_01' in 'SKL_GOD_Monkey'
+[1235.57] DevNet: URL: Adding default option Team=255
+[1235.57] Log: ReceiveChangeMap: mapGameId 1510
+[1235.69] DevNet: URL: Adding default option Team=255
+[1235.69] DevNet: Browse: 37.48.125.40:9256/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164828932?Team=255
+[1235.69] DevNet: Game client on port 9256, rate 25000
+[1235.97] DevNet: Welcomed by server (Level: mayan_siege, Game: TgGame.TgGame_Battle_Conquest_Erez)
+[1236.12] Log: LoadMap: 37.48.125.40:9256/mayan_siege?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164828932?Team=255?game=TgGame.TgGame_Battle_Conquest_Erez
+[1236.90] Log: Map Game ID = 0
+[1236.90] Log: Map Instance ID = 125088416
+[1236.93] Log: Performance: Critical section Lock/Unlock 27 nsec
+[1236.93] Log: Performance:  appCycles 11 nsec
+[1236.98] Log: Performance:  memCopy per KB 262 nsec
+[1237.02] Log: Performance:  memZero per KB 187 nsec
+[1237.03] Log: Performance:  appInterlockedIncrement 10 nsec
+[1237.04] Log: Performance:  GetTickCount 4 nsec
+[1239.76] TgSLO: Async Load: FX_Store_Items
+[1239.76] TgSLO: Async Load: FX_Store_Items_Targeting
+[1239.76] TgSLO: Async Load: FX_Status_Effects
+[1239.76] TgSLO: Async Load: GOD_CommonMaterialEffects
+[1239.76] TgSLO: Async Load: GOD_Common_AT
+[1239.76] TgSLO: Async Load: AUD_VOX_Narrator
+[1239.76] TgSLO: Async Load: NPC_Ward2
+[1239.76] TgSLO: Async Load: FX_Buff_Belts_V2
+[1239.76] TgSLO: Async Load: FX_Fist_Of_God_V2
+[1239.76] TgSLO: Async Load: GOD_Monkey
+[1239.76] TgSLO: Async Load: GOD_Monkey_Textures
+[1239.76] TgSLO: Async Load: FX_Monkey
+[1239.76] TgSLO: Async Load: AUD_God_Monkey
+[1239.76] TgSLO: Async Load: GOD_Ra
+[1239.76] TgSLO: Async Load: GOD_Ra_Textures
+[1239.76] TgSLO: Async Load: FX_Ra
+[1239.76] TgSLO: Async Load: AUD_God_Ra
+[1239.76] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[1239.76] TgSLO: Async Load: AUD_UI
+[1239.76] TgSLO: Async Load: GOD_Anubis_V2
+[1239.76] TgSLO: Async Load: GOD_Anubis_V2_Textures
+[1239.76] TgSLO: Async Load: FX_Anubis_V2
+[1239.80] TgSLO: Async Load: FX_Anubis_Targeting
+[1239.80] TgSLO: Async Load: AUD_God_Anubis
+[1239.80] TgSLO: Async Load: GOD_Janus
+[1239.80] TgSLO: Async Load: GOD_Janus_Textures
+[1239.80] TgSLO: Async Load: FX_Janus
+[1239.80] TgSLO: Async Load: AUD_God_Janus
+[1239.80] TgSLO: Async Load: GOD_Janus_Skins
+[1239.80] TgSLO: Async Load: GOD_Neith
+[1239.80] TgSLO: Async Load: GOD_Neith_Textures
+[1239.80] TgSLO: Async Load: FX_Neith
+[1239.80] TgSLO: Async Load: AUD_God_Neith
+[1239.80] TgSLO: Async Load: GOD_Aphrodite
+[1239.80] TgSLO: Async Load: GOD_Aphrodite_Textures
+[1239.80] TgSLO: Async Load: FX_Aphrodite
+[1239.80] TgSLO: Async Load: AUD_God_Aphrodite
+[1239.80] TgSLO: Async Load: GOD_SunWukong
+[1239.80] TgSLO: Async Load: GOD_SunWukong_Textures
+[1239.80] TgSLO: Async Load: FX_SunWukong
+[1239.80] TgSLO: Async Load: AUD_God_SunWukong
+[1239.80] TgSLO: Async Load: NPC_Phoenix
+[1239.80] TgSLO: Async Load: NPC_Phoenix_Textures
+[1239.80] TgSLO: Async Load: FX_Phoenix
+[1239.80] TgSLO: Async Load: AUD_NPC_Phoenix
+[1239.80] TgSLO: Async Load: FX_Tower
+[1239.80] TgSLO: Async Load: FX_Greek_Tower
+[1239.80] TgSLO: Async Load: AUD_Tower
+[1239.80] TgSLO: Async Load: MDL_PseudoMesh
+[1239.80] TgSLO: Async Load: NPC_Greek_Tower
+[1239.80] TgSLO: Async Load: NPC_Greek_Tower_Textures
+[1239.80] TgSLO: Async Load: FX_Mayan_Tower
+[1239.80] TgSLO: Async Load: NPC_Mayan_Towers
+[1239.80] TgSLO: Async Load: NPC_Olympus
+[1239.80] TgSLO: Async Load: AUD_NPC_Olympus
+[1239.80] TgSLO: Async Load: NPC_Minion_Universal
+[1239.80] TgSLO: Async Load: FX_Roman
+[1239.80] TgSLO: Async Load: FX_Minion_Death
+[1239.80] TgSLO: Async Load: AUD_NPC_RomanArcher
+[1239.80] TgSLO: Async Load: NPC_Mayan_Minions
+[1239.80] TgSLO: Async Load: FX_Common
+[1239.80] TgSLO: Async Load: NPC_Cyclops_V2
+[1239.80] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[1239.80] TgSLO: Async Load: AUD_NPC_Cyclops
+[1239.80] TgSLO: Async Load: FX_Greek_Tower_Old
+[1239.80] TgSLO: Async Load: NPC_Guardian_Female
+[1239.81] TgSLO: Async Load: NPC_Guardian_Female_AT
+[1239.81] TgSLO: Async Load: FX_Guardian_Female
+[1239.81] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[1239.81] TgSLO: Async Load: NPC_Guardian_Male
+[1239.81] TgSLO: Async Load: NPC_Guardian_Male_AT
+[1239.81] TgSLO: Async Load: FX_Guardian_Male
+[1239.81] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[1239.81] TgSLO: Async Load: NPC_SiegeJuggernaut
+[1239.81] TgSLO: Async Load: FX_SiegeJuggernaut
+[1239.81] TgSLO: Async Load: AUD_NPC_SiegeJuggernaut
+[1239.81] Log: Flushing async loaders.
+[1239.84] TgSLO: Finish Load: FX_Store_Items
+[1239.86] TgSLO: Finish Load: FX_Store_Items_Targeting
+[1239.87] TgSLO: Finish Load: FX_Status_Effects
+[1239.87] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[1239.87] TgSLO: Finish Load: GOD_Common_AT
+[1239.98] TgSLO: Finish Load: AUD_VOX_Narrator
+[1239.99] TgSLO: Finish Load: NPC_Ward2
+[1240.03] TgSLO: Finish Load: FX_Buff_Belts_V2
+[1240.03] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[1240.17] TgSLO: Finish Load: GOD_Monkey
+[1240.20] TgSLO: Finish Load: GOD_Monkey_Textures
+[1240.22] TgSLO: Finish Load: FX_Monkey
+[1240.36] TgSLO: Finish Load: AUD_God_Monkey
+[1240.37] TgSLO: Finish Load: GOD_Ra
+[1240.37] TgSLO: Finish Load: GOD_Ra_Textures
+[1240.39] TgSLO: Finish Load: FX_Ra
+[1240.45] TgSLO: Finish Load: AUD_God_Ra
+[1240.45] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[1240.46] TgSLO: Finish Load: AUD_UI
+[1240.66] TgSLO: Finish Load: GOD_Anubis_V2
+[1240.66] TgSLO: Finish Load: GOD_Anubis_V2_Textures
+[1240.69] TgSLO: Finish Load: FX_Anubis_V2
+[1240.75] Log: Missing cached shader map for material FX_Anubis_Targeting.Materials.FX_DeathGaze_STILL_MAT, quality 0, compiling.
+[1240.75] Warning: Warning, Failed to compile Material FX_Anubis_Targeting.Materials.FX_DeathGaze_STILL_MAT for platform PC-D3D-SM3, Default Material will be used in game.
+[1240.75] TgSLO: Finish Load: FX_Anubis_Targeting
+[1240.82] TgSLO: Finish Load: AUD_God_Anubis
+[1240.83] TgSLO: Finish Load: GOD_Janus
+[1240.83] TgSLO: Finish Load: GOD_Janus_Textures
+[1240.87] TgSLO: Finish Load: FX_Janus
+[1240.92] TgSLO: Finish Load: AUD_God_Janus
+[1240.92] TgSLO: Finish Load: GOD_Janus_Skins
+[1241.03] TgSLO: Finish Load: GOD_Neith
+[1241.04] TgSLO: Finish Load: GOD_Neith_Textures
+[1241.06] TgSLO: Finish Load: FX_Neith
+[1241.11] TgSLO: Finish Load: AUD_God_Neith
+[1241.21] TgSLO: Finish Load: GOD_Aphrodite
+[1241.22] TgSLO: Finish Load: GOD_Aphrodite_Textures
+[1241.27] TgSLO: Finish Load: FX_Aphrodite
+[1241.33] TgSLO: Finish Load: AUD_God_Aphrodite
+[1241.65] TgSLO: Finish Load: GOD_SunWukong
+[1241.69] TgSLO: Finish Load: GOD_SunWukong_Textures
+[1241.74] TgSLO: Finish Load: FX_SunWukong
+[1241.82] TgSLO: Finish Load: AUD_God_SunWukong
+[1241.86] TgSLO: Finish Load: NPC_Phoenix
+[1241.86] TgSLO: Finish Load: NPC_Phoenix_Textures
+[1241.87] TgSLO: Finish Load: FX_Phoenix
+[1241.90] TgSLO: Finish Load: AUD_NPC_Phoenix
+[1241.91] TgSLO: Finish Load: FX_Tower
+[1241.94] TgSLO: Finish Load: FX_Greek_Tower
+[1242.02] TgSLO: Finish Load: AUD_Tower
+[1242.02] TgSLO: Finish Load: MDL_PseudoMesh
+[1242.13] TgSLO: Finish Load: NPC_Greek_Tower
+[1242.15] Warning: Warning, Failed to compile Material Instance NPC_Greek_Tower_Textures.MIC_Tower_Friendly with Base MAT_Tower_Optimized for platform PC-D3D-SM3, Default Material will be used in game.
+[1242.15] TgSLO: Finish Load: NPC_Greek_Tower_Textures
+[1242.18] TgSLO: Finish Load: FX_Mayan_Tower
+[1242.21] TgSLO: Finish Load: NPC_Mayan_Towers
+[1242.22] TgSLO: Finish Load: NPC_Olympus
+[1242.25] TgSLO: Finish Load: AUD_NPC_Olympus
+[1242.35] TgSLO: Finish Load: NPC_Minion_Universal
+[1242.36] TgSLO: Finish Load: FX_Roman
+[1242.36] TgSLO: Finish Load: FX_Minion_Death
+[1242.40] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[1242.42] TgSLO: Finish Load: NPC_Mayan_Minions
+[1242.44] TgSLO: Finish Load: FX_Common
+[1242.54] TgSLO: Finish Load: NPC_Cyclops_V2
+[1242.54] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[1242.61] TgSLO: Finish Load: AUD_NPC_Cyclops
+[1242.62] TgSLO: Finish Load: FX_Greek_Tower_Old
+[1242.71] TgSLO: Finish Load: NPC_Guardian_Female
+[1242.72] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[1242.72] TgSLO: Finish Load: FX_Guardian_Female
+[1242.73] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[1242.83] TgSLO: Finish Load: NPC_Guardian_Male
+[1242.84] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[1242.85] TgSLO: Finish Load: FX_Guardian_Male
+[1242.87] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[1243.03] TgSLO: Finish Load: NPC_SiegeJuggernaut
+[1243.04] TgSLO: Finish Load: FX_SiegeJuggernaut
+[1243.05] TgSLO: Finish Load: AUD_NPC_SiegeJuggernaut
+[1243.05] Log: Flushed async loaders.
+[1243.08] Log: Primary PhysX scene will be in software.
+[1243.08] Log: Creating Primary PhysX Scene.
+[1243.08] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1243.08] Log: Bringing World mayan_siege.TheWorld up for play (595) at 2015.06.23-22.00.37
+[1243.08] Log: Skipping initialization of FSMPartPool!
+[1243.09] Log: Bringing up level for play took: 0.043262
+[1243.09] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[1243.09] Warning: Warning, Failed to find object 'Class None.'
+[1243.09] Log: PlayerController class for the pending level is PlayerController
+[1243.09] Log: ########### Finished loading level: 6.967847 seconds
+[1243.09] Log: Flushing async loaders.
+[1243.69] Log: Flushed async loaders.
+[1243.98] Log: ---- UpdateClanData
+[1243.98] DevNet: TgPlayerController_3 setplayer TgLocalPlayer_0
+[1244.04] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.04] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.04] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.05] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.05] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.05] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.06] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.06] Log: TeamIndex 1 has new leader: 6468508
+[1244.06] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.07] Warning: Warning, The Outer object (Package FX_Aphrodite_ExtraBeam.Materials) for 'FX_Aphrodite_ExtraBeam.Materials.MIC_SineBeam_Ability2' couldn't be loaded [while loading package FX_Aphrodite_ExtraBeam]: Invalid linker index [couldn't load Package FX_Aphrodite_ExtraBeam.Materials]?
+[1244.07] Warning: Warning, Failed to load 'MaterialInstanceConstant FX_Aphrodite_ExtraBeam.Materials.MIC_SineBeam_Ability2': Failed to find object 'MaterialInstanceConstant FX_Aphrodite_ExtraBeam.Materials.MIC_SineBeam_Ability2'
+[1244.07] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.07] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.07] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.09] Log: Activated mayan_siege_assist 1 1 0
+[1244.09] Log: ActivateLevel mayan_siege_assist 1 1 0
+[1244.13] Log: Flushing async loaders.
+[1244.13] Log: Flushed async loaders.
+[1244.14] Warning: Flushed async loading to load replicated reference to 'TgPawn_Janus_Default TgGameContent.Default__TgPawn_Janus_Default'
+[1244.14] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.14] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1244.21] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.62] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1244.62] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1260.51] Log: TeamIndex 2 has new leader: 5564407
+[1265.97] Log: TeamIndex 1 has new leader: 748401
+[1266.07] Log: ---- UpdateClanData
+[1266.94] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[1266.94] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1266.94] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1266.94] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1266.94] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1276.01] Log: Requesting purchase of itemId (10045) amount (1)
+[1278.56] Log: Requesting purchase of itemId (8776) amount (1)
+[1280.03] Log: Requesting purchase of itemId (8105) amount (1)
+[1289.60] Log: Requesting purchase of itemId (8043) amount (1)
+[1291.98] Log: Requesting purchase of itemId (9213) amount (1)
+[1293.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1293.87] Warning: Warning, Failed to find object 'Class None.None'
+[1306.72] Log: Requesting purchase of itemId (8257) amount (1)
+[1311.53] Log: Requesting purchase of itemId (8134) amount (1)
+[1311.72] Log: Requesting purchase of itemId (8134) amount (1)
+[1311.89] Log: Requesting purchase of itemId (8134) amount (1)
+[1312.08] Log: Requesting purchase of itemId (8134) amount (1)
+[1312.26] Log: Requesting purchase of itemId (8134) amount (1)
+[1313.92] Log: Requesting purchase of itemId (8135) amount (1)
+[1314.10] Log: Requesting purchase of itemId (8135) amount (1)
+[1314.26] Log: Requesting purchase of itemId (8135) amount (1)
+[1314.43] Log: Requesting purchase of itemId (8135) amount (1)
+[1314.60] Log: Requesting purchase of itemId (8135) amount (1)
+[1324.34] Log: Requesting purchase of itemId (9003) amount (1)
+[1328.15] Log: Requesting purchase of itemId (9767) amount (1)
+[1408.50] Log: PUSHING Accolade: Bloodrainer verse le Premier sang !, local: false
+[1411.41] Log: Chat[3]: wtf
+[1416.16] Log: PUSHING Accolade: Nitem a tué un joueur !, local: false
+[1421.38] Log: PUSHING Accolade: , local: false
+[1422.88] Log: Requesting purchase of itemId (8134) amount (1)
+[1422.88] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1430.94] Log: PUSHING Accolade: , local: false
+[1453.39] Log: PUSHING Accolade: , local: false
+[1462.79] Log: PUSHING Accolade: , local: false
+[1511.51] Log: PUSHING Accolade: , local: false
+[1513.39] Log: PUSHING Accolade: , local: false
+[1514.91] Log: Expiring Accolade: 
+[1514.91] Log: PUSHING Accolade: jakke119 a fait un doublé !, local: false
+[1522.64] Log: PUSHING Accolade: Nitem fait une tuerie ! (x3), local: false
+[1524.15] Log: PUSHING Accolade: DÉICIDE, local: true
+[1525.96] Log: Requesting purchase of itemId (8134) amount (1)
+[1537.06] Log: Requesting selling of invId (-150)
+[1542.47] Log: Chat[3]: Bloodrainer a acheté l'objet Garde.
+[1549.01] Log: Requesting purchase of itemId (8649) amount (1)
+[1564.51] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[1595.06] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[1623.97] Log: PUSHING Accolade: , local: false
+[1665.45] Log: PUSHING Accolade: , local: false
+[1687.09] Log: PUSHING Accolade: Nitem fait un massacre ! (x5), local: false
+[1702.22] Log: PUSHING Accolade: , local: false
+[1703.72] Log: PUSHING Accolade: TheLegendSeeker a fait un doublé !, local: false
+[1703.72] Log: Suppressing Accolade: TheLegendSeeker a tué un joueur !
+[1703.72] Log: Suppressing Accolade: TheLegendSeeker fait une tuerie ! (x3)
+[1705.24] Log: PUSHING Accolade: DÉICIDE, local: true
+[1715.91] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1715.91] Warning: Warning, Failed to find object 'Class None.None'
+[1730.86] Log: ---- UpdateClanData
+[1731.60] Log: ---- UpdateClanData
+[1736.95] DevNet: URL: Adding default option Team=255
+[1736.95] Log: ReceiveChangeMap: mapGameId 1447
+[1736.95] Log: ---- UpdateClanData
+[1736.95] Log: RequestingChannelMembers ch[3] [Bloodrainer a quitté la discussion.]
+[1736.95] Log: ---- UpdateClanData
+[1736.96] DevNet: URL: Adding default option Team=255
+[1736.96] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1737.05] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1737.15] NetComeGo: Close PComNetDriver_1 PComNetConn_1 37.48.125.40:9256 06/23/15 22:08:51
+[1737.29] Exit: PComNetDriver_1 shut down
+[1737.58] Log: Map Game ID = 0
+[1737.58] Log: Map Instance ID = 125088416
+[1737.61] Log: Performance: Critical section Lock/Unlock 25 nsec
+[1737.61] Log: Performance:  appCycles 10 nsec
+[1737.65] Log: Performance:  memCopy per KB 218 nsec
+[1737.68] Log: Performance:  memZero per KB 135 nsec
+[1737.69] Log: Performance:  appInterlockedIncrement 13 nsec
+[1737.70] Log: Performance:  GetTickCount 4 nsec
+[1737.70] Log: Game class is 'TgGameLaunch'
+[1737.70] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1737.70] Log: Flushing async loaders.
+[1737.74] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1737.74] Log: Flushed async loaders.
+[1737.78] Log: Primary PhysX scene will be in software.
+[1737.78] Log: Creating Primary PhysX Scene.
+[1737.78] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1737.78] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.23-22.08.51
+[1737.78] Log: Skipping initialization of FSMPartPool!
+[1737.86] Log: Bringing up level for play took: 0.123607
+[1738.87] TgSLO: Async Load: GOD_Anubis_V2
+[1738.87] TgSLO: Async Load: GOD_Anubis_V2_Lobby
+[1738.87] TgSLO: Async Load: FX_Anubis_V2
+[1738.87] Log: Flushing async loaders.
+[1739.05] TgSLO: Finish Load: GOD_Anubis_V2
+[1739.07] TgSLO: Finish Load: GOD_Anubis_V2_Lobby
+[1739.09] TgSLO: Finish Load: FX_Anubis_V2
+[1739.09] Log: Flushed async loaders.
+[1739.10] Log: ########### Finished loading level: 2.050455 seconds
+[1739.13] Log: Flushing async loaders.
+[1739.24] Log: Flushed async loaders.
+[1739.24] Log: RequestingChannelMembers ch[3] [Yadavac a quitté la discussion.]
+[1739.24] Log: RequestingChannelMembers ch[3] [CyndaQuin a quitté la discussion.]
+[1739.24] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[1739.75] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[1739.75] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[1739.76] Log: RequestingChannelMembers ch[8] [jakke119 a rejoint la discussion.]
+[1739.97] Log: RequestingChannelMembers ch[8] [Fentheus a rejoint la discussion.]
+[1740.02] Log: RequestingChannelMembers ch[8] [Nitem a rejoint la discussion.]
+[1741.00] Log: RequestingChannelMembers ch[8] [Yadavac a rejoint la discussion.]
+[1741.13] Log: RequestingChannelMembers ch[8] [CyndaQuin a rejoint la discussion.]
+[1744.05] Log: RequestingChannelMembers ch[8] [TheLegendSeeker a rejoint la discussion.]
+[1747.83] Log: RequestingChannelMembers ch[8] [CyndaQuin a quitté la discussion.]
+[1750.63] Log: RequestingChannelMembers ch[8] [Bloodrainer a quitté la discussion.]
+[1752.41] Log: RequestingChannelMembers ch[8] [Yadavac a quitté la discussion.]
+[1752.56] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[1755.00] Log: Chat[4]: Yadavac a rejoint la file d'attente du groupe.
+[1767.39] Log: RequestingChannelMembers ch[8] [Nitem a quitté la discussion.]
+[1773.44] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[1773.44] Log: RequestingChannelMembers ch[3] [Yadavac a rejoint la discussion.]
+[1781.03] Log: RequestingChannelMembers ch[8] [jakke119 a quitté la discussion.]
+[1786.97] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[1789.89] Log: ERROR: Attempting to log in without settings.
+[1790.30] Log: RequestingChannelMembers ch[3] [C46!! a rejoint la discussion.]
+[1790.45] TgSLO: Async Load: GOD_Ymir
+[1790.45] TgSLO: Async Load: GOD_Ymir_Lobby
+[1790.45] TgSLO: Async Load: FX_Ymir
+[1790.48] TgSLO: Async Load: GOD_Osiris
+[1790.48] TgSLO: Async Load: GOD_Osiris_Lobby
+[1790.48] TgSLO: Async Load: FX_Osiris
+[1790.48] TgSLO: Async Load: GOD_Neith
+[1790.48] TgSLO: Async Load: GOD_Neith_Lobby
+[1790.48] TgSLO: Async Load: FX_Neith
+[1790.48] TgSLO: Async Load: GOD_Hades
+[1790.48] TgSLO: Async Load: GOD_Hades_Lobby
+[1790.48] TgSLO: Async Load: FX_Hades
+[1790.48] TgSLO: Async Load: GOD_Hades_Skin3
+[1790.49] TgSLO: Async Load: FX_Hades_skin3
+[1790.51] TgSLO: Async Load: Lobby_Pedestal_Beach
+[1790.52] Log: Flushing async loaders.
+[1790.68] TgSLO: Finish Load: GOD_Ymir
+[1790.71] TgSLO: Finish Load: GOD_Ymir_Lobby
+[1790.76] TgSLO: Finish Load: FX_Ymir
+[1791.27] TgSLO: Finish Load: GOD_Osiris
+[1791.91] TgSLO: Finish Load: GOD_Osiris_Lobby
+[1792.00] TgSLO: Finish Load: FX_Osiris
+[1792.10] TgSLO: Finish Load: GOD_Neith
+[1792.20] TgSLO: Finish Load: GOD_Neith_Lobby
+[1792.22] TgSLO: Finish Load: FX_Neith
+[1792.33] TgSLO: Finish Load: GOD_Hades
+[1792.35] TgSLO: Finish Load: GOD_Hades_Lobby
+[1792.37] TgSLO: Finish Load: FX_Hades
+[1792.43] TgSLO: Finish Load: GOD_Hades_Skin3
+[1792.44] TgSLO: Finish Load: FX_Hades_skin3
+[1792.47] TgSLO: Finish Load: Lobby_Pedestal_Beach
+[1792.47] Log: Flushed async loaders.
+[1800.54] DevNet: URL: Adding default option Team=255
+[1800.54] Log: ReceiveChangeMap: mapGameId 1510
+[1800.63] DevNet: URL: Adding default option Team=255
+[1800.63] DevNet: Browse: 64.95.97.164:9045/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164831037?Team=255
+[1800.63] DevNet: Game client on port 9045, rate 25000
+[1800.92] DevNet: Welcomed by server (Level: mayan_siege, Game: TgGame.TgGame_Battle_Conquest_Erez)
+[1801.03] Log: LoadMap: 64.95.97.164:9045/mayan_siege?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164831037?Team=255?game=TgGame.TgGame_Battle_Conquest_Erez
+[1801.82] Log: Map Game ID = 0
+[1801.82] Log: Map Instance ID = 125088416
+[1801.85] Log: Performance: Critical section Lock/Unlock 27 nsec
+[1801.85] Log: Performance:  appCycles 11 nsec
+[1801.91] Log: Performance:  memCopy per KB 312 nsec
+[1801.96] Log: Performance:  memZero per KB 206 nsec
+[1801.97] Log: Performance:  appInterlockedIncrement 11 nsec
+[1801.97] Log: Performance:  GetTickCount 4 nsec
+[1804.81] TgSLO: Async Load: FX_Store_Items
+[1804.81] TgSLO: Async Load: FX_Store_Items_Targeting
+[1804.81] TgSLO: Async Load: FX_Status_Effects
+[1804.81] TgSLO: Async Load: GOD_CommonMaterialEffects
+[1804.81] TgSLO: Async Load: GOD_Common_AT
+[1804.81] TgSLO: Async Load: AUD_VOX_Narrator
+[1804.81] TgSLO: Async Load: NPC_Ward2
+[1804.81] TgSLO: Async Load: FX_Buff_Belts_V2
+[1804.81] TgSLO: Async Load: FX_Fist_Of_God_V2
+[1804.81] TgSLO: Async Load: GOD_Kukulkan
+[1804.81] TgSLO: Async Load: GOD_Kukulkan_Textures
+[1804.81] TgSLO: Async Load: FX_Kukulkan
+[1804.81] TgSLO: Async Load: AUD_God_Kukulkan
+[1804.81] TgSLO: Async Load: NPC_Ward_Curse
+[1804.81] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[1804.81] TgSLO: Async Load: NPC_Ward_Eyeballs
+[1804.81] TgSLO: Async Load: FX_Common
+[1804.81] TgSLO: Async Load: AUD_UI
+[1804.81] TgSLO: Async Load: GOD_Ram
+[1804.87] TgSLO: Async Load: GOD_Ram_Textures
+[1804.87] TgSLO: Async Load: FX_Ram
+[1804.87] TgSLO: Async Load: AUD_God_Ram
+[1804.88] TgSLO: Async Load: GOD_Apollo
+[1804.88] TgSLO: Async Load: GOD_Apollo_Textures
+[1804.88] TgSLO: Async Load: FX_Apollo
+[1804.88] TgSLO: Async Load: AUD_God_Apollo
+[1804.88] TgSLO: Async Load: GOD_Ares
+[1804.88] TgSLO: Async Load: GOD_Ares_Textures
+[1804.88] TgSLO: Async Load: FX_Ares
+[1804.88] TgSLO: Async Load: AUD_God_Ares
+[1804.88] TgSLO: Async Load: GOD_Hades
+[1804.88] TgSLO: Async Load: GOD_Hades_Textures
+[1804.88] TgSLO: Async Load: FX_Hades
+[1804.88] TgSLO: Async Load: AUD_God_Hades
+[1804.88] TgSLO: Async Load: GOD_Hades_Skin3
+[1804.88] TgSLO: Async Load: FX_Hades_skin3
+[1804.88] TgSLO: Async Load: NPC_Ward_Satellite
+[1804.88] TgSLO: Async Load: NPC_Ward_Titan
+[1804.88] TgSLO: Async Load: NPC_Ward_Apollo
+[1804.88] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[1804.88] TgSLO: Async Load: GOD_Neith
+[1804.88] TgSLO: Async Load: GOD_Neith_Textures
+[1804.88] TgSLO: Async Load: FX_Neith
+[1804.88] TgSLO: Async Load: AUD_God_Neith
+[1804.88] TgSLO: Async Load: GOD_Osiris
+[1804.88] TgSLO: Async Load: GOD_Osiris_Textures
+[1804.88] TgSLO: Async Load: FX_Osiris
+[1804.88] TgSLO: Async Load: AUD_God_Osiris
+[1804.88] TgSLO: Async Load: GOD_Ymir
+[1804.88] TgSLO: Async Load: GOD_Ymir_Textures
+[1804.89] TgSLO: Async Load: FX_Ymir
+[1804.89] TgSLO: Async Load: FX_Ymir_Targeting
+[1804.89] TgSLO: Async Load: AUD_God_Ymir
+[1804.89] TgSLO: Async Load: NPC_Phoenix
+[1804.89] TgSLO: Async Load: NPC_Phoenix_Textures
+[1804.89] TgSLO: Async Load: FX_Phoenix
+[1804.89] TgSLO: Async Load: AUD_NPC_Phoenix
+[1804.89] TgSLO: Async Load: FX_Tower
+[1804.89] TgSLO: Async Load: FX_Greek_Tower
+[1804.89] TgSLO: Async Load: AUD_Tower
+[1804.89] TgSLO: Async Load: MDL_PseudoMesh
+[1804.89] TgSLO: Async Load: NPC_Greek_Tower
+[1804.89] TgSLO: Async Load: NPC_Greek_Tower_Textures
+[1804.89] TgSLO: Async Load: FX_Mayan_Tower
+[1804.89] TgSLO: Async Load: NPC_Mayan_Towers
+[1804.89] TgSLO: Async Load: NPC_Olympus
+[1804.89] TgSLO: Async Load: AUD_NPC_Olympus
+[1804.89] TgSLO: Async Load: NPC_Minion_Universal
+[1804.89] TgSLO: Async Load: FX_Roman
+[1804.89] TgSLO: Async Load: FX_Minion_Death
+[1804.89] TgSLO: Async Load: AUD_NPC_RomanArcher
+[1804.89] TgSLO: Async Load: NPC_Mayan_Minions
+[1804.89] TgSLO: Async Load: NPC_Cyclops_V2
+[1804.89] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[1804.89] TgSLO: Async Load: AUD_NPC_Cyclops
+[1804.89] TgSLO: Async Load: FX_Greek_Tower_Old
+[1804.89] TgSLO: Async Load: NPC_Guardian_Female
+[1804.89] TgSLO: Async Load: NPC_Guardian_Female_AT
+[1804.89] TgSLO: Async Load: FX_Guardian_Female
+[1804.89] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[1804.89] TgSLO: Async Load: NPC_Guardian_Male
+[1804.89] TgSLO: Async Load: NPC_Guardian_Male_AT
+[1804.89] TgSLO: Async Load: FX_Guardian_Male
+[1804.89] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[1804.89] TgSLO: Async Load: NPC_SiegeJuggernaut
+[1804.89] TgSLO: Async Load: FX_SiegeJuggernaut
+[1804.89] TgSLO: Async Load: AUD_NPC_SiegeJuggernaut
+[1804.89] Log: Flushing async loaders.
+[1804.93] TgSLO: Finish Load: FX_Store_Items
+[1804.95] TgSLO: Finish Load: FX_Store_Items_Targeting
+[1804.95] TgSLO: Finish Load: FX_Status_Effects
+[1804.95] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[1804.96] TgSLO: Finish Load: GOD_Common_AT
+[1805.08] TgSLO: Finish Load: AUD_VOX_Narrator
+[1805.09] TgSLO: Finish Load: NPC_Ward2
+[1805.13] TgSLO: Finish Load: FX_Buff_Belts_V2
+[1805.14] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[1805.25] TgSLO: Finish Load: GOD_Kukulkan
+[1805.25] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[1805.28] TgSLO: Finish Load: FX_Kukulkan
+[1805.34] TgSLO: Finish Load: AUD_God_Kukulkan
+[1805.36] TgSLO: Finish Load: NPC_Ward_Curse
+[1805.36] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[1805.38] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[1805.41] TgSLO: Finish Load: FX_Common
+[1805.41] TgSLO: Finish Load: AUD_UI
+[1805.93] TgSLO: Finish Load: GOD_Ram
+[1805.97] TgSLO: Finish Load: GOD_Ram_Textures
+[1806.03] TgSLO: Finish Load: FX_Ram
+[1806.12] TgSLO: Finish Load: AUD_God_Ram
+[1806.65] TgSLO: Finish Load: GOD_Apollo
+[1806.66] TgSLO: Finish Load: GOD_Apollo_Textures
+[1806.71] TgSLO: Finish Load: FX_Apollo
+[1806.77] TgSLO: Finish Load: AUD_God_Apollo
+[1807.17] TgSLO: Finish Load: GOD_Ares
+[1807.17] TgSLO: Finish Load: GOD_Ares_Textures
+[1807.31] TgSLO: Finish Load: FX_Ares
+[1807.34] TgSLO: Finish Load: AUD_God_Ares
+[1807.45] TgSLO: Finish Load: GOD_Hades
+[1807.45] TgSLO: Finish Load: GOD_Hades_Textures
+[1807.47] TgSLO: Finish Load: FX_Hades
+[1807.52] TgSLO: Finish Load: AUD_God_Hades
+[1807.54] TgSLO: Finish Load: GOD_Hades_Skin3
+[1807.54] TgSLO: Finish Load: FX_Hades_skin3
+[1807.64] TgSLO: Finish Load: NPC_Ward_Satellite
+[1807.65] TgSLO: Finish Load: NPC_Ward_Titan
+[1807.72] TgSLO: Finish Load: NPC_Ward_Apollo
+[1807.73] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[1807.83] TgSLO: Finish Load: GOD_Neith
+[1807.84] TgSLO: Finish Load: GOD_Neith_Textures
+[1807.86] TgSLO: Finish Load: FX_Neith
+[1807.91] TgSLO: Finish Load: AUD_God_Neith
+[1808.07] TgSLO: Finish Load: GOD_Osiris
+[1808.07] TgSLO: Finish Load: GOD_Osiris_Textures
+[1808.10] TgSLO: Finish Load: FX_Osiris
+[1808.19] TgSLO: Finish Load: AUD_God_Osiris
+[1808.36] TgSLO: Finish Load: GOD_Ymir
+[1808.37] TgSLO: Finish Load: GOD_Ymir_Textures
+[1808.42] TgSLO: Finish Load: FX_Ymir
+[1808.43] TgSLO: Finish Load: FX_Ymir_Targeting
+[1808.57] TgSLO: Finish Load: AUD_God_Ymir
+[1808.62] TgSLO: Finish Load: NPC_Phoenix
+[1808.62] TgSLO: Finish Load: NPC_Phoenix_Textures
+[1808.63] TgSLO: Finish Load: FX_Phoenix
+[1808.66] TgSLO: Finish Load: AUD_NPC_Phoenix
+[1808.67] TgSLO: Finish Load: FX_Tower
+[1808.70] TgSLO: Finish Load: FX_Greek_Tower
+[1808.78] TgSLO: Finish Load: AUD_Tower
+[1808.78] TgSLO: Finish Load: MDL_PseudoMesh
+[1808.90] TgSLO: Finish Load: NPC_Greek_Tower
+[1808.92] Warning: Warning, Failed to compile Material Instance NPC_Greek_Tower_Textures.MIC_Tower_Friendly with Base MAT_Tower_Optimized for platform PC-D3D-SM3, Default Material will be used in game.
+[1808.92] TgSLO: Finish Load: NPC_Greek_Tower_Textures
+[1808.94] TgSLO: Finish Load: FX_Mayan_Tower
+[1808.97] TgSLO: Finish Load: NPC_Mayan_Towers
+[1808.98] TgSLO: Finish Load: NPC_Olympus
+[1809.01] TgSLO: Finish Load: AUD_NPC_Olympus
+[1809.12] TgSLO: Finish Load: NPC_Minion_Universal
+[1809.13] TgSLO: Finish Load: FX_Roman
+[1809.13] TgSLO: Finish Load: FX_Minion_Death
+[1809.17] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[1809.19] TgSLO: Finish Load: NPC_Mayan_Minions
+[1809.29] TgSLO: Finish Load: NPC_Cyclops_V2
+[1809.29] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[1809.36] TgSLO: Finish Load: AUD_NPC_Cyclops
+[1809.37] TgSLO: Finish Load: FX_Greek_Tower_Old
+[1809.46] TgSLO: Finish Load: NPC_Guardian_Female
+[1809.47] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[1809.47] TgSLO: Finish Load: FX_Guardian_Female
+[1809.48] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[1809.58] TgSLO: Finish Load: NPC_Guardian_Male
+[1809.59] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[1809.61] TgSLO: Finish Load: FX_Guardian_Male
+[1809.63] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[1809.80] TgSLO: Finish Load: NPC_SiegeJuggernaut
+[1809.81] TgSLO: Finish Load: FX_SiegeJuggernaut
+[1809.82] TgSLO: Finish Load: AUD_NPC_SiegeJuggernaut
+[1809.82] Log: Flushed async loaders.
+[1809.85] Log: Primary PhysX scene will be in software.
+[1809.85] Log: Creating Primary PhysX Scene.
+[1809.86] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1809.86] Log: Bringing World mayan_siege.TheWorld up for play (595) at 2015.06.23-22.10.04
+[1809.86] Log: Skipping initialization of FSMPartPool!
+[1809.87] Log: Bringing up level for play took: 0.045204
+[1809.87] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[1809.87] Warning: Warning, Failed to find object 'Class None.'
+[1809.87] Log: PlayerController class for the pending level is PlayerController
+[1809.87] Log: ########### Finished loading level: 8.842892 seconds
+[1809.87] Log: Flushing async loaders.
+[1810.46] Log: Flushed async loaders.
+[1810.86] Log: ---- UpdateClanData
+[1810.86] DevNet: TgPlayerController_5 setplayer TgLocalPlayer_0
+[1810.91] Log: Mark Effect Group 28503: Not of type HIT SPECIAL!
+[1810.93] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1810.94] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1810.94] Warning: Attempting to attach NULL component to TgSkeletalMeshComponent_982, socket CSO_FX_Waist_01
+[1810.94] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1810.94] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1810.94] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1810.94] Log: TeamIndex 2 has new leader: 6705438
+[1810.94] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1810.95] Log: Activated mayan_siege_assist 1 1 0
+[1810.95] Log: ActivateLevel mayan_siege_assist 1 1 0
+[1810.98] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1810.98] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1810.98] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1811.07] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1811.07] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1811.08] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1811.08] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1811.18] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1811.19] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[1811.53] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[1818.22] Log: TeamIndex 1 has new leader: 4021830
+[1818.77] Log: TeamIndex 1 has new leader: 973729
+[1825.37] Log: TeamIndex 2 has new leader: 6468508
+[1825.68] Log: ---- UpdateClanData
+[1825.92] Log: TeamIndex 2 has new leader: 6609504
+[1826.99] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[1826.99] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1827.00] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1827.00] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1827.00] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[1839.04] Log: Requesting purchase of itemId (10044) amount (1)
+[1845.60] Log: Requesting purchase of itemId (9469) amount (1)
+[1847.03] Log: Requesting purchase of itemId (9497) amount (1)
+[1850.06] Log: Requesting purchase of itemId (8057) amount (1)
+[1850.24] Log: Chat[3]: kimicol a acheté l'objet Souveraineté.
+[1854.86] Log: Requesting purchase of itemId (9003) amount (1)
+[1862.04] Log: Chat[3]: C46!! a acheté l'objet Garde.
+[1865.70] Log: Requesting purchase of itemId (8063) amount (1)
+[1865.87] Log: Chat[3]: kimicol a acheté l'objet Maille mystique.
+[1874.71] Log: Requesting purchase of itemId (8084) amount (1)
+[1879.88] Log: Requesting purchase of itemId (8134) amount (1)
+[1880.26] Log: Requesting purchase of itemId (8134) amount (1)
+[1881.26] Log: Requesting purchase of itemId (8134) amount (1)
+[1881.61] Log: Requesting purchase of itemId (8134) amount (1)
+[1881.92] Log: Requesting purchase of itemId (8134) amount (1)
+[1883.07] Log: Requesting purchase of itemId (8135) amount (1)
+[1883.41] Log: Requesting purchase of itemId (8135) amount (1)
+[1883.76] Log: Requesting purchase of itemId (8135) amount (1)
+[1884.16] Log: Requesting purchase of itemId (8135) amount (1)
+[1928.69] Log: Chat[3]: SJMurphsta a acheté l'objet Maille mystique.
+[1948.92] Log: Chat[3]: [VRR] Reculez !
+[1948.97] Log: PUSHING Accolade: Arturrex verse le Premier sang !, local: false
+[1951.60] Log: Chat[3]: [VER] Quel talent !
+[1962.78] Log: PUSHING Accolade: , local: false
+[1984.03] Log: PUSHING Accolade: , local: false
+[1985.53] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1987.04] Log: PUSHING Accolade: , local: false
+[1998.06] Log: PUSHING Accolade: SJMurphsta a fait un doublé !, local: false
+[1998.06] Log: Suppressing Accolade: 
+[1998.06] Log: Suppressing Accolade: 
+[1999.58] Log: Expiring Accolade: 
+[2003.53] Log: Chat[3]: [VVS] Désolé !
+[2019.65] Log: Chat[3]: C46!! a acheté l'objet Garde.
+[2037.69] Log: PUSHING Accolade: , local: false
+[2052.98] Log: PUSHING Accolade: , local: false
+[2075.13] Log: PUSHING Accolade: Hebby2 a tué un joueur !, local: false
+[2079.83] Log: Requesting purchase of itemId (8134) amount (1)
+[2080.00] Log: Requesting purchase of itemId (8134) amount (1)
+[2080.17] Log: Requesting purchase of itemId (8134) amount (1)
+[2081.94] Log: Requesting purchase of itemId (8135) amount (1)
+[2082.35] Log: PUSHING Accolade: , local: false
+[2090.49] Log: Chat[3]: [VD3] Défendez à droite !
+[2116.09] Log: PUSHING Accolade: MASTODONTE SAUVAGE TUÉ, local: true
+[2127.03] Log: PUSHING Accolade: , local: false
+[2142.73] Log: PUSHING Accolade: , local: false
+[2144.24] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2153.97] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[2175.02] Log: PUSHING Accolade: C46!! fait une tuerie ! (x3), local: false
+[2176.54] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2189.13] Log: PUSHING Accolade: , local: false
+[2196.53] Log: PUSHING Accolade: Matrikso321 a fait un doublé !, local: false
+[2196.53] Log: Suppressing Accolade: Matrikso321 fait une tuerie ! (x3)
+[2200.86] Log: PUSHING Accolade: , local: false
+[2207.84] Log: PUSHING Accolade: , local: false
+[2209.35] Log: PUSHING Accolade: DÉICIDE, local: true
+[2211.22] Log: Requesting purchase of itemId (9153) amount (1)
+[2243.55] Log: PUSHING Accolade: Matrikso321 fait un massacre ! (x5), local: false
+[2249.80] Log: Chat[3]: C46!! a acheté l'objet Garde.
+[2273.83] Log: Chat[3]: [VF3] Ennemi manquant à droite !
+[2280.18] Log: PUSHING Accolade: Arturrex fait une tuerie ! (x3), local: false
+[2281.69] Log: Expiring Accolade: 
+[2287.89] Log: PUSHING Accolade: Matrikso321 a fait un doublé !, local: false
+[2287.89] Log: Suppressing Accolade: Matrikso321 EST INARRÊTABLE ! (x7)
+[2333.98] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[2345.73] Log: PUSHING Accolade: , local: false
+[2347.24] Log: PUSHING Accolade: Matrikso321 a fait un doublé !, local: false
+[2347.24] Log: Suppressing Accolade: Matrikso321 est DIVIN (x9) !
+[2351.15] Log: PUSHING Accolade: , local: false
+[2352.67] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2374.62] Log: PUSHING Accolade: , local: false
+[2376.12] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2381.02] Log: PUSHING Accolade: SJMurphsta a fait un doublé !, local: false
+[2381.03] Log: Suppressing Accolade: SJMurphsta fait une tuerie ! (x3)
+[2381.03] Log: Suppressing Accolade: SJMurphsta a stoppé Matrikso321 dans son élan
+[2382.54] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2439.67] Log: PUSHING Accolade: , local: false
+[2443.46] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[2445.82] Log: Chat[3]: [VVGG] Belle partie !
+[2446.08] Log: PUSHING Accolade: Arturrex a fait un doublé !, local: false
+[2446.09] Log: Suppressing Accolade: Arturrex fait un massacre ! (x5)
+[2454.11] Log: PUSHING Accolade: , local: false
+[2456.78] Log: Chat[3]: [VRR] Reculez !
+[2457.53] Log: Chat[3]: [VRR] Reculez !
+[2458.09] Log: Chat[3]: [VRR] Reculez !
+[2458.83] Log: Chat[3]: [VRR] Reculez !
+[2459.92] Log: Chat[3]: [VRR] Reculez !
+[2462.51] Log: PUSHING Accolade: Matrikso321 a fait un doublé !, local: false
+[2462.51] Log: Suppressing Accolade: 
+[2464.02] Log: PUSHING Accolade: DÉICIDE, local: true
+[2466.79] Log: Chat[3]: ...
+[2470.13] Log: Chat[3]: report
+[2474.54] Log: SendChat[3] 
+[2506.38] Log: ---- UpdateClanData
+[2506.44] Log: ---- UpdateClanData
+[2511.53] Log: RequestingChannelMembers ch[3] [SJMurphsta a quitté la discussion.]
+[2511.54] DevNet: URL: Adding default option Team=255
+[2511.54] Log: ReceiveChangeMap: mapGameId 1447
+[2511.54] Log: ---- UpdateClanData
+[2511.55] DevNet: URL: Adding default option Team=255
+[2511.55] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2511.65] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2511.80] NetComeGo: Close PComNetDriver_2 PComNetConn_2 64.95.97.164:9045 06/23/15 22:21:45
+[2511.91] Exit: PComNetDriver_2 shut down
+[2512.22] Log: Map Game ID = 0
+[2512.22] Log: Map Instance ID = 125088416
+[2512.24] Log: Performance: Critical section Lock/Unlock 25 nsec
+[2512.24] Log: Performance:  appCycles 11 nsec
+[2512.29] Log: Performance:  memCopy per KB 247 nsec
+[2512.33] Log: Performance:  memZero per KB 163 nsec
+[2512.34] Log: Performance:  appInterlockedIncrement 13 nsec
+[2512.34] Log: Performance:  GetTickCount 4 nsec
+[2512.34] Log: Game class is 'TgGameLaunch'
+[2512.35] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[2512.35] Log: Flushing async loaders.
+[2512.38] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[2512.38] Log: Flushed async loaders.
+[2512.43] Log: Primary PhysX scene will be in software.
+[2512.43] Log: Creating Primary PhysX Scene.
+[2512.43] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2512.43] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.23-22.21.46
+[2512.44] Log: Skipping initialization of FSMPartPool!
+[2512.51] Log: Bringing up level for play took: 0.127617
+[2513.53] TgSLO: Async Load: GOD_Ymir
+[2513.53] TgSLO: Async Load: GOD_Ymir_Lobby
+[2513.53] TgSLO: Async Load: FX_Ymir
+[2513.53] Log: Flushing async loaders.
+[2513.70] TgSLO: Finish Load: GOD_Ymir
+[2513.73] TgSLO: Finish Load: GOD_Ymir_Lobby
+[2513.78] TgSLO: Finish Load: FX_Ymir
+[2513.78] Log: Flushed async loaders.
+[2513.79] Log: ########### Finished loading level: 2.141195 seconds
+[2513.81] Log: Flushing async loaders.
+[2513.92] Log: Flushed async loaders.
+[2513.92] Log: ---- UpdateClanData
+[2513.92] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[2514.43] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[2514.43] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[2514.45] Log: RequestingChannelMembers ch[8] [Arturrex a rejoint la discussion.]
+[2514.45] Log: RequestingChannelMembers ch[8] [SJMurphsta a rejoint la discussion.]
+[2514.95] Log: RequestingChannelMembers ch[8] [Hebby2 a rejoint la discussion.]
+[2514.95] Log: RequestingChannelMembers ch[8] [Matrikso321 a rejoint la discussion.]
+[2515.09] Log: RequestingChannelMembers ch[8] [ZeussPL a rejoint la discussion.]
+[2516.39] Log: RequestingChannelMembers ch[8] [Yadavac a rejoint la discussion.]
+[2517.40] Log: RequestingChannelMembers ch[8] [C46!! a rejoint la discussion.]
+[2518.71] Log: RequestingChannelMembers ch[8] [Hebby2 a quitté la discussion.]
+[2523.60] Log: RequestingChannelMembers ch[8] [Arturrex a quitté la discussion.]
+[2532.72] Log: RequestingChannelMembers ch[8] [C46!! a quitté la discussion.]
+[2544.06] Log: RequestingChannelMembers ch[8] [SJMurphsta a quitté la discussion.]
+[2558.26] Log: RequestingChannelMembers ch[8] [Yadavac a quitté la discussion.]
+[2558.40] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[2558.40] Log: Chat[4]: Yadavac a rejoint la file d'attente du groupe.
+[2566.33] Log: RequestingChannelMembers ch[8] [ZeussPL a quitté la discussion.]
+[2572.18] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[2574.39] Log: RequestingChannelMembers ch[3] [Yadavac a rejoint la discussion.]
+[2577.03] Log: RequestingChannelMembers ch[3] [SpurveNi a rejoint la discussion.]
+[2577.32] Log: ERROR: Attempting to log in without settings.
+[2582.52] TgSLO: Async Load: GOD_Athena
+[2582.52] TgSLO: Async Load: GOD_Athena_Lobby
+[2582.52] TgSLO: Async Load: FX_Athena
+[2582.52] TgSLO: Async Load: GOD_Agni_V2
+[2582.52] TgSLO: Async Load: GOD_Agni_V2_Lobby
+[2582.52] TgSLO: Async Load: GOD_Scylla
+[2582.57] TgSLO: Async Load: GOD_Scylla_Lobby
+[2582.57] TgSLO: Async Load: FX_Scylla
+[2582.57] TgSLO: Async Load: GOD_Thor
+[2582.58] TgSLO: Async Load: GOD_Thor_Lobby
+[2582.58] TgSLO: Async Load: FX_Thor
+[2583.96] TgSLO: Finish Load: GOD_Athena
+[2584.20] TgSLO: Finish Load: GOD_Athena_Lobby
+[2584.91] TgSLO: Finish Load: FX_Athena
+[2584.96] Log: Flushing async loaders.
+[2585.30] TgSLO: Finish Load: GOD_Agni_V2
+[2585.52] TgSLO: Finish Load: GOD_Agni_V2_Lobby
+[2586.37] TgSLO: Finish Load: GOD_Scylla
+[2586.73] TgSLO: Finish Load: GOD_Scylla_Lobby
+[2586.84] TgSLO: Finish Load: FX_Scylla
+[2587.46] TgSLO: Finish Load: GOD_Thor
+[2587.82] TgSLO: Finish Load: GOD_Thor_Lobby
+[2587.89] TgSLO: Finish Load: FX_Thor
+[2587.89] Log: Flushed async loaders.
+[2587.89] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_0)
+[2593.13] DevNet: URL: Adding default option Team=255
+[2593.13] Log: ReceiveChangeMap: mapGameId 1510
+[2593.24] DevNet: URL: Adding default option Team=255
+[2593.24] DevNet: Browse: 64.95.97.171:9096/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164834041?Team=255
+[2593.24] DevNet: Game client on port 9096, rate 25000
+[2593.57] DevNet: Welcomed by server (Level: mayan_siege, Game: TgGame.TgGame_Battle_Conquest_Erez)
+[2593.73] Log: LoadMap: 64.95.97.171:9096/mayan_siege?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=164834041?Team=255?game=TgGame.TgGame_Battle_Conquest_Erez
+[2594.56] Log: Map Game ID = 0
+[2594.56] Log: Map Instance ID = 125088416
+[2594.59] Log: Performance: Critical section Lock/Unlock 31 nsec
+[2594.59] Log: Performance:  appCycles 12 nsec
+[2594.66] Log: Performance:  memCopy per KB 361 nsec
+[2594.71] Log: Performance:  memZero per KB 234 nsec
+[2594.72] Log: Performance:  appInterlockedIncrement 11 nsec
+[2594.73] Log: Performance:  GetTickCount 5 nsec
+[2597.62] TgSLO: Async Load: FX_Store_Items
+[2597.62] TgSLO: Async Load: FX_Store_Items_Targeting
+[2597.62] TgSLO: Async Load: FX_Status_Effects
+[2597.62] TgSLO: Async Load: GOD_CommonMaterialEffects
+[2597.62] TgSLO: Async Load: GOD_Common_AT
+[2597.62] TgSLO: Async Load: AUD_VOX_Narrator
+[2597.63] TgSLO: Async Load: NPC_Ward2
+[2597.63] TgSLO: Async Load: FX_Buff_Belts_V2
+[2597.63] TgSLO: Async Load: FX_Fist_Of_God_V2
+[2597.63] TgSLO: Async Load: GOD_Scylla
+[2597.63] TgSLO: Async Load: GOD_Scylla_Textures
+[2597.63] TgSLO: Async Load: FX_Scylla
+[2597.63] TgSLO: Async Load: AUD_God_Scylla
+[2597.63] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[2597.63] TgSLO: Async Load: AUD_UI
+[2597.63] TgSLO: Async Load: GOD_Agni_V2
+[2597.63] TgSLO: Async Load: GOD_Agni_V2_Textures
+[2597.63] TgSLO: Async Load: FX_Agni_B
+[2597.63] TgSLO: Async Load: AUD_God_Agni
+[2597.63] TgSLO: Async Load: GOD_Thor
+[2597.63] TgSLO: Async Load: GOD_Thor_Textures
+[2597.63] TgSLO: Async Load: FX_Thor
+[2597.63] TgSLO: Async Load: AUD_God_Thor
+[2597.63] TgSLO: Async Load: GOD_Athena
+[2597.63] TgSLO: Async Load: GOD_Athena_Textures
+[2597.63] TgSLO: Async Load: FX_Athena
+[2597.67] TgSLO: Async Load: FX_Athena_Targeting
+[2597.67] TgSLO: Async Load: AUD_God_Athena
+[2597.68] TgSLO: Async Load: GOD_Loki
+[2597.68] TgSLO: Async Load: GOD_Loki_Textures
+[2597.68] TgSLO: Async Load: FX_Loki
+[2597.68] TgSLO: Async Load: AUD_God_Loki
+[2597.68] TgSLO: Async Load: GOD_Ra
+[2597.68] TgSLO: Async Load: GOD_Ra_Textures
+[2597.68] TgSLO: Async Load: FX_Ra
+[2597.68] TgSLO: Async Load: AUD_God_Ra
+[2597.68] TgSLO: Async Load: GOD_Chaac
+[2597.69] TgSLO: Async Load: GOD_Chaac_Textures
+[2597.69] TgSLO: Async Load: FX_Chaac
+[2597.69] TgSLO: Async Load: AUD_God_Chaac
+[2597.69] TgSLO: Async Load: GOD_Xbalanque
+[2597.69] TgSLO: Async Load: GOD_Xbalanque_Textures
+[2597.69] TgSLO: Async Load: FX_Xbalanque
+[2597.69] TgSLO: Async Load: AUD_God_Xbalanque
+[2597.69] TgSLO: Async Load: NPC_Phoenix
+[2597.69] TgSLO: Async Load: NPC_Phoenix_Textures
+[2597.69] TgSLO: Async Load: FX_Phoenix
+[2597.69] TgSLO: Async Load: AUD_NPC_Phoenix
+[2597.69] TgSLO: Async Load: FX_Tower
+[2597.69] TgSLO: Async Load: FX_Greek_Tower
+[2597.69] TgSLO: Async Load: AUD_Tower
+[2597.69] TgSLO: Async Load: MDL_PseudoMesh
+[2597.69] TgSLO: Async Load: NPC_Greek_Tower
+[2597.69] TgSLO: Async Load: NPC_Greek_Tower_Textures
+[2597.69] TgSLO: Async Load: FX_Mayan_Tower
+[2597.69] TgSLO: Async Load: NPC_Mayan_Towers
+[2597.69] TgSLO: Async Load: NPC_Olympus
+[2597.70] TgSLO: Async Load: AUD_NPC_Olympus
+[2597.70] TgSLO: Async Load: NPC_Minion_Universal
+[2597.70] TgSLO: Async Load: FX_Roman
+[2597.70] TgSLO: Async Load: FX_Minion_Death
+[2597.70] TgSLO: Async Load: AUD_NPC_RomanArcher
+[2597.70] TgSLO: Async Load: NPC_Mayan_Minions
+[2597.70] TgSLO: Async Load: FX_Common
+[2597.70] TgSLO: Async Load: NPC_Cyclops_V2
+[2597.70] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[2597.70] TgSLO: Async Load: AUD_NPC_Cyclops
+[2597.70] TgSLO: Async Load: FX_Greek_Tower_Old
+[2597.70] TgSLO: Async Load: NPC_Guardian_Female
+[2597.70] TgSLO: Async Load: NPC_Guardian_Female_AT
+[2597.70] TgSLO: Async Load: FX_Guardian_Female
+[2597.70] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[2597.70] TgSLO: Async Load: NPC_Guardian_Male
+[2597.70] TgSLO: Async Load: NPC_Guardian_Male_AT
+[2597.70] TgSLO: Async Load: FX_Guardian_Male
+[2597.70] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[2597.70] TgSLO: Async Load: NPC_SiegeJuggernaut
+[2597.70] TgSLO: Async Load: FX_SiegeJuggernaut
+[2597.70] TgSLO: Async Load: AUD_NPC_SiegeJuggernaut
+[2597.70] Log: Flushing async loaders.
+[2597.74] TgSLO: Finish Load: FX_Store_Items
+[2597.75] TgSLO: Finish Load: FX_Store_Items_Targeting
+[2597.76] TgSLO: Finish Load: FX_Status_Effects
+[2597.76] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[2597.76] TgSLO: Finish Load: GOD_Common_AT
+[2597.87] TgSLO: Finish Load: AUD_VOX_Narrator
+[2597.88] TgSLO: Finish Load: NPC_Ward2
+[2597.91] TgSLO: Finish Load: FX_Buff_Belts_V2
+[2597.92] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[2598.19] TgSLO: Finish Load: GOD_Scylla
+[2598.20] TgSLO: Finish Load: GOD_Scylla_Textures
+[2598.24] TgSLO: Finish Load: FX_Scylla
+[2598.37] TgSLO: Finish Load: AUD_God_Scylla
+[2598.37] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[2598.38] TgSLO: Finish Load: AUD_UI
+[2598.49] TgSLO: Finish Load: GOD_Agni_V2
+[2598.50] TgSLO: Finish Load: GOD_Agni_V2_Textures
+[2598.55] TgSLO: Finish Load: FX_Agni_B
+[2598.67] TgSLO: Finish Load: AUD_God_Agni
+[2598.81] TgSLO: Finish Load: GOD_Thor
+[2598.82] TgSLO: Finish Load: GOD_Thor_Textures
+[2598.84] TgSLO: Finish Load: FX_Thor
+[2598.89] TgSLO: Finish Load: AUD_God_Thor
+[2599.05] TgSLO: Finish Load: GOD_Athena
+[2599.05] TgSLO: Finish Load: GOD_Athena_Textures
+[2599.07] TgSLO: Finish Load: FX_Athena
+[2599.11] TgSLO: Finish Load: FX_Athena_Targeting
+[2599.17] TgSLO: Finish Load: AUD_God_Athena
+[2599.58] TgSLO: Finish Load: GOD_Loki
+[2599.61] TgSLO: Finish Load: GOD_Loki_Textures
+[2599.66] TgSLO: Finish Load: FX_Loki
+[2599.71] TgSLO: Finish Load: AUD_God_Loki
+[2599.72] TgSLO: Finish Load: GOD_Ra
+[2599.72] TgSLO: Finish Load: GOD_Ra_Textures
+[2599.74] TgSLO: Finish Load: FX_Ra
+[2599.77] TgSLO: Finish Load: AUD_God_Ra
+[2600.42] TgSLO: Finish Load: GOD_Chaac
+[2600.42] TgSLO: Finish Load: GOD_Chaac_Textures
+[2600.52] TgSLO: Finish Load: FX_Chaac
+[2600.62] TgSLO: Finish Load: AUD_God_Chaac
+[2600.71] TgSLO: Finish Load: GOD_Xbalanque
+[2600.71] TgSLO: Finish Load: GOD_Xbalanque_Textures
+[2600.74] TgSLO: Finish Load: FX_Xbalanque
+[2600.83] TgSLO: Finish Load: AUD_God_Xbalanque
+[2600.87] TgSLO: Finish Load: NPC_Phoenix
+[2600.87] TgSLO: Finish Load: NPC_Phoenix_Textures
+[2600.88] TgSLO: Finish Load: FX_Phoenix
+[2600.92] TgSLO: Finish Load: AUD_NPC_Phoenix
+[2600.92] TgSLO: Finish Load: FX_Tower
+[2600.95] TgSLO: Finish Load: FX_Greek_Tower
+[2601.04] TgSLO: Finish Load: AUD_Tower
+[2601.04] TgSLO: Finish Load: MDL_PseudoMesh
+[2601.15] TgSLO: Finish Load: NPC_Greek_Tower
+[2601.17] Warning: Warning, Failed to compile Material Instance NPC_Greek_Tower_Textures.MIC_Tower_Friendly with Base MAT_Tower_Optimized for platform PC-D3D-SM3, Default Material will be used in game.
+[2601.17] TgSLO: Finish Load: NPC_Greek_Tower_Textures
+[2601.19] TgSLO: Finish Load: FX_Mayan_Tower
+[2601.22] TgSLO: Finish Load: NPC_Mayan_Towers
+[2601.23] TgSLO: Finish Load: NPC_Olympus
+[2601.26] TgSLO: Finish Load: AUD_NPC_Olympus
+[2601.37] TgSLO: Finish Load: NPC_Minion_Universal
+[2601.38] TgSLO: Finish Load: FX_Roman
+[2601.38] TgSLO: Finish Load: FX_Minion_Death
+[2601.42] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[2601.44] TgSLO: Finish Load: NPC_Mayan_Minions
+[2601.46] TgSLO: Finish Load: FX_Common
+[2601.56] TgSLO: Finish Load: NPC_Cyclops_V2
+[2601.56] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[2601.65] TgSLO: Finish Load: AUD_NPC_Cyclops
+[2601.66] TgSLO: Finish Load: FX_Greek_Tower_Old
+[2601.75] TgSLO: Finish Load: NPC_Guardian_Female
+[2601.76] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[2601.76] TgSLO: Finish Load: FX_Guardian_Female
+[2601.77] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[2601.88] TgSLO: Finish Load: NPC_Guardian_Male
+[2601.88] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[2601.90] TgSLO: Finish Load: FX_Guardian_Male
+[2601.91] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[2602.08] TgSLO: Finish Load: NPC_SiegeJuggernaut
+[2602.10] TgSLO: Finish Load: FX_SiegeJuggernaut
+[2602.11] TgSLO: Finish Load: AUD_NPC_SiegeJuggernaut
+[2602.11] Log: Flushed async loaders.
+[2602.13] Log: Primary PhysX scene will be in software.
+[2602.13] Log: Creating Primary PhysX Scene.
+[2602.14] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2602.14] Log: Bringing World mayan_siege.TheWorld up for play (595) at 2015.06.23-22.23.16
+[2602.14] Log: Skipping initialization of FSMPartPool!
+[2602.15] Log: Bringing up level for play took: 0.043510
+[2602.15] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[2602.15] Warning: Warning, Failed to find object 'Class None.'
+[2602.15] Log: PlayerController class for the pending level is PlayerController
+[2602.15] Log: ########### Finished loading level: 8.415720 seconds
+[2602.15] Log: Flushing async loaders.
+[2602.72] Log: Flushed async loaders.
+[2602.78] DevNet: TgPlayerController_7 setplayer TgLocalPlayer_0
+[2602.79] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgPawn_Athena_0)
+[2602.84] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2602.84] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2602.84] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.11] Log: ---- UpdateClanData
+[2603.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2603.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2603.19] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.19] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.19] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.19] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.20] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.21] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.21] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.21] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.21] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.21] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.21] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.22] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[2603.23] Log: TeamIndex 2 has new leader: 954416
+[2603.23] Log: TeamIndex 1 has new leader: 6385752
+[2603.23] Log: Activated mayan_siege_assist 1 1 0
+[2603.23] Log: ActivateLevel mayan_siege_assist 1 1 0
+[2603.28] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2603.28] Log: Flushing async loaders.
+[2603.29] Log: Flushed async loaders.
+[2642.85] Log: ---- UpdateClanData
+[2688.81] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[2688.81] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[2688.81] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[2688.81] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[2688.81] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[2698.16] Log: Requesting purchase of itemId (10044) amount (1)
+[2701.36] Log: Requesting purchase of itemId (9469) amount (1)
+[2702.93] Log: Requesting purchase of itemId (9497) amount (1)
+[2705.40] Log: Requesting purchase of itemId (8057) amount (1)
+[2705.57] Log: Chat[3]: kimicol a acheté l'objet Souveraineté.
+[2706.49] Log: Requesting purchase of itemId (8063) amount (1)
+[2706.65] Log: Chat[3]: kimicol a acheté l'objet Maille mystique.
+[2722.03] Log: Requesting purchase of itemId (8649) amount (1)
+[2731.08] Log: SendChat[3] first time athena :/
+[2731.17] Log: Chat[3]: first time athena :/
+[2750.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2750.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2753.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2753.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2755.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2755.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2783.38] Log: Chat[3]: [VEW] Woohoo !
+[2794.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2794.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2796.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2796.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2805.57] ScriptWarning: Accessed None 'm_Num2TweenCylinder'
+	TgPawn_Chaac mayan_siege.TheWorld:PersistentLevel.TgPawn_Chaac_0
+	Function TgGame.TgPawn_Chaac:EndTween:0121
+[2810.39] Log: PUSHING Accolade: LafromagèreBack verse le Premier sang !, local: false
+[2811.63] Log: TeamIndex 2 has new leader: 6805524
+[2815.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2815.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2816.48] Log: PUSHING Accolade: , local: false
+[2817.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2817.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2818.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2818.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2822.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2822.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2824.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2824.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2825.03] Log: PUSHING Accolade: LafromagèreBack a tué un joueur !, local: false
+[2826.70] Log: PUSHING Accolade: , local: false
+[2836.13] Log: Requesting purchase of itemId (8134) amount (1)
+[2836.28] Log: Requesting purchase of itemId (8134) amount (1)
+[2836.46] Log: Requesting purchase of itemId (8134) amount (1)
+[2836.63] Log: Requesting purchase of itemId (8134) amount (1)
+[2836.80] Log: Requesting purchase of itemId (8134) amount (1)
+[2838.32] Log: Requesting purchase of itemId (8135) amount (1)
+[2838.50] Log: Requesting purchase of itemId (8135) amount (1)
+[2838.66] Log: Requesting purchase of itemId (8135) amount (1)
+[2838.80] Log: Requesting purchase of itemId (8135) amount (1)
+[2838.95] Log: Requesting purchase of itemId (8135) amount (1)
+[2841.65] Log: PUSHING Accolade: SpurveNi fait une tuerie ! (x3), local: false
+[2842.11] Log: Requesting purchase of itemId (8237) amount (1)
+[2849.37] Log: PUSHING Accolade: SpurveNi a fait un doublé !, local: false
+[2849.37] Log: Suppressing Accolade: 
+[2865.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2865.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2867.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2867.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2867.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2867.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2868.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2868.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2886.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2886.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2888.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2888.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2888.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2888.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2895.29] Log: PUSHING Accolade: , local: false
+[2896.79] Log: PUSHING Accolade: LafromagèreBack a tué un joueur !, local: false
+[2919.55] Log: PUSHING Accolade: SpurveNi fait un massacre ! (x5), local: false
+[2932.22] Log: PUSHING Accolade: , local: false
+[2932.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2932.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2932.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2932.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2934.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2934.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2935.65] Log: PUSHING Accolade: , local: false
+[2937.15] Log: PUSHING Accolade: LafromagèreBack a fait un doublé !, local: false
+[2937.15] Log: Suppressing Accolade: 
+[2937.15] Log: Suppressing Accolade: LafromagèreBack a stoppé SpurveNi dans son élan
+[2938.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2938.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2938.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2938.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2938.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2959.94] Log: PUSHING Accolade: , local: false
+[2970.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2970.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2970.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2970.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2972.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2972.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2977.16] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2989.29] Log: PUSHING Accolade: , local: false
+[2989.90] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[2990.81] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3006.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3006.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3006.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3006.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3006.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3008.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3008.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3008.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3008.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3009.26] Log: PUSHING Accolade: LafromagèreBack a tué un joueur !, local: false
+[3010.77] Log: PUSHING Accolade: LafromagèreBack a fait un doublé !, local: false
+[3010.77] Log: Suppressing Accolade: LafromagèreBack fait une tuerie ! (x3)
+[3013.04] Log: Requesting purchase of itemId (8134) amount (1)
+[3027.70] Log: PUSHING Accolade: , local: false
+[3035.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3035.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3037.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3037.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3040.16] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2921 to TgPawn_Athena_0)
+[3040.16] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (4209 to TgPawn_Athena_0)
+[3040.77] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_0)
+[3043.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3043.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3044.50] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[3050.66] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (3516 to TgPawn_Athena_0)
+[3052.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3052.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3054.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3054.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3054.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3054.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3055.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3055.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3055.79] Log: PUSHING Accolade: , local: false
+[3057.31] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3059.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3059.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3059.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3059.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3060.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3060.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3061.69] Log: PUSHING Accolade: Yadavac a fait un doublé !, local: false
+[3061.70] Log: Suppressing Accolade: 
+[3063.22] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3074.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3074.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3074.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3074.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3074.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3074.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3081.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3081.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3081.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3081.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3081.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3082.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3082.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3082.43] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3082.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3093.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3093.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3096.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3096.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3096.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3096.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3096.43] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3097.27] Log: Chat[3]: [VCC] Attention !
+[3099.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3099.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3099.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3099.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3099.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3099.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3101.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3103.74] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[3106.18] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (4209 to TgPawn_Athena_0)
+[3109.22] Log: PUSHING Accolade: LafromagèreBack a tué un joueur !, local: false
+[3121.59] Log: PUSHING Accolade: , local: false
+[3123.10] Log: PUSHING Accolade: , local: false
+[3131.76] Log: Requesting purchase of itemId (8134) amount (1)
+[3147.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3147.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3150.62] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_1)
+[3153.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3153.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3153.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3153.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3153.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3158.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3158.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3158.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3158.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3158.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3161.22] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (4209 to TgPawn_Athena_0)
+[3163.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3163.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3163.73] Log: Chat[3]: [VDD] Défendez !
+[3164.42] Log: Chat[3]: [VDD] Défendez !
+[3165.02] Log: Chat[3]: [VDD] Défendez !
+[3165.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3165.47] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_2)
+[3166.87] Log: Chat[3]: [VVA] D'accord !
+[3170.58] Log: PUSHING Accolade: LafromagèreBack fait une tuerie ! (x3), local: false
+[3177.53] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_3)
+[3179.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3179.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3179.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3179.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3179.97] Log: PUSHING Accolade: , local: false
+[3181.47] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3189.47] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2731 to TgPawn_Athena_0)
+[3190.92] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_4)
+[3193.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3193.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3197.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3197.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3197.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3197.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3201.27] Log: Chat[1]: Korinen vient de se déconnecter.
+[3201.27] Log: ---- UpdateClanData
+[3201.31] Log: Chat[9]: Korinen vient de se déconnecter.
+[3201.31] Log: Chat[6]: Korinen vient de se déconnecter.
+[3201.53] Log: PUSHING Accolade: , local: false
+[3203.04] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3206.22] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_5)
+[3210.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3210.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3212.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3217.48] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_6)
+[3221.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3221.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3221.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3221.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3226.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3226.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3229.07] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (3515 to TgPawn_Athena_0)
+[3234.09] Log: PUSHING Accolade: , local: false
+[3235.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3235.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3235.60] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3247.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3247.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3254.62] Log: PUSHING Accolade: MASTODONTE SAUVAGE TUÉ, local: true
+[3259.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3259.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3262.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3264.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3264.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3270.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3270.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3271.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3271.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3272.35] Log: PUSHING Accolade: , local: false
+[3273.87] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3277.84] Log: PUSHING Accolade: SpurveNi fait une tuerie ! (x3), local: false
+[3298.17] Log: PUSHING Accolade: MASTODONTE DE SIÈGE TUÉ, local: true
+[3298.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3298.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3304.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3304.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3304.55] Log: PUSHING Accolade: , local: false
+[3320.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3320.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3322.02] Log: PUSHING Accolade: , local: false
+[3322.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3322.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3322.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3322.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3322.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3324.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3324.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3325.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3329.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3329.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3329.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3329.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3333.09] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2731 to TgPawn_Athena_0)
+[3333.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3333.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3333.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3333.42] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3333.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3340.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3340.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3340.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3340.21] Log: PUSHING Accolade: smoky321 a tué un joueur !, local: false
+[3363.71] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (3903 to TgDeployable_Chaac_Num1Axe_7)
+[3374.16] Log: PUSHING Accolade: SpurveNi fait un massacre ! (x5), local: false
+[3387.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3387.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3391.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.32] Log: PUSHING Accolade: , local: false
+[3398.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3398.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3399.84] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3401.72] ScriptWarning: Accessed None 'm_Num2TweenCylinder'
+	TgPawn_Chaac mayan_siege.TheWorld:PersistentLevel.TgPawn_Chaac_0
+	Function TgGame.TgPawn_Chaac:EndTween:0121
+[3406.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3406.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3406.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3406.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3406.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3406.83] Log: Chat[3]: [VD3] Défendez à droite !
+[3408.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3408.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3441.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3441.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3441.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3441.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3441.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3449.01] Log: Chat[3]: [VAA] Attaquez !
+[3450.33] Log: PUSHING Accolade: , local: false
+[3450.39] Log: Chat[9]: Tuer LafromagèreBack vous a donné 594 XP et 750 pièces d'or.
+[3451.83] Log: Expiring Accolade: VICTIME
+[3453.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3453.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3455.65] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2921 to TgPawn_Athena_0)
+[3456.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3456.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3459.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3461.97] Log: PUSHING Accolade: SpurveNi EST INARRÊTABLE ! (x7), local: false
+[3463.48] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3463.75] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[3475.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3475.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3477.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3477.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[3488.39] Log: Chat[3]: gg
+[3488.54] Log: ---- UpdateClanData
+[3488.54] Log: ---- UpdateClanData
+[3488.55] Log: ---- UpdateClanData
+[3488.66] Log: ---- UpdateClanData
+[3491.07] Log: Chat[3]: [VVGG] Belle partie !
+[3501.14] Log: ---- UpdateClanData
+[3501.30] Log: ---- UpdateClanData
+[3506.40] DevNet: URL: Adding default option Team=255
+[3506.40] Log: ReceiveChangeMap: mapGameId 1447
+[3506.40] Log: ---- UpdateClanData
+[3506.40] Log: ---- UpdateClanData
+[3506.41] DevNet: URL: Adding default option Team=255
+[3506.41] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[3506.94] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[3507.07] NetComeGo: Close PComNetDriver_3 PComNetConn_3 64.95.97.171:9096 06/23/15 22:38:21
+[3507.20] Exit: PComNetDriver_3 shut down
+[3507.53] Log: Map Game ID = 0
+[3507.53] Log: Map Instance ID = 125088416
+[3507.55] Log: Performance: Critical section Lock/Unlock 25 nsec
+[3507.55] Log: Performance:  appCycles 10 nsec
+[3507.60] Log: Performance:  memCopy per KB 252 nsec
+[3507.64] Log: Performance:  memZero per KB 163 nsec
+[3507.65] Log: Performance:  appInterlockedIncrement 13 nsec
+[3507.66] Log: Performance:  GetTickCount 4 nsec
+[3507.66] Log: Game class is 'TgGameLaunch'
+[3507.66] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[3507.66] Log: Flushing async loaders.
+[3507.69] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[3507.69] Log: Flushed async loaders.
+[3507.75] Log: Primary PhysX scene will be in software.
+[3507.75] Log: Creating Primary PhysX Scene.
+[3507.75] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[3507.75] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.06.23-22.38.21
+[3507.75] Log: Skipping initialization of FSMPartPool!
+[3507.83] Log: Bringing up level for play took: 0.138802
+[3508.85] TgSLO: Async Load: GOD_Athena
+[3508.85] TgSLO: Async Load: GOD_Athena_Lobby
+[3508.85] TgSLO: Async Load: FX_Athena
+[3508.85] Log: Flushing async loaders.
+[3509.00] TgSLO: Finish Load: GOD_Athena
+[3509.06] TgSLO: Finish Load: GOD_Athena_Lobby
+[3509.08] TgSLO: Finish Load: FX_Athena
+[3509.08] Log: Flushed async loaders.
+[3509.09] Log: ########### Finished loading level: 2.151888 seconds
+[3509.10] Log: Flushing async loaders.
+[3509.22] Log: Flushed async loaders.
+[3509.22] Log: RequestingChannelMembers ch[3] [SpurveNi a quitté la discussion.]
+[3509.22] Log: RequestingChannelMembers ch[3] [Yadavac a quitté la discussion.]
+[3509.22] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[3509.72] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_5)
+[3509.80] Log: FKAggregateGeom::InstanceNovodexGeom: () Cannot 3D-Scale rigid-body primitives (sphere, box, sphyl).
+[3509.80] Log: URB_BodyInstance::InitBody : Could not create new Shape: 
+[3509.81] Log: RequestingChannelMembers ch[8] [LafromagèreBack a rejoint la discussion.]
+[3509.81] Log: RequestingChannelMembers ch[8] [Wallkyra a rejoint la discussion.]
+[3512.67] Log: RequestingChannelMembers ch[8] [Yadavac a rejoint la discussion.]
+[3514.46] Log: RequestingChannelMembers ch[8] [Wallkyra a quitté la discussion.]
+[3516.18] Log: RequestingChannelMembers ch[8] [smoky321 a rejoint la discussion.]
+[3521.27] Log: RequestingChannelMembers ch[8] [SpurveNi a quitté la discussion.]
+[3529.00] Log: RequestingChannelMembers ch[8] [Yadavac a quitté la discussion.]
+[3540.87] Log: ERROR: Attempting to log in without settings.
+[3544.87] Log: ---- UpdateClanData
+[3545.45] Log: ---- UpdateClanData
+[3545.49] Log: GFx attempted to load missing object [MenuManager.undefined]
+[3548.16] Log: ---- UpdateClanData
+[3552.55] Log: Closing by request
+[3552.55] Log: appRequestExit(0)
+[3552.55] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[3553.93] Exit: Preparing to exit.
+[3554.28] Exit: Game engine shut down
+[3554.73] Exit: Windows client shut down
+[3554.78] Exit: XAudio2 Device shut down.
+[3555.16] Exit: Object subsystem successfully closed.
+[3556.71] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[3556.83] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[3556.89] Log: Shutting down FaceFX...
+[3556.89] Log: FaceFX shutdown.
+[3557.16] Exit: Exiting.

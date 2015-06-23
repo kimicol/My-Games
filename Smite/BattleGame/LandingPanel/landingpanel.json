@@ -25,25 +25,15 @@
                 "probability": "10000"
             },
 			{ 
-			  "id": "SumSmite22",
+			  "id": "SizzyBSummerOfSmite",
 			  "header": "Summer of SMITE",
 			  "desc": "Catch a Wave of New Skins, Icons and More",
-			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_FireworkEmote.jpg",
-			  "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_FireworkEmote.jpg",
+			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_BizzyBCupid.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_BizzyBCupid.jpg",,
 			  "data": "9",
 			  "type": "1",
 			  "probability" : "1000"
 			},
-			{
-				"id": "FriendswithBenefits",
-				"header": "Friends with Benefits",
-				"desc": "Earn more rewards when you play with friends this weekend.",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_DoubleFriendWeekend.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_DoubleFriendWeekend.jpg",
-				"data": "0",
-				"type": "0",
-				"probability" : "100000"
-            },
 			    { 
 				"id": "curse",
 			    "header": "SMITE Partners with Curse Voice",
@@ -102,11 +92,11 @@
 				"probability" : "1000"
             },
             {
-				"id": "FireworksEmote2",
-				"header": "Summer of SMITE: Fireworks Emote",
-				"desc": "Light up the sky this summer in SMITE!!",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_FireworkEmote.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_FireworkEmote.jpg",
+				"id": "BizzyBeeCupid2",
+				"header": "Bizzy B Cupid",
+				"desc": "Buzzing into Summer of SMITE",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_BizzyBCupid.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_BizzyBCupid.jpg",
 				"data": "11606",
 				"type": "0",
 				"probability" : "100"
