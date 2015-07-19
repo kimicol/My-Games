@@ -15,11 +15,11 @@
 				"hideIfOwned" : "ugp"
             },
 			{ 
-			  "id": "SizzyBSummerOfSmite33",
+			  "id": "SizzyBSummerOfSmite44",
 			  "header": "Summer of SMITE",
 			  "desc": "Catch a Wave of New Skins, Icons and More",
-			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_SandcastleGeb.jpg",
-		      "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_SandcastleGeb.jpg",,
+			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_Skaliwag.jpg",
+		      "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_Skaliwag.jpg",
 			  "data": "9",
 			  "type": "1",
 			  "probability" : "1000"
@@ -55,11 +55,11 @@
 				"probability" : "100"
             },
 		    { 
-				"id": "curse",
-			    "header": "SMITE Partners with Curse Voice",
-			    "desc": "Earn 200 Gems and the Curse Voice Apollo Skin",
-			    "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Feature_Images_CURSE_Apollo5.jpg",
-			    "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/Feature_Images_CURSE_Apollo_THUMB2.jpg",
+				"id": "DblEvcurse",
+			    "header": "Seeing Double? Only This Weekend With Curse!",
+			    "desc": "Earn double everything when using Curse Voice from July 18th-19th!!",
+			    "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_DubEv_Curse.jpg",
+			    "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_DubEv_Curse.jpg",
 			    "data": "http://beta.cursevoice.com/games/smite",
 			    "type": "3",
 			    "probability" : "10"
@@ -92,11 +92,11 @@
 				"probability" : "1000"
             },
             {
-				"id": "Sandcastlegebwoo",
-				"header": "Life's a Beach GEB",
-				"desc": "New GEB Skin likes the Beach",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_SandcastleGeb.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_SandcastleGeb.jpg",
+				"id": "Skaliwagggg",
+				"header": "New Kali Skin: Skaliwag",
+				"desc": "Batten down the hatches, Skaliwag has arrived!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargePCstoreimage_Skaliwag.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_Skaliwag.jpg",
 				"data": "11575",
 				"type": "0",
 				"probability" : "100"
@@ -146,7 +146,7 @@
 				"data": "11573",
 				"type": "0",
 				"probability" : "1000"
-            },
+            }
         ]
     },
 
@@ -164,10 +164,10 @@
 			  "probability" : "0"
 			},
             {
-                "id": "Fireworks33",
-                "header": "Fireworks Emote",
-                "desc": "Fireworks Emote blowing up on Summer of SMITE",
-                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/FireworksEmote_StoreImage.jpg",
+                "id": "Gebsss",
+                "header": "Life's a Beach GEB",
+                "desc": "New GEB Skin likes the Beach",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/StoreSmall_RightSide_425x133_SandcastleGeb.jpg",
                 "data": "11606",
                 "type": "0",
                 "probability": "1000"

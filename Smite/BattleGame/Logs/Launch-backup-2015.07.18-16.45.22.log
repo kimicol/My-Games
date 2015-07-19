@@ -1,0 +1,970 @@
+[0000.28] Log: Async Log file open, 07/17/15 19:34:27
+[0000.28] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.28] Log:  ... running in INSTALLED mode
+[0000.28] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.28] Init: Version: 10897
+[0000.28] Init: Epic Internal: 0
+[0000.28] Init: Compiled (32-bit): Jul 10 2015 19:53:38
+[0000.28] Init: Changelist: 1532151
+[0000.28] Init: Game is version 2.9.2835.5.
+[0000.28] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722772285226232883297327732084229424642325251620 -cnmg2=722772265225232783207328732984249423642425215521 -ASYNCTICK=FALSE -HiCommand -HEXX=8E083E4D
+[0000.28] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.35] Init: Computer: PC-ARTHUR
+[0000.35] Init: User: Arthur
+[0000.35] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.35] Init: High frequency timer resolution =2.240910 MHz
+[0000.35] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=4.0GB
+[0000.41] DevOnline: Initializing MCTS
+[0000.41] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.42] Init: Object subsystem initialized
+[0000.42] Log: Overriding lang INT w/ command-line option of FRA
+[0003.29] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0003.30] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.30] Log: ShadowPatch: Error -pid should be passed on command line.
+[0003.50] Log: AsyncTickTasks DISABLED at startup
+[0003.54] Log: SystemSettings based on: SystemSettings
+[0003.54] Log: SystemSettings based on: SystemSettings
+[0003.54] Log: SystemSettings based on: SystemSettings
+[0003.54] Log: SystemSettings based on: SystemSettings
+[0003.54] Log: SystemSettings based on: SystemSettings
+[0004.17] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0004.17] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0004.30] Log: Shader platform (RHI): PC-D3D-SM3
+[0004.55] Log: PhysX GPU Support: DISABLED
+[0007.26] Log: Assembly Loaded Version: DBExport: 07/09/2015 15:51:40,  Src=devsql.hirezcorp.com:smite_live_build, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0023.47] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0024.33] Log: 117498 objects as part of root set at end of initial load.
+[0024.33] Log: 0 out of 0 bytes used by permanent object pool.
+[0024.33] Log: Initializing Engine...
+[0025.79] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0025.79] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0025.80] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0025.80] Log: GFx attempted to load missing object [Logos]
+[0025.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0025.80] Warning: Warning, Failed to find object 'Class None.'
+[0025.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0025.80] Warning: Warning, Failed to find object 'Class None.'
+[0025.80] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0025.80] Warning: Warning, Failed to find object 'Class None.'
+[0025.81] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0025.81] Warning: Warning, Failed to find object 'Class None.'
+[0025.83] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0025.83] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0026.10] Log: Map Game ID = 0
+[0026.10] Log: Map Instance ID = 127154493
+[0026.13] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0026.13] Log: Performance:  appCycles 12 nsec
+[0026.21] Log: Performance:  memCopy per KB 422 nsec
+[0026.24] Log: Performance:  memZero per KB 131 nsec
+[0026.25] Log: Performance:  appInterlockedIncrement 13 nsec
+[0026.26] Log: Performance:  GetTickCount 4 nsec
+[0026.26] Log: Game class is 'TgGameLaunch'
+[0026.27] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0026.27] Log: Flushing async loaders.
+[0026.40] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0026.40] Log: Flushed async loaders.
+[0026.44] Log: Primary PhysX scene will be in software.
+[0026.44] Log: Creating Primary PhysX Scene.
+[0026.44] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0026.44] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.17-19.34.53
+[0026.44] Log: Skipping initialization of FSMPartPool!
+[0026.79] Log: Bringing up level for play took: 0.377557
+[0036.37] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0036.37] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0036.55] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0037.57] Log: ########### Finished loading level: 11.739940 seconds
+[0037.70] Log: Flushing async loaders.
+[0037.94] Log: Flushed async loaders.
+[0037.94] Log: Initializing Engine Completed
+[0037.94] Log: >>>>>>>>>>>>>> Initial startup: 37.94s <<<<<<<<<<<<<<<
+[0037.94] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0038.39] Log: WebFactory created
+[0055.75] Log: Login Success: kimicol
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\UncleSamChest33.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\Ravana.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\Skaliwagggg.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticketSkinNew.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\UncleSamChest22.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\AoKuangSkinDragonKing.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBCupid4.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gebsss.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\HercHunkulese.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\MadameNoxLowerStore.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\HeavenlyWarlord223.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\TyrantRavana.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\SizzyBSummerOfSmite44.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\SizzyBSummerOfSmite44_thumb.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\ReferAFriend22.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\ReferAFriend22_thumb.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\SwC2016.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\SwC2016_thumb.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\XboxOneOpenBeta.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\XboxOneOpenBeta_thumb.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\curse.jpg' error ()
+[0056.33] Error: Failed to read file '..\..\BattleGame\LandingPanel\curse_thumb.jpg' error ()
+[0056.34] Log: Team/Instance chat routed to Instance Server.
+[0056.34] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0056.34] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0057.09] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0091.51] Log: Chat[1]: Statut du clan : Tiny42SH
+[0091.51] Log: ---- UpdateClanData
+[0093.46] Log: ---- UpdateClanData
+[0094.16] Log: ---- UpdateClanData
+[0114.89] Log: ---- UpdateClanData
+[0127.40] Log: ---- UpdateClanData
+[0127.55] Log: ---- UpdateClanData
+[0127.82] Log: GFx attempted to load missing object [MenuManager.undefined]
+[0159.90] Log: Chat[9]: Namarand vient de se déconnecter.
+[0159.90] Log: Chat[6]: Namarand vient de se déconnecter.
+[0159.91] Log: Chat[1]: Namarand vient de se déconnecter.
+[0159.91] Log: ---- UpdateClanData
+[0168.97] Log: ---- UpdateClanData
+[0220.50] Log: Chat[1]: Namarand vient de se connecter.
+[0220.51] Log: ---- UpdateClanData
+[0220.61] Log: ---- UpdateClanData
+[0220.62] Log: Chat[9]: Namarand vient de se connecter.
+[0220.62] Log: Chat[6]: Namarand vient de se connecter.
+[0220.62] Log: RequestingChannelMembers ch[1] [Namarand a rejoint la discussion.]
+[0244.81] Log: Chat[1]: Skyxavatar vient de se déconnecter.
+[0244.81] Log: ---- UpdateClanData
+[0287.22] Log: Chat[1]: Bon j'espere que ça va pas re-crash.
+[0499.18] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0502.93] Log: ---- UpdateClanData
+[0680.67] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0680.67] Log: RequestingChannelMembers ch[3] [Fr0stn1nja a rejoint la discussion.]
+[0680.67] Log: RequestingChannelMembers ch[3] [Fr0stn1nja a quitté la discussion.]
+[0686.23] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0691.63] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0691.63] Warning: Warning, Failed to find object 'Class None.None'
+[0703.75] TgSLO: Async Load: GOD_Athena
+[0703.75] TgSLO: Async Load: GOD_Athena_Lobby
+[0703.75] TgSLO: Async Load: FX_Athena
+[0704.93] TgSLO: Finish Load: GOD_Athena
+[0705.28] TgSLO: Finish Load: GOD_Athena_Lobby
+[0705.84] TgSLO: Finish Load: FX_Athena
+[0705.87] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_0)
+[0711.80] TgSLO: Async Load: GOD_Xbalanque
+[0711.80] TgSLO: Async Load: GOD_Xbalanque_Lobby
+[0711.80] TgSLO: Async Load: FX_Xbalanque
+[0712.41] TgSLO: Finish Load: GOD_Xbalanque
+[0712.59] TgSLO: Finish Load: GOD_Xbalanque_Lobby
+[0712.94] TgSLO: Finish Load: FX_Xbalanque
+[0719.15] TgSLO: Async Load: GOD_Thanatos
+[0719.15] TgSLO: Async Load: GOD_Thanatos_Lobby
+[0719.15] TgSLO: Async Load: FX_Thanatos
+[0719.15] TgSLO: Async Load: GOD_Thanatos_Skins
+[0719.15] TgSLO: Async Load: FX_Thanatos_skin1
+[0726.94] TgSLO: Finish Load: GOD_Thanatos
+[0731.03] TgSLO: Finish Load: GOD_Thanatos_Lobby
+[0732.56] TgSLO: Finish Load: FX_Thanatos
+[0732.63] TgSLO: Finish Load: GOD_Thanatos_Skins
+[0732.66] TgSLO: Finish Load: FX_Thanatos_skin1
+[0744.61] DevNet: URL: Adding default option Team=255
+[0744.61] Log: ReceiveChangeMap: mapGameId 1503
+[0744.94] DevNet: URL: Adding default option Team=255
+[0744.94] DevNet: Browse: 64.95.97.162:9078/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=170168140?Team=255
+[0744.95] DevNet: Game client on port 9078, rate 25000
+[0745.45] DevNet: Welcomed by server (Level: joust_v2_p, Game: TgGame.TgGame_Battle_Joust)
+[0745.72] Log: LoadMap: 64.95.97.162:9078/joust_v2_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=170168140?Team=255?game=TgGame.TgGame_Battle_Joust
+[0746.13] Log: Map Game ID = 0
+[0746.13] Log: Map Instance ID = 127154493
+[0746.16] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0746.16] Log: Performance:  appCycles 12 nsec
+[0746.21] Log: Performance:  memCopy per KB 251 nsec
+[0746.24] Log: Performance:  memZero per KB 156 nsec
+[0746.26] Log: Performance:  appInterlockedIncrement 13 nsec
+[0746.26] Log: Performance:  GetTickCount 4 nsec
+[0760.49] TgSLO: Async Load: FX_Store_Items
+[0760.49] TgSLO: Async Load: FX_Store_Items_Targeting
+[0760.49] TgSLO: Async Load: FX_Status_Effects
+[0760.49] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0760.49] TgSLO: Async Load: GOD_Common_AT
+[0760.49] TgSLO: Async Load: AUD_VOX_Narrator
+[0760.49] TgSLO: Async Load: NPC_Ward2
+[0760.49] TgSLO: Async Load: FX_Buff_Belts_V2
+[0760.49] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0760.49] TgSLO: Async Load: GOD_Athena
+[0760.49] TgSLO: Async Load: GOD_Athena_Textures
+[0760.49] TgSLO: Async Load: FX_Athena
+[0760.49] TgSLO: Async Load: FX_Athena_Targeting
+[0760.49] TgSLO: Async Load: AUD_God_Athena
+[0760.49] TgSLO: Async Load: GOD_Thanatos
+[0760.49] TgSLO: Async Load: GOD_Thanatos_Textures
+[0760.49] TgSLO: Async Load: FX_Thanatos
+[0760.49] TgSLO: Async Load: AUD_God_Thanatos
+[0760.49] TgSLO: Async Load: GOD_Thanatos_Skins
+[0760.49] TgSLO: Async Load: FX_Thanatos_skin1
+[0760.49] TgSLO: Async Load: NPC_Ward_Curse
+[0760.49] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[0760.49] TgSLO: Async Load: NPC_Ward_Eyeballs
+[0760.49] TgSLO: Async Load: FX_Common
+[0760.49] TgSLO: Async Load: AUD_UI
+[0760.49] TgSLO: Async Load: GOD_Xbalanque
+[0760.49] TgSLO: Async Load: GOD_Xbalanque_Textures
+[0760.49] TgSLO: Async Load: FX_Xbalanque
+[0760.49] TgSLO: Async Load: AUD_God_Xbalanque
+[0760.50] TgSLO: Async Load: GOD_Poseidon
+[0760.50] TgSLO: Async Load: GOD_Poseidon_Textures
+[0760.50] TgSLO: Async Load: FX_Poseidon
+[0760.50] TgSLO: Async Load: AUD_God_Poseidon
+[0760.50] TgSLO: Async Load: NPC_Kraken
+[0760.50] TgSLO: Async Load: NPC_Kraken_Textures
+[0760.50] TgSLO: Async Load: AUD_NPC_Kraken
+[0760.50] TgSLO: Async Load: GOD_Poseidon_Skins
+[0760.50] TgSLO: Async Load: NPC_Kraken_Skins
+[0760.50] TgSLO: Async Load: FX_Poseidon_Gold
+[0760.53] TgSLO: Async Load: AnimNotify8937
+[0760.53] TgSLO: Async Load: GOD_Hades
+[0760.53] TgSLO: Async Load: GOD_Hades_Textures
+[0760.53] TgSLO: Async Load: FX_Hades
+[0760.53] TgSLO: Async Load: AUD_God_Hades
+[0760.53] TgSLO: Async Load: GOD_Hades_Skin3
+[0760.53] TgSLO: Async Load: FX_Hades_skin3
+[0760.53] TgSLO: Async Load: GOD_Anhur
+[0760.53] TgSLO: Async Load: GOD_Anhur_Textures
+[0760.53] TgSLO: Async Load: FX_Anhur
+[0760.53] TgSLO: Async Load: AUD_God_Anhur
+[0760.55] TgSLO: Async Load: Joust_Tower
+[0760.55] TgSLO: Async Load: FX_Tower
+[0760.55] TgSLO: Async Load: FX_Greek_Tower
+[0760.55] TgSLO: Async Load: AUD_Tower
+[0760.55] TgSLO: Async Load: NPC_Phoenix
+[0760.55] TgSLO: Async Load: NPC_Phoenix_Textures
+[0760.55] TgSLO: Async Load: FX_Phoenix
+[0760.55] TgSLO: Async Load: AUD_NPC_Phoenix
+[0760.55] TgSLO: Async Load: MDL_PseudoMesh
+[0760.55] TgSLO: Async Load: NPC_Joust_Minion
+[0760.55] TgSLO: Async Load: NPC_Joust_Minion_Textures
+[0760.55] TgSLO: Async Load: NPC_Minion_Universal
+[0760.55] TgSLO: Async Load: FX_Roman
+[0760.55] TgSLO: Async Load: FX_Minion_Death
+[0760.55] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0760.55] TgSLO: Async Load: AUD_NPC_Olympus
+[0760.55] TgSLO: Async Load: NPC_Guardian_Female
+[0760.55] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0760.55] TgSLO: Async Load: FX_Guardian_Female
+[0760.55] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0760.55] TgSLO: Async Load: NPC_Guardian_Male
+[0760.56] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0760.56] TgSLO: Async Load: FX_Guardian_Male
+[0760.56] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0760.56] TgSLO: Async Load: NPC_Cyclops_V2
+[0760.56] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0760.56] TgSLO: Async Load: AUD_NPC_Cyclops
+[0760.56] Log: Flushing async loaders.
+[0760.61] TgSLO: Finish Load: FX_Store_Items
+[0760.68] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0760.69] TgSLO: Finish Load: FX_Status_Effects
+[0760.73] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0760.73] TgSLO: Finish Load: GOD_Common_AT
+[0760.90] TgSLO: Finish Load: AUD_VOX_Narrator
+[0760.92] TgSLO: Finish Load: NPC_Ward2
+[0760.95] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0760.98] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0761.13] TgSLO: Finish Load: GOD_Athena
+[0761.13] TgSLO: Finish Load: GOD_Athena_Textures
+[0761.15] TgSLO: Finish Load: FX_Athena
+[0761.19] TgSLO: Finish Load: FX_Athena_Targeting
+[0761.24] TgSLO: Finish Load: AUD_God_Athena
+[0761.39] TgSLO: Finish Load: GOD_Thanatos
+[0761.39] TgSLO: Finish Load: GOD_Thanatos_Textures
+[0761.42] TgSLO: Finish Load: FX_Thanatos
+[0761.55] TgSLO: Finish Load: AUD_God_Thanatos
+[0761.57] TgSLO: Finish Load: GOD_Thanatos_Skins
+[0761.57] TgSLO: Finish Load: FX_Thanatos_skin1
+[0761.64] TgSLO: Finish Load: NPC_Ward_Curse
+[0761.64] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[0761.75] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[0761.85] TgSLO: Finish Load: FX_Common
+[0761.90] TgSLO: Finish Load: AUD_UI
+[0761.98] TgSLO: Finish Load: GOD_Xbalanque
+[0761.98] TgSLO: Finish Load: GOD_Xbalanque_Textures
+[0762.01] TgSLO: Finish Load: FX_Xbalanque
+[0762.09] TgSLO: Finish Load: AUD_God_Xbalanque
+[0762.41] TgSLO: Finish Load: GOD_Poseidon
+[0762.41] TgSLO: Finish Load: GOD_Poseidon_Textures
+[0762.49] TgSLO: Finish Load: FX_Poseidon
+[0762.57] TgSLO: Finish Load: AUD_God_Poseidon
+[0762.79] TgSLO: Finish Load: NPC_Kraken
+[0762.79] TgSLO: Finish Load: NPC_Kraken_Textures
+[0762.82] TgSLO: Finish Load: AUD_NPC_Kraken
+[0762.84] TgSLO: Finish Load: GOD_Poseidon_Skins
+[0762.85] TgSLO: Finish Load: NPC_Kraken_Skins
+[0762.88] TgSLO: Finish Load: FX_Poseidon_Gold
+[0762.89] TgSLO: Finish Load: AnimNotify8937
+[0763.23] TgSLO: Finish Load: GOD_Hades
+[0763.23] TgSLO: Finish Load: GOD_Hades_Textures
+[0763.28] TgSLO: Finish Load: FX_Hades
+[0763.35] TgSLO: Finish Load: AUD_God_Hades
+[0763.43] TgSLO: Finish Load: GOD_Hades_Skin3
+[0763.45] TgSLO: Finish Load: FX_Hades_skin3
+[0764.03] TgSLO: Finish Load: GOD_Anhur
+[0764.03] TgSLO: Finish Load: GOD_Anhur_Textures
+[0764.08] TgSLO: Finish Load: FX_Anhur
+[0764.17] TgSLO: Finish Load: AUD_God_Anhur
+[0764.53] TgSLO: Finish Load: Joust_Tower
+[0764.55] TgSLO: Finish Load: FX_Tower
+[0764.60] TgSLO: Finish Load: FX_Greek_Tower
+[0764.71] TgSLO: Finish Load: AUD_Tower
+[0764.90] TgSLO: Finish Load: NPC_Phoenix
+[0764.92] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0764.94] TgSLO: Finish Load: FX_Phoenix
+[0765.00] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0765.01] TgSLO: Finish Load: MDL_PseudoMesh
+[0765.07] TgSLO: Finish Load: NPC_Joust_Minion
+[0765.07] TgSLO: Finish Load: NPC_Joust_Minion_Textures
+[0765.27] TgSLO: Finish Load: NPC_Minion_Universal
+[0765.30] TgSLO: Finish Load: FX_Roman
+[0765.31] TgSLO: Finish Load: FX_Minion_Death
+[0765.35] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0765.35] TgSLO: Finish Load: AUD_NPC_Olympus
+[0765.71] TgSLO: Finish Load: NPC_Guardian_Female
+[0765.73] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0765.74] TgSLO: Finish Load: FX_Guardian_Female
+[0765.74] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0766.06] TgSLO: Finish Load: NPC_Guardian_Male
+[0766.09] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0766.12] TgSLO: Finish Load: FX_Guardian_Male
+[0766.13] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0766.38] TgSLO: Finish Load: NPC_Cyclops_V2
+[0766.38] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0766.47] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0766.47] Log: Flushed async loaders.
+[0766.48] Log: Primary PhysX scene will be in software.
+[0766.48] Log: Creating Primary PhysX Scene.
+[0766.52] Log: Bringing World joust_v2_p.TheWorld up for play (595) at 2015.07.17-19.47.13
+[0766.52] Log: Skipping initialization of FSMPartPool!
+[0766.52] Log: Bringing up level for play took: 0.051717
+[0766.52] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0766.52] Warning: Warning, Failed to find object 'Class None.'
+[0766.52] Log: PlayerController class for the pending level is PlayerController
+[0766.52] Log: ########### Finished loading level: 20.806626 seconds
+[0766.52] Log: Flushing async loaders.
+[0767.76] Log: Flushed async loaders.
+[0767.95] Log: ---- UpdateClanData
+[0767.95] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0768.00] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgPawn_Athena_0)
+[0768.15] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.15] Log: Mark Effect Group 28503: Not of type HIT SPECIAL!
+[0768.16] Log: TeamIndex 2 has new leader: 7018057
+[0768.16] Log: TeamIndex 1 has new leader: 5737500
+[0768.17] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.17] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.17] Warning: Attempting to attach NULL component to TgSkeletalMeshComponent_73, socket CSO_FX_Waist_01
+[0768.17] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.17] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.18] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0768.36] Log: ---- UpdateClanData
+[0768.37] Log: ActivateLevel joust_v2_crowd 1 1 0
+[0768.37] Log: ActivateLevel joust_sound 1 1 0
+[0768.37] Log: ActivateLevel joust_v2_p_assist 1 1 0
+[0769.72] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0770.61] Log: Flushing async loaders.
+[0770.67] Log: Flushed async loaders.
+[0770.86] Log: Activated joust_v2_p_assist 1 1 0
+[0772.33] Log: ---- UpdateClanData
+[0777.16] Log: Requesting purchase of itemId (10040) amount (1)
+[0788.46] Log: Requesting purchase of itemId (9035) amount (1)
+[0791.12] Log: Requesting purchase of itemId (8134) amount (1)
+[0791.26] Log: Requesting purchase of itemId (8134) amount (1)
+[0792.67] Log: Requesting purchase of itemId (8135) amount (1)
+[0819.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0819.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0822.30] Log: Chat[3]: MIME
+[0837.40] Log: Chat[3]: ty :3
+[0843.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0843.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0847.10] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2150 to TgPawn_Athena_0)
+[0849.45] Log: PUSHING Accolade: sspuwn verse le Premier sang !, local: false
+[0855.34] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[0864.24] Log: Requesting purchase of itemId (10044) amount (1)
+[0868.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0868.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0870.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0870.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0879.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0879.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0879.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0879.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0879.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0880.75] Log: Chat[9]: Tuer sspuwn vous a donné 140 XP et 357 pièces d'or.
+[0880.95] Log: PUSHING Accolade: VICTIME, local: true
+[0882.46] Log: PUSHING Accolade: VENGEANCE, local: true
+[0886.70] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[0898.59] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[0907.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0907.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0909.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0909.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0910.31] Log: Chat[3]: [VVB] Je reviens !
+[0918.14] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[0919.04] Log: PUSHING Accolade: , local: false
+[0922.89] Log: Requesting purchase of itemId (10204) amount (1)
+[0925.63] Log: Requesting purchase of itemId (8134) amount (1)
+[0930.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0930.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0931.95] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[0932.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0932.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0932.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0932.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0932.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0940.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0940.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0940.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0940.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0961.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0962.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0962.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0965.69] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[0971.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0971.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0971.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0971.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0976.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0976.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0978.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0978.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0985.64] Log: PUSHING Accolade: , local: false
+[0986.46] Log: Requesting purchase of itemId (10205) amount (1)
+[0987.61] Log: Requesting purchase of itemId (8134) amount (1)
+[0987.94] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[0992.95] Log: PUSHING Accolade: , local: false
+[0993.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0993.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0993.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0993.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0993.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0994.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0996.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0996.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0998.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1004.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1007.05] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1033.19] Log: Chat[1]: Fullife vient de se déconnecter.
+[1033.20] Log: ---- UpdateClanData
+[1033.36] Log: Chat[9]: Fullife vient de se déconnecter.
+[1033.36] Log: Chat[6]: Fullife vient de se déconnecter.
+[1034.36] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1947 to TgPawn_Athena_0)
+[1046.66] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2150 to TgPawn_Athena_0)
+[1049.64] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1083.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1083.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1085.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1085.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1114.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1114.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1118.05] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1118.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1118.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1119.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1119.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1119.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1119.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1128.34] Log: Requesting purchase of itemId (12166) amount (1)
+[1134.04] Log: Requesting purchase of itemId (8134) amount (1)
+[1134.19] Log: Requesting purchase of itemId (8134) amount (1)
+[1134.36] Log: Requesting purchase of itemId (8134) amount (1)
+[1140.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1140.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1140.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1140.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1140.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1142.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1142.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1142.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1142.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1150.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1150.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1152.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1152.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1152.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1152.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1152.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1154.32] Log: Chat[9]: Tuer DJozek vous a donné 260 XP et 353 pièces d'or.
+[1154.52] Log: PUSHING Accolade: VICTIME, local: true
+[1154.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1154.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1157.12] Log: PUSHING Accolade: sspuwn a fait un doublé !, local: false
+[1157.12] Log: Suppressing Accolade: 
+[1157.12] Log: Suppressing Accolade: 
+[1163.86] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1175.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1175.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1175.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1175.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1175.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1176.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1178.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1178.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1178.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1178.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1178.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1188.77] Log: Requesting purchase of itemId (10201) amount (1)
+[1188.91] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1188.91] Warning: Warning, Failed to find object 'Class None.None'
+[1188.91] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1188.91] Warning: Warning, Failed to find object 'Class None.None'
+[1190.69] Log: Requesting purchase of itemId (8134) amount (1)
+[1192.68] Log: Requesting purchase of itemId (9036) amount (1)
+[1197.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1197.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1200.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1200.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1206.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1206.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1208.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1208.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1211.36] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2150 to TgPawn_Athena_0)
+[1216.85] Log: PUSHING Accolade: , local: false
+[1217.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1217.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1218.36] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1218.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1218.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1223.10] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1227.15] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1253.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1253.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1255.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1259.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1259.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1259.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1259.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1263.51] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2150 to TgPawn_Athena_0)
+[1265.09] Log: PUSHING Accolade: , local: false
+[1266.60] Log: PUSHING Accolade: sspuwn fait une tuerie ! (x3), local: false
+[1272.40] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1790 to TgPawn_Athena_0)
+[1274.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1274.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1275.60] Log: PUSHING Accolade: DJozek a tué un joueur !, local: false
+[1277.11] Log: PUSHING Accolade: DÉICIDE, local: true
+[1278.47] Log: Requesting purchase of itemId (10203) amount (1)
+[1280.43] Log: Requesting purchase of itemId (8134) amount (1)
+[1280.63] Log: Requesting purchase of itemId (8134) amount (1)
+[1295.96] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (1027 to NONE)
+[1300.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1300.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1304.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1304.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1305.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1305.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1311.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1311.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1311.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1311.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1312.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1312.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1312.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1312.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1314.26] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1332.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1332.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1332.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1332.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1332.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1335.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1335.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1337.86] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1343.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1343.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1343.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1343.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1343.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1349.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1349.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1355.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1355.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1355.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1355.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1359.42] Log: PUSHING Accolade: sspuwn a tué un joueur !, local: false
+[1381.08] Log: Requesting purchase of itemId (9469) amount (1)
+[1381.86] Log: Chat[3]: athena dont go in alone like that
+[1390.37] Log: Requesting purchase of itemId (8134) amount (1)
+[1417.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1417.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1419.66] Log: PUSHING Accolade: DJozek fait une tuerie ! (x3), local: false
+[1419.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1419.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1419.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1419.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1424.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1424.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1424.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1424.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1424.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1426.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1426.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1426.79] Log: PUSHING Accolade: sspuwn fait un massacre ! (x5), local: false
+[1427.45] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1441.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1441.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1442.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1442.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1457.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1457.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1458.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1458.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1459.89] Log: Chat[9]: Tuer veangences vous a donné 320 XP et 384 pièces d'or.
+[1460.08] Log: PUSHING Accolade: VICTIME, local: true
+[1460.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1460.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1461.59] Log: PUSHING Accolade: Rester en ligne, local: true
+[1466.80] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1484.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1484.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1486.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1486.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1487.01] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2150 to TgPawn_Athena_0)
+[1488.50] Log: PUSHING Accolade: , local: false
+[1489.46] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1493.10] Log: PUSHING Accolade: DJozek a fait un doublé !, local: false
+[1493.10] Log: Suppressing Accolade: DJozek fait un massacre ! (x5)
+[1494.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1494.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1494.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1494.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1496.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1496.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1513.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1570.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1570.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1572.96] Log: PUSHING Accolade: sspuwn a tué un joueur !, local: false
+[1574.01] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1574.87] Log: PUSHING Accolade: sspuwn a fait un doublé !, local: false
+[1574.87] Log: Suppressing Accolade: sspuwn EST INARRÊTABLE ! (x7)
+[1584.00] Log: Requesting purchase of itemId (9496) amount (1)
+[1587.80] Log: Requesting purchase of itemId (8134) amount (1)
+[1588.01] Log: Requesting purchase of itemId (8134) amount (1)
+[1588.21] Log: Requesting purchase of itemId (8134) amount (1)
+[1591.09] Log: Requesting purchase of itemId (8136) amount (1)
+[1609.40] Log: PUSHING Accolade: , local: false
+[1611.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1611.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1613.62] Log: PUSHING Accolade: , local: false
+[1617.01] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1947 to TgPawn_Athena_0)
+[1620.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1620.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1620.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1620.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1620.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1620.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1621.86] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1622.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1622.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1624.23] Log: PUSHING Accolade: Fr0stn1nja a stoppé sspuwn dans son élan, local: false
+[1624.23] Log: Suppressing Accolade: 
+[1625.74] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1632.47] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1634.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1634.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1636.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1636.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1638.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1638.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1649.60] Log: Requesting purchase of itemId (9497) amount (1)
+[1655.44] Log: Requesting purchase of itemId (8134) amount (1)
+[1662.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1662.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1666.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1666.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1666.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1666.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1666.96] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1668.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1668.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1671.87] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1689.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1689.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1690.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1690.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1693.12] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1724.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1724.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1724.52] Log: PUSHING Accolade: , local: false
+[1724.56] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1730.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1730.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1730.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1730.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1730.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1736.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1747.76] Log: PUSHING Accolade: Fr0stn1nja fait une tuerie ! (x3), local: false
+[1752.17] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1753.86] Log: ---- UpdateClanData
+[1759.06] Log: ---- UpdateClanData
+[1783.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1783.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1783.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1783.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1797.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1797.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1797.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1797.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1799.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1799.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1801.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1801.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1803.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1803.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1803.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1803.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1806.01] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1808.52] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1821.63] Log: Requesting purchase of itemId (10214) amount (1)
+[1823.22] Log: Requesting purchase of itemId (8134) amount (1)
+[1823.42] Log: Requesting purchase of itemId (8134) amount (1)
+[1823.56] Log: PUSHING Accolade: , local: false
+[1842.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1842.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1842.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1842.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1849.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1849.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1849.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1849.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1849.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1851.74] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1947 to TgPawn_Athena_0)
+[1853.66] Log: PUSHING Accolade: , local: false
+[1855.68] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1790 to TgPawn_Athena_0)
+[1858.26] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1865.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1865.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1865.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1865.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1867.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1867.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1867.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1867.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1867.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1868.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1868.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1868.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1868.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1872.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1872.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1875.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1875.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1878.92] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1898.83] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1900.90] Log: Chat[9]: Tuer sspuwn vous a donné 500 XP et 726 pièces d'or.
+[1901.09] Log: PUSHING Accolade: VICTIME, local: true
+[1902.59] Log: PUSHING Accolade: VENGEANCE, local: true
+[1904.10] Log: PUSHING Accolade: , local: false
+[1908.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1908.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1913.32] Log: PUSHING Accolade: Fr0stn1nja a stoppé DJozek dans son élan, local: false
+[1913.32] Log: Suppressing Accolade: 
+[1918.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1918.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1918.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1918.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1923.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1923.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1924.09] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1925.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1925.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1927.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1927.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1933.72] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[1937.37] Log: PUSHING Accolade: , local: false
+[1938.88] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1939.63] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1948 to TgPawn_Athena_0)
+[1940.39] Log: PUSHING Accolade: DÉICIDE, local: true
+[1948.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1948.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1971.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1971.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1971.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1971.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1971.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1973.73] Log: PUSHING Accolade: , local: false
+[1982.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1982.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1984.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1984.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[1993.88] Log: Requesting purchase of itemId (8181) amount (1)
+[1999.24] Log: Requesting purchase of itemId (10205) amount (1)
+[2000.60] Log: Requesting purchase of itemId (8134) amount (1)
+[2000.77] Log: Requesting purchase of itemId (8134) amount (1)
+[2007.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2007.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2007.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2007.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2008.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2008.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2009.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2009.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2009.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2009.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2009.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2011.32] Log: AttachToOwner - Socket (WSO_FX_01) not found in owner mesh or its parent! (3196 to TgPawn_Thanatos_Default_0)
+[2011.93] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (1947 to TgPawn_Athena_0)
+[2012.67] Log: PUSHING Accolade: , local: false
+[2017.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2017.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2017.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2017.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2019.73] Log: PUSHING Accolade: , local: false
+[2019.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2019.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[2021.23] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2033.75] Log: SendChat[3] 
+[2035.90] Log: ---- UpdateClanData
+[2041.25] DevNet: URL: Adding default option Team=255
+[2041.25] Log: ReceiveChangeMap: mapGameId 1447
+[2041.25] Log: ---- UpdateClanData
+[2041.25] Log: RequestingChannelMembers ch[3] [Fr0stn1nja a quitté la discussion.]
+[2041.26] DevNet: URL: Adding default option Team=255
+[2041.26] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2041.97] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[2042.05] NetComeGo: Close PComNetDriver_0 PComNetConn_0 64.95.97.162:9078 07/17/15 20:08:29
+[2042.14] Exit: PComNetDriver_0 shut down
+[2042.69] Log: Map Game ID = 0
+[2042.69] Log: Map Instance ID = 127154493
+[2042.72] Log: Performance: Critical section Lock/Unlock 25 nsec
+[2042.72] Log: Performance:  appCycles 11 nsec
+[2042.76] Log: Performance:  memCopy per KB 217 nsec
+[2042.79] Log: Performance:  memZero per KB 132 nsec
+[2042.80] Log: Performance:  appInterlockedIncrement 13 nsec
+[2042.81] Log: Performance:  GetTickCount 4 nsec
+[2042.81] Log: Game class is 'TgGameLaunch'
+[2042.81] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[2042.81] Log: Flushing async loaders.
+[2042.91] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[2042.91] Log: Flushed async loaders.
+[2042.96] Log: Primary PhysX scene will be in software.
+[2042.96] Log: Creating Primary PhysX Scene.
+[2042.96] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2042.96] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.17-20.08.30
+[2042.96] Log: Skipping initialization of FSMPartPool!
+[2043.03] Log: Bringing up level for play took: 0.115853
+[2044.03] TgSLO: Async Load: GOD_Athena
+[2044.03] TgSLO: Async Load: GOD_Athena_Lobby
+[2044.03] TgSLO: Async Load: FX_Athena
+[2044.03] Log: Flushing async loaders.
+[2044.17] TgSLO: Finish Load: GOD_Athena
+[2044.23] TgSLO: Finish Load: GOD_Athena_Lobby
+[2044.25] TgSLO: Finish Load: FX_Athena
+[2044.25] Log: Flushed async loaders.
+[2044.26] Log: ########### Finished loading level: 2.287012 seconds
+[2044.31] Log: Flushing async loaders.
+[2044.50] Log: Flushed async loaders.
+[2044.51] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[2045.03] Log: AttachToOwner - Socket (CSO_FX_BuffBelt_01) not found in owner mesh or its parent! (2762 to TgSkeletalMeshActor_Lobby_5)
+[2045.29] Log: RequestingChannelMembers ch[8] [sspuwn a rejoint la discussion.]
+[2045.40] Log: RequestingChannelMembers ch[8] [DJozek a rejoint la discussion.]
+[2053.58] Log: RequestingChannelMembers ch[8] [sspuwn a quitté la discussion.]
+[2053.97] Log: RequestingChannelMembers ch[8] [veangences a quitté la discussion.]
+[2057.12] Log: RequestingChannelMembers ch[8] [Fr0stn1nja a quitté la discussion.]
+[2092.42] Log: ERROR: Attempting to log in without settings.
+[2095.75] Log: ---- UpdateClanData
+[2296.65] Log: Closing by request
+[2296.65] Log: appRequestExit(0)
+[2296.66] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[2298.00] Exit: Preparing to exit.
+[2298.33] Exit: Game engine shut down
+[2298.40] Exit: Windows client shut down
+[2298.64] Exit: XAudio2 Device shut down.
+[2298.95] Exit: Object subsystem successfully closed.
+[2300.48] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2300.64] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2300.72] Log: Shutting down FaceFX...
+[2300.72] Log: FaceFX shutdown.
+[2300.98] Exit: Exiting.

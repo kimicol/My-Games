@@ -1,19 +1,19 @@
 ===============================================================
-File 'Age3Log.txt' opened at Sun Jun 21 23:12:23 2015
+File 'Age3Log.txt' opened at Sun Jul 19 16:55:04 2015
 
 ===============================================================
 
-PreGame  6411:  Game locale: French
-PreGame  7039:  nvCPL is unavailable.
-PreGame  9640:  ------------------------------------------------------------------------
-PreGame  9640:  Render using: Intel(R) HD Graphics Family
-PreGame  9641:     Driver: aticfx32.dll -- version 8.17.10.1230
-PreGame  9641:     VendorID = 0x8086
-PreGame  9641:     DeviceID = 0xa16
-PreGame  9641:     SubSysID = 0x2164103c
-PreGame  9641:     Revision = 0x9
-PreGame  9641:     DeviceIdentifier: {D7B78E66-4956-11CF-4277-6E01B7C2C535}
-PreGame  9861:     XML render config -- found vendor 0x8086 as 'Intel'
-PreGame  9996:     XML render config -- choosing generic device configuration file 'geforce fx 6800'
-PreGame  19472:  Game startup complete (19.46 sec)!
-PreGame  19472:  ------------------------------------------------------------
+PreGame  5989:  Game locale: French
+PreGame  6293:  nvCPL is unavailable.
+PreGame  8050:  ------------------------------------------------------------------------
+PreGame  8050:  Render using: Intel(R) HD Graphics Family
+PreGame  8050:     Driver: aticfx32.dll -- version 8.17.10.1230
+PreGame  8050:     VendorID = 0x8086
+PreGame  8050:     DeviceID = 0xa16
+PreGame  8050:     SubSysID = 0x2164103c
+PreGame  8050:     Revision = 0x9
+PreGame  8051:     DeviceIdentifier: {D7B78E66-4956-11CF-4277-6E01B7C2C535}
+PreGame  8070:     XML render config -- found vendor 0x8086 as 'Intel'
+PreGame  8070:     XML render config -- choosing generic device configuration file 'geforce fx 6800'
+PreGame  12297:  Game startup complete (12.30 sec)!
+PreGame  12297:  ------------------------------------------------------------
