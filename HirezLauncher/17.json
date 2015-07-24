@@ -1,0 +1,70 @@
+{
+	"Components" :	[	
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_SummerLanFinal2.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_21_Smite/Launcher_SummerLanFinal2.jpg",
+					"video-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_23_Smite/stream_select.html", 
+					"title" : "Today at 1:00 pm EDT: Summer Split Finals", 
+					"description" : "Watch the top teams face off in the finals of the SPL Summer Split!",
+					"visibleX" : 400
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_eSportsChests.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_23_Smite/Launcher_eSportsChests.jpg",
+					"title" : "All eSports Chests - 200 Gems", 
+					"description" : "Support your favorite teams with this limited time sale!",
+					"visibleX" : 600
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_GodPack.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_GodPack.jpg",
+					"title" : "Ultimate God Pack", 
+					"description" : "Unlock ALL Present and Future Gods",
+					"visibleX" : 477
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_NewLoki.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_21_Smite/Launcher_NewLoki.jpg",
+					"video-url" : "https://www.youtube.com/watch?v=4HHtmva0diU?autoplay=1", 
+					"title" : "Loki Re-Born", 
+					"description" : "Loki Returns With A New Bag of Tricks",
+					"visibleX" : 400
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_MadScienceSylvanus.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_21_Smite/Launcher_MadScienceSylvanus.jpg",
+					"title" : "New Sylvanus Skin: Dr Vanus", 
+					"description" : "Experiment on insanity with the Dr Vanus skin. It’s ALIVE!",
+					"visibleX" : 400
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_SeasonTicket.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_SeasonTicket.jpg",
+					"title" : "Season Ticket 2015", 
+					"description" : "Unlock Cool Exclusive Skins, Icons and More.",
+					"visibleX" : 260
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"image" : "Launcher_PirateKali.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_PirateKali.jpg",
+					"video-url" : "https://www.youtube.com/embed/aOUEnhsAq2E?autoplay=1", 
+					"title" : "Summer of SMITE", 
+					"description" : "Catch a wave of New Skins, Icons and More",
+					"visibleX" : 400
+				}
+			]
+}
