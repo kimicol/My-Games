@@ -1,0 +1,331 @@
+[0000.17] Log: Async Log file open, 07/24/15 21:54:55
+[0000.17] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.17] Log:  ... running in INSTALLED mode
+[0000.17] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.17] Init: Version: 10897
+[0000.17] Init: Epic Internal: 0
+[0000.17] Init: Compiled (32-bit): Jul 17 2015 18:53:29
+[0000.17] Init: Changelist: 1532151
+[0000.17] Init: Game is version 2.10.2868.0.
+[0000.17] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722172285221232083287321732984209426642325218523 -cnmg2=722372265222232783207327732484279423642335209523 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=B94C993E
+[0000.17] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.20] Init: Computer: PC-ARTHUR
+[0000.20] Init: User: Arthur
+[0000.20] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.20] Init: High frequency timer resolution =2.240910 MHz
+[0000.20] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.7GB Virtual=4.0GB
+[0000.27] DevOnline: Initializing MCTS
+[0000.28] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.28] Init: Object subsystem initialized
+[0000.28] Log: Overriding lang INT w/ command-line option of FRA
+[0004.30] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0004.31] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0004.31] Log: ShadowPatch: Error -pid should be passed on command line.
+[0004.47] Log: AsyncTickTasks DISABLED at startup
+[0004.51] Log: SystemSettings based on: SystemSettings
+[0004.51] Log: SystemSettings based on: SystemSettings
+[0004.51] Log: SystemSettings based on: SystemSettings
+[0004.51] Log: SystemSettings based on: SystemSettings
+[0004.51] Log: SystemSettings based on: SystemSettings
+[0005.06] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0005.06] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0005.13] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.20] Log: PhysX GPU Support: DISABLED
+[0006.38] Log: Assembly Loaded Version: DBExport: 07/17/2015 17:51:11,  Src=devsql.hirezcorp.com:smite_live_build, LangSrc=devsql.hirezcorp.com:smite_translations,
+[0032.30] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0033.65] Log: 118075 objects as part of root set at end of initial load.
+[0033.65] Log: 0 out of 0 bytes used by permanent object pool.
+[0033.65] Log: Initializing Engine...
+[0035.50] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0035.50] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0035.61] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0035.61] Log: GFx attempted to load missing object [Logos]
+[0035.61] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.61] Warning: Warning, Failed to find object 'Class None.'
+[0035.62] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0035.65] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0036.17] Log: Map Game ID = 0
+[0036.17] Log: Map Instance ID = 127767731
+[0036.19] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0036.20] Log: Performance:  appCycles 13 nsec
+[0036.28] Log: Performance:  memCopy per KB 428 nsec
+[0036.32] Log: Performance:  memZero per KB 193 nsec
+[0036.33] Log: Performance:  appInterlockedIncrement 11 nsec
+[0036.34] Log: Performance:  GetTickCount 4 nsec
+[0036.34] Log: Game class is 'TgGameLaunch'
+[0036.38] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0036.38] Log: Flushing async loaders.
+[0036.67] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0036.67] Log: Flushed async loaders.
+[0036.71] Log: Primary PhysX scene will be in software.
+[0036.71] Log: Creating Primary PhysX Scene.
+[0037.01] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0037.01] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.24-21.55.32
+[0037.01] Log: Skipping initialization of FSMPartPool!
+[0037.53] Log: Bringing up level for play took: 0.850205
+[0047.36] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0047.36] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0047.58] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0048.83] Log: ########### Finished loading level: 13.185294 seconds
+[0048.99] Log: Flushing async loaders.
+[0049.58] Log: Flushed async loaders.
+[0049.58] Log: Initializing Engine Completed
+[0049.58] Log: >>>>>>>>>>>>>> Initial startup: 49.58s <<<<<<<<<<<<<<<
+[0049.58] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0049.66] Log: WebFactory created
+[0062.93] Log: Login Success: kimicol
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\BootyChest.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticketSkinNew.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\HBundle.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportschest2030.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBCupid4.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\PirateKali.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\HercHunkulese.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\NewGodRavana.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\HeavenlyWarlord223.jpg' error ()
+[0063.48] Error: Failed to read file '..\..\BattleGame\LandingPanel\TyrantRavana.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\LANSummer22.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\LANSummer22_thumb.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportschest200.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportschest200_thumb.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\NewBundle.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\NewBundle_thumb.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\Loki.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\Loki_thumb.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\Madscientist.jpg' error ()
+[0063.49] Error: Failed to read file '..\..\BattleGame\LandingPanel\Madscientist_thumb.jpg' error ()
+[0063.54] Log: Team/Instance chat routed to Instance Server.
+[0063.56] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0063.56] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0064.48] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0093.39] Log: Chat[1]: Statut du clan : Tiny42SH
+[0093.39] Log: ---- UpdateClanData
+[0097.61] Log: ---- UpdateClanData
+[0103.75] Log: RequestingChannelMembers ch[4] [kimicol a rejoint la discussion.]
+[0112.25] Log: SendChat[4] salut !
+[0112.61] Log: Chat[4]: salut !
+[0118.23] Log: Chat[4]: Yo
+[0128.24] Log: SendChat[4] qui appelle sur skip
+[0128.61] Log: Chat[4]: qui appelle sur skip
+[0130.75] Log: SendChat[4] ?
+[0131.11] Log: Chat[4]: ?
+[0155.14] Log: SendChat[4] bon je le fais
+[0155.51] Log: Chat[4]: bon je le fais
+[0277.83] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0278.16] Log: Chat[4]: Fullife a rejoint la file d'attente du groupe.
+[0375.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0375.41] Warning: Warning, Failed to find object 'Class None.None'
+[0390.06] Log: ---- UpdateClanData
+[0408.03] TgSLO: Async Load: GOD_Ares
+[0408.03] TgSLO: Async Load: GOD_Ares_Lobby
+[0408.03] TgSLO: Async Load: FX_Ares
+[0409.42] TgSLO: Finish Load: GOD_Ares
+[0409.75] TgSLO: Finish Load: GOD_Ares_Lobby
+[0410.45] TgSLO: Finish Load: FX_Ares
+[0422.72] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0422.72] Log: RequestingChannelMembers ch[3] [Fullife a rejoint la discussion.]
+[0422.72] Log: RequestingChannelMembers ch[3] [StefanRomanu a rejoint la discussion.]
+[0424.71] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0425.06] Log: RequestingChannelMembers ch[3] [StefanRomanu a rejoint la discussion.]
+[0427.70] TgSLO: Async Load: Lobby_Pedestal_Beach
+[0428.17] TgSLO: Finish Load: Lobby_Pedestal_Beach
+[0450.07] Log: Chat[3]: mage
+[0454.43] Log: Chat[3]: y
+[0507.98] TgSLO: Async Load: GOD_Neith
+[0507.99] TgSLO: Async Load: GOD_Neith_Lobby
+[0507.99] TgSLO: Async Load: FX_Neith
+[0508.92] TgSLO: Finish Load: GOD_Neith
+[0509.54] TgSLO: Finish Load: GOD_Neith_Lobby
+[0509.93] TgSLO: Finish Load: FX_Neith
+[0513.36] TgSLO: Async Load: GOD_Kukulkan
+[0513.36] TgSLO: Async Load: GOD_Kukulkan_Lobby
+[0513.36] TgSLO: Async Load: FX_Kukulkan
+[0513.36] TgSLO: Async Load: GOD_Kukulkan_Skin3
+[0513.36] TgSLO: Async Load: FX_Kukulkan_Lobby
+[0513.36] TgSLO: Async Load: AUD_God_Kukulkan
+[0513.36] TgSLO: Async Load: FX_Kukulkan_Skin3
+[0513.36] TgSLO: Async Load: FX_Kukulkan_Targeting_Skin3
+[0513.36] TgSLO: Async Load: AnimNotify11445
+[0514.64] TgSLO: Finish Load: GOD_Kukulkan
+[0515.60] TgSLO: Finish Load: GOD_Kukulkan_Lobby
+[0516.17] TgSLO: Finish Load: FX_Kukulkan
+[0516.25] TgSLO: Finish Load: GOD_Kukulkan_Skin3
+[0516.38] TgSLO: Finish Load: FX_Kukulkan_Lobby
+[0516.80] TgSLO: Finish Load: AUD_God_Kukulkan
+[0517.20] TgSLO: Finish Load: FX_Kukulkan_Skin3
+[0517.28] TgSLO: Finish Load: FX_Kukulkan_Targeting_Skin3
+[0517.38] TgSLO: Finish Load: AnimNotify11445
+[0524.42] DevNet: URL: Adding default option Team=255
+[0524.42] Log: ReceiveChangeMap: mapGameId 1503
+[0526.07] DevNet: URL: Adding default option Team=255
+[0526.07] DevNet: Browse: 37.48.125.69:9141/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=171713688?Team=255
+[0526.07] DevNet: Game client on port 9141, rate 25000
+[0526.57] DevNet: Welcomed by server (Level: joust_v2_p, Game: TgGame.TgGame_Battle_Joust)
+[0526.83] Log: LoadMap: 37.48.125.69:9141/joust_v2_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=171713688?Team=255?game=TgGame.TgGame_Battle_Joust
+[0528.48] Log: Map Game ID = 0
+[0528.48] Log: Map Instance ID = 127767731
+[0528.51] Log: Performance: Critical section Lock/Unlock 29 nsec
+[0528.52] Log: Performance:  appCycles 15 nsec
+[0528.59] Log: Performance:  memCopy per KB 368 nsec
+[0528.64] Log: Performance:  memZero per KB 235 nsec
+[0528.65] Log: Performance:  appInterlockedIncrement 12 nsec
+[0528.66] Log: Performance:  GetTickCount 5 nsec
+[0557.52] NetComeGo: Close PComNetDriver_0 PComNetConn_0 37.48.125.69:9141 07/24/15 22:04:12
+[0557.73] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter?failed
+[0557.73] Log: Failed; returning to Entry
+[0557.84] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter?failed
+[0557.85] Log: Flushing async loaders.
+[0559.71] Log: Flushed async loaders.
+[0559.88] Exit: PComNetDriver_0 shut down
+[0560.11] Log: Map Game ID = 0
+[0560.11] Log: Map Instance ID = 127767731
+[0560.14] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0560.14] Log: Performance:  appCycles 11 nsec
+[0560.20] Log: Performance:  memCopy per KB 315 nsec
+[0560.24] Log: Performance:  memZero per KB 172 nsec
+[0560.25] Log: Performance:  appInterlockedIncrement 10 nsec
+[0560.25] Log: Performance:  GetTickCount 4 nsec
+[0560.25] Log: Game class is 'TgGameLaunch'
+[0560.25] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0560.25] Log: Flushing async loaders.
+[0560.30] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0560.30] Log: Flushed async loaders.
+[0560.35] Log: Primary PhysX scene will be in software.
+[0560.35] Log: Creating Primary PhysX Scene.
+[0560.35] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0560.35] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.24-22.04.15
+[0560.35] Log: Skipping initialization of FSMPartPool!
+[0560.43] Log: Bringing up level for play took: 0.135700
+[0561.47] Log: ERROR: Attempting to log in without settings.
+[0561.47] Log: ########### Finished loading level: 3.627235 seconds
+[0561.47] Log: Flushing async loaders.
+[0561.64] Log: Flushed async loaders.
+[0561.72] DevNet: URL: Adding default option Team=255
+[0561.72] Log: ReceiveChangeMap: mapGameId 1447
+[0561.72] Log: ---- UpdateClanData
+[0561.72] Log: Chat[9]: Impossible de passer à la carte demandée
+[0561.92] DevNet: URL: Adding default option Team=255
+[0561.92] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0561.93] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0562.41] Log: Map Game ID = 0
+[0562.41] Log: Map Instance ID = 127767731
+[0562.43] Log: Performance: Critical section Lock/Unlock 24 nsec
+[0562.43] Log: Performance:  appCycles 10 nsec
+[0562.49] Log: Performance:  memCopy per KB 255 nsec
+[0562.52] Log: Performance:  memZero per KB 183 nsec
+[0562.53] Log: Performance:  appInterlockedIncrement 10 nsec
+[0562.54] Log: Performance:  GetTickCount 4 nsec
+[0562.54] Log: Game class is 'TgGameLaunch'
+[0562.54] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0562.54] Log: Flushing async loaders.
+[0562.58] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0562.58] Log: Flushed async loaders.
+[0562.61] Log: Primary PhysX scene will be in software.
+[0562.61] Log: Creating Primary PhysX Scene.
+[0562.61] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0562.61] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.24-22.04.18
+[0562.61] Log: Skipping initialization of FSMPartPool!
+[0562.68] Log: Bringing up level for play took: 0.100163
+[0563.62] Log: ERROR: Attempting to log in without settings.
+[0563.62] Log: ########### Finished loading level: 1.691156 seconds
+[0563.63] Log: Flushing async loaders.
+[0563.79] Log: Flushed async loaders.
+[0563.96] DevNet: URL: Adding default option Team=255
+[0563.96] Log: ReceiveChangeMap: mapGameId 1447
+[0563.96] Log: ---- UpdateClanData
+[0563.99] DevNet: URL: Adding default option Team=255
+[0563.99] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0563.99] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0564.27] Log: Map Game ID = 0
+[0564.27] Log: Map Instance ID = 127767731
+[0564.29] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0564.29] Log: Performance:  appCycles 11 nsec
+[0564.34] Log: Performance:  memCopy per KB 252 nsec
+[0564.38] Log: Performance:  memZero per KB 170 nsec
+[0564.39] Log: Performance:  appInterlockedIncrement 10 nsec
+[0564.39] Log: Performance:  GetTickCount 4 nsec
+[0564.39] Log: Game class is 'TgGameLaunch'
+[0564.39] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0564.39] Log: Flushing async loaders.
+[0564.43] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0564.43] Log: Flushed async loaders.
+[0564.46] Log: Primary PhysX scene will be in software.
+[0564.46] Log: Creating Primary PhysX Scene.
+[0564.46] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0564.46] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.24-22.04.19
+[0564.46] Log: Skipping initialization of FSMPartPool!
+[0564.53] Log: Bringing up level for play took: 0.100293
+[0565.47] Log: ERROR: Attempting to log in without settings.
+[0565.48] Log: ########### Finished loading level: 1.480586 seconds
+[0565.48] Log: Flushing async loaders.
+[0565.64] Log: Flushed async loaders.
+[0565.81] DevNet: URL: Adding default option Team=255
+[0565.81] Log: ReceiveChangeMap: mapGameId 1447
+[0565.81] Log: ---- UpdateClanData
+[0565.84] DevNet: URL: Adding default option Team=255
+[0565.84] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0565.84] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0566.11] Log: Map Game ID = 0
+[0566.11] Log: Map Instance ID = 127767731
+[0566.13] Log: Performance: Critical section Lock/Unlock 24 nsec
+[0566.13] Log: Performance:  appCycles 10 nsec
+[0566.18] Log: Performance:  memCopy per KB 257 nsec
+[0566.22] Log: Performance:  memZero per KB 153 nsec
+[0566.23] Log: Performance:  appInterlockedIncrement 10 nsec
+[0566.23] Log: Performance:  GetTickCount 4 nsec
+[0566.23] Log: Game class is 'TgGameLaunch'
+[0566.23] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0566.23] Log: Flushing async loaders.
+[0566.27] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0566.27] Log: Flushed async loaders.
+[0566.30] Log: Primary PhysX scene will be in software.
+[0566.30] Log: Creating Primary PhysX Scene.
+[0566.30] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0566.30] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.07.24-22.04.21
+[0566.30] Log: Skipping initialization of FSMPartPool!
+[0566.37] Log: Bringing up level for play took: 0.102880
+[0567.31] Log: ERROR: Attempting to log in without settings.
+[0567.31] Log: ########### Finished loading level: 1.464944 seconds
+[0567.32] Log: Flushing async loaders.
+[0567.47] Log: Flushed async loaders.
+[0567.64] Log: ---- UpdateClanData
+[0576.42] Log: ---- UpdateClanData
+[0586.03] Log: ---- UpdateClanData
+[0624.28] Log: Closing by request
+[0624.28] Log: appRequestExit(0)
+[0624.28] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[0625.12] Exit: Preparing to exit.
+[0625.45] Exit: Game engine shut down
+[0625.55] Exit: Windows client shut down
+[0625.58] Exit: XAudio2 Device shut down.
+[0625.86] Exit: Object subsystem successfully closed.
+[0627.40] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0627.57] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0627.61] Log: Shutting down FaceFX...
+[0627.61] Log: FaceFX shutdown.
+[0627.84] Exit: Exiting.

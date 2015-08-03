@@ -1,12 +1,12 @@
 Log opened: C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\AutoReportLog.txt
 
-Current Time = 21/07/2015 22:28:59
+Current Time = 27/07/2015 21:18:12
 
 Arguments:
 C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportDump0001.txt
 C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\Launch.log
 C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportIniDump0002.txt
-C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\unreal-v10897-2015.07.21-22.27.33.dmp
+C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\unreal-v10897-2015.07.27-21.17.01.dmp
 Parsing report file: C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportDump0001.txt
 
 Parsing report dump C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportDump0001.txt
@@ -20,15 +20,15 @@ Arthur
 Battle
 PC 32-bit
 FRA
-2015.07.21-22.28.56
+2015.07.27-21.18.08
 2.10.2868
 1532151
--PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=63.251.64.32 -host2=63.251.64.25 -seekfreeloading   -LANGUAGE=FRA -cnmg=722972205221232383287325732784239422642125276522 -cnmg2=72217225522023268324732673248427942764267522 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=7DD9C422
+-PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=63.251.64.32 -host2=63.251.64.25 -seekfreeloading   -LANGUAGE=FRA -cnmg=722272245224232283227321732784209425642925201623 -cnmg2=722072245227232583277327732784289427642725256522 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=748AEED4
 C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
 Rendering thread exception:
 Fatal error!
 
-Address = 0x1684723  (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\Smite.exe]
+Address = 0x18abc27  (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\Smite.exe]
 
 
 
@@ -44,15 +44,15 @@ Crash Description =
 Registering report service...
 Attempting to create a new crash...
 
-uniqueIndex = 5691829
+uniqueIndex = 5726725
 
 Attempting to create a new UpdateReportFiles instance...
 Attempting to upload files...
-Uploading files C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\Launch.log, C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportIniDump0002.txt and C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\unreal-v10897-2015.07.21-22.27.33.dmp
+Uploading files C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\Launch.log, C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\UE3AutoReportIniDump0002.txt and C:\Users\Arthur\Documents\My Games\Smite\binaries\Win32\..\..\BattleGame\Logs\unreal-v10897-2015.07.27-21.17.01.dmp
 Successfully uploaded files
 Attempting to add the crash description...
 Attempting to write the crash report URL...
-CrashReport url = http://cr.hirezstudios.com/Crashes/5691829
+CrashReport url = http://cr.hirezstudios.com/Crashes/5726725
 
 Successfully added crash description
 Closing the AutoReporter log file...
