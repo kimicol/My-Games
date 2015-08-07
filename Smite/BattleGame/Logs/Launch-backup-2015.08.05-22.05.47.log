@@ -1,0 +1,1018 @@
+[0000.43] Log: Async Log file open, 08/04/15 21:53:09
+[0000.45] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.45] Log:  ... running in INSTALLED mode
+[0000.45] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.45] Init: Version: 10897
+[0000.45] Init: Epic Internal: 0
+[0000.45] Init: Compiled (32-bit): Aug  3 2015 14:02:29
+[0000.45] Init: Changelist: 1532151
+[0000.45] Init: Game is version 2.11.2891.0.
+[0000.45] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722272255227232383277320732684299426642725230629 -cnmg2=72227228522023238320732273278428942864270624 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=7C1C5D91
+[0000.45] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.62] Log: Deleting old log file Launch-backup-2015.07.21-22.27.33.log
+[0003.71] Init: Computer: PC-ARTHUR
+[0003.71] Init: User: Arthur
+[0003.71] Init: CPU Page size=4096, Processors=4, Cores=2
+[0003.71] Init: High frequency timer resolution =2.240908 MHz
+[0003.71] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.5GB Virtual=4.0GB
+[0003.79] DevOnline: Initializing MCTS
+[0003.79] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0003.79] Init: Object subsystem initialized
+[0003.79] Log: Overriding lang INT w/ command-line option of FRA
+[0003.84] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0003.85] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0003.85] Log: ShadowPatch: Error -pid should be passed on command line.
+[0007.85] Log: AsyncTickTasks DISABLED at startup
+[0008.22] Log: SystemSettings based on: SystemSettings
+[0008.22] Log: SystemSettings based on: SystemSettings
+[0008.22] Log: SystemSettings based on: SystemSettings
+[0008.23] Log: SystemSettings based on: SystemSettings
+[0008.23] Log: SystemSettings based on: SystemSettings
+[0008.78] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0008.78] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0009.22] Log: Shader platform (RHI): PC-D3D-SM3
+[0009.34] Log: PhysX GPU Support: DISABLED
+[0014.08] Log: Assembly Loaded Version: 
+[0034.69] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0035.45] Log: 118712 objects as part of root set at end of initial load.
+[0035.45] Log: 0 out of 0 bytes used by permanent object pool.
+[0035.45] Log: Initializing Engine...
+[0039.55] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0039.55] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0039.58] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0039.58] Log: GFx attempted to load missing object [Logos]
+[0039.58] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0039.58] Warning: Warning, Failed to find object 'Class None.'
+[0039.59] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0039.59] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0040.29] Log: Map Game ID = 0
+[0040.29] Log: Map Instance ID = 128718029
+[0040.32] Log: Performance: Critical section Lock/Unlock 28 nsec
+[0040.32] Log: Performance:  appCycles 22 nsec
+[0040.37] Log: Performance:  memCopy per KB 239 nsec
+[0040.40] Log: Performance:  memZero per KB 148 nsec
+[0040.41] Log: Performance:  appInterlockedIncrement 10 nsec
+[0040.42] Log: Performance:  GetTickCount 4 nsec
+[0040.42] Log: Game class is 'TgGameLaunch'
+[0040.42] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0040.42] Log: Flushing async loaders.
+[0042.65] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0042.65] Log: Flushed async loaders.
+[0042.69] Log: Primary PhysX scene will be in software.
+[0042.69] Log: Creating Primary PhysX Scene.
+[0042.83] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0042.83] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.04-21.53.51
+[0042.83] Log: Skipping initialization of FSMPartPool!
+[0043.30] Log: Bringing up level for play took: 0.634886
+[0057.80] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0057.80] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0057.97] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0059.14] Log: ########### Finished loading level: 19.549629 seconds
+[0059.88] Log: Initializing Engine Completed
+[0059.88] Log: >>>>>>>>>>>>>> Initial startup: 59.88s <<<<<<<<<<<<<<<
+[0059.88] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0059.95] Log: WebFactory created
+[0063.36] Log: Login Success: kimicol
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\All for One! Freya .jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Kephri.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Renegade Awilix.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamma Slam Cabrakan.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Imperator Khephri.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBCupid4.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\PirateKali.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\HercHunkulese.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Loki.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Tier2Medusa.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Hou Yi.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\RetroHerc.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\RetroHerc_thumb.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri_thumb.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket_thumb.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\SoS.jpg' error ()
+[0064.17] Error: Failed to read file '..\..\BattleGame\LandingPanel\SoS_thumb.jpg' error ()
+[0064.18] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamescom.jpg' error ()
+[0064.18] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamescom_thumb.jpg' error ()
+[0064.27] Log: Team/Instance chat routed to Instance Server.
+[0064.27] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0064.27] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0065.05] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0094.95] Log: Chat[1]: Statut du clan : Tiny42SH
+[0094.95] Log: ---- UpdateClanData
+[0119.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0119.41] Warning: Warning, Failed to find object 'Class None.None'
+[0120.66] Log: ---- UpdateClanData
+[0120.88] Log: ---- UpdateClanData
+[0122.18] Log: GFx attempted to load missing object [MenuManager.undefined]
+[0142.41] TgSLO: Async Load: GOD_Khepri
+[0142.42] TgSLO: Async Load: GOD_Khepri_Lobby
+[0142.46] TgSLO: Async Load: FX_Khepri
+[0142.92] TgSLO: Finish Load: GOD_Khepri
+[0143.14] TgSLO: Finish Load: GOD_Khepri_Lobby
+[0143.91] TgSLO: Finish Load: FX_Khepri
+[0147.27] TgSLO: Async Load: GOD_Khepri_Skin1
+[0147.56] TgSLO: Finish Load: GOD_Khepri_Skin1
+[0161.95] Log: ---- UpdateClanData
+[0322.34] Log: Chat[1]: Braisildias vient de se connecter.
+[0322.34] Log: ---- UpdateClanData
+[0322.52] Log: ---- UpdateClanData
+[0322.52] Log: Chat[9]: Braisildias vient de se connecter.
+[0322.52] Log: Chat[6]: Braisildias vient de se connecter.
+[0322.52] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0345.36] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0345.36] Log: ---- UpdateClanData
+[0345.53] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0345.53] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0345.69] Log: Chat[1]: Braisildias vient de se connecter.
+[0345.69] Log: ---- UpdateClanData
+[0345.90] Log: Chat[9]: Braisildias vient de se connecter.
+[0345.90] Log: Chat[6]: Braisildias vient de se connecter.
+[0345.91] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0345.91] Log: ---- UpdateClanData
+[0351.61] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0351.61] Log: ---- UpdateClanData
+[0351.79] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0351.79] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0360.53] Log: Chat[1]: Braisildias vient de se connecter.
+[0360.54] Log: ---- UpdateClanData
+[0360.70] Log: ---- UpdateClanData
+[0360.70] Log: Chat[9]: Braisildias vient de se connecter.
+[0360.70] Log: Chat[6]: Braisildias vient de se connecter.
+[0360.71] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0377.51] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0377.51] Log: ---- UpdateClanData
+[0377.68] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0377.68] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0654.59] Log: Chat[1]: Braisildias vient de se connecter.
+[0654.59] Log: ---- UpdateClanData
+[0655.23] Log: ---- UpdateClanData
+[0655.23] Log: Chat[9]: Braisildias vient de se connecter.
+[0655.24] Log: Chat[6]: Braisildias vient de se connecter.
+[0655.24] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0672.16] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0672.16] Log: ---- UpdateClanData
+[0672.33] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0672.33] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0672.51] Log: Chat[9]: Braisildias vient de se connecter.
+[0672.51] Log: Chat[6]: Braisildias vient de se connecter.
+[0672.51] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0672.51] Log: Chat[1]: Braisildias vient de se connecter.
+[0672.51] Log: ---- UpdateClanData
+[0672.51] Log: ---- UpdateClanData
+[0679.04] Log: ---- UpdateClanData
+[0679.48] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0679.49] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0679.49] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0679.49] Log: ---- UpdateClanData
+[0681.79] Log: Chat[1]: Braisildias vient de se connecter.
+[0681.79] Log: ---- UpdateClanData
+[0681.95] Log: ---- UpdateClanData
+[0681.96] Log: Chat[9]: Braisildias vient de se connecter.
+[0681.96] Log: Chat[6]: Braisildias vient de se connecter.
+[0681.96] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0684.08] Log: ---- UpdateClanData
+[0684.71] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0684.71] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0684.91] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0684.91] Log: ---- UpdateClanData
+[0685.08] Log: Chat[1]: Braisildias vient de se connecter.
+[0685.08] Log: ---- UpdateClanData
+[0685.08] Log: ---- UpdateClanData
+[0685.08] Log: Chat[9]: Braisildias vient de se connecter.
+[0685.08] Log: Chat[6]: Braisildias vient de se connecter.
+[0685.08] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0685.98] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0685.98] Log: ---- UpdateClanData
+[0686.18] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0686.19] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0686.49] Log: Chat[1]: Braisildias vient de se connecter.
+[0686.49] Log: ---- UpdateClanData
+[0686.49] Log: Chat[9]: Braisildias vient de se connecter.
+[0686.49] Log: Chat[6]: Braisildias vient de se connecter.
+[0686.49] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0686.49] Log: ---- UpdateClanData
+[0692.25] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0692.25] Log: ---- UpdateClanData
+[0692.48] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0692.48] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0696.52] TgSLO: Async Load: GOD_Medusa
+[0696.52] TgSLO: Async Load: GOD_Medusa_Lobby
+[0696.52] TgSLO: Async Load: FX_Medusa
+[0698.09] TgSLO: Finish Load: GOD_Medusa
+[0699.71] TgSLO: Finish Load: GOD_Medusa_Lobby
+[0700.28] TgSLO: Finish Load: FX_Medusa
+[0705.55] TgSLO: Async Load: GOD_Medusa_Skin2
+[0705.55] TgSLO: Async Load: GOD_Medusa_Skin2_Lobby
+[0705.78] TgSLO: Finish Load: GOD_Medusa_Skin2
+[0705.80] TgSLO: Finish Load: GOD_Medusa_Skin2_Lobby
+[0709.56] TgSLO: Async Load: GOD_Medusa_Skins
+[0709.56] TgSLO: Async Load: FX_Medusa_Gold
+[0709.56] TgSLO: Async Load: AUD_God_Medusa
+[0709.60] TgSLO: Async Load: AnimNotify11785
+[0709.62] TgSLO: Finish Load: GOD_Medusa_Skins
+[0709.68] TgSLO: Finish Load: FX_Medusa_Gold
+[0710.22] TgSLO: Finish Load: AUD_God_Medusa
+[0710.22] TgSLO: Finish Load: AnimNotify11785
+[0738.51] Log: Chat[1]: Braisildias vient de se connecter.
+[0738.51] Log: ---- UpdateClanData
+[0738.68] Log: ---- UpdateClanData
+[0738.68] Log: Chat[9]: Braisildias vient de se connecter.
+[0738.68] Log: Chat[6]: Braisildias vient de se connecter.
+[0738.68] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0759.48] Log: Chat[9]: Braisildias vient de se déconnecter.
+[0759.48] Log: Chat[6]: Braisildias vient de se déconnecter.
+[0759.69] Log: Chat[1]: Braisildias vient de se déconnecter.
+[0759.70] Log: ---- UpdateClanData
+[0767.78] Log: Chat[1]: Braisildias vient de se connecter.
+[0767.78] Log: ---- UpdateClanData
+[0768.20] Log: ---- UpdateClanData
+[0768.20] Log: Chat[9]: Braisildias vient de se connecter.
+[0768.20] Log: Chat[6]: Braisildias vient de se connecter.
+[0768.21] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[0804.34] TgSLO: Async Load: GOD_Sobek
+[0804.34] TgSLO: Async Load: GOD_Sobek_Lobby
+[0804.35] TgSLO: Async Load: FX_Sobek
+[0805.83] TgSLO: Finish Load: GOD_Sobek
+[0805.98] TgSLO: Finish Load: GOD_Sobek_Lobby
+[0806.45] TgSLO: Finish Load: FX_Sobek
+[0845.30] Log: ---- UpdateClanData
+[0972.51] Log: ---- UpdateClanData
+[0977.62] Log: ---- UpdateClanData
+[1052.12] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1052.12] Log: ---- UpdateClanData
+[1052.28] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1052.28] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1076.54] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1077.23] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1086.67] Log: Chat[1]: Braisildias vient de se connecter.
+[1086.67] Log: ---- UpdateClanData
+[1086.85] Log: ---- UpdateClanData
+[1086.85] Log: Chat[9]: Braisildias vient de se connecter.
+[1086.86] Log: Chat[6]: Braisildias vient de se connecter.
+[1086.86] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1099.61] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1099.61] Log: ---- UpdateClanData
+[1099.77] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1099.77] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1099.94] Log: Chat[1]: Braisildias vient de se connecter.
+[1099.95] Log: ---- UpdateClanData
+[1099.95] Log: ---- UpdateClanData
+[1099.95] Log: Chat[9]: Braisildias vient de se connecter.
+[1099.95] Log: Chat[6]: Braisildias vient de se connecter.
+[1099.95] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1101.90] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1101.90] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1102.13] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1102.13] Log: ---- UpdateClanData
+[1102.38] Log: Chat[1]: Braisildias vient de se connecter.
+[1102.38] Log: ---- UpdateClanData
+[1102.38] Log: ---- UpdateClanData
+[1102.38] Log: Chat[9]: Braisildias vient de se connecter.
+[1102.38] Log: Chat[6]: Braisildias vient de se connecter.
+[1102.38] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1103.17] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1103.18] Log: ---- UpdateClanData
+[1103.35] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1103.35] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1103.88] Log: Chat[1]: Braisildias vient de se connecter.
+[1103.88] Log: ---- UpdateClanData
+[1104.08] Log: ---- UpdateClanData
+[1104.08] Log: Chat[9]: Braisildias vient de se connecter.
+[1104.08] Log: Chat[6]: Braisildias vient de se connecter.
+[1104.08] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1104.86] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1104.86] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1105.07] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1105.07] Log: ---- UpdateClanData
+[1105.69] Log: Chat[1]: Braisildias vient de se connecter.
+[1105.70] Log: ---- UpdateClanData
+[1105.70] Log: ---- UpdateClanData
+[1105.70] Log: Chat[9]: Braisildias vient de se connecter.
+[1105.70] Log: Chat[6]: Braisildias vient de se connecter.
+[1105.70] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1110.52] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1110.53] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1110.73] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1110.73] Log: ---- UpdateClanData
+[1110.90] Log: Chat[1]: Braisildias vient de se connecter.
+[1110.90] Log: ---- UpdateClanData
+[1110.90] Log: ---- UpdateClanData
+[1110.91] Log: Chat[9]: Braisildias vient de se connecter.
+[1110.91] Log: Chat[6]: Braisildias vient de se connecter.
+[1110.91] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1111.82] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1111.82] Log: ---- UpdateClanData
+[1112.05] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1112.05] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1112.22] Log: Chat[1]: Braisildias vient de se connecter.
+[1112.22] Log: ---- UpdateClanData
+[1112.22] Log: ---- UpdateClanData
+[1112.22] Log: Chat[9]: Braisildias vient de se connecter.
+[1112.22] Log: Chat[6]: Braisildias vient de se connecter.
+[1112.22] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1113.11] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1113.11] Log: ---- UpdateClanData
+[1113.42] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1113.43] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1113.83] Log: Chat[1]: Braisildias vient de se connecter.
+[1113.83] Log: ---- UpdateClanData
+[1113.83] Log: ---- UpdateClanData
+[1113.83] Log: Chat[9]: Braisildias vient de se connecter.
+[1113.83] Log: Chat[6]: Braisildias vient de se connecter.
+[1113.83] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[1116.01] Log: ---- UpdateClanData
+[1117.79] Log: Chat[1]: Braisildias vient de se déconnecter.
+[1117.79] Log: ---- UpdateClanData
+[1117.96] Log: Chat[9]: Braisildias vient de se déconnecter.
+[1117.96] Log: Chat[6]: Braisildias vient de se déconnecter.
+[1167.52] Log: ---- UpdateClanData
+[1213.73] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1214.41] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1244.30] TgSLO: Async Load: GOD_Anubis_V2
+[1244.30] TgSLO: Async Load: GOD_Anubis_V2_Lobby
+[1244.30] TgSLO: Async Load: FX_Anubis_V2
+[1244.30] TgSLO: Async Load: GOD_Anubis_V2_Skin4
+[1244.30] TgSLO: Async Load: GOD_Anubis_V2_Skin4_Lobby
+[1245.84] TgSLO: Finish Load: GOD_Anubis_V2
+[1246.08] TgSLO: Finish Load: GOD_Anubis_V2_Lobby
+[1246.86] TgSLO: Finish Load: FX_Anubis_V2
+[1246.97] TgSLO: Finish Load: GOD_Anubis_V2_Skin4
+[1246.99] TgSLO: Finish Load: GOD_Anubis_V2_Skin4_Lobby
+[1262.44] TgSLO: Async Load: GOD_Freya
+[1262.44] TgSLO: Async Load: GOD_Freya_Lobby
+[1262.44] TgSLO: Async Load: FX_Freya
+[1262.44] TgSLO: Async Load: GOD_Freya_Skin5
+[1262.44] TgSLO: Async Load: GOD_Freya_Skin5_Lobby
+[1262.44] TgSLO: Async Load: FX_FREYA_skin5
+[1262.45] TgSLO: Async Load: AUD_God_Freya
+[1262.45] TgSLO: Async Load: FX_FREYA_Targeting_Skin5
+[1262.45] TgSLO: Async Load: AnimNotify11770
+[1263.94] TgSLO: Finish Load: GOD_Freya
+[1264.22] TgSLO: Finish Load: GOD_Freya_Lobby
+[1264.77] TgSLO: Finish Load: FX_Freya
+[1264.97] TgSLO: Finish Load: GOD_Freya_Skin5
+[1265.08] TgSLO: Finish Load: GOD_Freya_Skin5_Lobby
+[1265.89] TgSLO: Finish Load: FX_FREYA_skin5
+[1266.62] TgSLO: Finish Load: AUD_God_Freya
+[1266.71] TgSLO: Finish Load: FX_FREYA_Targeting_Skin5
+[1266.83] TgSLO: Finish Load: AnimNotify11770
+[1349.50] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1350.18] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1529.53] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1530.21] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1561.90] Log: Chat[1]: Yadavac vient de se connecter.
+[1561.90] Log: ---- UpdateClanData
+[1562.34] Log: ---- UpdateClanData
+[1562.34] Log: Chat[9]: Yadavac vient de se connecter.
+[1562.34] Log: Chat[6]: Yadavac vient de se connecter.
+[1562.34] Log: RequestingChannelMembers ch[1] [Yadavac a rejoint la discussion.]
+[1629.23] Log: ---- UpdateClanData
+[1644.83] Log: ---- UpdateClanData
+[1653.05] Log: RequestingChannelMembers ch[4] [kimicol a rejoint la discussion.]
+[1676.47] Log: RequestingChannelMembers ch[4] [Yadavac a rejoint la discussion.]
+[1676.82] Log: Chat[4]: Yadavac a rejoint le groupe.
+[1709.59] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1710.27] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1801.37] Log: Chat[1]: Namarand vient de se connecter.
+[1801.38] Log: ---- UpdateClanData
+[1801.41] Log: ---- UpdateClanData
+[1802.47] Log: Chat[9]: Namarand vient de se connecter.
+[1802.47] Log: Chat[6]: Namarand vient de se connecter.
+[1802.48] Log: RequestingChannelMembers ch[1] [Namarand a rejoint la discussion.]
+[1833.83] Log: RequestingChannelMembers ch[4] [Namarand a rejoint la discussion.]
+[1834.06] Log: Chat[4]: Namarand a rejoint le groupe.
+[1841.16] Log: Chat[1]: yamiyari vient de se connecter.
+[1841.17] Log: ---- UpdateClanData
+[1841.19] Log: ---- UpdateClanData
+[1842.36] Log: Chat[9]: yamiyari vient de se connecter.
+[1842.36] Log: Chat[6]: yamiyari vient de se connecter.
+[1842.36] Log: RequestingChannelMembers ch[1] [yamiyari a rejoint la discussion.]
+[1889.62] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1890.30] Warning: GetSocketWorldLocationAndRotation : Could not find socket 'R_Front_Paw' in 'SKL_GOD_Awilix_Jaguar_Skin3'
+[1902.79] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[1902.79] Log: Chat[4]: kimicol a rejoint la file d'attente du groupe.
+[1999.81] TgSLO: Async Load: GOD_Janus
+[1999.81] TgSLO: Async Load: GOD_Janus_Lobby
+[1999.84] TgSLO: Async Load: FX_Janus
+[2001.61] TgSLO: Finish Load: GOD_Janus
+[2002.05] TgSLO: Finish Load: GOD_Janus_Lobby
+[2002.08] Log: Flushing async loaders.
+[2002.14] TgSLO: Finish Load: FX_Janus
+[2002.14] Log: Flushed async loaders.
+[2052.73] Log: Chat[1]: yamiyari vient de se déconnecter.
+[2052.73] Log: ---- UpdateClanData
+[2053.52] Log: Chat[9]: yamiyari vient de se déconnecter.
+[2053.52] Log: Chat[6]: yamiyari vient de se déconnecter.
+[2067.21] Log: Chat[4]: Namarand a quitté la file d'attente.
+[2074.14] Log: ---- UpdateClanData
+[2079.03] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[2079.03] Log: Chat[4]: kimicol a rejoint la file d'attente du groupe.
+[2082.79] TgSLO: Async Load: GOD_Janus
+[2082.79] TgSLO: Async Load: GOD_Janus_Lobby
+[2082.79] TgSLO: Async Load: FX_Janus
+[2083.66] TgSLO: Finish Load: GOD_Janus
+[2083.72] Log: Flushing async loaders.
+[2083.79] TgSLO: Finish Load: GOD_Janus_Lobby
+[2083.82] TgSLO: Finish Load: FX_Janus
+[2083.82] Log: Flushed async loaders.
+[2123.69] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[2123.71] Log: RequestingChannelMembers ch[3] [Namarand a quitté la discussion.]
+[2123.71] Log: RequestingChannelMembers ch[3] [Yadavac a quitté la discussion.]
+[2126.77] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[2129.12] Log: RequestingChannelMembers ch[3] [Yadavac a rejoint la discussion.]
+[2147.24] TgSLO: Async Load: GOD_Khepri
+[2147.24] TgSLO: Async Load: GOD_Khepri_Lobby
+[2147.24] TgSLO: Async Load: FX_Khepri
+[2147.55] TgSLO: Finish Load: GOD_Khepri
+[2147.81] TgSLO: Finish Load: GOD_Khepri_Lobby
+[2148.40] TgSLO: Finish Load: FX_Khepri
+[2149.93] TgSLO: Async Load: GOD_Artemis
+[2149.93] TgSLO: Async Load: GOD_Artemis_Lobby
+[2149.93] TgSLO: Async Load: FX_Artemis
+[2150.63] TgSLO: Finish Load: GOD_Artemis
+[2150.70] TgSLO: Finish Load: GOD_Artemis_Lobby
+[2151.07] TgSLO: Finish Load: FX_Artemis
+[2151.10] Warning: Failed to find notify DeactivateArrowFX on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[2152.71] Warning: Failed to find notify ActivateArrowFX on TgSkeletalMeshActor_Lobby_20 (No_SkeletalMesh)
+[2224.03] DevNet: URL: Adding default option Team=255
+[2224.03] Log: ReceiveChangeMap: mapGameId 1503
+[2224.44] DevNet: URL: Adding default option Team=255
+[2224.44] DevNet: Browse: 37.48.125.41:9071/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=174330157?Team=255
+[2224.44] DevNet: Game client on port 9071, rate 25000
+[2224.94] DevNet: Welcomed by server (Level: joust_v2_p, Game: TgGame.TgGame_Battle_Joust)
+[2225.20] Log: LoadMap: 37.48.125.41:9071/joust_v2_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=174330157?Team=255?game=TgGame.TgGame_Battle_Joust
+[2225.56] Log: Map Game ID = 0
+[2225.56] Log: Map Instance ID = 128718029
+[2225.59] Log: Performance: Critical section Lock/Unlock 25 nsec
+[2225.59] Log: Performance:  appCycles 12 nsec
+[2225.61] Log: Performance:  memCopy per KB 76 nsec
+[2225.62] Log: Performance:  memZero per KB 73 nsec
+[2225.63] Log: Performance:  appInterlockedIncrement 10 nsec
+[2225.64] Log: Performance:  GetTickCount 5 nsec
+[2239.63] TgSLO: Async Load: FX_Store_Items
+[2239.64] TgSLO: Async Load: FX_Store_Items_Targeting
+[2239.64] TgSLO: Async Load: FX_Status_Effects
+[2239.64] TgSLO: Async Load: GOD_CommonMaterialEffects
+[2239.64] TgSLO: Async Load: GOD_Common_AT
+[2239.64] TgSLO: Async Load: AUD_VOX_Narrator
+[2239.64] TgSLO: Async Load: NPC_Ward2
+[2239.64] TgSLO: Async Load: FX_Buff_Belts_V2
+[2239.64] TgSLO: Async Load: FX_Fist_Of_God_V2
+[2239.64] TgSLO: Async Load: GOD_Khepri
+[2239.64] TgSLO: Async Load: GOD_Khepri_Textures
+[2239.64] TgSLO: Async Load: FX_Khepri
+[2239.64] TgSLO: Async Load: AUD_God_Khepri
+[2239.64] TgSLO: Async Load: NPC_Ward_Chinese
+[2239.64] TgSLO: Async Load: NPC_Ward_BobbleHead_Base
+[2239.64] TgSLO: Async Load: NPC_Ward_Eyeballs
+[2239.66] TgSLO: Async Load: FX_Common
+[2239.66] TgSLO: Async Load: AUD_UI
+[2239.66] TgSLO: Async Load: GOD_Artemis
+[2239.66] TgSLO: Async Load: GOD_Artemis_Textures
+[2239.66] TgSLO: Async Load: FX_Artemis
+[2239.66] TgSLO: Async Load: AUD_God_Artemis
+[2239.66] TgSLO: Async Load: NPC_Ward_WindDancer
+[2239.66] TgSLO: Async Load: NPC_Ward_Thunderbolt
+[2239.66] TgSLO: Async Load: FX_Emote_global_Fireworks_A
+[2239.66] TgSLO: Async Load: GOD_Janus
+[2239.66] TgSLO: Async Load: GOD_Janus_Textures
+[2239.66] TgSLO: Async Load: FX_Janus
+[2239.66] TgSLO: Async Load: FX_Janus_Targeting
+[2239.66] TgSLO: Async Load: AUD_God_Janus
+[2239.66] TgSLO: Async Load: GOD_Ullr
+[2239.66] TgSLO: Async Load: GOD_Ullr_Textures
+[2239.67] TgSLO: Async Load: FX_Ullr
+[2239.67] TgSLO: Async Load: AUD_God_Ullr
+[2239.67] TgSLO: Async Load: GOD_Zeus
+[2239.67] TgSLO: Async Load: GOD_Zeus_Textures
+[2239.67] TgSLO: Async Load: AUD_God_Zeus
+[2239.67] TgSLO: Async Load: FX_Zeus_B
+[2239.68] TgSLO: Async Load: Joust_Tower
+[2239.68] TgSLO: Async Load: FX_Tower
+[2239.68] TgSLO: Async Load: FX_Greek_Tower
+[2239.70] TgSLO: Async Load: AUD_Tower
+[2239.70] TgSLO: Async Load: NPC_Phoenix
+[2239.70] TgSLO: Async Load: NPC_Phoenix_Textures
+[2239.70] TgSLO: Async Load: FX_Phoenix
+[2239.70] TgSLO: Async Load: AUD_NPC_Phoenix
+[2239.70] TgSLO: Async Load: MDL_PseudoMesh
+[2239.70] TgSLO: Async Load: NPC_Joust_Minion
+[2239.70] TgSLO: Async Load: NPC_Joust_Minion_Textures
+[2239.70] TgSLO: Async Load: NPC_Minion_Universal
+[2239.70] TgSLO: Async Load: FX_Roman
+[2239.71] TgSLO: Async Load: FX_Minion_Death
+[2239.71] TgSLO: Async Load: AUD_NPC_RomanArcher
+[2239.71] TgSLO: Async Load: AUD_NPC_Olympus
+[2239.71] TgSLO: Async Load: NPC_Guardian_Female
+[2239.71] TgSLO: Async Load: NPC_Guardian_Female_AT
+[2239.71] TgSLO: Async Load: FX_Guardian_Female
+[2239.71] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[2239.71] TgSLO: Async Load: NPC_Guardian_Male
+[2239.71] TgSLO: Async Load: NPC_Guardian_Male_AT
+[2239.72] TgSLO: Async Load: FX_Guardian_Male
+[2239.72] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[2239.72] TgSLO: Async Load: NPC_Cyclops_V2
+[2239.72] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[2239.72] TgSLO: Async Load: AUD_NPC_Cyclops
+[2239.72] Log: Flushing async loaders.
+[2239.77] TgSLO: Finish Load: FX_Store_Items
+[2239.81] TgSLO: Finish Load: FX_Store_Items_Targeting
+[2239.83] TgSLO: Finish Load: FX_Status_Effects
+[2239.86] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[2239.86] TgSLO: Finish Load: GOD_Common_AT
+[2240.04] TgSLO: Finish Load: AUD_VOX_Narrator
+[2240.05] TgSLO: Finish Load: NPC_Ward2
+[2240.09] TgSLO: Finish Load: FX_Buff_Belts_V2
+[2240.11] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[2240.12] TgSLO: Finish Load: GOD_Khepri
+[2240.14] TgSLO: Finish Load: GOD_Khepri_Textures
+[2240.18] TgSLO: Finish Load: FX_Khepri
+[2240.22] TgSLO: Finish Load: AUD_God_Khepri
+[2240.36] TgSLO: Finish Load: NPC_Ward_Chinese
+[2240.37] TgSLO: Finish Load: NPC_Ward_BobbleHead_Base
+[2240.46] TgSLO: Finish Load: NPC_Ward_Eyeballs
+[2240.64] TgSLO: Finish Load: FX_Common
+[2240.70] TgSLO: Finish Load: AUD_UI
+[2240.75] TgSLO: Finish Load: GOD_Artemis
+[2240.76] TgSLO: Finish Load: GOD_Artemis_Textures
+[2240.78] TgSLO: Finish Load: FX_Artemis
+[2240.82] TgSLO: Finish Load: AUD_God_Artemis
+[2240.90] TgSLO: Finish Load: NPC_Ward_WindDancer
+[2240.96] TgSLO: Finish Load: NPC_Ward_Thunderbolt
+[2240.99] TgSLO: Finish Load: FX_Emote_global_Fireworks_A
+[2241.00] TgSLO: Finish Load: GOD_Janus
+[2241.00] TgSLO: Finish Load: GOD_Janus_Textures
+[2241.05] TgSLO: Finish Load: FX_Janus
+[2241.19] TgSLO: Finish Load: FX_Janus_Targeting
+[2241.27] TgSLO: Finish Load: AUD_God_Janus
+[2241.27] TgSLO: Finish Load: GOD_Ullr
+[2241.28] TgSLO: Finish Load: GOD_Ullr_Textures
+[2241.41] TgSLO: Finish Load: FX_Ullr
+[2241.51] TgSLO: Finish Load: AUD_God_Ullr
+[2242.01] TgSLO: Finish Load: GOD_Zeus
+[2242.02] TgSLO: Finish Load: GOD_Zeus_Textures
+[2242.16] TgSLO: Finish Load: AUD_God_Zeus
+[2242.27] TgSLO: Finish Load: FX_Zeus_B
+[2242.60] TgSLO: Finish Load: Joust_Tower
+[2242.63] TgSLO: Finish Load: FX_Tower
+[2242.69] TgSLO: Finish Load: FX_Greek_Tower
+[2242.80] TgSLO: Finish Load: AUD_Tower
+[2242.96] TgSLO: Finish Load: NPC_Phoenix
+[2242.99] TgSLO: Finish Load: NPC_Phoenix_Textures
+[2243.01] TgSLO: Finish Load: FX_Phoenix
+[2243.10] TgSLO: Finish Load: AUD_NPC_Phoenix
+[2243.11] TgSLO: Finish Load: MDL_PseudoMesh
+[2243.17] TgSLO: Finish Load: NPC_Joust_Minion
+[2243.17] TgSLO: Finish Load: NPC_Joust_Minion_Textures
+[2243.36] TgSLO: Finish Load: NPC_Minion_Universal
+[2243.38] TgSLO: Finish Load: FX_Roman
+[2243.40] TgSLO: Finish Load: FX_Minion_Death
+[2243.45] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[2243.46] TgSLO: Finish Load: AUD_NPC_Olympus
+[2243.84] TgSLO: Finish Load: NPC_Guardian_Female
+[2243.86] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[2243.87] TgSLO: Finish Load: FX_Guardian_Female
+[2243.87] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[2244.24] TgSLO: Finish Load: NPC_Guardian_Male
+[2244.27] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[2244.34] TgSLO: Finish Load: FX_Guardian_Male
+[2244.38] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[2244.69] TgSLO: Finish Load: NPC_Cyclops_V2
+[2244.69] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[2244.79] TgSLO: Finish Load: AUD_NPC_Cyclops
+[2244.79] Log: Flushed async loaders.
+[2244.80] Log: Primary PhysX scene will be in software.
+[2244.80] Log: Creating Primary PhysX Scene.
+[2244.84] Log: Bringing World joust_v2_p.TheWorld up for play (595) at 2015.08.04-22.30.33
+[2244.85] Log: Skipping initialization of FSMPartPool!
+[2244.85] Log: Bringing up level for play took: 0.061110
+[2244.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[2244.85] Warning: Warning, Failed to find object 'Class None.'
+[2244.85] Log: PlayerController class for the pending level is PlayerController
+[2244.85] Log: ########### Finished loading level: 19.646987 seconds
+[2244.85] Log: Flushing async loaders.
+[2254.69] Log: Flushed async loaders.
+[2254.85] Log: ---- UpdateClanData
+[2254.90] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[2255.47] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (2450 to TgPawn_Zeus_DefaultV2_0)
+[2255.53] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.53] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.53] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.54] Log: TeamIndex 1 has new leader: 6468508
+[2255.54] Log: TeamIndex 2 has new leader: 6972711
+[2255.55] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[2255.83] Log: ---- UpdateClanData
+[2255.87] Log: ActivateLevel joust_v2_crowd 1 1 0
+[2255.87] Log: ActivateLevel joust_sound 1 1 0
+[2255.87] Log: ActivateLevel joust_v2_p_assist 1 1 0
+[2256.09] Log: Activated joust_v2_p_assist 1 1 0
+[2256.68] Log: TeamIndex 2 has new leader: 5003461
+[2261.63] Log: TeamIndex 1 has new leader: 3659208
+[2261.85] Log: ---- UpdateClanData
+[2264.27] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[2274.59] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[2274.59] Warning: Warning, Failed to find object 'Class None.None'
+[2278.71] Log: Requesting purchase of itemId (10040) amount (1)
+[2280.49] Log: Requesting purchase of itemId (10220) amount (1)
+[2306.82] Log: ---- UpdateClanData
+[2307.04] Log: ---- UpdateClanData
+[2319.61] Log: ---- UpdateClanData
+[2325.00] Log: ---- UpdateClanData
+[2357.26] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_14
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2383.91] Log: PUSHING Accolade: Yadavac verse le Premier sang !, local: false
+[2385.42] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2392.19] Log: Chat[1]: Staelos vient de se déconnecter.
+[2392.19] Log: ---- UpdateClanData
+[2421.31] Log: Requesting purchase of itemId (10045) amount (1)
+[2423.87] Log: Requesting purchase of itemId (8134) amount (1)
+[2424.02] Log: Requesting purchase of itemId (8134) amount (1)
+[2425.42] Log: Requesting purchase of itemId (8135) amount (1)
+[2444.54] Log: PUSHING Accolade: , local: false
+[2446.04] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2466.14] Log: AttachToOwner - Socket (CSO_FX_Waist_01) not found in owner mesh or its parent! (1700 to TgPawn_Artemis_Boar_0)
+[2467.15] Log: AttachToOwner - Socket (CSO_FX_Waist_01) not found in owner mesh or its parent! (1701 to TgPawn_Artemis_Boar_0)
+[2482.96] Log: PUSHING Accolade: , local: false
+[2566.54] Log: PUSHING Accolade: Yadavac fait une tuerie ! (x3), local: false
+[2568.04] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2572.39] Log: PUSHING Accolade: Yadavac a fait un doublé !, local: false
+[2572.39] Log: Suppressing Accolade: 
+[2592.66] Log: Requesting purchase of itemId (8776) amount (1)
+[2596.39] Log: Requesting purchase of itemId (8134) amount (1)
+[2596.56] Log: Requesting purchase of itemId (8134) amount (1)
+[2647.22] Log: Chat[9]: Tuer Grooya vous a donné 260 XP et 347 pièces d'or.
+[2647.41] Log: PUSHING Accolade: VICTIME, local: true
+[2650.44] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_60
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2656.16] Log: Chat[3]: 650ms de ping -_-
+[2674.72] Log: Chat[9]: Tuer Masturr vous a donné 230 XP et 314 pièces d'or.
+[2674.91] Log: PUSHING Accolade: VICTIME, local: true
+[2676.42] Log: PUSHING Accolade: Tower Dive, local: true
+[2703.72] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (1027 to NONE)
+[2717.01] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_74
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2733.32] Log: PlayCustomAnim Offhand_01_Jump, CustomChildIndex: 1, Animation Not Found!!
+[2735.19] Log: PUSHING Accolade: Yadavac fait un massacre ! (x5), local: false
+[2736.69] Log: Expiring Accolade: 
+[2736.69] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2755.08] Log: Chat[3]: j'avais utilisé mon ult sur moi, mais grace au lag je suis mort avant
+[2758.77] Log: ---- UpdateClanData
+[2758.79] Log: ---- UpdateClanData
+[2758.79] Log: Chat[6]: Braisildias vient de se connecter.
+[2758.79] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2766.76] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2766.76] Log: ---- UpdateClanData
+[2767.52] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2767.52] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2767.52] Log: ---- UpdateClanData
+[2767.52] Log: ---- UpdateClanData
+[2767.52] Log: Chat[6]: Braisildias vient de se connecter.
+[2767.53] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2770.03] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2770.03] Log: ---- UpdateClanData
+[2771.26] Log: Requesting purchase of itemId (10222) amount (1)
+[2771.33] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2771.34] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2771.34] Log: ---- UpdateClanData
+[2771.34] Log: ---- UpdateClanData
+[2771.34] Log: Chat[6]: Braisildias vient de se connecter.
+[2774.03] Log: Requesting purchase of itemId (8134) amount (1)
+[2774.05] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2774.05] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2774.05] Log: ---- UpdateClanData
+[2774.22] Log: Requesting purchase of itemId (8134) amount (1)
+[2775.90] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2775.90] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2777.85] Log: ---- UpdateClanData
+[2777.85] Log: ---- UpdateClanData
+[2777.85] Log: Chat[6]: Braisildias vient de se connecter.
+[2777.85] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2779.93] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_69
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2780.34] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2780.34] Log: ---- UpdateClanData
+[2784.91] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2784.91] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2784.91] Log: ---- UpdateClanData
+[2784.91] Log: Chat[6]: Braisildias vient de se connecter.
+[2784.91] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2784.91] Log: ---- UpdateClanData
+[2787.29] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2787.29] Log: ---- UpdateClanData
+[2787.29] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2787.29] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2794.95] Log: ---- UpdateClanData
+[2794.95] Log: ---- UpdateClanData
+[2794.95] Log: Chat[6]: Braisildias vient de se connecter.
+[2799.44] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2799.44] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2799.45] Log: ---- UpdateClanData
+[2803.58] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2803.58] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2803.59] Log: ---- UpdateClanData
+[2803.59] Log: ---- UpdateClanData
+[2807.32] Log: Chat[6]: Braisildias vient de se connecter.
+[2807.32] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2807.33] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2807.33] Log: ---- UpdateClanData
+[2807.33] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2807.34] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2810.10] Log: PUSHING Accolade: , local: false
+[2811.42] Log: ---- UpdateClanData
+[2811.42] Log: Chat[6]: Braisildias vient de se connecter.
+[2811.42] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2811.42] Log: ---- UpdateClanData
+[2811.61] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2814.96] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2814.96] Log: ---- UpdateClanData
+[2815.79] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2815.79] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2818.85] Log: ---- UpdateClanData
+[2818.85] Log: ---- UpdateClanData
+[2818.85] Log: Chat[6]: Braisildias vient de se connecter.
+[2818.85] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2821.70] Log: PUSHING Accolade: Yadavac EST INARRÊTABLE ! (x7), local: false
+[2822.38] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2822.39] Log: ---- UpdateClanData
+[2822.39] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2822.39] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2823.20] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2827.14] Log: ---- UpdateClanData
+[2827.14] Log: ---- UpdateClanData
+[2831.56] Log: Chat[6]: Braisildias vient de se connecter.
+[2831.56] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2831.56] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2831.56] Log: ---- UpdateClanData
+[2836.86] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2836.86] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2836.87] Log: ---- UpdateClanData
+[2836.87] Log: ---- UpdateClanData
+[2837.73] Log: Chat[6]: Braisildias vient de se connecter.
+[2837.73] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2839.60] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2839.60] Log: ---- UpdateClanData
+[2839.60] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2839.61] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2845.96] Log: Chat[6]: Braisildias vient de se connecter.
+[2845.96] Log: ---- UpdateClanData
+[2845.96] Log: ---- UpdateClanData
+[2853.15] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2853.16] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2853.16] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2853.16] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2853.16] Log: ---- UpdateClanData
+[2858.53] Log: ---- UpdateClanData
+[2858.53] Log: ---- UpdateClanData
+[2858.53] Log: Chat[6]: Braisildias vient de se connecter.
+[2858.53] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2859.65] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_102
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2868.05] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2868.06] Log: ---- UpdateClanData
+[2871.92] Log: Chat[9]: Tuer Sibeirum vous a donné 290 XP et 329 pièces d'or.
+[2872.11] Log: PUSHING Accolade: TUERIE (X3), local: true
+[2879.94] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2879.94] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2879.95] Log: ---- UpdateClanData
+[2879.95] Log: ---- UpdateClanData
+[2879.95] Log: Chat[6]: Braisildias vient de se connecter.
+[2879.95] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2885.43] Log: Requesting purchase of itemId (8105) amount (1)
+[2885.81] Log: PUSHING Accolade: , local: false
+[2886.06] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2886.06] Log: ---- UpdateClanData
+[2886.07] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2886.07] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2887.32] Log: Expiring Accolade: 
+[2890.27] Log: ---- UpdateClanData
+[2890.27] Log: ---- UpdateClanData
+[2891.50] Log: Requesting purchase of itemId (10218) amount (1)
+[2892.71] Log: Requesting purchase of itemId (8134) amount (1)
+[2892.90] Log: Requesting purchase of itemId (8134) amount (1)
+[2895.63] Log: Chat[6]: Braisildias vient de se connecter.
+[2895.63] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2895.63] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2895.64] Log: ---- UpdateClanData
+[2895.64] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2895.64] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2898.60] Log: Requesting purchase of itemId (8134) amount (1)
+[2899.04] Log: Chat[6]: Braisildias vient de se connecter.
+[2899.04] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2899.04] Log: ---- UpdateClanData
+[2899.04] Log: ---- UpdateClanData
+[2904.79] Log: Chat[1]: Braisildias vient de se déconnecter.
+[2904.79] Log: ---- UpdateClanData
+[2904.79] Log: Chat[9]: Braisildias vient de se déconnecter.
+[2904.79] Log: Chat[6]: Braisildias vient de se déconnecter.
+[2909.37] Log: ---- UpdateClanData
+[2909.37] Log: ---- UpdateClanData
+[2909.37] Log: Chat[6]: Braisildias vient de se connecter.
+[2909.37] Log: RequestingChannelMembers ch[1] [Braisildias a rejoint la discussion.]
+[2925.51] Log: Chat[3]: merci pour l'ult
+[2930.31] Log: Chat[3]: mais de rien
+[2933.41] Log: Chat[3]: mon job
+[2967.46] Log: PUSHING Accolade: , local: false
+[2968.97] Log: PUSHING Accolade: ASSISTÉ, local: true
+[2993.30] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_123
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2993.55] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_123
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[2995.94] Log: Requesting purchase of itemId (10219) amount (1)
+[2998.01] Log: Requesting purchase of itemId (8134) amount (1)
+[3004.70] Log: Chat[1]: Braisildias vient de se déconnecter.
+[3004.71] Log: ---- UpdateClanData
+[3006.87] Log: Chat[9]: Braisildias vient de se déconnecter.
+[3006.87] Log: Chat[6]: Braisildias vient de se déconnecter.
+[3023.69] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_129
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3032.26] Log: PUSHING Accolade: Grooya fait une tuerie ! (x3), local: false
+[3033.77] Log: PUSHING Accolade: Yadavac est DIVIN (x9) !, local: false
+[3035.29] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3036.46] Log: Chat[3]: [VVS] Désolé !
+[3038.10] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_120
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3044.80] Log: Chat[3]: [VRR] Reculez !
+[3045.79] Log: Chat[3]: [VVB] Je reviens !
+[3055.69] Log: Chat[3]: remerci
+[3060.89] Log: Chat[3]: re derien
+[3099.31] Log: PlayCustomAnim Offhand_01_Jump, CustomChildIndex: 1, Animation Not Found!!
+[3116.52] Log: Chat[9]: Tuer Grooya vous a donné 380 XP et 481 pièces d'or.
+[3116.71] Log: PUSHING Accolade: VICTIME, local: true
+[3118.21] Log: Expiring Accolade: 
+[3118.21] Log: PUSHING Accolade: ASSISTÉ, local: true
+[3119.71] Log: PUSHING Accolade: VENGEANCE, local: true
+[3130.75] Log: PUSHING Accolade: , local: false
+[3151.98] Log: Chat[3]: ****ing klag, je devais survivre la!-_-
+[3153.90] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_152
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3154.16] Log: PUSHING Accolade: Sibeirum a tué un joueur !, local: false
+[3158.22] Log: Chat[3]: [VRR] Reculez !
+[3158.91] Log: Chat[3]: [VRR] Reculez !
+[3164.63] Log: SendChat[3] moi aussi je lag
+[3164.78] Log: Chat[3]: moi aussi je lag
+[3174.82] Log: SendChat[3] je me tp partout sur la map
+[3174.96] Log: Chat[3]: je me tp partout sur la map
+[3175.84] Log: PUSHING Accolade: Grooya a stoppé Yadavac dans son élan, local: false
+[3175.84] Log: Suppressing Accolade: 
+[3178.76] Log: Chat[3]: [VVGT] Dommage !
+[3180.07] Log: Chat[3]: [VVGS] Malédiction !
+[3180.26] Log: Chat[3]: noooon
+[3186.62] Log: Chat[3]: jk'arrette après
+[3189.13] Log: Chat[3]: mon perfect :('
+[3191.80] Log: Requesting purchase of itemId (8043) amount (1)
+[3194.38] Log: Requesting purchase of itemId (8134) amount (1)
+[3196.51] Log: Requesting purchase of itemId (10218) amount (1)
+[3197.34] Log: Chat[3]: tu peut fiare un 20/1
+[3198.58] Log: Chat[3]: *:'(
+[3206.14] Log: Chat[3]: c'est une achivement
+[3219.85] Log: Chat[3]: en joute c'est dur
+[3225.90] Log: Chat[3]: ils vont surrend avant
+[3240.09] Log: PUSHING Accolade: Grooya a tué un joueur !, local: false
+[3244.60] Log: Chat[3]: [VVVD] Ultime pas prêt !
+[3246.36] Log: Requesting purchase of itemId (10219) amount (1)
+[3249.82] Log: Requesting purchase of itemId (8134) amount (1)
+[3251.76] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_169
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3254.85] Log: Requesting purchase of itemId (9011) amount (1)
+[3269.59] Log: PUSHING Accolade: , local: false
+[3271.47] Log: PlayCustomAnim Offhand_01_Jump, CustomChildIndex: 1, Animation Not Found!!
+[3283.64] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[3283.64] Warning: Warning, Failed to find object 'Class None.None'
+[3305.54] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_176
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3312.32] Log: PUSHING Accolade: PHÉNIX TUÉ, local: true
+[3323.12] Log: Chat[9]: Tuer Masturr vous a donné 380 XP et 373 pièces d'or.
+[3323.32] Log: PUSHING Accolade: VICTIME, local: true
+[3326.04] ScriptWarning: Accessed None 'HitActor'
+	TgDeviceFire Transient.TgDeviceFire_178
+	Function TgGame.TgDeviceFire:ApplyHit:033E
+[3326.72] Log: PUSHING Accolade: Grooya fait une tuerie ! (x3), local: false
+[3335.83] Log: UTgAnimTurnInPlace_Player: Transition not found for Rt_180
+[3336.89] Log: AttachToOwner - Socket (CSO_FX_Waist_01) not found in owner mesh or its parent! (1700 to TgPawn_Artemis_Boar_7)
+[3338.96] Log: AttachToOwner - Socket (CSO_FX_Waist_01) not found in owner mesh or its parent! (1701 to TgPawn_Artemis_Boar_7)
+[3361.45] Log: Requesting purchase of itemId (9213) amount (1)
+[3363.51] Log: Chat[3]: L'équipe ennemie a accepté de capituler (2 contre 0) !
+[3364.23] Log: ---- UpdateClanData
+[3364.23] Log: ---- UpdateClanData
+[3364.23] Log: ---- UpdateClanData
+[3364.23] Log: ---- UpdateClanData
+[3364.77] Log: ---- UpdateClanData
+[3364.77] Log: ---- UpdateClanData
+[3366.52] Log: Chat[3]: gg
+[3366.66] Log: Chat[3]: [VVGG] Belle partie !
+[3367.11] Log: Chat[3]: roh
+[3369.81] Log: Chat[3]: [VVGG] Belle partie !
+[3370.55] Log: Chat[3]: [VVGB] Au revoir !
+[3370.68] Log: Chat[3]: +1
+[3376.96] Log: ---- UpdateClanData
+[3377.15] Log: ---- UpdateClanData
+[3377.50] Log: ---- UpdateClanData
+[3382.38] Log: ---- UpdateClanData
+[3382.38] DevNet: URL: Adding default option Team=255
+[3382.38] Log: ReceiveChangeMap: mapGameId 1447
+[3382.38] Log: ---- UpdateClanData
+[3382.38] Log: ---- UpdateClanData
+[3382.39] DevNet: URL: Adding default option Team=255
+[3382.39] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[3382.63] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[3382.89] NetComeGo: Close PComNetDriver_0 PComNetConn_0 37.48.125.41:9071 08/04/15 22:49:31
+[3382.99] Exit: PComNetDriver_0 shut down
+[3383.56] Log: Map Game ID = 0
+[3383.56] Log: Map Instance ID = 128718029
+[3383.58] Log: Performance: Critical section Lock/Unlock 25 nsec
+[3383.58] Log: Performance:  appCycles 12 nsec
+[3383.60] Log: Performance:  memCopy per KB 58 nsec
+[3383.61] Log: Performance:  memZero per KB 56 nsec
+[3383.62] Log: Performance:  appInterlockedIncrement 10 nsec
+[3383.62] Log: Performance:  GetTickCount 4 nsec
+[3383.62] Log: Game class is 'TgGameLaunch'
+[3383.62] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[3383.62] Log: Flushing async loaders.
+[3383.96] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[3383.96] Log: Flushed async loaders.
+[3384.01] Log: Primary PhysX scene will be in software.
+[3384.01] Log: Creating Primary PhysX Scene.
+[3384.01] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[3384.01] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.04-22.49.32
+[3384.01] Log: Skipping initialization of FSMPartPool!
+[3384.09] Log: Bringing up level for play took: 0.129946
+[3385.53] TgSLO: Async Load: GOD_Janus
+[3385.53] TgSLO: Async Load: GOD_Janus_Lobby
+[3385.53] TgSLO: Async Load: FX_Janus
+[3385.53] Log: Flushing async loaders.
+[3385.68] TgSLO: Finish Load: GOD_Janus
+[3385.76] TgSLO: Finish Load: GOD_Janus_Lobby
+[3385.80] TgSLO: Finish Load: FX_Janus
+[3385.80] Log: Flushed async loaders.
+[3385.80] Log: ########### Finished loading level: 3.171243 seconds
+[3386.52] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[3386.52] Log: RequestingChannelMembers ch[8] [Namarand a rejoint la discussion.]
+[3387.43] Log: RequestingChannelMembers ch[8] [Grooya a rejoint la discussion.]
+[3389.09] Log: RequestingChannelMembers ch[8] [Yadavac a rejoint la discussion.]
+[3398.78] Log: Chat[8]: gg wp
+[3401.78] Log: Chat[8]: gg
+[3404.46] Log: Chat[8]: gg wp
+[3408.02] Log: SendChat[8] gg
+[3408.39] Log: Chat[8]: gg
+[3417.22] Log: RequestingChannelMembers ch[8] [Namarand a quitté la discussion.]
+[3421.85] Log: RequestingChannelMembers ch[8] [Grooya a quitté la discussion.]
+[3421.86] Log: RequestingChannelMembers ch[8] [Sibeirum a quitté la discussion.]
+[3435.29] Log: RequestingChannelMembers ch[8] [Masturr a quitté la discussion.]
+[3443.62] Log: ERROR: Attempting to log in without settings.
+[3451.53] Log: Chat[1]: Namarand vient de se déconnecter.
+[3451.53] Log: ---- UpdateClanData
+[3451.59] Log: Chat[4]: Namarand a quitté le groupe.
+[3452.06] Log: RequestingChannelMembers ch[4] [Namarand a quitté la discussion.]
+[3452.07] Log: Chat[9]: Namarand vient de se déconnecter.
+[3452.07] Log: Chat[6]: Namarand vient de se déconnecter.
+[3481.41] Log: ---- UpdateClanData
+[3485.55] Log: Closing by request
+[3485.55] Log: appRequestExit(0)
+[3485.55] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[3486.71] Exit: Preparing to exit.
+[3487.07] Exit: Game engine shut down
+[3487.20] Exit: Windows client shut down
+[3487.32] Exit: XAudio2 Device shut down.
+[3487.64] Exit: Object subsystem successfully closed.
+[3489.17] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[3489.33] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[3489.66] Exit: Exiting.

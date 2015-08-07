@@ -1,5 +1,59 @@
 {
 	"Components" :	[
+				{
+					"type" : "CarouselVideo",
+					"width": 729,
+					"id": "GodPack",					
+					"image" : "Launcher_GodPack.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_GodPack.jpg",
+					"title" : "Ultimate God Pack", 
+					"description" : "Unlock ALL Present and Future Gods",
+					"visibleX" : 477
+				},
+				{ 
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"id": "ThrowbackSale",
+					"image" : "launcher_THROWBACK.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_05_Smite/launcher_THROWBACK.jpg",
+					"external-url" : "http://www.smitegame.com/throwback-party-sale/",
+					"title" : "Throwback Party!! Season 1 Skins 25-75% off", 
+					"description" : "Wednesday through Sunday, celebrate with a Throwback Party!",
+					"visibleX" : 400
+				},			
+				{ 
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"id": "Khepri",
+					"image" : "Launcher_Khepri.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_Khepri.jpg",
+					"video-url" : "https://www.youtube.com/embed/eKt0CmOQtks?autoplay=1", 
+					"title" : "Khephri, the Dawn Bringer", 
+					"description" : "The scarab God brings the shadows of the underworld to light.",
+					"visibleX" : 400
+				},
+				{
+					"type" : "CarouselVideo",
+					"width": 729, 
+					"id": "RenegadeAwilix",
+					"image" : "Launcher_RenegadeAwilix.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_RenegadeAwilix.jpg",
+					"video-url" : "https://www.youtube.com/embed/MlyCv7_69WA?autoplay=1", 
+					"title" : "Buckle Up for Trouble", 
+					"description" : "Renegade Awilix has attitude and she's not afraid to show it.",
+					"visibleX" : 400
+				},
+				{ 
+					"type" : "CarouselVideo",
+					"width": 729,
+					"id": "Gamescom",
+					"image" : "Launcher_Gamescom2015.jpg",
+					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_Gamescom2015.jpg",
+					"external-url" : "http://www.smitegame.com/hi-rez-studios-gamescom/",
+					"title" : "Hi-Rez Studios @ gamescom", 
+					"description" : "Going to gamescom? Visit the Hi-Rez Studios Booth in Hall 9!",
+					"visibleX" : 477
+				},
 				{ 
 					"type" : "CarouselVideo",
 					"width": 729, 
@@ -13,49 +67,6 @@
 				},
 				{
 					"type" : "CarouselVideo",
-					"width": 729,
-					"id": "GodPack",					
-					"image" : "Launcher_GodPack.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_GodPack.jpg",
-					"title" : "Ultimate God Pack", 
-					"description" : "Unlock ALL Present and Future Gods",
-					"visibleX" : 477
-				},
-				{ 
-					"type" : "CarouselVideo",
-					"width": 729,
-					"id": "InstaKillNeith",
-					"image" : "Launcher_InstagramNeith.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_29_Smite/Launcher_InstagramNeith.jpg",
-					"video-url" : "https://www.youtube.com/embed/Ze-_npHqtoE?autoplay=1",
-					"title" : "Time for a Selfie!", 
-					"description" : " Unlock Instakill Neith by following Smite on Instagram",
-					"visibleX" : 477
-				},
-				{
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "LokiRedo",
-					"image" : "Launcher_NewLoki.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_21_Smite/Launcher_NewLoki.jpg",
-					"video-url" : "https://www.youtube.com/embed/4HHtmva0diU?autoplay=1", 
-					"title" : "Loki Re-Born", 
-					"description" : "Loki Returns With A New Bag of Tricks",
-					"visibleX" : 400
-				},
-				{
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "Dr.Vanus",
-					"image" : "Launcher_MadScienceSylvanus.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_21_Smite/Launcher_MadScienceSylvanus.jpg",
-					"video-url" : "https://www.youtube.com/embed/GDpvQweBykA?autoplay=1",
-					"title" : "New Sylvanus Skin: Dr Vanus", 
-					"description" : "Experiment on insanity with the Dr Vanus skin. It’s ALIVE!",
-					"visibleX" : 400
-				},
-				{
-					"type" : "CarouselVideo",
 					"width": 729, 
 					"id": "SeasonTicket",
 					"image" : "Launcher_SeasonTicket.jpg",
@@ -64,17 +75,6 @@
 					"title" : "Season Ticket 2015", 
 					"description" : "Unlock Cool Exclusive Skins, Icons and More.",
 					"visibleX" : 260
-				},
-				{
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "SoS",
-					"image" : "Launcher_StarSlayerAnhur.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_27_Smite/Launcher_StarSlayerAnhur.jpg",
-					"video-url" : "https://www.youtube.com/embed/hV8k6_Eu4qM?autoplay=1", 
-					"title" : "Blast Off With Star Slayer Anhur", 
-					"description" : "Purchase all Summer of SMITE items to unlock!",
-					"visibleX" : 400
 				}
 			]
 }

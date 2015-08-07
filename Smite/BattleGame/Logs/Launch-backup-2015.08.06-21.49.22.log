@@ -1,0 +1,246 @@
+[0000.35] Log: Async Log file open, 08/05/15 22:05:47
+[0000.35] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.35] Log:  ... running in INSTALLED mode
+[0000.35] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.35] Init: Version: 10897
+[0000.35] Init: Epic Internal: 0
+[0000.35] Init: Compiled (32-bit): Aug  3 2015 14:02:29
+[0000.35] Init: Changelist: 1532151
+[0000.35] Init: Game is version 2.11.2891.0.
+[0000.35] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=72227227522323258328732273238424942464260628 -cnmg2=722672275221232883207321732784259423642225250629 -ASYNCTICK=FALSE -pid=017 -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=5B2B17F3
+[0000.35] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.44] Log: Deleting old log file Launch-backup-2015.07.21-22.30.39.log
+[0000.50] Log: Deleting old log file Launch-backup-2015.07.22-12.37.13.log
+[0000.55] Log: Deleting old log file Launch-backup-2015.07.22-16.40.02.log
+[0000.56] Log: Deleting old log file Launch-backup-2015.07.23-21.28.00.log
+[0000.90] Log: Deleting old log file unreal-v10897-2015.07.21-22.27.33.dmp
+[0000.91] Init: Computer: PC-ARTHUR
+[0000.91] Init: User: Arthur
+[0000.91] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.91] Init: High frequency timer resolution =2.240907 MHz
+[0000.91] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.5GB Virtual=4.0GB
+[0001.05] DevOnline: Initializing MCTS
+[0001.05] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0001.05] Init: Object subsystem initialized
+[0001.05] Log: Overriding lang INT w/ command-line option of FRA
+[0007.35] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0007.36] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0007.87] Log: ShadowPatch: Json parsing failure
+[0007.87] Log: ShadowPatch Couldn't find previous patch Json file: C:\Users\Arthur\Documents\My Games\Smite\BattleGame\Config\LocalShadow.json 
+[0007.87] Log: ShadowPatch: No updates required.
+[0007.87] Log: AsyncTickTasks DISABLED at startup
+[0007.99] Log: SystemSettings based on: SystemSettings
+[0007.99] Log: SystemSettings based on: SystemSettings
+[0007.99] Log: SystemSettings based on: SystemSettings
+[0007.99] Log: SystemSettings based on: SystemSettings
+[0008.00] Log: SystemSettings based on: SystemSettings
+[0009.44] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0009.44] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0009.82] Log: Shader platform (RHI): PC-D3D-SM3
+[0010.15] Log: PhysX GPU Support: DISABLED
+[0014.28] Log: Assembly Loaded Version: 
+[0031.49] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0032.30] Log: 118712 objects as part of root set at end of initial load.
+[0032.30] Log: 0 out of 0 bytes used by permanent object pool.
+[0032.30] Log: Initializing Engine...
+[0034.28] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0034.28] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0034.29] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0034.29] Log: GFx attempted to load missing object [Logos]
+[0034.31] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0034.31] Warning: Warning, Failed to find object 'Class None.'
+[0034.35] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0034.35] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0034.81] Log: Map Game ID = 0
+[0034.81] Log: Map Instance ID = 128805181
+[0034.83] Log: Performance: Critical section Lock/Unlock 24 nsec
+[0034.83] Log: Performance:  appCycles 11 nsec
+[0034.91] Log: Performance:  memCopy per KB 380 nsec
+[0034.94] Log: Performance:  memZero per KB 146 nsec
+[0034.95] Log: Performance:  appInterlockedIncrement 10 nsec
+[0034.95] Log: Performance:  GetTickCount 4 nsec
+[0034.95] Log: Game class is 'TgGameLaunch'
+[0034.96] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0034.96] Log: Flushing async loaders.
+[0035.31] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0035.31] Log: Flushed async loaders.
+[0035.34] Log: Primary PhysX scene will be in software.
+[0035.34] Log: Creating Primary PhysX Scene.
+[0035.34] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0035.34] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.05-22.06.22
+[0035.34] Log: Skipping initialization of FSMPartPool!
+[0035.95] Log: Bringing up level for play took: 0.627030
+[0044.94] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0044.95] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0045.19] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0046.51] Log: ########### Finished loading level: 12.154222 seconds
+[0046.67] Log: Initializing Engine Completed
+[0046.67] Log: >>>>>>>>>>>>>> Initial startup: 46.67s <<<<<<<<<<<<<<<
+[0046.67] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0047.30] Log: WebFactory created
+[0051.99] Log: Login Success: kimicol
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\All for One! Freya .jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Kephri.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Renegade Awilix.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamma Slam Cabrakan.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Imperator Khephri.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBCupid4.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\PirateKali.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\HercHunkulese.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Loki.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Tier2Medusa.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Hou Yi.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\ThrowbackSale.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\ThrowbackSale_thumb.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\RetroHerc.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\RetroHerc_thumb.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri_thumb.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\esportsseasonticket_thumb.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamescom.jpg' error ()
+[0052.94] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamescom_thumb.jpg' error ()
+[0053.01] Log: Team/Instance chat routed to Instance Server.
+[0053.01] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0053.01] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0053.95] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0086.19] Log: Chat[1]: Statut du clan : Tiny42SH
+[0086.19] Log: ---- UpdateClanData
+[0120.20] Log: ---- UpdateClanData
+[0128.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0128.14] Warning: Warning, Failed to find object 'Class None.None'
+[0154.80] TgSLO: Async Load: GOD_Odin_V2
+[0154.80] TgSLO: Async Load: GOD_Odin_V2_Lobby
+[0154.80] TgSLO: Async Load: FX_Odin_V2
+[0156.49] TgSLO: Finish Load: GOD_Odin_V2
+[0156.76] TgSLO: Finish Load: GOD_Odin_V2_Lobby
+[0157.76] TgSLO: Finish Load: FX_Odin_V2
+[0231.25] TgSLO: Async Load: GOD_Odin_V2_Skins
+[0231.25] TgSLO: Async Load: AUD_God_Odin
+[0231.30] TgSLO: Finish Load: GOD_Odin_V2_Skins
+[0232.52] TgSLO: Finish Load: AUD_God_Odin
+[0234.49] TgSLO: Async Load: GOD_Odin_V2_Skin2
+[0234.49] TgSLO: Async Load: FX_Odin_Skin2_V2
+[0234.49] TgSLO: Async Load: FX_Odin_Skin2
+[0234.49] TgSLO: Async Load: FX_Odin_Targeting_SKN2
+[0234.53] TgSLO: Async Load: AnimNotify8474
+[0234.63] TgSLO: Finish Load: GOD_Odin_V2_Skin2
+[0234.70] TgSLO: Finish Load: FX_Odin_Skin2_V2
+[0235.64] TgSLO: Finish Load: FX_Odin_Skin2
+[0235.72] TgSLO: Finish Load: FX_Odin_Targeting_SKN2
+[0235.82] TgSLO: Finish Load: AnimNotify8474
+[0238.76] TgSLO: Async Load: FX_Odin_V2_Gold
+[0238.77] TgSLO: Async Load: AnimNotify8302
+[0238.85] TgSLO: Finish Load: FX_Odin_V2_Gold
+[0238.86] TgSLO: Finish Load: AnimNotify8302
+[0242.50] Log: Chat[1]: Staelos vient de se déconnecter.
+[0242.50] Log: ---- UpdateClanData
+[0243.00] TgSLO: Async Load: GOD_GuanYu_V2
+[0243.00] TgSLO: Async Load: GOD_GuanYu_V2_Lobby
+[0243.00] TgSLO: Async Load: FX_GuanYu_V2
+[0244.67] TgSLO: Finish Load: GOD_GuanYu_V2
+[0244.84] TgSLO: Finish Load: GOD_GuanYu_V2_Lobby
+[0245.45] TgSLO: Finish Load: FX_GuanYu_V2
+[0250.51] TgSLO: Async Load: GOD_GuanYu_V2_Skins
+[0250.51] TgSLO: Async Load: FX_GuanYu_V2_Targeting
+[0250.57] TgSLO: Finish Load: GOD_GuanYu_V2_Skins
+[0250.65] TgSLO: Finish Load: FX_GuanYu_V2_Targeting
+[0255.44] TgSLO: Async Load: GOD_GuanYu_Skin2
+[0255.44] TgSLO: Async Load: FX_GuanYu_V2_Targeting_Skin2
+[0255.44] TgSLO: Async Load: AnimNotify8663
+[0255.53] TgSLO: Finish Load: GOD_GuanYu_Skin2
+[0255.55] TgSLO: Finish Load: FX_GuanYu_V2_Targeting_Skin2
+[0255.81] TgSLO: Finish Load: AnimNotify8663
+[0261.20] TgSLO: Async Load: GOD_GuanYu_Skin3
+[0261.23] TgSLO: Finish Load: GOD_GuanYu_Skin3
+[0266.63] TgSLO: Async Load: GOD_GuanYu_V2_Skins
+[0266.63] TgSLO: Async Load: FX_GuanYu_V2_Gold
+[0266.63] TgSLO: Async Load: AUD_God_GuanYu_V2
+[0266.63] TgSLO: Async Load: AUD_God_GuanYu
+[0266.63] TgSLO: Async Load: AnimNotify8298
+[0266.68] TgSLO: Finish Load: GOD_GuanYu_V2_Skins
+[0266.78] TgSLO: Finish Load: FX_GuanYu_V2_Gold
+[0267.02] TgSLO: Finish Load: AUD_God_GuanYu_V2
+[0267.32] TgSLO: Finish Load: AUD_God_GuanYu
+[0267.33] TgSLO: Finish Load: AnimNotify8298
+[0278.26] Log: Chat[1]: Staelos vient de se connecter.
+[0278.26] Log: ---- UpdateClanData
+[0278.43] Log: ---- UpdateClanData
+[0278.43] Log: RequestingChannelMembers ch[1] [Staelos a rejoint la discussion.]
+[0285.74] TgSLO: Async Load: GOD_Ares
+[0285.74] TgSLO: Async Load: GOD_Ares_Lobby
+[0285.74] TgSLO: Async Load: FX_Ares
+[0286.99] TgSLO: Finish Load: GOD_Ares
+[0287.28] TgSLO: Finish Load: GOD_Ares_Lobby
+[0287.95] TgSLO: Finish Load: FX_Ares
+[0290.06] TgSLO: Async Load: GOD_Ares_Skin1
+[0290.06] TgSLO: Async Load: AUD_VOX_God_Ares
+[0290.06] TgSLO: Async Load: FX_Ares_Skin_02
+[0290.06] TgSLO: Async Load: AUD_God_Ares
+[0290.11] TgSLO: Async Load: AnimNotify9268
+[0290.20] TgSLO: Finish Load: GOD_Ares_Skin1
+[0290.27] TgSLO: Finish Load: AUD_VOX_God_Ares
+[0290.53] TgSLO: Finish Load: FX_Ares_Skin_02
+[0291.17] TgSLO: Finish Load: AUD_God_Ares
+[0291.20] TgSLO: Finish Load: AnimNotify9268
+[0293.95] TgSLO: Async Load: GOD_Ares_Skins
+[0294.06] TgSLO: Finish Load: GOD_Ares_Skins
+[0297.70] TgSLO: Async Load: AnimNotify8623
+[0297.74] TgSLO: Finish Load: AnimNotify8623
+[0304.14] TgSLO: Async Load: GOD_Fenrir
+[0304.14] TgSLO: Async Load: GOD_Fenrir_Lobby
+[0304.14] TgSLO: Async Load: FX_Fenrir
+[0305.97] TgSLO: Finish Load: GOD_Fenrir
+[0306.28] TgSLO: Finish Load: GOD_Fenrir_Lobby
+[0306.76] TgSLO: Finish Load: FX_Fenrir
+[0319.08] TgSLO: Async Load: GOD_Hades
+[0319.08] TgSLO: Async Load: GOD_Hades_Lobby
+[0319.08] TgSLO: Async Load: FX_Hades
+[0319.08] TgSLO: Async Load: GOD_Hades_Skin3
+[0319.09] TgSLO: Async Load: FX_Hades_skin3
+[0320.03] TgSLO: Finish Load: GOD_Hades
+[0320.26] TgSLO: Finish Load: GOD_Hades_Lobby
+[0320.78] TgSLO: Finish Load: FX_Hades
+[0320.88] TgSLO: Finish Load: GOD_Hades_Skin3
+[0320.92] TgSLO: Finish Load: FX_Hades_skin3
+[0332.34] TgSLO: Async Load: GOD_Ra
+[0332.34] TgSLO: Async Load: GOD_Ra_Lobby
+[0332.34] TgSLO: Async Load: FX_Ra
+[0332.82] TgSLO: Finish Load: GOD_Ra
+[0333.03] TgSLO: Finish Load: GOD_Ra_Lobby
+[0333.39] TgSLO: Finish Load: FX_Ra
+[0340.34] Log: Closing by request
+[0340.34] Log: appRequestExit(0)
+[0340.34] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[0341.58] Exit: Preparing to exit.
+[0341.92] Exit: Game engine shut down
+[0342.02] Exit: Windows client shut down
+[0342.04] Exit: XAudio2 Device shut down.
+[0342.32] Exit: Object subsystem successfully closed.
+[0343.84] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0344.01] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0344.30] Exit: Exiting.
