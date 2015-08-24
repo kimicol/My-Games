@@ -1,80 +1,90 @@
 {
-	"Components" :	[
-				{
-					"type" : "CarouselVideo",
-					"width": 729,
-					"id": "GodPack",					
-					"image" : "Launcher_GodPack.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_GodPack.jpg",
-					"title" : "Ultimate God Pack", 
-					"description" : "Unlock ALL Present and Future Gods",
-					"visibleX" : 477
-				},
-				{ 
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "ThrowbackSale",
-					"image" : "launcher_THROWBACK.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_05_Smite/launcher_THROWBACK.jpg",
-					"external-url" : "http://www.smitegame.com/throwback-party-sale/",
-					"title" : "Throwback Party!! Season 1 Skins 25-75% off", 
-					"description" : "Wednesday through Sunday, celebrate with a Throwback Party!",
-					"visibleX" : 400
-				},			
-				{ 
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "Khepri",
-					"image" : "Launcher_Khepri.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_Khepri.jpg",
-					"video-url" : "https://www.youtube.com/embed/eKt0CmOQtks?autoplay=1", 
-					"title" : "Khephri, the Dawn Bringer", 
-					"description" : "The scarab God brings the shadows of the underworld to light.",
-					"visibleX" : 400
-				},
-				{
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "RenegadeAwilix",
-					"image" : "Launcher_RenegadeAwilix.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_RenegadeAwilix.jpg",
-					"video-url" : "https://www.youtube.com/embed/MlyCv7_69WA?autoplay=1", 
-					"title" : "Buckle Up for Trouble", 
-					"description" : "Renegade Awilix has attitude and she's not afraid to show it.",
-					"visibleX" : 400
-				},
-				{ 
-					"type" : "CarouselVideo",
-					"width": 729,
-					"id": "Gamescom",
-					"image" : "Launcher_Gamescom2015.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_08_04_Smite/Launcher_Gamescom2015.jpg",
-					"external-url" : "http://www.smitegame.com/hi-rez-studios-gamescom/",
-					"title" : "Hi-Rez Studios @ gamescom", 
-					"description" : "Going to gamescom? Visit the Hi-Rez Studios Booth in Hall 9!",
-					"visibleX" : 477
-				},
-				{ 
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "RetroHerc",
-					"image" : "Launcher_RetroHerc.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_29_Smite/Launcher_RetroHerc.jpg",
-					"video-url" : "https://www.youtube.com/embed/-56zD9zhGrc?autoplay=1", 
-					"title" : "SMITE hits 10 MILLION players!", 
-					"description" : "Celebrate with a Free 'Retro Herc' Skin by Winning 10 Matches in August",
-					"visibleX" : 400
-				},
-				{
-					"type" : "CarouselVideo",
-					"width": 729, 
-					"id": "SeasonTicket",
-					"image" : "Launcher_SeasonTicket.jpg",
-					"image-url" : "http://hirez.http.internapcdn.net/hirez/HiPatch/LandingPanel/2015_07_16_Smite/Launcher_SeasonTicket.jpg",
-					"video-url" : "https://www.youtube.com/embed/3LLcO5otA-Y?autoplay=1", 
-					"title" : "Season Ticket 2015", 
-					"description" : "Unlock Cool Exclusive Skins, Icons and More.",
-					"visibleX" : 260
-				}
-			]
+  "Components": [
+    {
+      "id": "GodPack",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_GodPack.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_GodPack.jpg",
+      "title": "Ultimate God Pack",
+      "description": "Unlock ALL Present and Future Gods",
+      "visibleX": 477,
+      "no-steam": false,
+      "caption-alpha": 125
+    },
+    {
+      "id": "XboxLaunch",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_Zeus.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_Zeus.jpg",
+      "title": "SMITE Launches on the Xbox One",
+      "description": "Fight in the Battleground of the Gods today",
+      "visibleX": 400,
+      "no-steam": false,
+      "caption-alpha": 125
+    },
+    {
+      "id": "XboxMerge",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_XBOX_Zeus.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_XBOX_Zeus.jpg",
+      "title": "Last Chance to Merge Accounts",
+      "description": "Don't forget to merge your PC & Xbox accounts before August 31st",
+      "visibleX": 400,
+      "no-steam": false,
+      "caption-alpha": 125
+    },
+    {
+      "id": "WeddingBundle",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "PCfeature_Wedding.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/PCfeature_Wedding.jpg",
+      "title": "Moon of My Life, My Sun & Stars",
+      "description": "Sun's Bride Chang'e & Moon's Groom Hou Yi Join in Marriage",
+      "visibleX": 400,
+      "no-steam": false,
+      "caption-alpha": 125
+    },
+    {
+      "id": "SamuraiOdin",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "PCfeature_SamuraiOdin.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/PCfeature_SamuraiOdin.jpg",
+      "title": "Wield the Power of the Samurai",
+      "description": "Daimyodin Odin Slashes onto the Battlefield",
+      "visibleX": 400,
+      "no-steam": false,
+      "caption-alpha": 190
+    },
+    {
+      "id": "RetroHerc",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_RetroHerc.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_RetroHerc.jpg",
+      "video-url": "https://www.youtube.com/embed/-56zD9zhGrc?autoplay=1",
+      "title": "SMITE hits 10 MILLION players!",
+      "description": "Celebrate with a Free 'Retro Herc' Skin by Winning 10 Matches in August",
+      "visibleX": 400,
+      "no-steam": false,
+      "caption-alpha": 125
+    },
+    {
+      "id": "SeasonTicket",
+      "type": "CarouselVideo",
+      "width": 729,
+      "image": "Launcher_SeasonTicket.jpg",
+      "image-url": "http://hirez.http.internapcdn.net/hirez/jsonimages/Launcher_SeasonTicket.jpg",
+      "video-url": "https://www.youtube.com/embed/3LLcO5otA-Y?autoplay=1",
+      "title": "Season Ticket 2015",
+      "description": "Unlock Cool Exclusive Skins, Icons and More.",
+      "visibleX": 260,
+      "no-steam": false,
+      "caption-alpha": 125
+    }
+  ]
 }

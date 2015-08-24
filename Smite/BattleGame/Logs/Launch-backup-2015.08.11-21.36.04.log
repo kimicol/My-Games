@@ -1,0 +1,778 @@
+[0000.28] Log: Async Log file open, 08/10/15 21:18:49
+[0000.28] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.28] Log:  ... running in INSTALLED mode
+[0000.28] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.28] Init: Version: 10897
+[0000.28] Init: Epic Internal: 0
+[0000.28] Init: Compiled (32-bit): Aug  7 2015 15:46:08
+[0000.28] Init: Changelist: 1532151
+[0000.28] Init: Game is version 2.11.2894.0.
+[0000.28] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=72217221522123258326732673258423942564257520 -cnmg2=722072225225232883237326732484229425642625205527 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=228B0D82
+[0000.28] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.28] Log: Deleting old log file Launch-backup-2015.07.27-21.20.31.log
+[0000.31] Log: Deleting old log file unreal-v10897-2015.07.27-21.17.01.dmp
+[0000.31] Init: Computer: PC-ARTHUR
+[0000.31] Init: User: Arthur
+[0000.31] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.31] Init: High frequency timer resolution =2.240908 MHz
+[0000.31] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.6GB Virtual=4.0GB
+[0000.38] DevOnline: Initializing MCTS
+[0000.38] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.38] Init: Object subsystem initialized
+[0000.38] Log: Overriding lang INT w/ command-line option of FRA
+[0001.18] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0001.19] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0001.19] Log: ShadowPatch: Error -pid should be passed on command line.
+[0001.35] Log: AsyncTickTasks DISABLED at startup
+[0001.47] Log: SystemSettings based on: SystemSettings
+[0001.47] Log: SystemSettings based on: SystemSettings
+[0001.47] Log: SystemSettings based on: SystemSettings
+[0001.47] Log: SystemSettings based on: SystemSettings
+[0001.48] Log: SystemSettings based on: SystemSettings
+[0002.29] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0002.29] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0002.37] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.42] Log: PhysX GPU Support: DISABLED
+[0003.68] Log: Assembly Loaded Version: 
+[0020.45] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0021.21] Log: 118726 objects as part of root set at end of initial load.
+[0021.21] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.21] Log: Initializing Engine...
+[0022.35] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0022.35] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0022.38] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0022.38] Log: GFx attempted to load missing object [Logos]
+[0022.38] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0022.38] Warning: Warning, Failed to find object 'Class None.'
+[0022.38] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0022.38] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0022.55] Log: Map Game ID = 0
+[0022.55] Log: Map Instance ID = 129234351
+[0022.58] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0022.58] Log: Performance:  appCycles 11 nsec
+[0022.62] Log: Performance:  memCopy per KB 234 nsec
+[0022.65] Log: Performance:  memZero per KB 138 nsec
+[0022.67] Log: Performance:  appInterlockedIncrement 14 nsec
+[0022.67] Log: Performance:  GetTickCount 4 nsec
+[0022.67] Log: Game class is 'TgGameLaunch'
+[0022.67] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0022.67] Log: Flushing async loaders.
+[0022.71] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0022.71] Log: Flushed async loaders.
+[0022.75] Log: Primary PhysX scene will be in software.
+[0022.75] Log: Creating Primary PhysX Scene.
+[0022.75] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0022.75] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.10-21.19.11
+[0022.75] Log: Skipping initialization of FSMPartPool!
+[0022.81] Log: Bringing up level for play took: 0.087593
+[0024.18] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0024.18] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0024.42] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0024.97] Log: ########### Finished loading level: 2.584559 seconds
+[0025.08] Log: Initializing Engine Completed
+[0025.08] Log: >>>>>>>>>>>>>> Initial startup: 25.08s <<<<<<<<<<<<<<<
+[0025.08] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0025.09] Log: WebFactory created
+[0028.17] Log: Login Success: kimicol
+[0028.30] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0028.30] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0028.30] Error: Failed to read file '..\..\BattleGame\LandingPanel\Renegade Awilix.jpg' error ()
+[0028.31] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamma Slam Cabrakan.jpg' error ()
+[0028.31] Error: Failed to read file '..\..\BattleGame\LandingPanel\Imperator Khepri.jpg' error ()
+[0028.31] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0028.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0028.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0028.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0028.65] Error: Failed to read file '..\..\BattleGame\LandingPanel\RetroHerc.jpg' error ()
+[0029.09] Error: Failed to read file '..\..\BattleGame\LandingPanel\ReferAFriend22.jpg' error ()
+[0029.22] Log: Team/Instance chat routed to Instance Server.
+[0029.22] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0029.22] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0029.70] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0053.95] Log: Chat[1]: Statut du clan : Tiny42SH
+[0053.95] Log: ---- UpdateClanData
+[0069.23] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0083.84] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0083.84] Warning: Warning, Failed to find object 'Class None.None'
+[0088.04] TgSLO: Async Load: GOD_Thor
+[0088.04] TgSLO: Async Load: GOD_Thor_Lobby
+[0088.04] TgSLO: Async Load: FX_Thor
+[0089.35] TgSLO: Finish Load: GOD_Thor
+[0089.81] TgSLO: Finish Load: GOD_Thor_Lobby
+[0090.53] TgSLO: Finish Load: FX_Thor
+[0090.63] TgSLO: Async Load: GOD_Thor_Skin1
+[0090.63] TgSLO: Async Load: AUD_God_Thor
+[0090.63] TgSLO: Async Load: FX_Thor_Skin1
+[0090.63] TgSLO: Async Load: FX_Thor_Targeting_SKIN1
+[0090.63] TgSLO: Async Load: AnimNotify8313
+[0090.88] TgSLO: Finish Load: GOD_Thor_Skin1
+[0091.32] TgSLO: Finish Load: AUD_God_Thor
+[0091.82] TgSLO: Finish Load: FX_Thor_Skin1
+[0091.88] TgSLO: Finish Load: FX_Thor_Targeting_SKIN1
+[0091.93] TgSLO: Finish Load: AnimNotify8313
+[0096.84] TgSLO: Async Load: GOD_Thor_Skins
+[0096.84] TgSLO: Async Load: FX_Thor_Skin2
+[0096.93] TgSLO: Finish Load: GOD_Thor_Skins
+[0097.39] TgSLO: Finish Load: FX_Thor_Skin2
+[0100.92] TgSLO: Async Load: GOD_Thor_Skin2
+[0100.92] TgSLO: Async Load: FX_Thor_Targeting_SKIN2
+[0100.92] TgSLO: Async Load: AnimNotify8828
+[0101.08] TgSLO: Finish Load: GOD_Thor_Skin2
+[0101.18] TgSLO: Finish Load: FX_Thor_Targeting_SKIN2
+[0101.20] TgSLO: Finish Load: AnimNotify8828
+[0104.41] TgSLO: Async Load: GOD_Thor_Skin3
+[0104.41] TgSLO: Async Load: FX_Thor_Skin3
+[0104.41] TgSLO: Async Load: AnimNotify10151
+[0104.51] TgSLO: Finish Load: GOD_Thor_Skin3
+[0104.83] TgSLO: Finish Load: FX_Thor_Skin3
+[0104.86] TgSLO: Finish Load: AnimNotify10151
+[0108.08] TgSLO: Async Load: GOD_Thor_Skin4
+[0108.25] TgSLO: Finish Load: GOD_Thor_Skin4
+[0108.88] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0108.88] Log: RequestingChannelMembers ch[3] [RustInPeace90 a rejoint la discussion.]
+[0111.03] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0111.17] Log: RequestingChannelMembers ch[3] [PhantomDancerTR a rejoint la discussion.]
+[0111.20] Log: RequestingChannelMembers ch[3] [RustInPeace90 a rejoint la discussion.]
+[0111.79] Log: RequestingChannelMembers ch[3] [GanjaAshaéTR a rejoint la discussion.]
+[0117.98] TgSLO: Async Load: GOD_GuanYu_V2
+[0117.98] TgSLO: Async Load: GOD_GuanYu_V2_Lobby
+[0117.98] TgSLO: Async Load: FX_GuanYu_V2
+[0118.80] TgSLO: Finish Load: GOD_GuanYu_V2
+[0118.87] TgSLO: Finish Load: GOD_GuanYu_V2_Lobby
+[0119.26] TgSLO: Finish Load: FX_GuanYu_V2
+[0143.68] TgSLO: Async Load: GOD_AhMuzenCab
+[0143.68] TgSLO: Async Load: GOD_AhMuzenCab_Lobby
+[0143.68] TgSLO: Async Load: FX_AhMuzenCab
+[0143.68] TgSLO: Async Load: GOD_AhMuzenCab_Skin1
+[0145.23] TgSLO: Finish Load: GOD_AhMuzenCab
+[0145.58] TgSLO: Finish Load: GOD_AhMuzenCab_Lobby
+[0145.59] TgSLO: Async Load: GOD_Vulcan
+[0145.59] TgSLO: Async Load: GOD_Vulcan_Lobby
+[0145.59] TgSLO: Async Load: FX_Vulcan
+[0146.18] TgSLO: Finish Load: FX_AhMuzenCab
+[0146.23] TgSLO: Finish Load: GOD_AhMuzenCab_Skin1
+[0146.24] Log: Flushing async loaders.
+[0146.64] TgSLO: Finish Load: GOD_Vulcan
+[0146.82] TgSLO: Finish Load: GOD_Vulcan_Lobby
+[0146.93] TgSLO: Finish Load: FX_Vulcan
+[0146.93] Log: Flushed async loaders.
+[0150.47] TgSLO: Async Load: GOD_Hades
+[0150.47] TgSLO: Async Load: GOD_Hades_Lobby
+[0150.47] TgSLO: Async Load: FX_Hades
+[0151.11] TgSLO: Finish Load: GOD_Hades
+[0151.29] TgSLO: Finish Load: GOD_Hades_Lobby
+[0151.61] TgSLO: Finish Load: FX_Hades
+[0195.98] TgSLO: Async Load: GOD_Apollo
+[0195.98] TgSLO: Async Load: GOD_Apollo_Lobby
+[0195.98] TgSLO: Async Load: FX_Apollo
+[0196.72] TgSLO: Finish Load: GOD_Apollo
+[0197.21] TgSLO: Cancel Load: GOD_Apollo_Lobby
+[0197.21] TgSLO: Cancel Load: FX_Apollo
+[0197.22] TgSLO: Async Load: GOD_Apollo_Lobby
+[0197.22] TgSLO: Async Load: FX_Apollo
+[0197.22] TgSLO: Async Load: GOD_Apollo_Skin4
+[0197.22] TgSLO: Async Load: FX_Apollo_Skin4
+[0197.22] TgSLO: Async Load: AUD_God_Apollo
+[0197.22] TgSLO: Async Load: FX_Apollo_Targeting_Skin_04
+[0197.22] TgSLO: Async Load: AnimNotify10933
+[0197.46] TgSLO: Finish Load: GOD_Apollo_Lobby
+[0197.76] TgSLO: Finish Load: FX_Apollo
+[0197.92] TgSLO: Finish Load: GOD_Apollo_Skin4
+[0198.15] TgSLO: Finish Load: FX_Apollo_Skin4
+[0198.57] TgSLO: Finish Load: AUD_God_Apollo
+[0198.62] TgSLO: Finish Load: FX_Apollo_Targeting_Skin_04
+[0198.64] TgSLO: Finish Load: AnimNotify10933
+[0202.23] TgSLO: Async Load: GOD_Bastet_V2
+[0202.23] TgSLO: Async Load: GOD_Bastet_V2_Lobby
+[0202.23] TgSLO: Async Load: FX_Bastet_V2
+[0202.23] TgSLO: Async Load: GOD_Bastet_V2_Cat
+[0203.30] TgSLO: Finish Load: GOD_Bastet_V2
+[0203.47] TgSLO: Finish Load: GOD_Bastet_V2_Lobby
+[0203.92] TgSLO: Finish Load: FX_Bastet_V2
+[0204.23] TgSLO: Finish Load: GOD_Bastet_V2_Cat
+[0213.37] DevNet: URL: Adding default option Team=255
+[0213.37] Log: ReceiveChangeMap: mapGameId 1531
+[0213.58] DevNet: URL: Adding default option Team=255
+[0213.58] DevNet: Browse: 72.251.243.214:9240/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=175669059?Team=255
+[0213.58] DevNet: Game client on port 9240, rate 25000
+[0214.09] DevNet: Welcomed by server (Level: roman_arena_p, Game: TgGame.TgGame_Arena_Escort)
+[0214.32] Log: LoadMap: 72.251.243.214:9240/roman_arena_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=175669059?Team=255?game=TgGame.TgGame_Arena_Escort
+[0214.75] Log: Map Game ID = 0
+[0214.75] Log: Map Instance ID = 129234351
+[0214.77] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0214.78] Log: Performance:  appCycles 11 nsec
+[0214.83] Log: Performance:  memCopy per KB 254 nsec
+[0214.86] Log: Performance:  memZero per KB 170 nsec
+[0214.88] Log: Performance:  appInterlockedIncrement 13 nsec
+[0214.88] Log: Performance:  GetTickCount 4 nsec
+[0217.80] TgSLO: Async Load: FX_Store_Items
+[0217.80] TgSLO: Async Load: FX_Store_Items_Targeting
+[0217.80] TgSLO: Async Load: FX_Status_Effects
+[0217.80] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0217.80] TgSLO: Async Load: GOD_Common_AT
+[0217.80] TgSLO: Async Load: AUD_VOX_Narrator
+[0217.80] TgSLO: Async Load: NPC_Ward2
+[0217.80] TgSLO: Async Load: FX_Buff_Belts_V2
+[0217.80] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0217.80] TgSLO: Async Load: GOD_Apollo
+[0217.80] TgSLO: Async Load: GOD_Apollo_Textures
+[0217.80] TgSLO: Async Load: FX_Apollo
+[0217.80] TgSLO: Async Load: AUD_God_Apollo
+[0217.80] TgSLO: Async Load: GOD_Apollo_Skin4
+[0217.80] TgSLO: Async Load: FX_Apollo_Skin4
+[0217.80] TgSLO: Async Load: FX_Apollo_Targeting_Skin_04
+[0217.80] TgSLO: Async Load: AnimNotify10933
+[0217.80] TgSLO: Async Load: GOD_Bastet_V2
+[0217.80] TgSLO: Async Load: GOD_Bastet_V2_Textures
+[0217.80] TgSLO: Async Load: FX_Bastet_V2
+[0217.80] TgSLO: Async Load: AUD_God_Bastet_V2
+[0217.80] TgSLO: Async Load: GOD_Bastet_V2_Cat
+[0217.80] TgSLO: Async Load: FX_Bastet_Targeting
+[0217.80] TgSLO: Async Load: GOD_AhMuzenCab
+[0217.80] TgSLO: Async Load: GOD_AhMuzenCab_Textures
+[0217.80] TgSLO: Async Load: FX_AhMuzenCab
+[0217.80] TgSLO: Async Load: AUD_God_AhMuzenCab
+[0217.80] TgSLO: Async Load: GOD_AhMuzenCab_Skin1
+[0217.80] TgSLO: Async Load: GOD_Hades
+[0217.80] TgSLO: Async Load: GOD_Hades_Textures
+[0217.80] TgSLO: Async Load: FX_Hades
+[0217.80] TgSLO: Async Load: FX_Hades_Targeting
+[0217.80] TgSLO: Async Load: AUD_God_Hades
+[0217.80] TgSLO: Async Load: GOD_Hades_Skin3
+[0217.80] TgSLO: Async Load: FX_Hades_skin3
+[0217.80] TgSLO: Async Load: GOD_Vulcan
+[0217.80] TgSLO: Async Load: GOD_Vulcan_Textures
+[0217.80] TgSLO: Async Load: FX_Vulcan
+[0217.80] TgSLO: Async Load: AUD_God_Vulcan
+[0217.80] TgSLO: Async Load: GOD_Bellona
+[0217.80] TgSLO: Async Load: GOD_Bellona_Textures
+[0217.81] TgSLO: Async Load: FX_Bellona
+[0217.81] TgSLO: Async Load: AUD_God_Bellona
+[0217.81] TgSLO: Async Load: GOD_Ares
+[0217.81] TgSLO: Async Load: GOD_Ares_Textures
+[0217.81] TgSLO: Async Load: FX_Ares
+[0217.81] TgSLO: Async Load: AUD_God_Ares
+[0217.81] TgSLO: Async Load: GOD_Loki_V2
+[0217.81] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0217.81] TgSLO: Async Load: FX_Loki_V2
+[0217.81] TgSLO: Async Load: AUD_God_Loki_V2
+[0217.81] TgSLO: Async Load: GOD_Kukulkan
+[0217.81] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0217.81] TgSLO: Async Load: FX_Kukulkan
+[0217.81] TgSLO: Async Load: AUD_God_Kukulkan
+[0217.81] TgSLO: Async Load: FX_Roman_Arena
+[0217.81] TgSLO: Async Load: AUD_ENV_Roman_Arena
+[0217.81] TgSLO: Async Load: FX_Tower
+[0217.81] TgSLO: Async Load: FX_Greek_Tower
+[0217.81] TgSLO: Async Load: AUD_Tower
+[0217.81] TgSLO: Async Load: NPC_Tower_RA2015a
+[0217.81] TgSLO: Async Load: MDL_PseudoMesh
+[0217.81] TgSLO: Async Load: NPC_Arena_Basilisk
+[0217.81] TgSLO: Async Load: FX_NPC_Arena_Basilisk
+[0217.81] TgSLO: Async Load: AUD_NPC_Arena_Basilisk
+[0217.81] TgSLO: Async Load: NPC_Arena_Lion
+[0217.81] TgSLO: Async Load: FX_NPC_Arena_Lion
+[0217.81] TgSLO: Async Load: AUD_NPC_Arena_Lion
+[0217.81] TgSLO: Async Load: NPC_Arena_Boar
+[0217.81] TgSLO: Async Load: FX_NPC_Arena_Boar
+[0217.81] TgSLO: Async Load: AUD_NPC_Arena_Boar
+[0217.81] TgSLO: Async Load: NPC_Arena_Minion
+[0217.81] TgSLO: Async Load: NPC_Minion_Universal
+[0217.81] TgSLO: Async Load: FX_Roman
+[0217.81] TgSLO: Async Load: FX_Minion_Death
+[0217.81] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0217.81] TgSLO: Async Load: AUD_NPC_Olympus
+[0217.82] TgSLO: Async Load: FX_Common
+[0217.82] TgSLO: Async Load: AUD_UI
+[0217.82] TgSLO: Async Load: NPC_Arena_Brute
+[0217.82] TgSLO: Async Load: NPC_Arena_Juggernaut
+[0217.82] TgSLO: Async Load: FX_NPC_Arena_Juggernaut
+[0217.82] TgSLO: Async Load: AUD_NPC_Arena_Juggernaut
+[0217.82] Log: Flushing async loaders.
+[0217.85] TgSLO: Finish Load: FX_Store_Items
+[0217.87] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0217.87] TgSLO: Finish Load: FX_Status_Effects
+[0217.88] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0217.88] TgSLO: Finish Load: GOD_Common_AT
+[0217.98] TgSLO: Finish Load: AUD_VOX_Narrator
+[0217.99] TgSLO: Finish Load: NPC_Ward2
+[0218.02] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0218.03] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0218.16] TgSLO: Finish Load: GOD_Apollo
+[0218.16] TgSLO: Finish Load: GOD_Apollo_Textures
+[0218.19] TgSLO: Finish Load: FX_Apollo
+[0218.22] TgSLO: Finish Load: AUD_God_Apollo
+[0218.25] TgSLO: Finish Load: GOD_Apollo_Skin4
+[0218.27] TgSLO: Finish Load: FX_Apollo_Skin4
+[0218.28] TgSLO: Finish Load: FX_Apollo_Targeting_Skin_04
+[0218.29] TgSLO: Finish Load: AnimNotify10933
+[0218.43] TgSLO: Finish Load: GOD_Bastet_V2
+[0218.43] TgSLO: Finish Load: GOD_Bastet_V2_Textures
+[0218.46] TgSLO: Finish Load: FX_Bastet_V2
+[0218.59] TgSLO: Finish Load: AUD_God_Bastet_V2
+[0218.61] TgSLO: Finish Load: GOD_Bastet_V2_Cat
+[0218.68] TgSLO: Finish Load: FX_Bastet_Targeting
+[0218.85] TgSLO: Finish Load: GOD_AhMuzenCab
+[0218.86] TgSLO: Finish Load: GOD_AhMuzenCab_Textures
+[0218.91] TgSLO: Finish Load: FX_AhMuzenCab
+[0219.04] TgSLO: Finish Load: AUD_God_AhMuzenCab
+[0219.05] TgSLO: Finish Load: GOD_AhMuzenCab_Skin1
+[0219.19] TgSLO: Finish Load: GOD_Hades
+[0219.19] TgSLO: Finish Load: GOD_Hades_Textures
+[0219.21] TgSLO: Finish Load: FX_Hades
+[0219.34] Log: Missing cached shader map for material FX_Hades_Targeting.Materials.MAT_Death_Vortex_Target, quality 0, compiling.
+[0219.34] Warning: Warning, Failed to compile Material FX_Hades_Targeting.Materials.MAT_Death_Vortex_Target for platform PC-D3D-SM3, Default Material will be used in game.
+[0219.35] TgSLO: Finish Load: FX_Hades_Targeting
+[0219.43] TgSLO: Finish Load: AUD_God_Hades
+[0219.44] TgSLO: Finish Load: GOD_Hades_Skin3
+[0219.44] TgSLO: Finish Load: FX_Hades_skin3
+[0219.56] TgSLO: Finish Load: GOD_Vulcan
+[0219.57] TgSLO: Finish Load: GOD_Vulcan_Textures
+[0219.61] TgSLO: Finish Load: FX_Vulcan
+[0219.70] TgSLO: Finish Load: AUD_God_Vulcan
+[0220.98] TgSLO: Finish Load: GOD_Bellona
+[0220.99] TgSLO: Finish Load: GOD_Bellona_Textures
+[0221.21] TgSLO: Finish Load: FX_Bellona
+[0221.26] TgSLO: Finish Load: AUD_God_Bellona
+[0221.72] TgSLO: Finish Load: GOD_Ares
+[0221.72] TgSLO: Finish Load: GOD_Ares_Textures
+[0221.81] TgSLO: Finish Load: FX_Ares
+[0221.88] TgSLO: Finish Load: AUD_God_Ares
+[0222.40] TgSLO: Finish Load: GOD_Loki_V2
+[0222.40] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0222.43] TgSLO: Finish Load: FX_Loki_V2
+[0222.47] TgSLO: Finish Load: AUD_God_Loki_V2
+[0223.06] TgSLO: Finish Load: GOD_Kukulkan
+[0223.06] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0223.13] TgSLO: Finish Load: FX_Kukulkan
+[0223.21] TgSLO: Finish Load: AUD_God_Kukulkan
+[0223.44] TgSLO: Finish Load: FX_Roman_Arena
+[0223.52] TgSLO: Finish Load: AUD_ENV_Roman_Arena
+[0223.53] TgSLO: Finish Load: FX_Tower
+[0223.57] TgSLO: Finish Load: FX_Greek_Tower
+[0223.65] TgSLO: Finish Load: AUD_Tower
+[0223.66] TgSLO: Finish Load: NPC_Tower_RA2015a
+[0223.66] TgSLO: Finish Load: MDL_PseudoMesh
+[0223.92] TgSLO: Finish Load: NPC_Arena_Basilisk
+[0223.93] TgSLO: Finish Load: FX_NPC_Arena_Basilisk
+[0224.00] TgSLO: Finish Load: AUD_NPC_Arena_Basilisk
+[0224.23] TgSLO: Finish Load: NPC_Arena_Lion
+[0224.23] TgSLO: Finish Load: FX_NPC_Arena_Lion
+[0224.26] TgSLO: Finish Load: AUD_NPC_Arena_Lion
+[0224.55] TgSLO: Finish Load: NPC_Arena_Boar
+[0224.56] TgSLO: Finish Load: FX_NPC_Arena_Boar
+[0224.58] TgSLO: Finish Load: AUD_NPC_Arena_Boar
+[0224.71] TgSLO: Finish Load: NPC_Arena_Minion
+[0224.80] TgSLO: Finish Load: NPC_Minion_Universal
+[0224.81] TgSLO: Finish Load: FX_Roman
+[0224.81] TgSLO: Finish Load: FX_Minion_Death
+[0224.85] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0224.86] TgSLO: Finish Load: AUD_NPC_Olympus
+[0225.17] TgSLO: Finish Load: FX_Common
+[0225.23] TgSLO: Finish Load: AUD_UI
+[0225.27] TgSLO: Finish Load: NPC_Arena_Brute
+[0225.53] TgSLO: Finish Load: NPC_Arena_Juggernaut
+[0225.56] TgSLO: Finish Load: FX_NPC_Arena_Juggernaut
+[0225.56] TgSLO: Finish Load: AUD_NPC_Arena_Juggernaut
+[0225.56] Log: Flushed async loaders.
+[0225.58] Log: Primary PhysX scene will be in software.
+[0225.58] Log: Creating Primary PhysX Scene.
+[0225.58] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0225.58] Log: Bringing World roman_arena_p.TheWorld up for play (595) at 2015.08.10-21.22.34
+[0225.58] Log: Skipping initialization of FSMPartPool!
+[0225.58] Log: Bringing up level for play took: 0.015489
+[0225.58] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0225.58] Warning: Warning, Failed to find object 'Class None.'
+[0225.58] Log: PlayerController class for the pending level is PlayerController
+[0225.58] Log: ########### Finished loading level: 11.259774 seconds
+[0225.58] Log: Flushing async loaders.
+[0226.42] Log: Flushed async loaders.
+[0226.76] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0226.76] Log: Mark Effect Group 28503: Not of type HIT SPECIAL!
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Warning: Attempting to attach NULL component to TgSkeletalMeshComponent_26, socket CSO_FX_Waist_01
+[0226.92] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0226.92] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Log: TeamIndex 1 has new leader: 7164056
+[0226.92] Log: TeamIndex 2 has new leader: 7145683
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.92] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.93] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0226.93] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.93] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.94] Log: AttachToOwner - Socket (CSO_FX_Origin_01) not found in owner mesh or its parent! (2958 to NONE)
+[0226.94] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0226.95] Log: ---- UpdateClanData
+[0226.96] Log: Activated roman_arena_assist 1 1 0
+[0226.96] Log: ActivateLevel roman_arena_assist 1 1 0
+[0227.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.25] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.26] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.27] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.28] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.29] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.30] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.31] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.32] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.33] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.34] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.35] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.36] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.38] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.39] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.40] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.41] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.42] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.43] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.44] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.45] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.46] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.47] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.48] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.49] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.50] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.51] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.52] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.53] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.54] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.55] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.56] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.57] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.58] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.59] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.60] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.61] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.62] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.63] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.64] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.65] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.66] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.67] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.68] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.69] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.70] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.71] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.72] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.73] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.74] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.75] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.76] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.77] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.78] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.79] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.80] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.81] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.82] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.83] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.84] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.85] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.86] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.87] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.88] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.89] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.90] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.91] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.92] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.93] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.94] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.95] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.96] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.97] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.98] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0227.99] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.00] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.01] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.02] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.03] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.04] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.05] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.06] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.07] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.08] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.09] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.10] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.11] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.12] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.13] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.14] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.15] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.16] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.17] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.18] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.19] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.20] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.21] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.22] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.23] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0228.24] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0236.52] Log: TeamIndex 1 has new leader: 7071837
+[0251.91] Log: TeamIndex 2 has new leader: 6901308
+[0253.59] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0273.16] Log: Requesting purchase of itemId (10043) amount (1)
+[0274.00] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0274.00] Warning: Warning, Failed to find object 'Class None.None'
+[0284.30] Log: Requesting purchase of itemId (8711) amount (1)
+[0288.80] Log: Requesting purchase of itemId (9035) amount (1)
+[0331.07] Log: Chat[3]: [VVT] Merci !
+[0373.16] Log: PUSHING Accolade: WhiteKnight14 verse le Premier sang !, local: false
+[0377.16] Log: Chat[9]: Tuer TeeHai vous a donné 115 XP et 300 pièces d'or.
+[0377.36] Log: PUSHING Accolade: VICTIME, local: true
+[0379.85] Log: PUSHING Accolade: , local: false
+[0381.35] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0388.27] Log: PUSHING Accolade: GanjaAshaéTR a fait un doublé !, local: false
+[0388.28] Log: Suppressing Accolade: 
+[0392.87] Log: PUSHING Accolade: , local: false
+[0394.38] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0398.66] Log: Requesting purchase of itemId (10045) amount (1)
+[0403.14] Log: Requesting purchase of itemId (9036) amount (1)
+[0403.68] Log: PUSHING Accolade: GanjaAshaéTR fait une tuerie ! (x3), local: false
+[0406.96] Log: Chat[3]: w
+[0407.28] Log: PUSHING Accolade: , local: false
+[0413.57] Log: Chat[3]: [VVS] Désolé !
+[0421.66] Log: Chat[3]: ks 
+[0424.90] Log: Chat[3]: için k.b.
+[0428.16] Log: Chat[3]: [VVGR] Pas de problème.
+[0459.63] Log: PUSHING Accolade: , local: false
+[0461.14] Log: PUSHING Accolade: WhiteKnight14 a fait un triplé !, local: false
+[0461.14] Log: Suppressing Accolade: WhiteKnight14 a fait un doublé !
+[0461.14] Log: Suppressing Accolade: WhiteKnight14 fait une tuerie ! (x3)
+[0461.14] Log: Suppressing Accolade: 
+[0466.12] Log: Chat[3]: oha amk
+[0477.82] Log: PUSHING Accolade: , local: false
+[0479.34] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0482.17] Log: Requesting purchase of itemId (8712) amount (1)
+[0482.33] Log: PUSHING Accolade: GanjaAshaéTR a fait un doublé !, local: false
+[0482.33] Log: Suppressing Accolade: GanjaAshaéTR fait un massacre ! (x5)
+[0483.83] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0487.12] Log: PUSHING Accolade: , local: false
+[0492.51] Log: PUSHING Accolade: , local: false
+[0498.62] Log: PUSHING Accolade: , local: false
+[0534.66] Log: PUSHING Accolade: , local: false
+[0566.35] Log: Requesting purchase of itemId (8057) amount (1)
+[0568.60] Log: Requesting purchase of itemId (8136) amount (1)
+[0581.65] Log: PUSHING Accolade: , local: false
+[0586.47] Log: Chat[9]: Tuer WhiteKnight14 vous a donné 193 XP et 300 pièces d'or.
+[0586.66] Log: PUSHING Accolade: VICTIME, local: true
+[0595.65] Log: PUSHING Accolade: PhantomDancerTR fait une tuerie ! (x3), local: false
+[0597.17] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0600.73] Log: Chat[9]: Tuer TeeHai vous a donné 180 XP et 300 pièces d'or.
+[0600.92] Log: PUSHING Accolade: TUERIE (X3), local: true
+[0604.11] Log: Chat[3]: [VEA] Formidable !
+[0643.40] Log: PUSHING Accolade: , local: false
+[0646.24] Log: PUSHING Accolade: , local: false
+[0648.94] Log: PUSHING Accolade: , local: false
+[0650.44] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0660.35] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0660.35] Warning: Warning, Failed to find object 'Class None.None'
+[0660.82] Log: Requesting purchase of itemId (9496) amount (1)
+[0697.11] Log: PUSHING Accolade: , local: false
+[0698.62] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0700.14] Log: PUSHING Accolade: , local: false
+[0701.65] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0721.55] Log: PUSHING Accolade: , local: false
+[0723.06] Log: Expiring Accolade: 
+[0723.06] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0724.56] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0734.24] Log: Requesting purchase of itemId (9497) amount (1)
+[0734.37] Log: Inventory Error Recovery: Resubmitting an inventory item that could not find its device
+[0749.18] Log: PUSHING Accolade: , local: false
+[0757.19] Log: PUSHING Accolade: PhantomDancerTR fait un massacre ! (x5), local: false
+[0758.69] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0764.05] Log: PUSHING Accolade: Blead93 a stoppé PhantomDancerTR dans son élan, local: false
+[0764.05] Log: Suppressing Accolade: 
+[0829.08] Log: PUSHING Accolade: , local: false
+[0833.41] Log: Chat[3]: [VVS] Désolé !
+[0834.18] Log: Requesting purchase of itemId (10201) amount (1)
+[0836.24] Log: ---- UpdateClanData
+[0836.41] Log: ---- UpdateClanData
+[0849.32] Log: ---- UpdateClanData
+[0854.49] Log: ---- UpdateClanData
+[0861.57] Log: AttachToOwner - Socket (CSO_FX_Mouth_01) not found in owner mesh or its parent! (1791 to TgPawn_Kukulkan_0)
+[0890.07] Log: PUSHING Accolade: WhiteKnight14 a stoppé GanjaAshaéTR dans son élan, local: false
+[0890.07] Log: Suppressing Accolade: 
+[0905.12] Log: PUSHING Accolade: Annnsas fait une tuerie ! (x3), local: false
+[0912.60] Log: PUSHING Accolade: , local: false
+[0914.11] Log: PUSHING Accolade: Blead93 a tué un joueur !, local: false
+[0916.75] Log: Requesting purchase of itemId (10203) amount (1)
+[0936.72] Log: PUSHING Accolade: , local: false
+[0950.51] Log: PUSHING Accolade: PhantomDancerTR fait une tuerie ! (x3), local: false
+[0966.24] Log: PUSHING Accolade: , local: false
+[0999.41] Log: PUSHING Accolade: , local: false
+[1001.09] Log: PUSHING Accolade: , local: false
+[1002.60] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1015.59] Log: PUSHING Accolade: Jyxz fait une tuerie ! (x3), local: false
+[1017.10] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1029.25] Log: PUSHING Accolade: , local: false
+[1038.73] Log: PUSHING Accolade: , local: false
+[1043.25] Log: PUSHING Accolade: Blead93 a fait un doublé !, local: false
+[1043.25] Log: Suppressing Accolade: Blead93 a tué un joueur !
+[1044.53] Log: Chat[3]: 6 killde buga girdim :)
+[1046.51] Log: Requesting purchase of itemId (9469) amount (1)
+[1048.87] Log: PUSHING Accolade: , local: false
+[1051.90] Log: PUSHING Accolade: , local: false
+[1053.40] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1055.01] Log: SendChat[3] 
+[1058.44] Log: PUSHING Accolade: , local: false
+[1074.95] Log: PUSHING Accolade: , local: false
+[1075.59] Log: ---- UpdateClanData
+[1077.44] Log: PUSHING Accolade: , local: false
+[1084.14] Log: PUSHING Accolade: , local: false
+[1101.08] Log: PUSHING Accolade: WhiteKnight14 fait une tuerie ! (x3), local: false
+[1112.45] Log: PUSHING Accolade: GanjaAshaéTR fait une tuerie ! (x3), local: false
+[1135.86] Log: PUSHING Accolade: , local: false
+[1137.37] Log: PUSHING Accolade: , local: false
+[1138.88] Log: PUSHING Accolade: , local: false
+[1140.38] Log: Expiring Accolade: ASSISTÉ
+[1140.38] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1157.13] Log: PUSHING Accolade: , local: false
+[1160.48] Log: PUSHING Accolade: , local: false
+[1164.29] Log: PUSHING Accolade: , local: false
+[1169.87] Log: Chat[3]: [VVT] Merci !
+[1174.64] Log: PUSHING Accolade: , local: false
+[1180.50] Log: Requesting purchase of itemId (8712) amount (1)
+[1192.63] Log: PUSHING Accolade: , local: false
+[1209.89] Log: PUSHING Accolade: , local: false
+[1211.39] Log: Expiring Accolade: 
+[1211.39] Log: Expiring Accolade: 
+[1211.39] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1236.78] Log: PUSHING Accolade: TeeHai a tué un joueur !, local: false
+[1244.16] Log: PUSHING Accolade: , local: false
+[1290.61] Log: PUSHING Accolade: , local: false
+[1310.66] Log: PUSHING Accolade: , local: false
+[1312.16] Log: PUSHING Accolade: Blead93 fait une tuerie ! (x3), local: false
+[1315.48] Log: Requesting purchase of itemId (8063) amount (1)
+[1321.62] Log: PUSHING Accolade: , local: false
+[1335.34] Log: PUSHING Accolade: , local: false
+[1336.84] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1340.86] Log: PUSHING Accolade: , local: false
+[1341.45] Log: ---- UpdateClanData
+[1341.45] Log: ---- UpdateClanData
+[1342.40] Log: Chat[3]: [VVGG] Belle partie !
+[1342.80] Log: Chat[3]: [VVGG] Belle partie !
+[1343.40] Log: Chat[3]: [VVGG] Belle partie !
+[1348.09] Log: Chat[3]: gg
+[1354.48] Log: ---- UpdateClanData
+[1359.74] Log: RequestingChannelMembers ch[3] [Jyxz a quitté la discussion.]
+[1359.74] Log: RequestingChannelMembers ch[3] [RustInPeace90 a quitté la discussion.]
+[1359.74] DevNet: URL: Adding default option Team=255
+[1359.74] Log: ReceiveChangeMap: mapGameId 1447
+[1359.74] Log: ---- UpdateClanData
+[1359.75] DevNet: URL: Adding default option Team=255
+[1359.75] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1360.27] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1360.44] NetComeGo: Close PComNetDriver_0 PComNetConn_0 72.251.243.214:9240 08/10/15 21:41:29
+[1360.56] Exit: PComNetDriver_0 shut down
+[1360.84] Log: Map Game ID = 0
+[1360.84] Log: Map Instance ID = 129234351
+[1360.87] Log: Performance: Critical section Lock/Unlock 24 nsec
+[1360.87] Log: Performance:  appCycles 11 nsec
+[1360.91] Log: Performance:  memCopy per KB 210 nsec
+[1360.94] Log: Performance:  memZero per KB 133 nsec
+[1360.95] Log: Performance:  appInterlockedIncrement 13 nsec
+[1360.96] Log: Performance:  GetTickCount 4 nsec
+[1360.96] Log: Game class is 'TgGameLaunch'
+[1360.96] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1360.96] Log: Flushing async loaders.
+[1360.99] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1360.99] Log: Flushed async loaders.
+[1361.03] Log: Primary PhysX scene will be in software.
+[1361.03] Log: Creating Primary PhysX Scene.
+[1361.03] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1361.03] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.10-21.41.29
+[1361.04] Log: Skipping initialization of FSMPartPool!
+[1361.11] Log: Bringing up level for play took: 0.114639
+[1362.29] TgSLO: Async Load: GOD_Hades
+[1362.29] TgSLO: Async Load: GOD_Hades_Lobby
+[1362.29] TgSLO: Async Load: FX_Hades
+[1362.29] TgSLO: Async Load: GOD_Hades_Skin3
+[1362.29] TgSLO: Async Load: FX_Hades_skin3
+[1362.29] Log: Flushing async loaders.
+[1362.39] TgSLO: Finish Load: GOD_Hades
+[1362.41] TgSLO: Finish Load: GOD_Hades_Lobby
+[1362.43] TgSLO: Finish Load: FX_Hades
+[1362.44] TgSLO: Finish Load: GOD_Hades_Skin3
+[1362.44] TgSLO: Finish Load: FX_Hades_skin3
+[1362.44] Log: Flushed async loaders.
+[1362.45] Log: ########### Finished loading level: 2.183915 seconds
+[1363.05] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[1363.06] Log: RequestingChannelMembers ch[8] [WhiteKnight14 a rejoint la discussion.]
+[1363.06] Log: RequestingChannelMembers ch[8] [GanjaAshaéTR a rejoint la discussion.]
+[1363.06] Log: RequestingChannelMembers ch[8] [Jyxz a rejoint la discussion.]
+[1363.24] Log: RequestingChannelMembers ch[8] [Annnsas a rejoint la discussion.]
+[1363.25] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1363.25] Warning: Warning, Failed to find object 'Class None.None'
+[1363.25] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1363.25] Warning: Warning, Failed to find object 'Class None.None'
+[1363.37] Log: RequestingChannelMembers ch[8] [Ewku a rejoint la discussion.]
+[1363.85] Log: RequestingChannelMembers ch[8] [RustInPeace90 a rejoint la discussion.]
+[1364.43] Log: RequestingChannelMembers ch[8] [Blead93 a rejoint la discussion.]
+[1364.78] Log: RequestingChannelMembers ch[8] [PhantomDancerTR a rejoint la discussion.]
+[1365.39] Log: RequestingChannelMembers ch[8] [WhiteKnight14 a quitté la discussion.]
+[1366.05] Log: RequestingChannelMembers ch[8] [Ewku a quitté la discussion.]
+[1376.54] Log: RequestingChannelMembers ch[8] [GanjaAshaéTR a quitté la discussion.]
+[1377.11] Log: RequestingChannelMembers ch[8] [RustInPeace90 a quitté la discussion.]
+[1381.33] Log: RequestingChannelMembers ch[8] [Jyxz a quitté la discussion.]
+[1391.06] Log: RequestingChannelMembers ch[8] [Annnsas a quitté la discussion.]
+[1396.49] Log: ERROR: Attempting to log in without settings.
+[1559.01] Log: Closing by request
+[1559.01] Log: appRequestExit(0)
+[1559.01] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[1560.31] Exit: Preparing to exit.
+[1560.64] Exit: Game engine shut down
+[1560.69] Exit: Windows client shut down
+[1560.72] Exit: XAudio2 Device shut down.
+[1561.01] Exit: Object subsystem successfully closed.
+[1562.52] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1562.69] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1562.96] Exit: Exiting.

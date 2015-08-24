@@ -1,0 +1,679 @@
+[0000.38] Log: Async Log file open, 08/18/15 21:21:33
+[0000.38] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.38] Log:  ... running in INSTALLED mode
+[0000.38] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.38] Init: Version: 10897
+[0000.38] Init: Epic Internal: 0
+[0000.38] Init: Compiled (32-bit): Aug 17 2015 14:03:48
+[0000.38] Init: Changelist: 1532151
+[0000.38] Init: Game is version 2.12.2920.0.
+[0000.38] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722472205228232683297321732484249427642625228525 -cnmg2=722872235229232483227320732584279425642025295520 -user=kimicol -epass                                                                  -HiCommand -HEXX=D2B4F689
+[0000.38] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.42] Log: Deleting old log file Launch-backup-2015.08.04-21.53.09.log
+[0002.79] Init: Computer: PC-ARTHUR
+[0002.79] Init: User: Arthur
+[0002.79] Init: CPU Page size=4096, Processors=4, Cores=2
+[0002.79] Init: High frequency timer resolution =2.240912 MHz
+[0002.79] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.5GB Virtual=4.0GB
+[0002.91] DevOnline: Initializing MCTS
+[0002.91] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0002.91] Init: Object subsystem initialized
+[0002.91] Log: Overriding lang INT w/ command-line option of FRA
+[0002.97] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0002.98] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0002.98] Log: ShadowPatch: Disabled due to no -pid option
+[0003.23] Log: SystemSettings based on: SystemSettings
+[0003.23] Log: SystemSettings based on: SystemSettings
+[0003.23] Log: SystemSettings based on: SystemSettings
+[0003.24] Log: SystemSettings based on: SystemSettings
+[0003.24] Log: SystemSettings based on: SystemSettings
+[0005.34] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0005.34] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0006.24] Log: Shader platform (RHI): PC-D3D-SM3
+[0006.28] Log: PhysX GPU Support: DISABLED
+[0009.96] Log: Assembly Loaded Version: 
+[0029.55] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0031.38] Log: 119421 objects as part of root set at end of initial load.
+[0031.38] Log: 0 out of 0 bytes used by permanent object pool.
+[0031.38] Log: Initializing Engine...
+[0049.06] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0049.06] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0049.25] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0049.26] Log: GFx attempted to load missing object [Logos]
+[0049.26] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0049.26] Warning: Warning, Failed to find object 'Class None.'
+[0049.38] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0049.39] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0052.49] Log: Map Game ID = 0
+[0052.49] Log: Map Instance ID = 129925745
+[0052.52] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0052.52] Log: Performance:  appCycles 13 nsec
+[0052.59] Log: Performance:  memCopy per KB 329 nsec
+[0052.64] Log: Performance:  memZero per KB 235 nsec
+[0052.65] Log: Performance:  appInterlockedIncrement 14 nsec
+[0052.66] Log: Performance:  GetTickCount 4 nsec
+[0052.66] Log: Game class is 'TgGameLaunch'
+[0052.97] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0052.97] Log: Flushing async loaders.
+[0054.47] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0054.47] Log: Flushed async loaders.
+[0054.51] Log: Primary PhysX scene will be in software.
+[0054.51] Log: Creating Primary PhysX Scene.
+[0055.19] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0055.19] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.18-21.22.28
+[0055.19] Log: Skipping initialization of FSMPartPool!
+[0056.57] Log: Bringing up level for play took: 2.089218
+[0080.34] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0080.34] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0080.59] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0082.75] Log: ########### Finished loading level: 33.360459 seconds
+[0083.78] Log: Initializing Engine Completed
+[0083.78] Log: >>>>>>>>>>>>>> Initial startup: 83.78s <<<<<<<<<<<<<<<
+[0083.78] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0083.94] Log: WebFactory created
+[0091.99] Log: Login Success: kimicol
+[0092.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\Wedding1 .jpg' error ()
+[0092.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0092.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\Chang'e.jpg' error ()
+[0092.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\Hou Yi Moon's.jpg' error ()
+[0092.60] Error: Failed to read file '..\..\BattleGame\LandingPanel\SamuraiOdin.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Season Ticket.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\BizzyBCupid4.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\PirateKali.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\HercHunkulese.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Renegade Awilix.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamma Slam Cabrakan.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\LaunchXboxddd.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\LaunchXboxddd_thumb.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Xbox Merge.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Xbox Merge_thumb.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Odin.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Odin_thumb.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Wedding.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Wedding_thumb.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Season Ticket.jpg' error ()
+[0092.61] Error: Failed to read file '..\..\BattleGame\LandingPanel\Season Ticket_thumb.jpg' error ()
+[0092.65] Log: Team/Instance chat routed to Instance Server.
+[0092.66] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0092.66] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0093.91] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0118.93] Log: Chat[1]: Statut du clan : Tiny42SH
+[0118.93] Log: ---- UpdateClanData
+[0120.89] Log: ---- UpdateClanData
+[0167.45] TgSLO: Async Load: GOD_Zeus
+[0167.58] TgSLO: Async Load: GOD_Zeus_Lobby
+[0167.74] TgSLO: Async Load: FX_Zeus_B
+[0167.74] TgSLO: Async Load: God_Zeus_v2_Skin7
+[0167.74] TgSLO: Async Load: GOD_Zeus_V2
+[0167.74] TgSLO: Async Load: GOD_Zeus_V2_Skin7_Lobby
+[0167.74] TgSLO: Async Load: GOD_Zeus_V2_Lobby
+[0167.74] TgSLO: Async Load: FX_Zeus_V2_Skin7
+[0167.74] TgSLO: Async Load: AUD_God_Zeus
+[0167.74] TgSLO: Async Load: AnimNotify11812
+[0167.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0167.82] Warning: Warning, Failed to find object 'Class None.None'
+[0168.62] TgSLO: Finish Load: GOD_Zeus
+[0168.89] TgSLO: Finish Load: GOD_Zeus_Lobby
+[0169.79] TgSLO: Finish Load: FX_Zeus_B
+[0170.02] TgSLO: Finish Load: God_Zeus_v2_Skin7
+[0171.25] TgSLO: Finish Load: GOD_Zeus_V2
+[0171.33] TgSLO: Finish Load: GOD_Zeus_V2_Skin7_Lobby
+[0171.52] TgSLO: Finish Load: GOD_Zeus_V2_Lobby
+[0171.63] TgSLO: Finish Load: FX_Zeus_V2_Skin7
+[0172.88] TgSLO: Finish Load: AUD_God_Zeus
+[0172.91] TgSLO: Finish Load: AnimNotify11812
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0198.87] Warning: Warning, Failed to load 'Texture None.undefined': Failed to find object 'Texture None.undefined'
+[0203.51] TgSLO: Async Load: GOD_Odin_V2
+[0203.51] TgSLO: Async Load: GOD_Odin_V2_Lobby
+[0203.51] TgSLO: Async Load: FX_Odin_V2
+[0203.51] TgSLO: Async Load: GOD_Odin_V2_Skin3
+[0203.51] TgSLO: Async Load: AUD_God_Odin
+[0203.51] TgSLO: Async Load: GOD_Odin_V2_Skin3_Lobby
+[0203.53] TgSLO: Async Load: FX_Odin_Targeting_SKN3
+[0203.53] TgSLO: Async Load: FX_Odin_V2_Skin3
+[0203.53] TgSLO: Async Load: AnimNotify11766
+[0204.78] TgSLO: Finish Load: GOD_Odin_V2
+[0205.03] TgSLO: Finish Load: GOD_Odin_V2_Lobby
+[0206.14] TgSLO: Finish Load: FX_Odin_V2
+[0206.36] TgSLO: Finish Load: GOD_Odin_V2_Skin3
+[0207.71] TgSLO: Finish Load: AUD_God_Odin
+[0207.75] TgSLO: Finish Load: GOD_Odin_V2_Skin3_Lobby
+[0207.90] TgSLO: Finish Load: FX_Odin_Targeting_SKN3
+[0208.60] TgSLO: Finish Load: FX_Odin_V2_Skin3
+[0208.74] TgSLO: Finish Load: AnimNotify11766
+[0220.26] TgSLO: Async Load: GOD_ChangE
+[0220.34] TgSLO: Async Load: GOD_ChangE_Lobby
+[0220.39] TgSLO: Async Load: FX_ChangE
+[0220.39] TgSLO: Async Load: GOD_ChangE_Skin4
+[0220.39] TgSLO: Async Load: FX_ChangE_Skin4
+[0220.39] TgSLO: Async Load: AUD_God_ChangE
+[0220.40] TgSLO: Async Load: FX_ChangE_Targeting_Skin4
+[0220.40] TgSLO: Async Load: AnimNotify11810
+[0221.97] TgSLO: Finish Load: GOD_ChangE
+[0222.53] TgSLO: Finish Load: GOD_ChangE_Lobby
+[0222.97] TgSLO: Finish Load: FX_ChangE
+[0223.29] TgSLO: Finish Load: GOD_ChangE_Skin4
+[0223.71] TgSLO: Finish Load: FX_ChangE_Skin4
+[0225.06] TgSLO: Finish Load: AUD_God_ChangE
+[0225.19] TgSLO: Finish Load: FX_ChangE_Targeting_Skin4
+[0225.35] TgSLO: Finish Load: AnimNotify11810
+[0231.48] TgSLO: Async Load: GOD_Hou_Yi
+[0231.55] TgSLO: Async Load: GOD_Hou_Yi_Lobby
+[0231.63] TgSLO: Async Load: FX_Hou_Yi
+[0231.63] TgSLO: Async Load: GOD_Hou_YI_Skin3
+[0231.63] TgSLO: Async Load: FX_Hou_Yi_Skin3
+[0231.63] TgSLO: Async Load: GOD_Hou_YI_Skin3_Lobby
+[0231.66] TgSLO: Async Load: FX_Hou_Yi_Targeting_Skin3
+[0231.66] TgSLO: Async Load: AUD_God_Hou_Yi
+[0231.66] TgSLO: Async Load: AnimNotify11811
+[0232.89] TgSLO: Finish Load: GOD_Hou_Yi
+[0233.18] TgSLO: Finish Load: GOD_Hou_Yi_Lobby
+[0233.73] TgSLO: Finish Load: FX_Hou_Yi
+[0233.96] TgSLO: Finish Load: GOD_Hou_YI_Skin3
+[0234.55] TgSLO: Finish Load: FX_Hou_Yi_Skin3
+[0234.59] TgSLO: Finish Load: GOD_Hou_YI_Skin3_Lobby
+[0234.76] TgSLO: Finish Load: FX_Hou_Yi_Targeting_Skin3
+[0235.32] TgSLO: Finish Load: AUD_God_Hou_Yi
+[0235.43] TgSLO: Finish Load: AnimNotify11811
+[0243.71] TgSLO: Async Load: GOD_Awilix
+[0243.72] TgSLO: Async Load: GOD_Awilix_Lobby
+[0243.73] TgSLO: Async Load: FX_Awilix
+[0243.73] TgSLO: Async Load: GOD_Awilix_Skin3
+[0243.76] TgSLO: Async Load: FX_Awilix_Skin3
+[0243.76] TgSLO: Async Load: GOD_Awilix_Skin3_Lobby
+[0243.76] TgSLO: Async Load: AUD_God_Awilix
+[0243.76] TgSLO: Async Load: FX_Awilix_Targeting_Skin3
+[0243.76] TgSLO: Async Load: AnimNotify11769
+[0245.58] TgSLO: Finish Load: GOD_Awilix
+[0245.91] TgSLO: Finish Load: GOD_Awilix_Lobby
+[0246.53] TgSLO: Finish Load: FX_Awilix
+[0247.04] TgSLO: Finish Load: GOD_Awilix_Skin3
+[0247.56] TgSLO: Finish Load: FX_Awilix_Skin3
+[0247.98] TgSLO: Finish Load: GOD_Awilix_Skin3_Lobby
+[0248.90] TgSLO: Finish Load: AUD_God_Awilix
+[0249.08] TgSLO: Finish Load: FX_Awilix_Targeting_Skin3
+[0249.18] TgSLO: Finish Load: AnimNotify11769
+[0252.25] TgSLO: Async Load: GOD_Awilix_Skin1
+[0252.27] TgSLO: Async Load: AnimNotify10934
+[0252.32] TgSLO: Finish Load: GOD_Awilix_Skin1
+[0252.33] TgSLO: Finish Load: AnimNotify10934
+[0258.72] TgSLO: Async Load: GOD_Awilix_Skins
+[0258.72] TgSLO: Async Load: FX_Awilix_Gold
+[0258.72] TgSLO: Async Load: AnimNotify10985
+[0258.78] TgSLO: Finish Load: GOD_Awilix_Skins
+[0258.83] TgSLO: Finish Load: FX_Awilix_Gold
+[0258.85] TgSLO: Finish Load: AnimNotify10985
+[0265.05] TgSLO: Async Load: GOD_Odin_V2
+[0265.05] TgSLO: Async Load: GOD_Odin_V2_Lobby
+[0265.05] TgSLO: Async Load: FX_Odin_V2
+[0265.05] TgSLO: Async Load: GOD_Odin_V2_Skin3
+[0265.05] TgSLO: Async Load: AUD_God_Odin
+[0265.05] TgSLO: Async Load: GOD_Odin_V2_Skin3_Lobby
+[0265.05] TgSLO: Async Load: FX_Odin_Targeting_SKN3
+[0265.05] TgSLO: Async Load: FX_Odin_V2_Skin3
+[0265.05] TgSLO: Async Load: AnimNotify11766
+[0266.14] TgSLO: Finish Load: GOD_Odin_V2
+[0266.37] TgSLO: Finish Load: GOD_Odin_V2_Lobby
+[0267.28] TgSLO: Finish Load: FX_Odin_V2
+[0267.38] TgSLO: Finish Load: GOD_Odin_V2_Skin3
+[0268.72] TgSLO: Finish Load: AUD_God_Odin
+[0268.75] TgSLO: Finish Load: GOD_Odin_V2_Skin3_Lobby
+[0268.83] TgSLO: Finish Load: FX_Odin_Targeting_SKN3
+[0269.56] TgSLO: Finish Load: FX_Odin_V2_Skin3
+[0269.57] TgSLO: Finish Load: AnimNotify11766
+[0306.87] Log: ---- UpdateClanData
+[0317.66] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0427.88] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0428.99] Log: RequestingChannelMembers ch[3] [FreezeTimes a rejoint la discussion.]
+[0434.62] TgSLO: Async Load: GOD_Odin_V2
+[0434.62] TgSLO: Async Load: GOD_Odin_V2_Lobby
+[0434.62] TgSLO: Async Load: FX_Odin_V2
+[0435.77] TgSLO: Finish Load: GOD_Odin_V2
+[0436.07] TgSLO: Finish Load: GOD_Odin_V2_Lobby
+[0436.70] TgSLO: Finish Load: FX_Odin_V2
+[0447.40] TgSLO: Async Load: GOD_Zeus
+[0447.40] TgSLO: Async Load: GOD_Zeus_Lobby
+[0447.40] TgSLO: Async Load: FX_Zeus_B
+[0447.50] TgSLO: Async Load: God_Zeus_v2_Skin7
+[0447.56] TgSLO: Async Load: GOD_Zeus_V2
+[0447.56] TgSLO: Async Load: GOD_Zeus_V2_Skin7_Lobby
+[0447.56] TgSLO: Async Load: GOD_Zeus_V2_Lobby
+[0447.56] TgSLO: Async Load: FX_Zeus_V2_Skin7
+[0447.56] TgSLO: Async Load: AUD_God_Zeus
+[0447.56] TgSLO: Async Load: AnimNotify11812
+[0448.20] TgSLO: Finish Load: GOD_Zeus
+[0448.43] TgSLO: Finish Load: GOD_Zeus_Lobby
+[0449.07] TgSLO: Finish Load: FX_Zeus_B
+[0449.22] TgSLO: Finish Load: God_Zeus_v2_Skin7
+[0450.03] TgSLO: Finish Load: GOD_Zeus_V2
+[0450.04] TgSLO: Finish Load: GOD_Zeus_V2_Skin7_Lobby
+[0450.19] TgSLO: Finish Load: GOD_Zeus_V2_Lobby
+[0450.24] TgSLO: Finish Load: FX_Zeus_V2_Skin7
+[0451.25] TgSLO: Finish Load: AUD_God_Zeus
+[0451.25] TgSLO: Finish Load: AnimNotify11812
+[0454.48] TgSLO: Async Load: GOD_Kukulkan
+[0454.48] TgSLO: Async Load: GOD_Kukulkan_Lobby
+[0454.48] TgSLO: Async Load: FX_Kukulkan
+[0455.71] TgSLO: Finish Load: GOD_Kukulkan
+[0456.65] TgSLO: Finish Load: GOD_Kukulkan_Lobby
+[0457.27] TgSLO: Finish Load: FX_Kukulkan
+[0498.24] DevNet: URL: Adding default option Team=255
+[0498.24] Log: ReceiveChangeMap: mapGameId 1503
+[0499.00] DevNet: URL: Adding default option Team=255
+[0499.00] DevNet: Browse: 72.251.243.213:9114/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=177379688?Team=255
+[0499.00] DevNet: Game client on port 9114, rate 25000
+[0499.54] DevNet: Welcomed by server (Level: joust_v2_p, Game: TgGame.TgGame_Battle_Joust)
+[0501.58] Log: LoadMap: 72.251.243.213:9114/joust_v2_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=177379688?Team=255?game=TgGame.TgGame_Battle_Joust
+[0501.96] Log: Map Game ID = 0
+[0501.96] Log: Map Instance ID = 129925745
+[0501.98] Log: Performance: Critical section Lock/Unlock 24 nsec
+[0501.98] Log: Performance:  appCycles 11 nsec
+[0502.04] Log: Performance:  memCopy per KB 263 nsec
+[0502.07] Log: Performance:  memZero per KB 173 nsec
+[0502.08] Log: Performance:  appInterlockedIncrement 11 nsec
+[0502.09] Log: Performance:  GetTickCount 4 nsec
+[0523.78] TgSLO: Async Load: FX_Store_Items
+[0523.78] TgSLO: Async Load: FX_Store_Items_Targeting
+[0523.78] TgSLO: Async Load: FX_Status_Effects
+[0523.78] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0523.78] TgSLO: Async Load: GOD_Common_AT
+[0523.79] TgSLO: Async Load: AUD_VOX_Narrator
+[0523.79] TgSLO: Async Load: NPC_Ward2
+[0523.79] TgSLO: Async Load: FX_Buff_Belts_V2
+[0523.79] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0523.79] TgSLO: Async Load: GOD_Zeus
+[0523.79] TgSLO: Async Load: GOD_Zeus_Textures
+[0523.79] TgSLO: Async Load: AUD_God_Zeus
+[0523.79] TgSLO: Async Load: FX_Zeus_B
+[0523.79] TgSLO: Async Load: God_Zeus_v2_Skin7
+[0523.79] TgSLO: Async Load: GOD_Zeus_V2
+[0523.79] TgSLO: Async Load: FX_Zeus_V2_Skin7
+[0523.79] TgSLO: Async Load: AnimNotify11812
+[0523.79] TgSLO: Async Load: GOD_Kukulkan
+[0523.79] TgSLO: Async Load: GOD_Kukulkan_Textures
+[0523.79] TgSLO: Async Load: FX_Kukulkan
+[0523.79] TgSLO: Async Load: AUD_God_Kukulkan
+[0523.79] TgSLO: Async Load: GOD_Odin_V2
+[0523.79] TgSLO: Async Load: GOD_Odin_V2_Textures
+[0523.79] TgSLO: Async Load: FX_Odin_V2
+[0523.79] TgSLO: Async Load: AUD_God_Odin
+[0523.79] TgSLO: Async Load: FX_Odin_Targeting
+[0523.79] TgSLO: Async Load: GOD_AhMuzenCab
+[0523.79] TgSLO: Async Load: GOD_AhMuzenCab_Textures
+[0523.79] TgSLO: Async Load: FX_AhMuzenCab
+[0523.79] TgSLO: Async Load: AUD_God_AhMuzenCab
+[0523.79] TgSLO: Async Load: GOD_Zeus_V2_Skins
+[0523.79] TgSLO: Async Load: FX_Zeus_Gold
+[0523.79] TgSLO: Async Load: AnimNotify8788
+[0523.79] TgSLO: Async Load: GOD_Hercules
+[0523.79] TgSLO: Async Load: GOD_Hercules_Textures
+[0523.79] TgSLO: Async Load: FX_Hercules
+[0523.79] TgSLO: Async Load: AUD_God_Hercules
+[0523.84] TgSLO: Async Load: Joust_Tower
+[0523.84] TgSLO: Async Load: FX_Tower
+[0523.84] TgSLO: Async Load: FX_Greek_Tower
+[0523.89] TgSLO: Async Load: AUD_Tower
+[0523.89] TgSLO: Async Load: NPC_Phoenix
+[0523.89] TgSLO: Async Load: NPC_Phoenix_Textures
+[0523.89] TgSLO: Async Load: FX_Phoenix
+[0523.89] TgSLO: Async Load: AUD_NPC_Phoenix
+[0523.89] TgSLO: Async Load: MDL_PseudoMesh
+[0523.89] TgSLO: Async Load: NPC_Joust_Minion
+[0523.90] TgSLO: Async Load: NPC_Joust_Minion_Textures
+[0523.90] TgSLO: Async Load: NPC_Minion_Universal
+[0523.93] TgSLO: Async Load: FX_Roman
+[0523.98] TgSLO: Async Load: FX_Minion_Death
+[0523.98] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0523.98] TgSLO: Async Load: AUD_NPC_Olympus
+[0523.99] TgSLO: Async Load: NPC_Guardian_Female
+[0523.99] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0523.99] TgSLO: Async Load: FX_Guardian_Female
+[0524.01] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0524.01] TgSLO: Async Load: NPC_Guardian_Male
+[0524.01] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0524.01] TgSLO: Async Load: FX_Guardian_Male
+[0524.02] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0524.02] TgSLO: Async Load: NPC_Cyclops_V2
+[0524.02] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0524.02] TgSLO: Async Load: AUD_NPC_Cyclops
+[0524.02] Log: Flushing async loaders.
+[0524.22] TgSLO: Finish Load: FX_Store_Items
+[0524.28] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0524.29] TgSLO: Finish Load: FX_Status_Effects
+[0524.33] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0524.33] TgSLO: Finish Load: GOD_Common_AT
+[0524.50] TgSLO: Finish Load: AUD_VOX_Narrator
+[0524.53] TgSLO: Finish Load: NPC_Ward2
+[0524.62] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0524.65] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0524.84] TgSLO: Finish Load: GOD_Zeus
+[0524.84] TgSLO: Finish Load: GOD_Zeus_Textures
+[0524.93] TgSLO: Finish Load: AUD_God_Zeus
+[0525.03] TgSLO: Finish Load: FX_Zeus_B
+[0525.18] TgSLO: Finish Load: God_Zeus_v2_Skin7
+[0525.22] TgSLO: Finish Load: GOD_Zeus_V2
+[0525.22] TgSLO: Finish Load: FX_Zeus_V2_Skin7
+[0525.23] TgSLO: Finish Load: AnimNotify11812
+[0525.61] TgSLO: Finish Load: GOD_Kukulkan
+[0525.61] TgSLO: Finish Load: GOD_Kukulkan_Textures
+[0525.67] TgSLO: Finish Load: FX_Kukulkan
+[0525.73] TgSLO: Finish Load: AUD_God_Kukulkan
+[0525.86] TgSLO: Finish Load: GOD_Odin_V2
+[0525.87] TgSLO: Finish Load: GOD_Odin_V2_Textures
+[0525.93] TgSLO: Finish Load: FX_Odin_V2
+[0526.00] TgSLO: Finish Load: AUD_God_Odin
+[0526.04] TgSLO: Finish Load: FX_Odin_Targeting
+[0526.68] TgSLO: Finish Load: GOD_AhMuzenCab
+[0526.69] TgSLO: Finish Load: GOD_AhMuzenCab_Textures
+[0526.78] TgSLO: Finish Load: FX_AhMuzenCab
+[0526.93] TgSLO: Finish Load: AUD_God_AhMuzenCab
+[0526.95] TgSLO: Finish Load: GOD_Zeus_V2_Skins
+[0526.97] TgSLO: Finish Load: FX_Zeus_Gold
+[0526.99] TgSLO: Finish Load: AnimNotify8788
+[0527.42] TgSLO: Finish Load: GOD_Hercules
+[0527.43] TgSLO: Finish Load: GOD_Hercules_Textures
+[0527.47] TgSLO: Finish Load: FX_Hercules
+[0527.52] TgSLO: Finish Load: AUD_God_Hercules
+[0527.82] TgSLO: Finish Load: Joust_Tower
+[0527.85] TgSLO: Finish Load: FX_Tower
+[0527.92] TgSLO: Finish Load: FX_Greek_Tower
+[0528.03] TgSLO: Finish Load: AUD_Tower
+[0528.30] TgSLO: Finish Load: NPC_Phoenix
+[0528.47] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0528.55] TgSLO: Finish Load: FX_Phoenix
+[0528.89] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0528.95] TgSLO: Finish Load: MDL_PseudoMesh
+[0529.27] TgSLO: Finish Load: NPC_Joust_Minion
+[0529.27] TgSLO: Finish Load: NPC_Joust_Minion_Textures
+[0529.92] TgSLO: Finish Load: NPC_Minion_Universal
+[0530.09] TgSLO: Finish Load: FX_Roman
+[0530.20] TgSLO: Finish Load: FX_Minion_Death
+[0530.42] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0530.43] TgSLO: Finish Load: AUD_NPC_Olympus
+[0531.11] TgSLO: Finish Load: NPC_Guardian_Female
+[0531.14] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0531.15] TgSLO: Finish Load: FX_Guardian_Female
+[0531.15] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0531.49] TgSLO: Finish Load: NPC_Guardian_Male
+[0531.51] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0531.61] TgSLO: Finish Load: FX_Guardian_Male
+[0531.66] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0531.96] TgSLO: Finish Load: NPC_Cyclops_V2
+[0531.96] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0532.05] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0532.05] Log: Flushed async loaders.
+[0532.06] Log: Primary PhysX scene will be in software.
+[0532.06] Log: Creating Primary PhysX Scene.
+[0532.10] Log: Bringing World joust_v2_p.TheWorld up for play (595) at 2015.08.18-21.30.24
+[0532.10] Log: Skipping initialization of FSMPartPool!
+[0532.10] Log: Bringing up level for play took: 0.052064
+[0532.10] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0532.10] Warning: Warning, Failed to find object 'Class None.'
+[0532.10] Log: PlayerController class for the pending level is PlayerController
+[0532.10] Log: ########### Finished loading level: 30.526610 seconds
+[0532.11] Log: Flushing async loaders.
+[0534.15] Log: Flushed async loaders.
+[0534.33] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0534.67] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.68] Log: TeamIndex 1 has new leader: 7258277
+[0534.69] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.70] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.70] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.70] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (2450 to TgPawn_Zeus_DefaultV2_0)
+[0534.70] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.71] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (2450 to TgPawn_Zeus_Gold_0)
+[0534.71] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0534.94] Log: ---- UpdateClanData
+[0534.99] Log: ActivateLevel joust_v2_crowd 1 1 0
+[0534.99] Log: ActivateLevel joust_sound 1 1 0
+[0534.99] Log: ActivateLevel joust_v2_p_assist 1 1 0
+[0535.32] Log: Activated joust_v2_p_assist 1 1 0
+[0537.12] Log: TeamIndex 2 has new leader: 6903671
+[0539.16] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0550.79] Log: Requesting purchase of itemId (10033) amount (1)
+[0551.22] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0551.22] Warning: Warning, Failed to find object 'Class None.None'
+[0552.44] Log: Requesting purchase of itemId (10201) amount (1)
+[0552.59] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0552.59] Warning: Warning, Failed to find object 'Class None.None'
+[0556.92] Log: Requesting purchase of itemId (9013) amount (1)
+[0558.40] Log: Requesting purchase of itemId (8134) amount (1)
+[0558.57] Log: Requesting purchase of itemId (8134) amount (1)
+[0559.16] Log: Requesting purchase of itemId (8134) amount (1)
+[0560.55] Log: Requesting purchase of itemId (8135) amount (1)
+[0578.33] Log: Chat[3]: [VVGH] Bonjour !
+[0583.44] Log: Chat[3]: [VVGF] Bon jeu !
+[0585.54] Log: Chat[3]: [VVGG] Belle partie !
+[0591.55] Log: Chat[3]: [VVGH] Bonjour !
+[0608.94] Log: PUSHING Accolade: Redman92 verse le Premier sang !, local: false
+[0610.45] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0653.89] Log: Chat[3]: [VVM] Plus de mana !
+[0659.86] Log: Requesting purchase of itemId (10032) amount (1)
+[0679.88] Log: Chat[3]: [VVM] Plus de mana !
+[0798.23] Log: Chat[3]: [VVVR] Ultime prêt !
+[0803.73] Log: Chat[3]: [VVVR] Ultime prêt !
+[0806.85] Log: Requesting purchase of itemId (10038) amount (1)
+[0810.16] Log: Requesting purchase of itemId (9496) amount (1)
+[0812.43] Log: Requesting purchase of itemId (8134) amount (1)
+[0828.43] Log: Chat[3]: [VVVR] Ultime prêt !
+[0839.43] Log: PUSHING Accolade: , local: false
+[0840.93] Log: PUSHING Accolade: Redman92 a fait un doublé !, local: false
+[0840.93] Log: Suppressing Accolade: Redman92 fait une tuerie ! (x3)
+[0842.44] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0843.95] Log: Expiring Accolade: ASSISTÉ
+[0862.86] Log: Chat[3]: [VRR] Reculez !
+[0893.67] Log: Chat[3]: [VVVR] Ultime prêt !
+[0899.16] Log: Chat[3]: [VVVD] Ultime pas prêt !
+[0901.76] Log: Chat[3]: 5
+[0920.93] Log: PUSHING Accolade: TwoAlu a tué un joueur !, local: false
+[0923.42] Log: PUSHING Accolade: Redman92 a fait un doublé !, local: false
+[0923.43] Log: Suppressing Accolade: 
+[0923.43] Log: Suppressing Accolade: Redman92 fait un massacre ! (x5)
+[0924.93] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0926.43] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0929.24] Log: Requesting purchase of itemId (9497) amount (1)
+[0931.59] Log: Requesting purchase of itemId (9014) amount (1)
+[0933.67] Log: Chat[3]: [VVS] Désolé !
+[0934.61] Log: Requesting purchase of itemId (8134) amount (1)
+[0934.78] Log: Requesting purchase of itemId (8134) amount (1)
+[0934.97] Log: Requesting purchase of itemId (8134) amount (1)
+[0949.51] Log: Chat[3]: [VVB] Je reviens !
+[0951.06] Log: Chat[3]: [VVVG] On se regroupe !
+[0982.61] Log: Chat[3]: [VVVR] Ultime prêt !
+[1017.62] Log: Chat[3]: [VVVR] Ultime prêt !
+[1030.75] Log: Chat[3]: [VRR] Reculez !
+[1061.15] Log: Chat[3]: [VVVR] Ultime prêt !
+[1078.56] Log: PUSHING Accolade: , local: false
+[1080.08] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1106.85] Log: Chat[3]: [VVVG] On se regroupe !
+[1109.10] Log: Requesting purchase of itemId (8734) amount (1)
+[1111.62] Log: Requesting purchase of itemId (8134) amount (1)
+[1111.79] Log: Requesting purchase of itemId (8134) amount (1)
+[1111.94] Log: Requesting purchase of itemId (8134) amount (1)
+[1112.12] Log: Requesting purchase of itemId (8134) amount (1)
+[1114.12] Log: ---- UpdateClanData
+[1114.25] Log: ---- UpdateClanData
+[1123.32] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1123.32] Warning: Warning, Failed to find object 'Class None.None'
+[1127.44] Log: ---- UpdateClanData
+[1132.60] Log: ---- UpdateClanData
+[1132.91] Log: Chat[3]: [VVVR] Ultime prêt !
+[1135.26] Log: Chat[3]: [VVVD] Ultime pas prêt !
+[1140.80] Log: Chat[3]: 10 sec
+[1147.10] Log: Chat[3]: [VVVR] Ultime prêt !
+[1151.11] Log: Chat[3]: [VVVR] Ultime prêt !
+[1159.10] Log: PUSHING Accolade: Redman92 EST INARRÊTABLE ! (x7), local: false
+[1160.62] Log: Expiring Accolade: 
+[1160.62] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1162.12] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1168.00] Log: PUSHING Accolade: Redman92 a fait un doublé !, local: false
+[1168.00] Log: Suppressing Accolade: 
+[1169.51] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1171.01] Log: PUSHING Accolade: DÉICIDE, local: true
+[1189.70] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (1027 to NONE)
+[1192.81] Log: Chat[3]: [VRR] Reculez !
+[1193.90] Log: Chat[3]: [VVB] Je reviens !
+[1212.70] Log: Chat[3]: [VVGG] Belle partie !
+[1212.81] Log: Chat[3]: [VVVR] Ultime prêt !
+[1215.60] Log: Chat[3]: [VVVR] Ultime prêt !
+[1216.41] Log: Chat[3]: [VVVR] Ultime prêt !
+[1229.51] Log: PUSHING Accolade: Redman92 est DIVIN (x9) !, local: false
+[1231.02] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1245.40] Log: Chat[3]: [VVM] Plus de mana !
+[1252.33] Log: Chat[3]: [VDD] Défendez !
+[1254.74] Log: Requesting purchase of itemId (8084) amount (1)
+[1257.14] Log: Chat[3]: [VGG] Gankez !
+[1257.75] Log: Requesting purchase of itemId (10194) amount (1)
+[1259.22] Log: Requesting purchase of itemId (8134) amount (1)
+[1260.19] Log: Chat[3]: [VGG] Gankez !
+[1261.60] Log: Chat[9]: Skyxavatar vient de se déconnecter.
+[1261.60] Log: Chat[6]: Skyxavatar vient de se déconnecter.
+[1261.78] Log: Chat[1]: Skyxavatar vient de se déconnecter.
+[1261.78] Log: ---- UpdateClanData
+[1276.34] Log: Chat[3]: [VVVR] Ultime prêt !
+[1279.79] Log: Chat[3]: [VVVR] Ultime prêt !
+[1283.79] Log: Chat[3]: [VVA] D'accord !
+[1284.34] Log: Chat[3]: [VVVR] Ultime prêt !
+[1286.85] Log: Chat[3]: [VVA] D'accord !
+[1292.45] Log: PUSHING Accolade: , local: false
+[1293.96] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1301.91] Log: Chat[9]: Tuer mohmo vous a donné 320 XP et 382 pièces d'or.
+[1302.12] Log: PUSHING Accolade: VICTIME, local: true
+[1323.11] Log: Chat[3]: [VGG] Gankez !
+[1328.74] Log: Chat[3]: [VVGN] Bien joué !
+[1333.69] Log: Chat[3]: [VVGG] Belle partie !
+[1340.98] Log: Chat[3]: [VVVR] Ultime prêt !
+[1346.69] Log: Chat[3]: [VVVR] Ultime prêt !
+[1356.25] Log: Chat[9]: Tuer Chier09 vous a donné 320 XP et 348 pièces d'or.
+[1356.44] Log: PUSHING Accolade: VICTIME, local: true
+[1362.50] Log: PUSHING Accolade: , local: false
+[1364.02] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1384.20] Log: Chat[9]: Tuer TwoAlu vous a donné 290 XP et 271 pièces d'or.
+[1384.39] Log: PUSHING Accolade: TUERIE (X3), local: true
+[1385.89] Log: PUSHING Accolade: VENGEANCE, local: true
+[1388.33] Log: Chat[3]: omg
+[1396.03] Log: Requesting purchase of itemId (8664) amount (1)
+[1399.06] Log: Requesting purchase of itemId (9153) amount (1)
+[1400.29] Log: Requesting purchase of itemId (8134) amount (1)
+[1400.44] Log: Requesting purchase of itemId (8134) amount (1)
+[1400.60] Log: Requesting purchase of itemId (8134) amount (1)
+[1404.24] Log: Chat[3]: [VVVR] Ultime prêt !
+[1407.73] Log: Chat[3]: [VVVR] Ultime prêt !
+[1415.04] Log: Chat[3]: [VVVG] On se regroupe !
+[1418.09] Log: Chat[3]: [VVVG] On se regroupe !
+[1420.83] Log: Chat[3]: [VVGG] Belle partie !
+[1422.78] Log: Chat[3]: [VVVG] On se regroupe !
+[1424.83] Log: Chat[3]: [VVVR] Ultime prêt !
+[1474.73] Log: Chat[3]: [VVVR] Ultime prêt !
+[1478.32] Log: Chat[3]: [VVVR] Ultime prêt !
+[1497.43] Log: PUSHING Accolade: Chier09 a tué un joueur !, local: false
+[1499.29] Log: PUSHING Accolade: FreezeTimes fait une tuerie ! (x3), local: false
+[1500.80] Log: PUSHING Accolade: Redman92 EST IMMORTEL ! (x11), local: false
+[1502.30] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1503.80] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1518.71] Log: Requesting purchase of itemId (8802) amount (1)
+[1556.48] Log: Chat[3]: [VVVR] Ultime prêt !
+[1559.23] Log: Chat[3]: [VVVR] Ultime prêt !
+[1566.83] Log: Chat[3]: [VVVG] On se regroupe !
+[1591.98] Log: PUSHING Accolade: , local: false
+[1593.48] Log: Expiring Accolade: 
+[1593.48] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1594.98] Log: PUSHING Accolade: Redman92 a fait un doublé !, local: false
+[1594.99] Log: Suppressing Accolade: Redman92 est DIVIN ! (x13)
+[1596.50] Log: Expiring Accolade: ASSISTÉ
+[1596.50] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1598.00] Log: PUSHING Accolade: DÉICIDE, local: true
+[1630.72] Log: PUSHING Accolade: , local: false
+[1634.74] Log: ---- UpdateClanData
+[1634.74] Log: ---- UpdateClanData
+[1636.31] Log: Chat[3]: [VVGG] Belle partie !
+[1638.87] Log: Chat[3]: [VVGG] Belle partie !
+[1647.93] Log: ---- UpdateClanData
+[1652.98] DevNet: URL: Adding default option Team=255
+[1652.98] Log: ReceiveChangeMap: mapGameId 1447
+[1652.98] Log: ---- UpdateClanData
+[1652.99] DevNet: URL: Adding default option Team=255
+[1652.99] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1653.01] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1653.14] NetComeGo: Close PComNetDriver_0 PComNetConn_0 72.251.243.213:9114 08/18/15 21:49:06
+[1653.20] Exit: PComNetDriver_0 shut down
+[1653.65] Log: Map Game ID = 0
+[1653.65] Log: Map Instance ID = 129925745
+[1653.68] Log: Performance: Critical section Lock/Unlock 24 nsec
+[1653.68] Log: Performance:  appCycles 11 nsec
+[1653.72] Log: Performance:  memCopy per KB 225 nsec
+[1653.75] Log: Performance:  memZero per KB 140 nsec
+[1653.76] Log: Performance:  appInterlockedIncrement 10 nsec
+[1653.77] Log: Performance:  GetTickCount 4 nsec
+[1653.77] Log: Game class is 'TgGameLaunch'
+[1653.77] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1653.77] Log: Flushing async loaders.
+[1654.13] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1654.13] Log: Flushed async loaders.
+[1654.17] Log: Primary PhysX scene will be in software.
+[1654.17] Log: Creating Primary PhysX Scene.
+[1654.17] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1654.17] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.18-21.49.07
+[1654.17] Log: Skipping initialization of FSMPartPool!
+[1654.42] Log: Bringing up level for play took: 0.291712
+[1657.94] TgSLO: Async Load: GOD_Odin_V2
+[1657.94] TgSLO: Async Load: GOD_Odin_V2_Lobby
+[1657.94] TgSLO: Async Load: FX_Odin_V2
+[1657.94] Log: Flushing async loaders.
+[1658.10] TgSLO: Finish Load: GOD_Odin_V2
+[1658.21] TgSLO: Finish Load: GOD_Odin_V2_Lobby
+[1658.29] TgSLO: Finish Load: FX_Odin_V2
+[1658.29] Log: Flushed async loaders.
+[1658.30] Log: ########### Finished loading level: 5.284130 seconds
+[1658.33] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[1661.26] Log: RequestingChannelMembers ch[8] [Chier09 a rejoint la discussion.]
+[1664.48] Log: SendChat[8] nice combo
+[1664.79] Log: Chat[8]: nice combo
+[1668.85] Log: RequestingChannelMembers ch[8] [TwoAlu a quitté la discussion.]
+[1673.11] Log: Chat[8]: gg :)
+[1679.81] Log: RequestingChannelMembers ch[8] [Chier09 a quitté la discussion.]
+[1686.13] Log: RequestingChannelMembers ch[8] [mohmo a quitté la discussion.]
+[1702.26] Log: RequestingChannelMembers ch[8] [Redman92 a quitté la discussion.]
+[1716.04] Log: ERROR: Attempting to log in without settings.
+[2106.66] Log: ---- UpdateClanData
+[2110.16] Log: Closing by request
+[2110.16] Log: appRequestExit(0)
+[2110.16] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[2111.63] Exit: Preparing to exit.
+[2111.99] Exit: Game engine shut down
+[2112.13] Exit: Windows client shut down
+[2112.47] Exit: XAudio2 Device shut down.
+[2112.79] Exit: Object subsystem successfully closed.
+[2114.34] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2114.47] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[2114.78] Exit: Exiting.

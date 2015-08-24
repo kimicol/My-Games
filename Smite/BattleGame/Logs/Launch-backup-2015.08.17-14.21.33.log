@@ -1,0 +1,113 @@
+[0000.18] Log: Async Log file open, 08/17/15 14:17:08
+[0000.18] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.18] Log:  ... running in INSTALLED mode
+[0000.18] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.18] Init: Version: 10897
+[0000.18] Init: Epic Internal: 0
+[0000.18] Init: Compiled (32-bit): Aug  7 2015 15:46:08
+[0000.18] Init: Changelist: 1532151
+[0000.18] Init: Game is version 2.11.2894.0.
+[0000.18] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722372205225232183217328732184289420642625210627 -cnmg2=722372205220232383227320732584279420642925275528 -ASYNCTICK=FALSE -user=kimicol -epass=0318D48EB4424BC8453F77F6B393B2828309272591535BDEF1EF5A8AA7644D2A -HiCommand -HEXX=C81ED674
+[0000.18] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.21] Init: Computer: PC-ARTHUR
+[0000.21] Init: User: Arthur
+[0000.21] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.21] Init: High frequency timer resolution =2.240908 MHz
+[0000.21] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.8GB Virtual=4.0GB
+[0000.32] DevOnline: Initializing MCTS
+[0000.32] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.32] Init: Object subsystem initialized
+[0000.32] Log: Overriding lang INT w/ command-line option of FRA
+[0002.61] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0002.63] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0002.63] Log: ShadowPatch: Error -pid should be passed on command line.
+[0002.77] Log: AsyncTickTasks DISABLED at startup
+[0002.81] Log: SystemSettings based on: SystemSettings
+[0002.81] Log: SystemSettings based on: SystemSettings
+[0002.81] Log: SystemSettings based on: SystemSettings
+[0002.81] Log: SystemSettings based on: SystemSettings
+[0002.82] Log: SystemSettings based on: SystemSettings
+[0003.41] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0003.41] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0003.45] Log: Shader platform (RHI): PC-D3D-SM3
+[0003.56] Log: PhysX GPU Support: DISABLED
+[0005.52] Log: Assembly Loaded Version: 
+[0030.66] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0032.12] Log: 118726 objects as part of root set at end of initial load.
+[0032.12] Log: 0 out of 0 bytes used by permanent object pool.
+[0032.12] Log: Initializing Engine...
+[0043.18] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0043.18] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0043.49] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0043.49] Log: GFx attempted to load missing object [Logos]
+[0043.49] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0043.49] Warning: Warning, Failed to find object 'Class None.'
+[0043.49] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0043.94] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0047.95] Log: Map Game ID = 0
+[0047.95] Log: Map Instance ID = 129813875
+[0048.01] Log: Performance: Critical section Lock/Unlock 55 nsec
+[0048.01] Log: Performance:  appCycles 13 nsec
+[0048.08] Log: Performance:  memCopy per KB 333 nsec
+[0048.17] Log: Performance:  memZero per KB 200 nsec
+[0048.18] Log: Performance:  appInterlockedIncrement 11 nsec
+[0048.19] Log: Performance:  GetTickCount 5 nsec
+[0048.19] Log: Game class is 'TgGameLaunch'
+[0048.19] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0048.19] Log: Flushing async loaders.
+[0057.80] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0057.80] Log: Flushed async loaders.
+[0057.93] Log: Primary PhysX scene will be in software.
+[0057.93] Log: Creating Primary PhysX Scene.
+[0060.32] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0060.32] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.17-14.18.08
+[0060.32] Log: Skipping initialization of FSMPartPool!
+[0065.82] Log: Bringing up level for play took: 8.006701
+[0098.40] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0098.40] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0098.61] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0103.89] Log: ########### Finished loading level: 59.947893 seconds
+[0105.01] Log: Initializing Engine Completed
+[0105.01] Log: >>>>>>>>>>>>>> Initial startup: 105.01s <<<<<<<<<<<<<<<
+[0105.01] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0105.28] Log: WebFactory created
+[0135.80] Log: Login Success: kimicol
+[0136.39] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0154.17] Critical: appError called: Rendering thread exception:
+Fatal error!
+
+Address = 0x18df7c3  (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\Smite.exe]
+
+[0154.17] Critical: Windows GetLastError: Une opération dentrée/sortie avec chevauchement est en cours dexécution. (0)
+[0155.06] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[0155.06] Critical: appError called: Rendering thread exception:
+Fatal error!
+
+Address = 0x18df7c3  (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\Smite.exe]
+
+[0155.06] Critical: Windows GetLastError: Une opération dentrée/sortie avec chevauchement est en cours dexécution. (997)
+[0155.24] Log: === Critical error: ===
+Rendering thread exception:
+Fatal error!
+
+Address = 0x18df7c3  (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\Smite.exe]
+
+
+
+[0155.80] Exit: Executing UObject::StaticShutdownAfterError
+[0155.80] Exit: Executing UWindowsClient::ShutdownAfterError
+[0155.81] Exit: Executing UWindowsClient::ShutdownAfterError
+[0155.81] Exit: UXAudio2Device::ShutdownAfterError
+[0157.74] Log: appRequestExit(1)

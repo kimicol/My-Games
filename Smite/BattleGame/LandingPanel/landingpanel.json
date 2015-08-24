@@ -13,55 +13,56 @@
                 "type": "4",
                 "probability": "0",
 				"hideIfOwned" : "ugp"
-            },		
-			{ 
-			  "id": "ThrowbackSale",
-			  "header" :"Throwback Party!! Season 1 Skins 25-75% off ", 
-			  "desc" : "Wednesday through Sunday, celebrate with a Throwback Party!",
-			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/pcfeature_THROWBACK.jpg",
-		      "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/pcfeaturethumbnail_THROWBACK.jpg",
-			  "data": "10029",
-			  "type": "0",
-			  "probability" : "100000"
-			},			
+            },	
 			{
-               "id": "RetroHerc",
-               "header": "SMITE hits 10 MILLION players!",
-               "desc": "Celebrate with a Free 'Retro Herc' Skin by Winning 10 Matches in August",
-               "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_RertroHerc.jpg",
-               "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature(THUMB)_RertroHerc.jpg",
-               "data": "11665",
-               "type": "0",
-               "probability": "10000"
-            },		
+				"id": "LaunchXboxddd",
+				"header": "SMITE Launches on the Xbox One",
+				"desc": "Fight in the Battleground of the Gods today",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LaunchXbox.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/THUMB_zeus.jpg",
+				"data": "",
+				"type": "3",
+				"probability" : "100000"
+            },					
 			{
-				"id": "Khepri",
-				"header": "Khephri, the Dawn Bringer",
-				"desc": "The scarab God brings the shadows of the underworld to light.",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_Khepri.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeatureTHUMB_Khepri.jpg",
-				"data": "11580",
-				"type": "0",
-				"probability" : "1000"
-            },
-			{
-               "id": "JoustVideo",
-               "header": "New Joust Map Preview",
-               "desc": "Go behind the scenes of the upcoming joust map",
-               "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_NewJoust.jpg",
-               "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_Thumb_NewJoust.jpg",
-               "data": "https://www.youtube.com/watch?v=RIJs6-g78NQ",
+               "id": "Xbox Merge",
+               "header": "Last Chance to Merge Accounts",
+               "desc": "Don't forget to merge your PC & Xbox accounts before August 31st",
+               "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFEATURE_XBOXZEUS.jpg",
+               "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFEATURE_THUMB.jpg",
+               "data": "http://account.hirezstudios.com/xboxlink/",
                "type": "3",
+               "probability": "10000"
+            },					
+			{
+               "id": "Odin",
+               "header": "Wield the Power of the Samurai",
+               "desc": "Daimyodin Odin Slashes onto the Battlefield",
+               "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCfeature_SamuraiOdin.jpg",
+               "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCfeatureTHUMB_SamuraiOdin.jpg",
+               "data": "11766",
+               "type": "0",
+               "probability": "1000"
+            
+			},					
+			{
+               "id": "Wedding",
+               "header": "Moon of My Life, My Sun & Stars",
+               "desc": "Sun's Bride Chang'e & Moon's Groom Hou Yi Join in Marriage",
+               "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCfeature_Wedding.jpg",
+               "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCfeatureTHUMB_Wedding.jpg",
+               "data": "11810",
+               "type": "0",
                "probability": "100"
             },
 			{
-				"id": "Gamescom",
-				"header": "Hi-Rez Studios @ gamescom",
-				"desc": "Going to gamescom? Visit the Hi-Rez Studios Booth in Hall 9!",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_Gamescom2015.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeatureTHUMB_Gamescom2015.jpg",
-				"data": "0",
-				"type": "0",
+				"id": "Season Ticket",
+				"header": "SPL Season Ticket",
+				"desc": "Earn points and unlock exclusive skins with the new SPL Season Ticket!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/season ticket 2 - pc feature image.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/season ticket - feature thumb.jpg",
+				"data": "SeasonTicket",
+				"type": "2",
 				"probability" : "10"
             }
 			
@@ -81,45 +82,45 @@
                 "type": "4",
                 "probability": "0",
 				"hideIfOwned" : "ugp"
-            },
+           },
             {
-                "id": "Kephri",
-                "header": "Khephri, the Dawn Bringer",
-                "desc": "The scarab God brings the shadows of the underworld to light.",
-                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Khepri.jpg",
-                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Khepri.jpg",
-				"data": "11580",
+				"id": "Chang'e",
+				"header": "Walk Down the Aisle With Sun's Bride Chang'e Skin",
+				"desc": "Chang'e is ready for her wedding day in the Sun's Bride skin.",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_SunsBrideChangE.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_SunsBrideChangE.jpg",
+                "data": "11810",
 				"type": "0",
                 "probability": "100000"
             },
             {
-				"id": "Renegade Awilix",
-				"header": "Buckle Up for Trouble",
-				"desc": "Renegade Awilix has attitude and she's not afraid to show it. ",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_RenegadeAwilix.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_RenegadeAwilix.jpg",
-                "data": "11769",
+                "id": "Hou Yi Moon's",
+                "header": "Say I Do With Moon's Groom Hou Yi Skin",
+                "desc": "Hou Yi is dressed to impress in his new Moon's Groom skin.",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_MoonsGroomHouYi.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_MoonsGroomHouYi.jpg",
+                "data": "11811",
 				"type": "0",
                 "probability": "10000"
             },
             {
-                "id": "Gamma Slam Cabrakan",
-                "header": "Cabrakan SMASH",
-                "desc": "Destroy mountains and gods alike with Gamma Slam Cabrakan",
-                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_GammaSlamCabrakan.jpg",
-                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_GammaSlamCabrakan.jpg",
-                "data": "11767",
+                "id": "SamuraiOdin",
+                "header": "Wield the Power of the Samurai",
+                "desc": "Daimyodin Odin Slashes onto the Battlefield",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Odin.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Odin.jpg",
+                "data": "11766",
 				"type": "0",
                 "probability": "1000"
             },
             {
-				"id": "Imperator Khephri",
-				"header": "Rule All the Sun Touches",
-				"desc": "Imperator Khephri channels the power of dawn to those who oppose him. .",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Khepri_Imperator.jpg",
-				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LargeStoreImage_Khepri_Imperator.jpg",
-				"data": "11802",
-				"type": "0",
+				"id": "SeasonTicketHouYi",
+				"header": "Season Ticket Hou Yi",
+				"desc": "Earn points and unlock exclusive skins with the new SPL Season Ticket!",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_HouYiIronCrow.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/1024x490_HouYiIronCrow.jpg",
+				"data": "SeasonTicket",
+				"type": "2",
 				"probability" : "100"
             },
             {
@@ -139,11 +140,11 @@
         "visible": "true",
         "content": [
 			{
-				"id": "All for One! Freya ",
-				"header": "All for One...and One for All!",
-				"desc": "Freya swings into battle with the new All for One skin",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/UpperRightStoreImage_MusketeerFreya.jpg",
-				"data": "11783",
+				"id": "Wedding1 ",
+				"header": "Moon of My Life, My Sun & Stars",
+				"desc": "Sun's Bride Chang'e & Moon's Groom Hou Yi Join in Marriage",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/UpperRightStoreImage_Wedding.jpg",
+				"data": "11810",
 				"type": "0",
 				"probability" : "1000"
             }
@@ -161,7 +162,7 @@
 			  "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/bizzb_storeImage.jpg",
 			  "data": "11588",
 			  "type": "0",
-			  "probability" : "0"
+			  "probability" : "1000"
 			},
             {
                 "id": "PirateKali",
@@ -170,7 +171,7 @@
                 "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PC_rightside_Skaliwag.jpg",
                 "data": "11602",
                 "type": "0",
-                "probability": "1000"
+                "probability": "0"
             },
             { 
 				"id": "HercHunkulese",
@@ -188,32 +189,35 @@
         "visible": "true",
         "content": [
          {
-				"id": "Loki",
-				"header": "Loki",
-				"desc": " Dun Dun Dun... Loki",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_NewLoki.jpg",
-				"data": "8409",
+				"id": "Khepri",
+				"header": "Khepri, the Dawn Bringer",
+				"desc": "The scarab God brings the shadows of the underworld to light.",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeature_Khepri.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/PCFeatureTHUMB_Khepri.jpg",
+				"data": "11580",
 				"type": "0",
 				"probability" : "0"
             },
             {
-                "id": "Tier2Medusa",
-                "header": "New Medusa Skin: Mortal Coil",
-                "desc": "Strangle your foes with the new Mortal Coil Medusa skin.",
-                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_MortalCoil2.jpg",
-                "data": "11666",
-                "type": "0",
-                "probability": "100"
-            },
-            { 
-				"id": "Hou Yi",
-			    "header": "Season Ticket Hou Yi",
-			    "desc": "Season Ticket Hou Yi",
-				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_HouYiStrike.jpg",
-				"data": "11670",
+				"id": "RenegadeAwilixLowerSTore",
+				"header": "Buckle Up for Trouble",
+				"desc": "Renegade Awilix has attitude and she's not afraid to show it. ",
+				"imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_RenegadeAwilix.jpg",
+				"thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_RenegadeAwilix.jpg",
+                "data": "11769",
 				"type": "0",
-				"probability": "10"
-			}
+                "probability": "10000"
+            },
+            {
+                "id": "Gamma Slam CabrakanLowerSTore",
+                "header": "Cabrakan SMASH",
+                "desc": "Destroy mountains and gods alike with Gamma Slam Cabrakan",
+                "imageUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_GammaSlam.jpg",
+                "thumbnailUrl": "http://hirez.http.internapcdn.net/hirez/landingpanel/live/images/LowerStoreImage_GammaSlam.jpg",
+                "data": "11767",
+				"type": "0",
+                "probability": "1000"
+            }
         ]
     }
 }

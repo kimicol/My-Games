@@ -1,0 +1,499 @@
+[0000.44] Log: Async Log file open, 08/23/15 15:40:20
+[0000.44] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0000.44] Log:  ... running in INSTALLED mode
+[0000.44] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0000.44] Init: Version: 10897
+[0000.44] Init: Epic Internal: 0
+[0000.44] Init: Compiled (32-bit): Aug 18 2015 15:11:41
+[0000.44] Init: Changelist: 1532151
+[0000.44] Init: Game is version 2.12.2920.3.
+[0000.44] Init: Command line: -PGUID=f217e716-f401-4696-a0ce-3be9da5b0821  -host=             -host2              -seekfreeloading   -LANGUAGE=FRA -cnmg=722572295223232983297326732384289426642225261627 -cnmg2=72257228522123218320732173228428942864220629 -user=kimicol -epass                                                                  -HiCommand -HEXX=D27DD806
+[0000.44] Init: Base directory: C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\smite\binaries\Win32\
+[0000.45] Log: Deleting old log file Launch-backup-2015.08.08-19.58.40.log
+[0000.53] Log: Deleting old log file Launch-backup-2015.08.09-22.32.32.log
+[0000.65] Init: Computer: PC-ARTHUR
+[0000.65] Init: User: Arthur
+[0000.65] Init: CPU Page size=4096, Processors=4, Cores=2
+[0000.65] Init: High frequency timer resolution =2.240906 MHz
+[0000.65] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=4.6GB Virtual=4.0GB
+[0000.78] DevOnline: Initializing MCTS
+[0000.78] Init: Presizing for 60000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.78] Init: Object subsystem initialized
+[0000.78] Log: Overriding lang INT w/ command-line option of FRA
+[0005.86] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0005.88] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0005.88] Log: ShadowPatch: Disabled due to no -pid option
+[0005.90] Log: SystemSettings based on: SystemSettings
+[0005.90] Log: SystemSettings based on: SystemSettings
+[0005.90] Log: SystemSettings based on: SystemSettings
+[0005.90] Log: SystemSettings based on: SystemSettings
+[0005.90] Log: SystemSettings based on: SystemSettings
+[0006.49] Log: Found D3D11 adapter 0: Intel(R) HD Graphics Family
+[0006.49] Log: Adapter has 1020MB of dedicated video memory, 0MB of dedicated system memory, and 1933MB of shared system memory
+[0006.51] Log: Shader platform (RHI): PC-D3D-SM3
+[0006.65] Log: PhysX GPU Support: DISABLED
+[0010.38] Log: Assembly Loaded Version: 
+[0031.95] Log: Skipping adding Package OnlineSubsystemMcts to NetPackages
+[0032.91] Log: 119421 objects as part of root set at end of initial load.
+[0032.91] Log: 0 out of 0 bytes used by permanent object pool.
+[0032.91] Log: Initializing Engine...
+[0035.27] ScriptWarning: Script call stack:
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0035.27] ScriptWarning: Assertion failed, line 672
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0035.34] Warning: Warning, Failed to load 'SwfMovie None.Logos': Failed to find object 'SwfMovie None.Logos'
+[0035.35] Log: GFx attempted to load missing object [Logos]
+[0035.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0035.37] Warning: Warning, Failed to find object 'Class None.'
+[0035.38] DevNet: Browse: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0035.43] Log: LoadMap: lobbymap?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0035.98] Log: Map Game ID = 0
+[0035.98] Log: Map Instance ID = 130337255
+[0036.01] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0036.01] Log: Performance:  appCycles 11 nsec
+[0036.16] Log: Performance:  memCopy per KB 754 nsec
+[0036.20] Log: Performance:  memZero per KB 178 nsec
+[0036.21] Log: Performance:  appInterlockedIncrement 10 nsec
+[0036.22] Log: Performance:  GetTickCount 4 nsec
+[0036.22] Log: Game class is 'TgGameLaunch'
+[0036.23] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[0036.23] Log: Flushing async loaders.
+[0036.54] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[0036.54] Log: Flushed async loaders.
+[0036.57] Log: Primary PhysX scene will be in software.
+[0036.57] Log: Creating Primary PhysX Scene.
+[0037.11] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0037.11] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.23-15.40.57
+[0037.11] Log: Skipping initialization of FSMPartPool!
+[0037.62] Log: Bringing up level for play took: 1.074277
+[0117.08] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0117.08] Warning: Warning, Failed to load 'Font None.ArialUnicode': Failed to find object 'Font None.ArialUnicode'
+[0117.39] Log: GFx attempted to load missing object [UDKFrontEnd.udk_ime]
+[0120.99] Log: ########### Finished loading level: 85.557081 seconds
+[0122.01] Log: Initializing Engine Completed
+[0122.01] Log: >>>>>>>>>>>>>> Initial startup: 122.01s <<<<<<<<<<<<<<<
+[0122.01] Log: Browser user data directory is C:\ProgramData\Hi-Rez Studios\BrowserCache\Battle
+[0122.84] Log: WebFactory created
+[0133.73] Log: Login Success: kimicol
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\UltimateGodPack.jpg' error ()
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\Chang'e.jpg' error ()
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\Hou Yi Moon's.jpg' error ()
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\SamuraiOdin.jpg' error ()
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\SeasonTicketHouYi.jpg' error ()
+[0133.88] Error: Failed to read file '..\..\BattleGame\LandingPanel\DrSylvanusa.jpg' error ()
+[0134.01] Error: Failed to read file '..\..\BattleGame\LandingPanel\Khepri.jpg' error ()
+[0134.01] Error: Failed to read file '..\..\BattleGame\LandingPanel\RenegadeAwilixLowerSTore.jpg' error ()
+[0134.01] Error: Failed to read file '..\..\BattleGame\LandingPanel\Gamma Slam CabrakanLowerSTore.jpg' error ()
+[0134.01] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234.jpg' error ()
+[0134.01] Error: Failed to read file '..\..\BattleGame\LandingPanel\GodPackTest234_thumb.jpg' error ()
+[0135.11] Log: Team/Instance chat routed to Instance Server.
+[0135.11] Log: Chat[9]: Appuyez sur ENTRÉE pour accéder à la discussion.
+[0135.11] Log: RequestingChannelMembers ch[1] [kimicol a rejoint la discussion.]
+[0136.00] Warning: Warning, Failed to load 'Font None.Arial Unicode MS': Failed to find object 'Font None.Arial Unicode MS'
+[0158.09] Log: Chat[1]: Statut du clan : Tiny42SH
+[0158.09] Log: ---- UpdateClanData
+[0268.54] Log: Chat[9]: Vous avez rejoint une file d'attente.
+[0452.36] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0452.36] Log: RequestingChannelMembers ch[3] [Welxewool a rejoint la discussion.]
+[0457.12] Log: RequestingChannelMembers ch[3] [kimicol a rejoint la discussion.]
+[0460.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0460.87] Warning: Warning, Failed to find object 'Class None.None'
+[0473.33] TgSLO: Async Load: GOD_Hercules
+[0473.41] TgSLO: Async Load: GOD_Hercules_Lobby
+[0473.41] TgSLO: Async Load: FX_Hercules
+[0473.41] TgSLO: Async Load: GOD_Hercules_Skin6
+[0473.44] TgSLO: Async Load: AnimNotify11665
+[0474.59] TgSLO: Finish Load: GOD_Hercules
+[0474.90] TgSLO: Finish Load: GOD_Hercules_Lobby
+[0475.22] TgSLO: Finish Load: FX_Hercules
+[0475.39] TgSLO: Finish Load: GOD_Hercules_Skin6
+[0475.48] TgSLO: Finish Load: AnimNotify11665
+[0500.79] TgSLO: Async Load: GOD_Loki_V2
+[0500.79] TgSLO: Async Load: GOD_Loki_V2_Lobby
+[0500.79] TgSLO: Async Load: FX_Loki_V2
+[0501.95] TgSLO: Async Load: GOD_Neith
+[0501.95] TgSLO: Async Load: GOD_Neith_Lobby
+[0501.95] TgSLO: Async Load: FX_Neith
+[0501.97] TgSLO: Async Load: GOD_Neith_Skin5
+[0502.03] TgSLO: Finish Load: GOD_Loki_V2
+[0502.94] TgSLO: Finish Load: GOD_Loki_V2_Lobby
+[0503.38] TgSLO: Finish Load: FX_Loki_V2
+[0503.38] Log: Flushing async loaders.
+[0503.60] TgSLO: Finish Load: GOD_Neith
+[0503.82] TgSLO: Finish Load: GOD_Neith_Lobby
+[0503.85] TgSLO: Finish Load: FX_Neith
+[0503.85] TgSLO: Finish Load: GOD_Neith_Skin5
+[0503.85] Log: Flushed async loaders.
+[0506.28] TgSLO: Async Load: GOD_Hades
+[0506.28] TgSLO: Async Load: GOD_Hades_Lobby
+[0506.28] TgSLO: Async Load: FX_Hades
+[0507.02] TgSLO: Finish Load: GOD_Hades
+[0507.19] TgSLO: Finish Load: GOD_Hades_Lobby
+[0507.56] TgSLO: Finish Load: FX_Hades
+[0521.13] DevNet: URL: Adding default option Team=255
+[0521.13] Log: ReceiveChangeMap: mapGameId 1503
+[0521.68] DevNet: URL: Adding default option Team=255
+[0521.68] DevNet: Browse: 37.48.125.84:9134/lobbymap?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=178526143?Team=255
+[0521.69] DevNet: Game client on port 9134, rate 25000
+[0522.17] DevNet: Welcomed by server (Level: joust_v2_p, Game: TgGame.TgGame_Battle_Joust)
+[0522.40] Log: LoadMap: 37.48.125.84:9134/joust_v2_p?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=178526143?Team=255?game=TgGame.TgGame_Battle_Joust
+[0522.88] Log: Map Game ID = 0
+[0522.88] Log: Map Instance ID = 130337255
+[0522.90] Log: Performance: Critical section Lock/Unlock 24 nsec
+[0522.90] Log: Performance:  appCycles 11 nsec
+[0522.92] Log: Performance:  memCopy per KB 72 nsec
+[0522.93] Log: Performance:  memZero per KB 58 nsec
+[0522.94] Log: Performance:  appInterlockedIncrement 13 nsec
+[0522.95] Log: Performance:  GetTickCount 4 nsec
+[0537.13] TgSLO: Async Load: FX_Store_Items
+[0537.13] TgSLO: Async Load: FX_Store_Items_Targeting
+[0537.13] TgSLO: Async Load: FX_Status_Effects
+[0537.13] TgSLO: Async Load: GOD_CommonMaterialEffects
+[0537.13] TgSLO: Async Load: GOD_Common_AT
+[0537.13] TgSLO: Async Load: AUD_VOX_Narrator
+[0537.13] TgSLO: Async Load: NPC_Ward2
+[0537.13] TgSLO: Async Load: FX_Buff_Belts_V2
+[0537.13] TgSLO: Async Load: FX_Fist_Of_God_V2
+[0537.13] TgSLO: Async Load: GOD_Tyr
+[0537.13] TgSLO: Async Load: GOD_Tyr_Textures
+[0537.13] TgSLO: Async Load: FX_Tyr
+[0537.13] TgSLO: Async Load: AUD_God_Tyr
+[0537.13] TgSLO: Async Load: GOD_Nox
+[0537.13] TgSLO: Async Load: GOD_Nox_Textures
+[0537.14] TgSLO: Async Load: FX_Nox
+[0537.14] TgSLO: Async Load: AUD_God_Nox
+[0537.14] TgSLO: Async Load: GOD_Thor
+[0537.14] TgSLO: Async Load: GOD_Thor_Textures
+[0537.14] TgSLO: Async Load: FX_Thor
+[0537.14] TgSLO: Async Load: AUD_God_Thor
+[0537.14] TgSLO: Async Load: GOD_Hades
+[0537.14] TgSLO: Async Load: GOD_Hades_Textures
+[0537.14] TgSLO: Async Load: FX_Hades
+[0537.14] TgSLO: Async Load: FX_Hades_Targeting
+[0537.14] TgSLO: Async Load: AUD_God_Hades
+[0537.14] TgSLO: Async Load: GOD_Hades_Skin3
+[0537.14] TgSLO: Async Load: FX_Hades_skin3
+[0537.14] TgSLO: Async Load: GOD_Loki_V2
+[0537.14] TgSLO: Async Load: GOD_Loki_V2_Textures
+[0537.14] TgSLO: Async Load: FX_Loki_V2
+[0537.14] TgSLO: Async Load: AUD_God_Loki_V2
+[0537.14] TgSLO: Async Load: GOD_Neith
+[0537.14] TgSLO: Async Load: GOD_Neith_Textures
+[0537.14] TgSLO: Async Load: FX_Neith
+[0537.14] TgSLO: Async Load: AUD_God_Neith
+[0537.14] TgSLO: Async Load: GOD_Neith_Skin5
+[0537.17] TgSLO: Async Load: Joust_Tower
+[0537.17] TgSLO: Async Load: FX_Tower
+[0537.18] TgSLO: Async Load: FX_Greek_Tower
+[0537.18] TgSLO: Async Load: AUD_Tower
+[0537.18] TgSLO: Async Load: NPC_Phoenix
+[0537.18] TgSLO: Async Load: NPC_Phoenix_Textures
+[0537.18] TgSLO: Async Load: FX_Phoenix
+[0537.18] TgSLO: Async Load: AUD_NPC_Phoenix
+[0537.18] TgSLO: Async Load: MDL_PseudoMesh
+[0537.18] TgSLO: Async Load: NPC_Joust_Minion
+[0537.18] TgSLO: Async Load: NPC_Joust_Minion_Textures
+[0537.18] TgSLO: Async Load: NPC_Minion_Universal
+[0537.19] TgSLO: Async Load: FX_Roman
+[0537.19] TgSLO: Async Load: FX_Minion_Death
+[0537.19] TgSLO: Async Load: AUD_NPC_RomanArcher
+[0537.19] TgSLO: Async Load: AUD_NPC_Olympus
+[0537.19] TgSLO: Async Load: NPC_Guardian_Female
+[0537.19] TgSLO: Async Load: NPC_Guardian_Female_AT
+[0537.19] TgSLO: Async Load: FX_Guardian_Female
+[0537.19] TgSLO: Async Load: AUD_NPC_Guardian_Female
+[0537.19] TgSLO: Async Load: NPC_Guardian_Male
+[0537.19] TgSLO: Async Load: NPC_Guardian_Male_AT
+[0537.20] TgSLO: Async Load: FX_Guardian_Male
+[0537.20] TgSLO: Async Load: AUD_NPC_Guardian_Male
+[0537.20] TgSLO: Async Load: NPC_Cyclops_V2
+[0537.20] TgSLO: Async Load: FX_NPC_Cyclops_V2
+[0537.20] TgSLO: Async Load: AUD_NPC_Cyclops
+[0537.20] Log: Flushing async loaders.
+[0537.27] TgSLO: Finish Load: FX_Store_Items
+[0537.31] TgSLO: Finish Load: FX_Store_Items_Targeting
+[0537.33] TgSLO: Finish Load: FX_Status_Effects
+[0537.36] TgSLO: Finish Load: GOD_CommonMaterialEffects
+[0537.38] TgSLO: Finish Load: GOD_Common_AT
+[0537.55] TgSLO: Finish Load: AUD_VOX_Narrator
+[0537.58] TgSLO: Finish Load: NPC_Ward2
+[0537.62] TgSLO: Finish Load: FX_Buff_Belts_V2
+[0537.65] TgSLO: Finish Load: FX_Fist_Of_God_V2
+[0537.84] TgSLO: Finish Load: GOD_Tyr
+[0537.85] TgSLO: Finish Load: GOD_Tyr_Textures
+[0537.87] TgSLO: Finish Load: FX_Tyr
+[0537.96] TgSLO: Finish Load: AUD_God_Tyr
+[0538.01] TgSLO: Finish Load: GOD_Nox
+[0538.02] TgSLO: Finish Load: GOD_Nox_Textures
+[0538.14] TgSLO: Finish Load: FX_Nox
+[0538.20] TgSLO: Finish Load: AUD_God_Nox
+[0538.77] TgSLO: Finish Load: GOD_Thor
+[0538.77] TgSLO: Finish Load: GOD_Thor_Textures
+[0538.85] TgSLO: Finish Load: FX_Thor
+[0538.90] TgSLO: Finish Load: AUD_God_Thor
+[0539.04] TgSLO: Finish Load: GOD_Hades
+[0539.05] TgSLO: Finish Load: GOD_Hades_Textures
+[0539.06] TgSLO: Finish Load: FX_Hades
+[0539.17] Log: Missing cached shader map for material FX_Hades_Targeting.Materials.MAT_Death_Vortex_Target, quality 0, compiling.
+[0539.17] Warning: Warning, Failed to compile Material FX_Hades_Targeting.Materials.MAT_Death_Vortex_Target for platform PC-D3D-SM3, Default Material will be used in game.
+[0539.17] TgSLO: Finish Load: FX_Hades_Targeting
+[0539.26] TgSLO: Finish Load: AUD_God_Hades
+[0539.27] TgSLO: Finish Load: GOD_Hades_Skin3
+[0539.27] TgSLO: Finish Load: FX_Hades_skin3
+[0539.39] TgSLO: Finish Load: GOD_Loki_V2
+[0539.39] TgSLO: Finish Load: GOD_Loki_V2_Textures
+[0539.41] TgSLO: Finish Load: FX_Loki_V2
+[0539.48] TgSLO: Finish Load: AUD_God_Loki_V2
+[0539.59] TgSLO: Finish Load: GOD_Neith
+[0539.59] TgSLO: Finish Load: GOD_Neith_Textures
+[0539.62] TgSLO: Finish Load: FX_Neith
+[0539.71] TgSLO: Finish Load: AUD_God_Neith
+[0539.71] TgSLO: Finish Load: GOD_Neith_Skin5
+[0540.01] TgSLO: Finish Load: Joust_Tower
+[0540.05] TgSLO: Finish Load: FX_Tower
+[0540.10] TgSLO: Finish Load: FX_Greek_Tower
+[0540.22] TgSLO: Finish Load: AUD_Tower
+[0540.38] TgSLO: Finish Load: NPC_Phoenix
+[0540.42] TgSLO: Finish Load: NPC_Phoenix_Textures
+[0540.44] TgSLO: Finish Load: FX_Phoenix
+[0540.50] TgSLO: Finish Load: AUD_NPC_Phoenix
+[0540.51] TgSLO: Finish Load: MDL_PseudoMesh
+[0540.57] TgSLO: Finish Load: NPC_Joust_Minion
+[0540.57] TgSLO: Finish Load: NPC_Joust_Minion_Textures
+[0540.80] TgSLO: Finish Load: NPC_Minion_Universal
+[0540.84] TgSLO: Finish Load: FX_Roman
+[0540.85] TgSLO: Finish Load: FX_Minion_Death
+[0540.94] TgSLO: Finish Load: AUD_NPC_RomanArcher
+[0540.95] TgSLO: Finish Load: AUD_NPC_Olympus
+[0541.30] TgSLO: Finish Load: NPC_Guardian_Female
+[0541.34] TgSLO: Finish Load: NPC_Guardian_Female_AT
+[0541.34] TgSLO: Finish Load: FX_Guardian_Female
+[0541.35] TgSLO: Finish Load: AUD_NPC_Guardian_Female
+[0541.71] TgSLO: Finish Load: NPC_Guardian_Male
+[0541.74] TgSLO: Finish Load: NPC_Guardian_Male_AT
+[0541.78] TgSLO: Finish Load: FX_Guardian_Male
+[0541.80] TgSLO: Finish Load: AUD_NPC_Guardian_Male
+[0542.01] TgSLO: Finish Load: NPC_Cyclops_V2
+[0542.01] TgSLO: Finish Load: FX_NPC_Cyclops_V2
+[0542.09] TgSLO: Finish Load: AUD_NPC_Cyclops
+[0542.09] Log: Flushed async loaders.
+[0542.10] Log: Primary PhysX scene will be in software.
+[0542.10] Log: Creating Primary PhysX Scene.
+[0542.15] Log: Bringing World joust_v2_p.TheWorld up for play (595) at 2015.08.23-15.49.22
+[0542.15] Log: Skipping initialization of FSMPartPool!
+[0542.16] Log: Bringing up level for play took: 0.065657
+[0542.16] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0542.16] Warning: Warning, Failed to find object 'Class None.'
+[0542.16] Log: PlayerController class for the pending level is PlayerController
+[0542.16] Log: ########### Finished loading level: 19.762547 seconds
+[0542.16] Log: Flushing async loaders.
+[0544.04] Log: Flushed async loaders.
+[0544.22] DevNet: TgPlayerController_1 setplayer TgLocalPlayer_0
+[0544.22] Log: Mark Effect Group 28503: Not of type HIT SPECIAL!
+[0544.47] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.47] Warning: Attempting to attach NULL component to TgSkeletalMeshComponent_18, socket CSO_FX_Waist_01
+[0544.49] Log: TeamIndex 1 has new leader: 6869514
+[0544.49] Log: TeamIndex 2 has new leader: 6333527
+[0544.49] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.54] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.56] Log: AttachToOwner - Socket (FX_ORIGIN_Origin) not found in owner mesh or its parent! (2702 to NONE)
+[0544.78] Log: ---- UpdateClanData
+[0544.83] Log: ActivateLevel joust_v2_crowd 1 1 0
+[0544.83] Log: ActivateLevel joust_sound 1 1 0
+[0544.83] Log: ActivateLevel joust_v2_p_assist 1 1 0
+[0546.27] Warning: Warning, Failed to load 'Texture None.blah': Failed to find object 'Texture None.blah'
+[0547.14] Log: Flushing async loaders.
+[0547.18] Log: Flushed async loaders.
+[0547.45] Log: Activated joust_v2_p_assist 1 1 0
+[0557.93] Log: Requesting purchase of itemId (10040) amount (1)
+[0560.30] Log: Requesting purchase of itemId (10220) amount (1)
+[0575.27] Log: Chat[3]: [VVGH] Bonjour !
+[0578.72] Log: Chat[3]: [VVGL] Bonne chance!
+[0579.02] Log: Chat[3]: [VVGH] Bonjour !
+[0583.38] Log: Chat[3]: [VVGH] Bonjour !
+[0637.42] Log: PUSHING Accolade: Welxewool verse le Premier sang !, local: false
+[0638.94] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0655.70] Log: Requesting purchase of itemId (10045) amount (1)
+[0656.36] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0656.36] Warning: Warning, Failed to find object 'Class None.None'
+[0658.07] Log: Requesting purchase of itemId (8134) amount (1)
+[0675.82] Log: PUSHING Accolade: , local: false
+[0677.33] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0716.03] Log: PUSHING Accolade: , local: false
+[0717.54] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0762.18] Log: Chat[3]: [VVB] Je reviens !
+[0763.94] Log: Chat[9]: Tuer InfraCal50 vous a donné 170 XP et 297 pièces d'or.
+[0764.13] Log: PUSHING Accolade: VICTIME, local: true
+[0765.64] Log: Expiring Accolade: Olegful a tué un joueur !
+[0771.84] Log: Requesting purchase of itemId (10222) amount (1)
+[0774.87] Log: Requesting purchase of itemId (8134) amount (1)
+[0775.06] Log: Requesting purchase of itemId (8134) amount (1)
+[0776.06] Log: Requesting purchase of itemId (8134) amount (1)
+[0777.53] Log: Requesting purchase of itemId (8135) amount (1)
+[0808.90] Log: PUSHING Accolade: Welxewool fait une tuerie ! (x3), local: false
+[0810.40] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0814.74] Log: PUSHING Accolade: Olegful a tué un joueur !, local: false
+[0819.34] Log: Requesting purchase of itemId (8776) amount (1)
+[0821.97] Log: Requesting purchase of itemId (8134) amount (1)
+[0836.50] Log: PUSHING Accolade: Olegful fait une tuerie ! (x3), local: false
+[0907.76] Log: PUSHING Accolade: , local: false
+[0934.70] Log: Chat[9]: Tuer Olegful vous a donné 260 XP et 470 pièces d'or.
+[0934.89] Log: PUSHING Accolade: VICTIME, local: true
+[0936.40] Log: PUSHING Accolade: VENGEANCE, local: true
+[0937.91] Log: PUSHING Accolade: Rester en ligne, local: true
+[0939.41] Log: PUSHING Accolade: , local: false
+[0940.92] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0953.31] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[0953.31] Warning: Warning, Failed to find object 'Class None.None'
+[0954.20] Log: Requesting purchase of itemId (9496) amount (1)
+[0955.94] Log: Requesting purchase of itemId (8134) amount (1)
+[0956.11] Log: Requesting purchase of itemId (8134) amount (1)
+[0956.67] Log: Requesting purchase of itemId (8134) amount (1)
+[0988.34] Log: PUSHING Accolade: , local: false
+[0989.85] Log: PUSHING Accolade: ASSISTÉ, local: true
+[0993.99] Log: PUSHING Accolade: Phaenna a fait un doublé !, local: false
+[0993.99] Log: Suppressing Accolade: 
+[0995.49] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1061.96] Log: Chat[9]: Tuer Olegful vous a donné 290 XP et 334 pièces d'or.
+[1062.16] Log: PUSHING Accolade: VICTIME, local: true
+[1070.63] Log: PUSHING Accolade: , local: false
+[1072.15] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1078.40] Log: PUSHING Accolade: Welxewool a fait un doublé !, local: false
+[1078.40] Log: Suppressing Accolade: Welxewool fait une tuerie ! (x3)
+[1079.90] Log: PUSHING Accolade: DÉICIDE, local: true
+[1081.31] Log: Requesting purchase of itemId (9497) amount (1)
+[1085.10] Log: Requesting purchase of itemId (8745) amount (1)
+[1086.35] Log: Requesting purchase of itemId (8134) amount (1)
+[1097.85] Log: AttachToOwner - Socket (WSO_Emit_01) not found in owner mesh or its parent! (1027 to NONE)
+[1121.45] Log: PUSHING Accolade: PEANUTSOUP a tué un joueur !, local: false
+[1123.25] Log: PUSHING Accolade: , local: false
+[1124.75] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1125.65] Log: Requesting purchase of itemId (8811) amount (1)
+[1138.75] Log: PUSHING Accolade: Welxewool fait un massacre ! (x5), local: false
+[1207.12] Log: PUSHING Accolade: , local: false
+[1208.63] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1210.13] Log: PUSHING Accolade: Welxewool a fait un doublé !, local: false
+[1210.13] Log: Suppressing Accolade: Welxewool EST INARRÊTABLE ! (x7)
+[1211.64] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1217.95] Log: PUSHING Accolade: Welxewool a fait un triplé !, local: false
+[1217.95] Log: Suppressing Accolade: 
+[1219.96] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1221.46] Log: PUSHING Accolade: DÉICIDE, local: true
+[1243.39] Log: Requesting purchase of itemId (8679) amount (1)
+[1244.56] Log: Requesting purchase of itemId (8134) amount (1)
+[1254.40] Log: PUSHING Accolade: Olegful a stoppé Welxewool dans son élan, local: false
+[1254.40] Log: Suppressing Accolade: 
+[1303.19] Log: PUSHING Accolade: Phaenna fait une tuerie ! (x3), local: false
+[1304.70] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1321.36] Log: PUSHING Accolade: , local: false
+[1360.60] Log: PUSHING Accolade: InfraCal50 a tué un joueur !, local: false
+[1372.17] Log: PUSHING Accolade: , local: false
+[1373.68] Log: PUSHING Accolade: , local: false
+[1374.58] Log: Requesting purchase of itemId (10199) amount (1)
+[1376.25] Log: Requesting purchase of itemId (8134) amount (1)
+[1376.43] Log: Requesting purchase of itemId (8134) amount (1)
+[1392.96] Log: PUSHING Accolade: , local: false
+[1442.30] Log: Chat[9]: Tuer Olegful vous a donné 350 XP et 332 pièces d'or.
+[1442.51] Log: PUSHING Accolade: VICTIME, local: true
+[1452.44] Log: PUSHING Accolade: Welxewool fait une tuerie ! (x3), local: false
+[1458.50] Log: PUSHING Accolade: Welxewool a fait un doublé !, local: false
+[1458.50] Log: Suppressing Accolade: 
+[1460.01] Log: PUSHING Accolade: DÉICIDE, local: true
+[1463.02] Log: Requesting purchase of itemId (8769) amount (1)
+[1464.74] Log: Requesting purchase of itemId (8134) amount (1)
+[1485.54] Log: PUSHING Accolade: Welxewool fait un massacre ! (x5), local: false
+[1487.05] Log: PUSHING Accolade: DÉICIDE, local: true
+[1543.22] Log: PUSHING Accolade: , local: false
+[1544.73] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1546.24] Log: PUSHING Accolade: , local: false
+[1547.75] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1564.25] Log: PUSHING Accolade: , local: false
+[1565.75] Log: PUSHING Accolade: ASSISTÉ, local: true
+[1567.26] Log: PUSHING Accolade: DÉICIDE, local: true
+[1592.09] Log: ---- UpdateClanData
+[1592.09] Log: ---- UpdateClanData
+[1593.41] Log: Chat[3]: [VVGG] Belle partie !
+[1593.60] Log: Chat[3]: [VVGG] Belle partie !
+[1593.95] Log: Chat[3]: [VVGG] Belle partie !
+[1605.11] Log: ---- UpdateClanData
+[1610.41] DevNet: URL: Adding default option Team=255
+[1610.41] Log: ReceiveChangeMap: mapGameId 1447
+[1610.41] Log: ---- UpdateClanData
+[1610.42] DevNet: URL: Adding default option Team=255
+[1610.42] DevNet: Browse: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1611.16] Log: LoadMap: LobbyMap?game=TgClient.TgGameLaunch?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[1611.34] NetComeGo: Close PComNetDriver_0 PComNetConn_0 37.48.125.84:9134 08/23/15 16:07:11
+[1611.43] Exit: PComNetDriver_0 shut down
+[1612.13] Log: Map Game ID = 0
+[1612.13] Log: Map Instance ID = 130337255
+[1612.15] Log: Performance: Critical section Lock/Unlock 25 nsec
+[1612.16] Log: Performance:  appCycles 12 nsec
+[1612.17] Log: Performance:  memCopy per KB 58 nsec
+[1612.18] Log: Performance:  memZero per KB 56 nsec
+[1612.19] Log: Performance:  appInterlockedIncrement 13 nsec
+[1612.20] Log: Performance:  GetTickCount 5 nsec
+[1612.20] Log: Game class is 'TgGameLaunch'
+[1612.20] TgSLO: Async Load: GodSkins_Portraits_and_Icons
+[1612.20] Log: Flushing async loaders.
+[1612.41] TgSLO: Finish Load: GodSkins_Portraits_and_Icons
+[1612.41] Log: Flushed async loaders.
+[1612.45] Log: Primary PhysX scene will be in software.
+[1612.45] Log: Creating Primary PhysX Scene.
+[1612.46] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1612.46] Log: Bringing World lobbymap.TheWorld up for play (0) at 2015.08.23-16.07.12
+[1612.46] Log: Skipping initialization of FSMPartPool!
+[1612.52] Log: Bringing up level for play took: 0.110967
+[1613.62] TgSLO: Async Load: GOD_Hades
+[1613.62] TgSLO: Async Load: GOD_Hades_Lobby
+[1613.62] TgSLO: Async Load: FX_Hades
+[1613.62] TgSLO: Async Load: GOD_Hades_Skin3
+[1613.62] TgSLO: Async Load: FX_Hades_skin3
+[1613.62] Log: Flushing async loaders.
+[1613.73] TgSLO: Finish Load: GOD_Hades
+[1613.75] TgSLO: Finish Load: GOD_Hades_Lobby
+[1613.77] TgSLO: Finish Load: FX_Hades
+[1613.78] TgSLO: Finish Load: GOD_Hades_Skin3
+[1613.78] TgSLO: Finish Load: FX_Hades_skin3
+[1613.78] Log: Flushed async loaders.
+[1613.78] Log: ########### Finished loading level: 2.625652 seconds
+[1614.36] Log: RequestingChannelMembers ch[8] [kimicol a rejoint la discussion.]
+[1614.37] Log: RequestingChannelMembers ch[8] [Olegful a rejoint la discussion.]
+[1614.37] Log: RequestingChannelMembers ch[8] [Welxewool a rejoint la discussion.]
+[1614.55] Warning: Warning, Failed to load 'Class None.None': Failed to find object 'Class None.None'
+[1614.55] Warning: Warning, Failed to find object 'Class None.None'
+[1617.87] Log: RequestingChannelMembers ch[8] [InfraCal50 a quitté la discussion.]
+[1620.10] Log: RequestingChannelMembers ch[8] [Olegful a quitté la discussion.]
+[1621.76] Log: RequestingChannelMembers ch[8] [PEANUTSOUP a quitté la discussion.]
+[1624.98] Log: RequestingChannelMembers ch[8] [Welxewool a quitté la discussion.]
+[1647.29] Log: ERROR: Attempting to log in without settings.
+[1650.91] Log: Closing by request
+[1650.91] Log: appRequestExit(0)
+[1650.92] Log: TgAIBehaviorTreeManager :: De-allocating 47 behavior trees
+[1652.18] Exit: Preparing to exit.
+[1652.57] Exit: Game engine shut down
+[1652.69] Exit: Windows client shut down
+[1652.75] Exit: XAudio2 Device shut down.
+[1653.27] Exit: Object subsystem successfully closed.
+[1654.89] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1655.05] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[1655.49] Exit: Exiting.
